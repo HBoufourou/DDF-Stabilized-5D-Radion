@@ -1,0 +1,317 @@
+[
+  {
+    "epsilon": 0.05,
+    "tolerance": 2e-10,
+    "q": 0.17320508075688773,
+    "Lambda5": 0.006271899490724923,
+    "A_center": 0.0006227971416296068,
+    "sigma_endpoint": 0.06586357092422047,
+    "W_right": 1.5328388152472388,
+    "I_over_L": 1.0008590407965425,
+    "background_constraint_max_residual": 5.500530586566299e-13,
+    "scalar_modes": [
+      {
+        "mL": 0.08001354110863257,
+        "parity": "even",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 321.9587510126704,
+        "alpha_scalar_conditional_archive_norm": 0.3341501940970255,
+        "energy_identity_relative_residual": 6.3972604991136e-11,
+        "boundary_residual": 1.205632815803881e-16
+      },
+      {
+        "mL": 2.0075981946406385,
+        "parity": "odd",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 12.831780696060822,
+        "alpha_scalar_conditional_archive_norm": 0.0009647987703354233,
+        "energy_identity_relative_residual": -3.8214653663715126e-11,
+        "boundary_residual": 4.085620730620576e-14
+      },
+      {
+        "mL": 3.7310917912757633,
+        "parity": "even",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 6.904429373641296,
+        "alpha_scalar_conditional_archive_norm": 0.00016168912591817665,
+        "energy_identity_relative_residual": 2.523758979577906e-11,
+        "boundary_residual": -1.7763568394002505e-15
+      }
+    ],
+    "tensor_modes": [
+      {
+        "mL": 3.144086153120423,
+        "parity": "odd",
+        "alpha_tensor": 2.667885892375277,
+        "range_um_if_L_equals_pi_times_8p2_um": 8.193496776120185
+      }
+    ]
+  },
+  {
+    "epsilon": 0.143,
+    "tolerance": 2e-10,
+    "q": 0.49536653096469885,
+    "Lambda5": 0.049745587663450996,
+    "A_center": 0.004970108882351182,
+    "sigma_endpoint": 0.18653274748729978,
+    "W_right": 1.600869987135016,
+    "I_over_L": 1.006887777210227,
+    "background_constraint_max_residual": 4.494252192621673e-12,
+    "scalar_modes": [
+      {
+        "mL": 0.22941486207308953,
+        "parity": "even",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 112.29028288162542,
+        "alpha_scalar_conditional_archive_norm": 0.3398643183514441,
+        "energy_identity_relative_residual": 1.4333867426330471e-11,
+        "boundary_residual": -4.85722573273506e-17
+      },
+      {
+        "mL": 2.060733577724627,
+        "parity": "odd",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 12.500917167507188,
+        "alpha_scalar_conditional_archive_norm": 0.007783161963254833,
+        "energy_identity_relative_residual": -4.664502117890379e-11,
+        "boundary_residual": 4.440892098500626e-16
+      },
+      {
+        "mL": 3.779448615422905,
+        "parity": "even",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 6.816089430165131,
+        "alpha_scalar_conditional_archive_norm": 0.0013723257052371696,
+        "energy_identity_relative_residual": 1.9291013231281795e-11,
+        "boundary_residual": -3.552713678800501e-15
+      }
+    ],
+    "tensor_modes": [
+      {
+        "mL": 3.1615397654006934,
+        "parity": "odd",
+        "alpha_tensor": 2.6764059665299103,
+        "range_um_if_L_equals_pi_times_8p2_um": 8.148263716737198
+      }
+    ]
+  },
+  {
+    "epsilon": 0.4,
+    "tolerance": 2e-10,
+    "q": 1.3856406460551018,
+    "Lambda5": 0.3185533511725834,
+    "A_center": 0.03311810939045885,
+    "sigma_endpoint": 0.4894273187206563,
+    "W_right": 2.070869050352099,
+    "I_over_L": 1.0473289390349987,
+    "background_constraint_max_residual": 4.6198211922643395e-11,
+    "scalar_modes": [
+      {
+        "mL": 0.6450555841640718,
+        "parity": "even",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 39.936185953370334,
+        "alpha_scalar_conditional_archive_norm": 0.3771564044739906,
+        "energy_identity_relative_residual": 2.0943469181133878e-11,
+        "boundary_residual": 7.216449660063518e-16
+      },
+      {
+        "mL": 2.4099797274436114,
+        "parity": "odd",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 10.689326331704198,
+        "alpha_scalar_conditional_archive_norm": 0.05558402093896308,
+        "energy_identity_relative_residual": -5.968991967364445e-11,
+        "boundary_residual": 6.838973831690964e-14
+      },
+      {
+        "mL": 4.101869300509976,
+        "parity": "even",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 6.28032193912992,
+        "alpha_scalar_conditional_archive_norm": 0.013134590488580471,
+        "energy_identity_relative_residual": 1.3167245072054357e-12,
+        "boundary_residual": 1.1013412404281553e-13
+      }
+    ],
+    "tensor_modes": [
+      {
+        "mL": 3.276603680952283,
+        "parity": "odd",
+        "alpha_tensor": 2.731928321318584,
+        "range_um_if_L_equals_pi_times_8p2_um": 7.862122571976521
+      }
+    ]
+  },
+  {
+    "epsilon": 0.53,
+    "tolerance": 2e-10,
+    "q": 1.8359738560230099,
+    "Lambda5": 0.48805449654845745,
+    "A_center": 0.052123034974403515,
+    "sigma_endpoint": 0.6207429701552429,
+    "W_right": 2.419111080540366,
+    "I_over_L": 1.076067628723771,
+    "background_constraint_max_residual": 8.842593324231984e-11,
+    "scalar_modes": [
+      {
+        "mL": 0.8501239045308361,
+        "parity": "even",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 30.302711901335417,
+        "alpha_scalar_conditional_archive_norm": 0.4022665323303903,
+        "energy_identity_relative_residual": 1.4187540031684875e-11,
+        "boundary_residual": 8.881784197001252e-16
+      },
+      {
+        "mL": 2.6521370360327823,
+        "parity": "odd",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 9.713321525033699,
+        "alpha_scalar_conditional_archive_norm": 0.09157215975515266,
+        "energy_identity_relative_residual": 8.870992829201896e-11,
+        "boundary_residual": 0.0
+      },
+      {
+        "mL": 4.330345364074847,
+        "parity": "even",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 5.948961940346298,
+        "alpha_scalar_conditional_archive_norm": 0.025640278706997196,
+        "energy_identity_relative_residual": 7.557421355386396e-11,
+        "boundary_residual": 1.7763568394002505e-14
+      }
+    ],
+    "tensor_modes": [
+      {
+        "mL": 3.356325421203575,
+        "parity": "odd",
+        "alpha_tensor": 2.769692135880513,
+        "range_um_if_L_equals_pi_times_8p2_um": 7.675376051645912
+      }
+    ]
+  },
+  {
+    "epsilon": 0.7,
+    "tolerance": 2e-10,
+    "q": 2.424871130596428,
+    "Lambda5": 0.7055402485518374,
+    "A_center": 0.078181261309725,
+    "sigma_endpoint": 0.7716011793601515,
+    "W_right": 2.9411227686256582,
+    "I_over_L": 1.1174587778903833,
+    "background_constraint_max_residual": 1.6742229824728838e-10,
+    "scalar_modes": [
+      {
+        "mL": 1.1045040744252819,
+        "parity": "even",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 23.323643937520846,
+        "alpha_scalar_conditional_archive_norm": 0.4359100344264648,
+        "energy_identity_relative_residual": 3.137867743419065e-11,
+        "boundary_residual": -2.886579864025407e-15
+      },
+      {
+        "mL": 2.9940316135426652,
+        "parity": "odd",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 8.604137525774059,
+        "alpha_scalar_conditional_archive_norm": 0.14592715454322203,
+        "energy_identity_relative_residual": 8.748801683111651e-11,
+        "boundary_residual": 9.059419880941277e-14
+      },
+      {
+        "mL": 4.6605458289948745,
+        "parity": "even",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 5.527476974728539,
+        "alpha_scalar_conditional_archive_norm": 0.05016271525791176,
+        "energy_identity_relative_residual": 5.4744431210451694e-11,
+        "boundary_residual": 1.6342482922482304e-13
+      }
+    ],
+    "tensor_modes": [
+      {
+        "mL": 3.468332994264746,
+        "parity": "odd",
+        "alpha_tensor": 2.821690292409911,
+        "range_um_if_L_equals_pi_times_8p2_um": 7.427504741336811
+      }
+    ]
+  },
+  {
+    "epsilon": 0.9,
+    "tolerance": 2e-10,
+    "q": 3.117691453623979,
+    "Lambda5": 0.9368845184614419,
+    "A_center": 0.1083425302474582,
+    "sigma_endpoint": 0.9238778672638661,
+    "W_right": 3.616256041168067,
+    "I_over_L": 1.1684040791736288,
+    "background_constraint_max_residual": 2.6862634339153146e-10,
+    "scalar_modes": [
+      {
+        "mL": 1.3784935555154147,
+        "parity": "even",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 18.687834742763318,
+        "alpha_scalar_conditional_archive_norm": 0.47270152776020746,
+        "energy_identity_relative_residual": 1.9864332401198226e-11,
+        "boundary_residual": -1.3322676295501878e-15
+      },
+      {
+        "mL": 3.405081163315646,
+        "parity": "odd",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 7.565475982473163,
+        "alpha_scalar_conditional_archive_norm": 0.21597906493069943,
+        "energy_identity_relative_residual": -5.1676773971109924e-11,
+        "boundary_residual": 7.105427357601002e-15
+      },
+      {
+        "mL": 5.0708164386851555,
+        "parity": "even",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 5.080258784937609,
+        "alpha_scalar_conditional_archive_norm": 0.09125620371047112,
+        "energy_identity_relative_residual": 9.660050537263487e-11,
+        "boundary_residual": -2.0747847884194925e-12
+      }
+    ],
+    "tensor_modes": [
+      {
+        "mL": 3.601921882713482,
+        "parity": "odd",
+        "alpha_tensor": 2.881968129282854,
+        "range_um_if_L_equals_pi_times_8p2_um": 7.152031775888874
+      }
+    ]
+  },
+  {
+    "epsilon": 0.53,
+    "tolerance": 2e-12,
+    "q": 1.8359738560230099,
+    "Lambda5": 0.4880544965573465,
+    "A_center": 0.05212303497179746,
+    "sigma_endpoint": 0.6207429701496044,
+    "W_right": 2.4191110805326175,
+    "I_over_L": 1.0760676287212516,
+    "background_constraint_max_residual": 9.077738560847592e-13,
+    "scalar_modes": [
+      {
+        "mL": 0.8501239045197106,
+        "parity": "even",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 30.302711901731982,
+        "alpha_scalar_conditional_archive_norm": 0.40226653233153353,
+        "energy_identity_relative_residual": 4.218847493575595e-14,
+        "boundary_residual": -7.771561172376096e-16
+      },
+      {
+        "mL": 2.652137036020423,
+        "parity": "odd",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 9.713321525078966,
+        "alpha_scalar_conditional_archive_norm": 0.09157215974270229,
+        "energy_identity_relative_residual": 3.9968028886505635e-15,
+        "boundary_residual": 0.0
+      },
+      {
+        "mL": 4.330345364058708,
+        "parity": "even",
+        "lambda_um_if_L_equals_pi_times_8p2_um": 5.94896194036847,
+        "alpha_scalar_conditional_archive_norm": 0.025640278703377255,
+        "energy_identity_relative_residual": 1.7101875471325911e-12,
+        "boundary_residual": -7.105427357601002e-15
+      }
+    ],
+    "tensor_modes": [
+      {
+        "mL": 3.356325421237417,
+        "parity": "odd",
+        "alpha_tensor": 2.769692136026245,
+        "range_um_if_L_equals_pi_times_8p2_um": 7.675376051568522
+      }
+    ]
+  }
+]

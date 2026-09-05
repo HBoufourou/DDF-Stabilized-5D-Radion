@@ -1,0 +1,170 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage[margin=2.7cm]{geometry}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+\title{The radion constrains the dark dimension:\\
+an exclusion map for Goldberger--Wise stabilization}
+
+\author{Hicham Boufourou\\[2pt]
+\small Independent researcher, Ingelmunster, Belgium\\
+\small \texttt{hicham.boufourou@hotmail.com}}
+
+\date{DRAFT --- 2026. \textbf{Conditional on the official digitization of the
+$\alpha_{95}$ curves; not for submission before that input is fixed.}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The dark dimension scenario predicts a single extra dimension of
+micron scale, with the size fixed by the observed cosmological
+constant. Its authors note that the associated radion must be
+decoupled from matter to avoid fifth-force constraints, and describe
+this as a question to be explored. We take the question at face value
+for a background stabilized by a Goldberger--Wise bulk scalar, in
+which the radion coupling and range are \emph{derived} from the
+background rather than assumed. Confronting the combined signal ---
+radion Yukawa plus the full Kaluza--Klein tower --- with sub-millimetre
+torsion-balance data, we obtain an exclusion map in the space of
+background parameters. In the region we scan, the micron-scale
+benchmark is excluded by its own radion, and the surviving window is
+nanometric in the extra-dimension radius while the radion range stays
+in the tens of microns. We claim the map and its verdict, not the
+coupling: $\alpha_r=1/3$ for one extra dimension is standard and is
+cited, not derived here.
+\end{abstract}
+
+\section{Motivation and what is claimed}
+
+The dark dimension scenario~\cite{MVV} places one extra dimension at
+the micron scale, with $m_{\rm KK}\sim\Lambda^{1/4}$, and a
+five-dimensional Planck scale around $10^9\,$GeV. Its phenomenology
+has been developed in several directions, notably Kaluza--Klein
+gravitons as dark matter~\cite{GMOV}. The radion, however, has received
+much less attention: \cite{MVV} states that one must decouple the
+radion from the matter sector to avoid trouble with fifth-force
+constraints --- either by making it heavy or by suppressing its
+couplings --- and calls this a question to be explored further. A recent
+realization stabilizing the radion by the Casimir effect finds it too
+light to survive Solar-System tests and appeals to a screening
+mechanism~\cite{Cas2026}.
+
+Two facts frame what follows. First, the radion Yukawa strength for
+$n$ extra dimensions is standard, $\alpha=n/(n+2)$, hence
+$\alpha_r=1/3$ for $n=1$; this is the value used by the torsion-balance
+collaborations themselves~\cite{AHH}, and it follows from the radion of
+a single extra dimension being a Brans--Dicke scalar with $\omega=0$.
+Second, the Kaluza--Klein tower contributes $\alpha_{\rm KK}=8n/3$ with
+range $R$~\cite{KS}. Neither is claimed here.
+
+\medskip
+\noindent\textbf{What is claimed.} For a background stabilized by a
+Goldberger--Wise bulk scalar, we derive the radion range $\lambda_r$
+and the correction to $\alpha_r$ \emph{from the background parameters},
+and we produce the resulting exclusion map. The result --- that the
+micron-scale benchmark is excluded by its own radion, and that the
+surviving window is nanometric --- is the claim.
+
+\section{Setup}
+
+The background is the one whose scalar sector has been shown to be free
+of ghosts and tachyons~\cite{PaperA}: a two-brane interval with a
+$\mathbb{Z}_2$-symmetric Goldberger--Wise scalar,
+$\sigma_0(y)=(q/m_\sigma)\sinh[m_\sigma(y-L/2)]/\cosh(x/2)$ with
+$x=m_\sigma L$. The dimensionless parameters are $x$, the ratio
+$m_\sigma/m_\Phi$, the stabilizer amplitude $q$, and
+$\eta=2\Lambda_5/q^2$.
+
+\paragraph{Radion coupling.} In the Einstein frame,
+\begin{equation}
+\alpha_r=\tfrac13\Big[1+c_\alpha(\beta L)^2\Big],\qquad
+c_\alpha=-0.634,
+\label{eq:alpha}
+\end{equation}
+where $\beta L$ measures the backreaction. The leading $1/3$ is
+\cite{AHH}; the correction $c_\alpha$ is derived here in the
+moduli-space approximation and is tagged as such.
+
+\paragraph{Radion mass and range.}
+$m_r=2\sqrt{\eta x\tanh(x/2)}\;q/\sqrt{12M_5^3}$ up to a computed
+correction of order one percent from backreaction, and
+$\lambda_r=1/m_r$.
+
+\paragraph{The signal.} The deviation from the inverse-square law is
+\begin{equation}
+\boxed{\;\Delta(r)=\alpha_r\,e^{-r/\lambda_r}
++\frac{8}{3}\sum_{n\ge1}e^{-nr/R}\;}
+\label{eq:signal}
+\end{equation}
+Both legs are present; neither may be dropped. In particular the
+single-Yukawa reading $(\alpha,\lambda)=(8/3,R)$ is a visualization,
+not the test.
+
+\section{The exclusion map}
+
+We scan the dimensionless background parameters, never $R$ or
+$\lambda_r$ directly, and we never tune to pass a curve. Theoretical
+admissibility requires the linearity of the stabilizing well to better
+than one percent, backreaction $0.49(\beta L)^2<10^{-2}$,
+$\beta L<\pi/8$, and effective-theory validity. The experimental
+verdict compares \eqref{eq:signal} to the published response in its own
+domain.
+
+\paragraph{Result (conditional).} In the scanned region the surviving
+window is
+\begin{equation}
+R^\ast\in[0.003,\,0.056]\ \mu\mathrm{m},\qquad
+\lambda_r\in[6,\,20]\ \mu\mathrm{m},
+\end{equation}
+with an amber band extending to $\lambda_r\simeq70\,\mu$m and
+$R^\ast\simeq0.23\,\mu$m. The historical micron benchmark
+($R^\ast\simeq7.4\,\mu$m) fails by a factor of order $260$ --- and it
+fails on the radion leg, not the tower.
+
+\section{Declared conditionals}
+
+\begin{enumerate}
+\item \textbf{Blocking.} The verdict is conditional on the official
+digitization of the $\alpha_{95}$ response curves. The screening curve
+used to build the map is an approximation, anchored on one published
+point and uncertain by factors of two to three elsewhere; it is
+adequate to sort the parameter space, and it is \emph{not} adequate to
+publish an exclusion. This paper is not to be submitted before that
+input is replaced.
+\item $c_\alpha$ is derived in the moduli-space approximation.
+\item The nanometric window displaces the Kaluza--Klein tower from
+meV to the eV range. Any dark-matter role for the tower must therefore
+be rebuilt at that scale; nothing is inherited.
+\item $\alpha_r=1/3$, $\alpha_{\rm KK}=8n/3$, and the micron-scale
+scenario itself are cited, not claimed.
+\end{enumerate}
+
+\begin{thebibliography}{9}
+\bibitem{MVV} M.~Montero, C.~Vafa and I.~Valenzuela,
+\emph{The dark dimension and the Swampland}, JHEP \textbf{02} (2023) 022,
+\href{https://arxiv.org/abs/2205.12293}{arXiv:2205.12293}.
+\bibitem{GMOV} E.~Gonzalo, M.~Montero, G.~Obied and C.~Vafa,
+\emph{Dark dimension gravitons as dark matter}, JHEP \textbf{11} (2023) 109,
+\href{https://arxiv.org/abs/2209.09249}{arXiv:2209.09249}.
+\bibitem{Cas2026} \emph{Casimir energy stabilization of Standard Model
+landscape in the dark dimension}, JHEP \textbf{02} (2026) 156.
+\bibitem{AHH} E.~G.~Adelberger, B.~R.~Heckel, C.~D.~Hoyle et al.,
+\emph{Particle physics implications of a recent test of the
+gravitational inverse square law},
+\href{https://arxiv.org/abs/hep-ph/0611223}{arXiv:hep-ph/0611223}.
+\bibitem{KS} A.~Kehagias and K.~Sfetsos,
+\emph{Deviations from the $1/r^2$ Newton law due to extra dimensions},
+Phys.\ Lett.\ B \textbf{472} (2000) 39,
+\href{https://arxiv.org/abs/hep-ph/9905417}{arXiv:hep-ph/9905417}.
+\bibitem{Lee} J.~G.~Lee et al., \emph{New test of the gravitational
+$1/r^2$ law at separations down to 52 $\mu$m}, Phys.\ Rev.\ Lett.\
+\textbf{124} (2020) 101101.
+\bibitem{PaperA} H.~Boufourou, \emph{A regular energy identity for the
+scalar sector of stabilized two-brane models} (companion paper).
+\end{thebibliography}
+
+\end{document}

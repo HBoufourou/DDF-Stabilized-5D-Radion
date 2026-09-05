@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "meaning": "Package integrity and archived numerical consistency only; no physical or experimental validation.",
+  "manifest_file_count": 184,
+  "claim_count": 18,
+  "recorded_parameter_rows": 7,
+  "errors": []
+}

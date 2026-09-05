@@ -1,0 +1,4 @@
+-r requirements.txt
+reportlab==4.4.9
+matplotlib==3.11.1
+pillow==12.3.0

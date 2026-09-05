@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cite this development repository together with the exact release and claim ledger used."
+title: "Dark Dimension Framework — Corrected Geometry and Spectral Program"
+type: software
+authors:
+  - family-names: Boufourou
+    given-names: Hicham
+version: 0.1.0-dev
+date-released: 2026-09-05
+repository-code: "https://github.com/HBoufourou/DDF-Corrected-Geometry-Spectral-Program"
+abstract: "Corrected research-development repository superseding the scientific claims of the initial DDF Articles I–VIII series."
+
+

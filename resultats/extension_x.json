@@ -1,0 +1,230 @@
+[
+  {
+    "x": 1.0,
+    "epsilon": 0.05,
+    "q": 0.17320508075688773,
+    "Lambda5": 0.011704536799171597,
+    "tolerance": 2e-10,
+    "I_over_L": 1.0013712815230091,
+    "A_center": 0.0010188034172302336,
+    "sigma_endpoint": 0.07983517342882784,
+    "W_right": 0.4779490268150695,
+    "U_endpoint": -0.012765328586795565,
+    "T_endpoint": 0.0010625290741846996,
+    "constraint_residual": 1.7585377598550167e-12,
+    "scalar_modes": [
+      {
+        "mL": 0.06099946089965559,
+        "parity": "even",
+        "alpha": 0.3347277843574729,
+        "boundary_residual": 2.6454533008646308e-17,
+        "norm_identity_relative_residual": -1.1695833190827898e-10
+      },
+      {
+        "mL": 1.0182706237358667,
+        "parity": "odd",
+        "alpha": 0.0014183053512211775,
+        "boundary_residual": -2.220446049250313e-16,
+        "norm_identity_relative_residual": 7.795231127261104e-11
+      },
+      {
+        "mL": 3.3083728069485248,
+        "parity": "even",
+        "alpha": 2.541487141586284e-05,
+        "boundary_residual": -1.6986412276764895e-12,
+        "norm_identity_relative_residual": 3.4949598770595e-11
+      }
+    ],
+    "tensor_modes": [
+      {
+        "mL": 3.1456746412990606,
+        "parity": "odd",
+        "alpha": 2.6687644902341012,
+        "boundary_residual": 9.769962616701378e-15
+      },
+      {
+        "mL": 6.288493746603253,
+        "parity": "even",
+        "alpha": 2.6712394592258195,
+        "boundary_residual": 2.355005079834882e-12
+      },
+      {
+        "mL": 9.431910133568325,
+        "parity": "odd",
+        "alpha": 2.6717409110162795,
+        "boundary_residual": -2.876171523169546e-15
+      }
+    ]
+  },
+  {
+    "x": 1.0,
+    "epsilon": 0.4,
+    "q": 1.3856406460551018,
+    "Lambda5": 0.5201341238560788,
+    "tolerance": 2e-10,
+    "I_over_L": 1.0684092634856823,
+    "A_center": 0.04828333381179801,
+    "sigma_endpoint": 0.566473832974653,
+    "W_right": 1.2720199539983432,
+    "U_endpoint": -0.6474020092892621,
+    "T_endpoint": 0.137527158607046,
+    "constraint_residual": 1.525393145129783e-10,
+    "scalar_modes": [
+      {
+        "mL": 0.6356863258204777,
+        "parity": "even",
+        "alpha": 0.4036288704471634,
+        "boundary_residual": -1.2601031329495527e-14,
+        "norm_identity_relative_residual": -3.8977709948539996e-12
+      },
+      {
+        "mL": 1.7584273215651607,
+        "parity": "odd",
+        "alpha": 0.076106869992838,
+        "boundary_residual": -1.7275070263167436e-13,
+        "norm_identity_relative_residual": 1.36484157309269e-11
+      },
+      {
+        "mL": 3.8432345817164184,
+        "parity": "even",
+        "alpha": 0.006375816078985376,
+        "boundary_residual": -1.545874539488068e-11,
+        "norm_identity_relative_residual": 3.191180653061565e-11
+      }
+    ],
+    "tensor_modes": [
+      {
+        "mL": 3.340287029084992,
+        "parity": "odd",
+        "alpha": 2.7675346412176434,
+        "boundary_residual": 1.1213252548714081e-14
+      },
+      {
+        "mL": 6.544378848245436,
+        "parity": "even",
+        "alpha": 2.889886621015675,
+        "boundary_residual": 1.8095525078365426e-12
+      },
+      {
+        "mL": 9.774169614525075,
+        "parity": "odd",
+        "alpha": 2.918809630406718,
+        "boundary_residual": 8.881784197001252e-16
+      }
+    ]
+  },
+  {
+    "x": 3.0,
+    "epsilon": 0.05,
+    "q": 0.17320508075688773,
+    "Lambda5": 0.0027045819145445076,
+    "tolerance": 2e-10,
+    "I_over_L": 1.0004876688492133,
+    "A_center": 0.0003399376428731032,
+    "sigma_endpoint": 0.0522226334560769,
+    "W_right": 2.7213996332782937,
+    "U_endpoint": -0.005873999811862341,
+    "T_endpoint": 0.0031712256332348063,
+    "constraint_residual": 3.567675668780801e-12,
+    "scalar_modes": [
+      {
+        "mL": 0.07002629386111218,
+        "parity": "even",
+        "alpha": 0.3336974559402652,
+        "boundary_residual": 1.1401643518205162e-13,
+        "norm_identity_relative_residual": -3.1783187193212825e-10
+      },
+      {
+        "mL": 3.0040451439462674,
+        "parity": "odd",
+        "alpha": 0.0006062826065940112,
+        "boundary_residual": 3.0730973321624333e-13,
+        "norm_identity_relative_residual": -1.9364176928604593e-11
+      },
+      {
+        "mL": 4.348079382345025,
+        "parity": "even",
+        "alpha": 0.0002763227795760461,
+        "boundary_residual": 1.1084466677857563e-12,
+        "norm_identity_relative_residual": 5.372124967095715e-11
+      }
+    ],
+    "tensor_modes": [
+      {
+        "mL": 3.1429500760846043,
+        "parity": "odd",
+        "alpha": 2.66727387868406,
+        "boundary_residual": 5.10702591327572e-15
+      },
+      {
+        "mL": 6.285117745784511,
+        "parity": "even",
+        "alpha": 2.668072674952212,
+        "boundary_residual": 1.968536444962865e-12
+      },
+      {
+        "mL": 9.427365237298641,
+        "parity": "odd",
+        "alpha": 2.6683405852203785,
+        "boundary_residual": 3.5561831257524545e-16
+      }
+    ]
+  },
+  {
+    "x": 3.0,
+    "epsilon": 0.4,
+    "q": 1.3856406460551018,
+    "Lambda5": 0.152413775315715,
+    "tolerance": 2e-10,
+    "I_over_L": 1.0288835385920427,
+    "A_center": 0.019712038387891775,
+    "sigma_endpoint": 0.4015065366656574,
+    "W_right": 3.0759140984986653,
+    "U_endpoint": -0.35103948334793256,
+    "T_endpoint": 0.20530429351281543,
+    "constraint_residual": 5.3305609926113107e-11,
+    "scalar_modes": [
+      {
+        "mL": 0.5487255548827317,
+        "parity": "even",
+        "alpha": 0.354123885630389,
+        "boundary_residual": 2.4424906541753444e-15,
+        "norm_identity_relative_residual": -1.966060647617951e-11
+      },
+      {
+        "mL": 3.23877490277213,
+        "parity": "odd",
+        "alpha": 0.03661344727320647,
+        "boundary_residual": -8.881784197001252e-16,
+        "norm_identity_relative_residual": 1.3035794665938738e-11
+      },
+      {
+        "mL": 4.591635836768764,
+        "parity": "even",
+        "alpha": 0.01836367012232765,
+        "boundary_residual": -9.838174719334347e-11,
+        "norm_identity_relative_residual": 4.349343107890036e-11
+      }
+    ],
+    "tensor_modes": [
+      {
+        "mL": 3.221131190999651,
+        "parity": "odd",
+        "alpha": 2.7019016045130133,
+        "boundary_residual": -3.472222509515177e-14
+      },
+      {
+        "mL": 6.3969091053697085,
+        "parity": "even",
+        "alpha": 2.7488419362285184,
+        "boundary_residual": -2.857714065385153e-13
+      },
+      {
+        "mL": 9.576909682102702,
+        "parity": "odd",
+        "alpha": 2.7653228039863307,
+        "boundary_residual": -1.609823385706477e-15
+      }
+    ]
+  }
+]

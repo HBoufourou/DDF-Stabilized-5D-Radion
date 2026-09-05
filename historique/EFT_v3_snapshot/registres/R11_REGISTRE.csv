@@ -1,0 +1,25 @@
+objet,statut,reference,eprint,commentaire
+"Cadre par intervalle : action, GHY, equations de bord par variation",Established,"Carena, Lykken & Park (2005)",hep-ph/0506305,"Notre methodologie, publiee ; eq. 5.24 = variation complete"
+"Decomposition tensorielle degeneree a p^2=0",Established,"Carena, Lykken & Park (2005)",hep-ph/0506305,"Annexe eq. (9) ; terme -p_mu p_nu phi_1"
+"Composante dd de la condition de bord retenue a p^2=0",Established,"Carena, Lykken & Park (2005)",hep-ph/0506305,"eq. (3.53) -> (3.54),(3.55) ; RS (4.43),(4.44)"
+"Critere de stabilite 2 branes (warp monotone)",Established,"Lesgourgues & Sorbo (2004), PRD 69 084010",hep-th/0310007,"g+<0, g->0, phi0' != 0 ; necessaire et suffisant"
+"Instabilite generique du modele a 1 brane",Established,"Lesgourgues & Sorbo (2004)",hep-th/0310007,
+"Condition d'existence d'un zero-mode",Established,"Lesgourgues & Sorbo (2004) ; Mukohyama & Kofman (2002)",hep-th/0310007,"g_i=0 ou phi0'(y_i)=0 <=> sigma0''(y_i)=0 ou sigma0'(y_i)=0"
+"Conjecture tachyons sauf si sigma0 monotone",Established,"Tanaka & Montes (2000)",hep-th/0001092,"Demontree par LS comme la condition phi0' != 0"
+"Generalisation multibrane",Established,"(2024)",arXiv:2408.15343,"Conditions necessaires et suffisantes multibrane"
+"Identite d'energie : precedent dans le secteur tenseur",Established,"Mukohyama & Kofman (2002)",hep-th/0112115,"Meme technique, secteur TT"
+"Identite d'energie reguliere secteur scalaire (methode)",Derived,"ce travail",,"m^2 ||X||^2 = 1/2 int e^{4A} G^2 + bord ; autovalidee par la BC naturelle"
+"EXTENSION AU WARP NON MONOTONE",Derived,"ce travail",,"SEULE contribution de domaine ; LS supposent a monotone et excluent U+=U-"
+"alpha_r = n/(n+2) ; n=1 => 1/3",Established,"Adelberger, Heckel, Hoyle et al. (2006)",hep-ph/0611223,"Formule utilisee par les experimentateurs eux-memes"
+"Radion = Brans-Dicke omega=0 => alpha = 1/(2omega+3) = 1/3",Established,(PPN),arXiv:0901.4530,
+"alpha_KK = 8n/3",Established,"Kehagias & Sfetsos (2000)",hep-ph/9905417,"Deja source dans CDD Partie II"
+"Contrainte torsion-balance sur scenarios stabilises par radion",Established,"Eot-Wash, Submillimeter Test of the ISL",,"M_* >= 3.0 TeV independamment de n"
+"Dimension sombre micronique depuis Lambda",Established,"Montero, Vafa & Valenzuela (2023), JHEP 02 022",arXiv:2205.12293,"m_KK ~ Lambda^{1/4} ; 0.1-10 microns ; SM sur brane"
+"Gravitons KK sombres = matiere noire",Established,"Gonzalo, Montero, Obied & Vafa (2023), JHEP 11 109",arXiv:2209.09249,
+"Reduction 11D -> 5D, deux branes de bord",Established,"Lukas, Ovrut, Stelle & Waldram (1999), NPB 552 246",hep-th/9806051,"Gravite scalaire-tenseur de bulk + deux branes"
+"Probleme du radion dans la dimension sombre : QUESTION OUVERTE DECLAREE",Established,"Montero, Vafa & Valenzuela (2023) ; JHEP 02 (2026) 156",arXiv:2205.12293,"MVV : decoupler le radion, question a explorer ; 2026 : radion trop leger"
+"Superfluide -> RAR par les phonons",Established,"Berezhiani & Khoury (2015)",arXiv:1506.07877,"Aucune dimension supplementaire"
+"MOND comme effet de dimension supplementaire",Established,"Kao (2006)",astro-ph/0603311,"Modele-jouet ; a0 = acceleration de bulk"
+"a0 ~ cH0 ~ m_KK^2 / M_Pl",Established,"Milgrom + dimension sombre",,"Coincidence de classe : les deux descendent de Lambda. JAMAIS presentee comme prediction"
+"CARTE D'EXCLUSION GW + no-go du micron",Derived,"ce travail",,"CONDITIONNEL a la digitisation officielle des courbes alpha95"
+"Patron d'erreur N5 (projection degeneree)",Interne,"ce travail",,"Erreur de notre part ; CLP l'evitent par construction. Valeur pedagogique seulement"

@@ -1,0 +1,33 @@
+{
+  "paper": "A — A regular energy identity for the scalar sector of stabilized two-brane models",
+  "statut": "REDIGEABLE MAINTENANT ; aucune dependance externe ; endossement hep-th/gr-qc requis",
+  "identite": {
+    "enonce": "m^2 ||X||_K^2 = (1/2) int_0^L e^{4A} G^2 dy + somme_i s_i (e^{4A} sigma0''/(2 sigma0'))|_{y_i} s(y_i)^2",
+    "G": "(s' + 2 sigma0' f) - sigma0'' s / sigma0'",
+    "norme": "||X||_K^2 = int e^{2A}(3 M5^3 f^2 + s^2/2) > 0",
+    "regularite": ["aucun A'", "aucun 1/p^2", "aucune BC dependante de m^2", "aucun intermediaire singulier"],
+    "statut": "Derived"
+  },
+  "terme_de_derivee_totale": "G_y = 28 M5^3 e^{4A} A' f^2 - (4/3) sigma0' e^{4A} f s + (e^{4A} sigma0''/(2 sigma0')) s^2",
+  "autovalidation": "la BC naturelle e^{4A} G + 2 eps_i s = 0 se reduit exactement a s' + 2 sigma0' f = 0",
+  "critere": {
+    "enonce": "s_i sigma0''(y_i)/sigma0'(y_i) >= 0 aux deux branes => m^2 >= 0",
+    "explicite": "sigma0''(0)/sigma0'(0) <= 0 ET sigma0''(L)/sigma0'(L) >= 0",
+    "statut_R11": "Established (Lesgourgues & Sorbo 2004) — cite, non revendique"
+  },
+  "contribution_de_domaine": {
+    "enonce": "validite sans l'hypothese de warp monotone",
+    "justification": "LS supposent a(y) monotone et excluent explicitement le cas U+ = U- ; CLP n'ont pas de scalaire de bulk",
+    "application": "fond GW Z2-symetrique : sigma0 impaire autour de L/2 => A' impair, A'(L/2)=0, warp NON monotone ; critere satisfait aux deux branes",
+    "statut": "Derived — SEULE contribution de domaine"
+  },
+  "controles_du_script": [
+    "(1a) EL_f[V_bulk] = (A X)_f",
+    "(1b) EL_s[V_bulk] = (A X)_s",
+    "(2) 2 V_bulk - (1/2) e^{4A} G^2 - d/dy[G_y] = 0 modulo C1",
+    "(3) s_i G_y - 2 GB|img = s_i eps_i s^2 : toute la dependance en f s'annule",
+    "(4) BC naturelle = BC certifiee",
+    "(5) critere",
+    "(6) application au fond GW symetrique"
+  ]
+}

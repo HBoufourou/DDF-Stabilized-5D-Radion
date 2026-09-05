@@ -1,0 +1,318 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=2.7cm]{geometry}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\Gcal}{\mathcal{G}}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\sig}{\sigma_0}
+
+\title{A regular energy identity for the scalar sector of stabilized
+two-brane models: an alternative proof of the stability criterion,
+valid without the monotonic-warp assumption}
+
+\author{Hicham Boufourou\\[2pt]
+\small Independent researcher, Ingelmunster, Belgium\\
+\small \texttt{hicham.boufourou@hotmail.com}}
+
+\date{2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+For a five-dimensional two-brane model with a bulk scalar stabilizing
+the interbrane distance, we derive an energy identity for the scalar
+perturbation sector which is manifestly non-negative in the bulk and
+entirely regular: it contains no factor of $A'$, no inverse
+d'Alembertian, and no eigenvalue-dependent boundary condition. Its
+natural boundary condition reproduces the certified junction
+condition, which fixes the normalization of the brane term rather than
+leaving it to be chosen. The identity yields the tachyon-free
+criterion $s_i\,\sig''(y_i)/\sig'(y_i)\ge 0$ at both branes, which
+reproduces the necessary and sufficient criterion of Lesgourgues and
+Sorbo in its domain of validity. The point of the present derivation
+is that it does \emph{not} assume the warp factor to be monotonic:
+Lesgourgues and Sorbo explicitly exclude the symmetric configuration
+$U_+=U_-$, for which $a(y)$ is non-monotonic, and that configuration
+is precisely the one realized by a $\mathbb{Z}_2$-symmetric
+Goldberger--Wise background, which we treat as an application.
+\end{abstract}
+
+\section{Introduction and statement of what is new}
+\label{sec:intro}
+
+Two-brane models with a bulk scalar are stable against scalar
+perturbations under conditions that are known. Lesgourgues and
+Sorbo~\cite{LS} derived, without approximation and for arbitrary bulk
+and brane potentials, a necessary and sufficient criterion for the
+absence of tachyonic modes, in terms of two boundary quantities
+$g_\pm$ built from the background. Their analysis proceeds by a
+phase-space (shooting) argument on a function $F(m^2)$ whose zeros are
+the Kaluza--Klein masses. Independently, the interval approach of
+Carena, Lykken and Park~\cite{CLP} provides the action-principle
+framework in which the boundary equations follow from a variation with
+metric fluctuations that do not vanish on the branes, including the
+correct treatment of the degenerate tensor decomposition at null
+four-momentum. The energy-identity technique used below has a direct
+precedent in the tensor sector, where Mukohyama and Kofman~\cite{MK}
+establish positivity by exactly this method.
+
+Against this background, two things in the present note are not
+already in the literature, and nothing else is claimed.
+
+\begin{enumerate}
+\item \textbf{A constructive identity.} We exhibit an exact identity
+(Theorem~\ref{thm:main}) in which the bulk contribution is a manifest
+square and the boundary contribution collapses to a single term whose
+sign is read off directly. The derivation is local, uses no integrating
+factor, and is self-validating: the natural boundary condition of the
+resulting functional is the certified junction condition, so the
+normalization of the brane term is fixed by the calculation rather than
+assumed.
+
+\item \textbf{Validity without the monotonic-warp assumption.} The
+theorem of~\cite{LS} assumes $a(y)$ monotonic ($H\neq 0$ throughout).
+Its authors state explicitly that the case $U_+=U_-$ makes $a(y)$
+non-monotonic between the branes and that their analysis does not hold
+there. Our identity makes no assumption on the warp: the factor $A'$
+cancels identically. Section~\ref{sec:app} treats the
+$\mathbb{Z}_2$-symmetric Goldberger--Wise background, which falls
+exactly in that gap.
+\end{enumerate}
+
+A methodological remark is recorded in Section~\ref{sec:disc}: a
+projection of the boundary condition onto scalar variations degenerates
+on the null cone. This is an error one can make; the interval
+methodology of~\cite{CLP} avoids it by construction, since the boundary
+equation is imposed as a tensor equation and only afterwards
+decomposed.
+
+\section{Setup}
+\label{sec:setup}
+
+We work on $M_4\times[0,L]$ with two physical boundaries. The action is
+\begin{equation}
+S=\int \dd^4x\,\dd y\,\sqrt{-g}\Big[2M_5^3R-\tfrac12(\partial\sigma)^2
+-V(\sigma)\Big]
++4M_5^3\!\oint_{\partial M}\!K
+-\sum_i\int \dd^4x\,\sqrt{-\gamma}\,U_i(\sigma),
+\label{eq:action}
+\end{equation}
+with outward-normal orientations $s_0=-1$ at $y=0$ and $s_L=+1$ at
+$y=L$. Boundary equations follow from the variation of
+\eqref{eq:action} with fluctuations that need not vanish on the
+boundaries, in the sense of~\cite{CLP}; we do not impose junction
+conditions independently.
+
+The background is
+$\dd s^2=e^{2A(y)}\eta_{\mu\nu}\dd x^\mu \dd x^\nu+\dd y^2$,
+$\sigma=\sig(y)$, with
+\begin{equation}
+A''=-\frac{\sig'^2}{3M_5^3},\qquad
+6M_5^3A'^2=\tfrac12\sig'^2-V(\sig),\qquad
+\sig''=V'(\sig)-4A'\sig' .
+\label{eq:bg}
+\end{equation}
+Throughout we take the brane potentials to be linear in the scalar,
+$U_i(\sigma)=T_i+J_i\sigma$, so that $\dd^2U_i/\dd\sigma^2=0$; the
+background junctions are then
+$U_i=3s_iM_5^3A'(y_i)$ and $J_i=-s_i\sig'(y_i)$.
+
+\paragraph{Scalar perturbations.}
+In the gauge in which the metric perturbation is conformal and
+$g_{\mu5}$ is removed, the sector is described by two functions
+$(f,s)$ --- the conformal factor and the scalar fluctuation --- subject
+to the momentum constraint
+\begin{equation}
+\mathcal{C}\equiv 3M_5^3\big(f'+2A'f\big)+\sig'\,s=0,
+\label{eq:C1}
+\end{equation}
+and to the boundary condition obtained by variation,
+\begin{equation}
+s'+2\sig'f\Big|_{y_i}=0 .
+\label{eq:BC}
+\end{equation}
+The four-dimensional mass eigenvalue problem is
+$\mathbb{A}X=m^2\mathbb{K}X$ on the constraint surface, with
+$\mathbb{K}=e^{2A}\,\mathrm{diag}(3M_5^3,\tfrac12)$ positive definite,
+so that
+\begin{equation}
+\|X\|^2_{\mathbb{K}}=\int_0^L e^{2A}\Big(3M_5^3f^2+\tfrac12 s^2\Big)\dd y>0 .
+\label{eq:norm}
+\end{equation}
+
+\section{The identity}
+\label{sec:identity}
+
+Define the combination
+\begin{equation}
+\boxed{\;\Gcal:=\big(s'+2\sig'f\big)-\frac{\sig''}{\sig'}\,s\;}
+\label{eq:G}
+\end{equation}
+which contains no $A'$ and requires only $\sig'\neq0$.
+
+\begin{theorem}[Regular energy identity]
+\label{thm:main}
+On the constraint surface \eqref{eq:C1}, and with the brane terms of
+\eqref{eq:action},
+\begin{equation}
+\boxed{\;
+m^2\,\|X\|^2_{\mathbb{K}}
+=\frac12\int_0^L e^{4A}\,\Gcal^2\,\dd y
++\sum_i s_i\left(\frac{e^{4A}\sig''}{2\sig'}\right)_{y_i} s(y_i)^2 \; }
+\label{eq:main}
+\end{equation}
+\end{theorem}
+
+\begin{proof}[Sketch; the symbolic verification is in the companion script]
+Writing $V_{\rm bulk}$ for the potential density obtained from the
+reduced Lagrangian, one verifies first that its Euler--Lagrange
+derivatives reproduce the certified operator $\mathbb{A}$ in both
+directions. Eliminating $f'$ and $f''$ by \eqref{eq:C1}, one then has
+the exact algebraic identity
+\begin{equation}
+2V_{\rm bulk}=\tfrac12 e^{4A}\Gcal^2+\frac{\dd}{\dd y}\Big[\Gcal_y\Big],
+\qquad
+\Gcal_y=28M_5^3e^{4A}A'f^2-\tfrac43\sig'e^{4A}fs
++\frac{e^{4A}\sig''}{2\sig'}s^2,
+\label{eq:tot}
+\end{equation}
+where the total derivative is taken \emph{using} \eqref{eq:C1}; the
+residue vanishes identically, and independently on an explicit exact
+background. The brane contribution, restricted to the constraint
+surface, is $s_ie^{4A}\big(14M_5^3A'f^2-\tfrac23\sig'fs\big)$, and
+\begin{equation}
+s_i\Gcal_y-2\,\mathrm{GB}\big|_{\rm img}
+=s_i\left(\frac{e^{4A}\sig''}{2\sig'}\right)s(y_i)^2,
+\end{equation}
+all dependence on $f$ cancelling identically by
+$\sig''=V'(\sig)-4A'\sig'$. Collecting gives \eqref{eq:main}.
+\end{proof}
+
+\begin{remark}[Self-validation]
+Varying the right-hand side of \eqref{eq:main} with respect to $s$ at
+the boundary gives $e^{4A}\Gcal+2\varepsilon_is=0$ with
+$\varepsilon_i=e^{4A}\sig''/(2\sig')$, which reduces \emph{exactly} to
+$s'+2\sig'f=0$, i.e.\ to \eqref{eq:BC}. The normalization of the brane
+term is therefore fixed and checked, not chosen.
+\end{remark}
+
+\begin{corollary}[Criterion]
+\label{cor:crit}
+Since the bulk term in \eqref{eq:main} is non-negative and
+$\|X\|^2_{\mathbb{K}}>0$,
+\begin{equation}
+\boxed{\;s_i\,\frac{\sig''(y_i)}{\sig'(y_i)}\;\ge\;0
+\ \text{ at both branes}\quad\Longrightarrow\quad m^2\ge0 .\;}
+\end{equation}
+With $s_0=-1$, $s_L=+1$: $\sig''(0)/\sig'(0)\le0$ and
+$\sig''(L)/\sig'(L)\ge0$.
+\end{corollary}
+
+\begin{corollary}[Recovery of the published criterion]
+For linear brane potentials, the boundary quantities of~\cite{LS} are
+$g_i=-e^{A}\sig''(y_i)/\sig'(y_i)$ after conversion from conformal to
+proper coordinates, so their condition $g_+<0$, $g_->0$ is the
+orientation-covariant statement $s_ig_i<0$, identical to
+Corollary~\ref{cor:crit}. Their third condition $\varphi_0'\neq0$ is
+our chart condition $\sig'\neq0$. If in addition $\sig$ is monotonic,
+the criterion reduces to $\sig''(0)\sig''(L)\le0$.
+\end{corollary}
+
+\section{Extension: non-monotonic warp}
+\label{sec:app}
+
+Equation~\eqref{eq:main} contains no $A'$. In particular it holds when
+$A'$ vanishes at an interior point, a case excluded from the theorem
+of~\cite{LS}. Two structural facts make this the interesting case
+rather than a curiosity.
+
+\begin{remark}
+$A'\equiv0$ is impossible for a non-trivial stabilizer: by
+\eqref{eq:bg}, $A'\equiv0$ forces $\sig'\equiv0$. Since $A''<0$
+strictly, $A'$ is strictly decreasing and vanishes at most once on
+$[0,L]$.
+\end{remark}
+
+\paragraph{$\mathbb{Z}_2$-symmetric Goldberger--Wise background.}
+Take $\sig(y)=(q/m_\sigma)\sinh[m_\sigma(y-L/2)]/\cosh(x/2)$,
+$x=m_\sigma L$. Then $\sig$ is odd about $y=L/2$, $\sig'$ is even, the
+right-hand side of the constraint in \eqref{eq:bg} is even, hence
+$A'^2$ is even; combined with strict monotonicity of $A'$ this forces
+$A'$ odd about $L/2$, so $A'(L/2)=0$ and $A'(0)=-A'(L)>0$. The warp is
+therefore non-monotonic, and the analysis of~\cite{LS} does not apply.
+Our criterion does: $\sig''/\sig'=m_\sigma\tanh[m_\sigma(y-L/2)]$, so
+\begin{equation}
+s_0\frac{\sig''}{\sig'}\Big|_{0}=s_L\frac{\sig''}{\sig'}\Big|_{L}
+=+m_\sigma\tanh(x/2)\;\ge\;0,
+\end{equation}
+and the background is tachyon-free.
+
+\section{Discussion}
+\label{sec:disc}
+
+\paragraph{What this note does and does not claim.}
+The criterion of Corollary~\ref{cor:crit} is not new: it is the
+criterion of~\cite{LS} specialized to linear brane potentials. The
+interval framework, the action principle with non-vanishing boundary
+fluctuations, and the degenerate decomposition at $p^2=0$ are those
+of~\cite{CLP}. The energy-identity technique has its precedent
+in~\cite{MK}. What is offered here is the constructive identity
+\eqref{eq:main}, with its self-validating boundary term, and its
+validity on non-monotonic warps.
+
+\paragraph{A methodological caveat, recorded for its own sake.}
+If one imposes the $(\mu\nu)$ boundary equation by projecting it onto
+scalar field variations rather than as a tensor equation, the
+determinant of the resulting conditions on the trace and
+$\partial_\mu\partial_\nu$ parts is proportional to $p^4$. At null
+four-momentum the projection therefore degenerates, and a genuine
+boundary condition silently becomes an empty identity. The interval
+treatment of~\cite{CLP} is immune to this, since there the boundary
+equation is a tensor equation which is decomposed only afterwards --- see
+their equations (3.53)--(3.55) and (4.43)--(4.44). We record the point
+because the failure mode is not visible in the projected equations
+themselves.
+
+\paragraph{Open.}
+The sub-branch $\sig''(y_i)=0$ makes the boundary term of
+\eqref{eq:main} vanish identically, so $m^2\ge0$ trivially; but it is
+also the locus where a massless mode exists~\cite{LS,MK}, and the
+massless sector there requires separate treatment.
+
+\begin{thebibliography}{9}
+\bibitem{LS} J.~Lesgourgues and L.~Sorbo,
+\emph{Goldberger--Wise variations: stabilizing brane models with a bulk
+scalar}, Phys.\ Rev.\ D \textbf{69} (2004) 084010,
+\href{https://arxiv.org/abs/hep-th/0310007}{arXiv:hep-th/0310007}.
+
+\bibitem{CLP} M.~Carena, J.~Lykken and M.~Park,
+\emph{The interval approach to braneworld gravity},
+\href{https://arxiv.org/abs/hep-ph/0506305}{arXiv:hep-ph/0506305}.
+
+\bibitem{MK} S.~Mukohyama and L.~Kofman,
+\emph{Brane gravity at low energy}, Phys.\ Rev.\ D \textbf{65} (2002)
+124025, \href{https://arxiv.org/abs/hep-th/0112115}{arXiv:hep-th/0112115}.
+
+\bibitem{GW} W.~D.~Goldberger and M.~B.~Wise,
+\emph{Modulus stabilization with bulk fields}, Phys.\ Rev.\ Lett.\
+\textbf{83} (1999) 4922.
+
+\bibitem{TM} T.~Tanaka and X.~Montes,
+\emph{Gravity in the brane-world for two-branes model with stabilized
+modulus}, Nucl.\ Phys.\ B \textbf{582} (2000) 259,
+\href{https://arxiv.org/abs/hep-th/0001092}{arXiv:hep-th/0001092}.
+
+\bibitem{multi} \emph{Stability of multibrane models} (2024),
+\href{https://arxiv.org/abs/2408.15343}{arXiv:2408.15343}.
+\end{thebibliography}
+
+\end{document}

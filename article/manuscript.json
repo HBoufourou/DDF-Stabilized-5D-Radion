@@ -1,0 +1,749 @@
+{
+  "title": "Radion stability and brane couplings in a reflection-symmetric five-dimensional interval",
+  "author": "Hicham Boufourou",
+  "date": "Research draft — 5 September 2026",
+  "abstract": "We study a five-dimensional physical interval with a canonical bulk scalar, a convex quadratic bulk potential and linear boundary potentials. The reconstructed Minkowski backgrounds are reflection symmetric, have an odd scalar profile, and possess an interior maximum of the warp factor. A regular scalar variable gives a generalized Sturm–Liouville problem whose positive bulk and boundary quadratic forms establish strictly positive scalar squared masses at every smooth branch point with nonzero scalar gradient. We derive canonical same-brane couplings and closed weak-backreaction coefficients for x = μL: κ(x) = 4x tanh(x/2)sech²(x/2) for mᵣ²L²/ε², and cα(x) = sech²(x/2)[1 + tanh²(x/2) + 2tanh(x/2)/x] for 3αᵣ − 1 at order ε². The coupling correction is positive for each fixed x > 0. A leading effective-potential calculation checks the mass, and finite-backreaction numerical benchmarks illustrate the joint evolution of masses and residues. The analysis applies established perturbation methods to a specified effective family. It neither selects an absolute compactification length nor claims experimental viability or a derivation from DDF geometry.",
+  "sections": [
+    {
+      "title": "1. Introduction and scope",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A compact fifth dimension contains a scalar gravitational degree of freedom associated with its proper length. Stabilizing this degree of freedom and determining its coupling to matter are related but distinct tasks. A massive radion need not have a negligible coupling, and an assumed compactification length does not become a prediction merely because a stable background can be constructed. Bulk-scalar stabilization and fully backreacted scalar–gravity backgrounds have a substantial history [1,2]. The present work studies one explicitly specified effective model within that framework."
+        },
+        {
+          "type": "paragraph",
+          "text": "The model is a physical interval supported by a canonical scalar with a convex quadratic bulk potential and linear boundary potentials. Its background is invariant under reflection about the midpoint combined with reversal of the scalar. The warp factor has a maximum in the interior and takes the same value on the two boundaries. Scalar fluctuation equations, exact canonical normalization, and brane couplings have already been developed for broad classes of backgrounds [3,4]. We apply these established methods to the present family and give the convention choices, endpoint terms, perturbative coefficients, and numerical checks needed to make the calculation reproducible."
+        },
+        {
+          "type": "paragraph",
+          "text": "The main analytical results are a positive generalized Sturm–Liouville formulation valid through the interior zero of the warp derivative, and closed weak-backreaction expressions for the light-mode mass and brane coupling as functions of x = μL. The latter show that, for fixed x > 0 and sufficiently weak stabilization, the radion coupling increases above its flat value. This is a model-dependent statement, not a universal relation between radion mass and coupling. We also report finite-backreaction benchmarks and distinguish the single-radion contribution from the complete scalar and tensor exchange signal."
+        },
+        {
+          "type": "paragraph",
+          "text": "This study was motivated by efforts to isolate a consistent effective sector of the DDF research project. No derivation of the action from a Calabi–Yau compactification or other proposed DDF geometry is assumed here. The proper interval length remains an input unless the dimensionful stabilizer parameters are independently specified. The paper therefore makes no claim of detecting an extra dimension, predicting a micrometric radius, explaining the observed vacuum energy, or satisfying short-distance gravity constraints. Its intended contribution is a reproducible analytical and numerical model study; priority for the specific closed coefficients remains subject to further literature review."
+        }
+      ]
+    },
+    {
+      "title": "2. Physical-interval action and reconstructed backgrounds",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We use signature (−++++) and integrate once over a physical interval 0 ≤ y ≤ L. The gravitational coefficient is M₅³/2; changing it while keeping the equations below would change the theory. The Gibbons–Hawking–York boundary term and outward-normal orientations η₀ = −1 and ηL = +1 are included. The action is"
+        },
+        {
+          "type": "equation",
+          "latex": "S=\\int_0^L dy\\int d^4x\\sqrt{-g}\\left[\\frac{M_5^3}{2}\\mathcal{R}-\\frac{1}{2}(\\partial\\sigma)^2-V(\\sigma)\\right]",
+          "number": "1a"
+        },
+        {
+          "type": "equation",
+          "latex": "\\quad+M_5^3\\int_{\\partial M}d^4x\\sqrt{-\\gamma}\\,K-\\sum_i\\int_i d^4x\\sqrt{-\\gamma}\\,U_i(\\sigma)+S_m[\\gamma_0]",
+          "number": "1b"
+        },
+        {
+          "type": "equation",
+          "latex": "V(\\sigma)=\\Lambda_5+\\frac{1}{2}\\mu^2\\sigma^2,\\qquad U_i(\\sigma)=T_i+J_i\\sigma.",
+          "number": "2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Matter is minimally coupled to the induced metric of the left boundary. There is no independent direct coupling of matter to the stabilizer, no brane kinetic term for the scalar, and no induced Einstein term. No additional bulk scalar is included. These restrictions are part of the model, since each omitted interaction can alter the normal-mode problem or its observable residues."
+        },
+        {
+          "type": "paragraph",
+          "text": "For Minkowski slices and a proper-distance coordinate, the background metric and equations are"
+        },
+        {
+          "type": "equation",
+          "latex": "ds^2=e^{2A(y)}\\eta_{\\mu\\nu}dx^\\mu dx^\\nu+dy^2,\\qquad A^{\\prime\\prime}=-\\frac{\\sigma^{\\prime 2}}{3M_5^3},",
+          "number": "3"
+        },
+        {
+          "type": "equation",
+          "latex": "6M_5^3 A^{\\prime 2}=\\frac{\\sigma^{\\prime 2}}{2}-\\Lambda_5-\\frac{\\mu^2\\sigma^2}{2},\\qquad \\sigma^{\\prime\\prime}=\\mu^2\\sigma-4A^\\prime\\sigma^\\prime.",
+          "number": "4"
+        },
+        {
+          "type": "equation",
+          "latex": "U_i=3\\eta_i M_5^3 A_i^\\prime,\\qquad J_i=-\\eta_i\\sigma_i^\\prime.",
+          "number": "5"
+        },
+        {
+          "type": "paragraph",
+          "text": "Equation (5) is the junction convention appropriate to this single physical interval. The calculation does not multiply the bulk action by a second orbifold copy. All Planck masses, scalar norms, and source couplings below use the same interval convention."
+        },
+        {
+          "type": "paragraph",
+          "text": "We choose μ > 0 and a regular reflection-symmetric solution with σ(L/2) = A′(L/2) = 0 and σ′(L/2) > 0. The scalar is odd about the midpoint; A and σ′ are even. Fixing the endpoint derivative q = σ′(0) = σ′(L) > 0 implies J₀ = q and JL = −q. An additive shift sets A(0) = A(L) = 0, so masses are measured in the physical coordinates of either brane. We define"
+        },
+        {
+          "type": "equation",
+          "latex": "x=\\mu L,\\qquad \\epsilon=\\frac{qL}{\\sqrt{12M_5^3}}.",
+          "number": "6"
+        },
+        {
+          "type": "paragraph",
+          "text": "Numerically, L = M₅³ = 1 is a choice of units. A shot from the center adjusts the central scalar derivative to achieve the chosen q. The constraint then fixes Λ₅ = σ′(L/2)²/2 > 0. Finally, the tensions are reconstructed as Ti = 3ηi M₅³A′i − Jiσi. Each background is a solution of the action with these reconstructed constants. Comparing different ε, or different x, generally compares different actions. It does not follow the radius at fixed values of every coupling."
+        },
+        {
+          "type": "paragraph",
+          "text": "There are two immediate qualifications. First, Minkowski slicing requires tuning the vacuum energy; it is not a calculation of the observed cosmological constant. Second, concavity of A makes the background localized energies Ui negative at both endpoints on this branch. The bulk scalar obeys the usual null-energy condition, but positive endpoint energy is not an assumption of this model. The fixed-boundary effective description and its linear stability do not provide a microscopic realization of these boundary sources."
+        }
+      ]
+    },
+    {
+      "title": "3. Regular scalar perturbations and boundary conditions",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In a gauge with the boundaries at fixed coordinates, write the scalar perturbations using a four-dimensional mode χ. The exponential metric parametrization is convenient for the quadratic kinetic calculation; the background and junction equations are assumed to hold."
+        },
+        {
+          "type": "equation",
+          "latex": "ds^2=e^{2A+2F}\\eta_{\\mu\\nu}dx^\\mu dx^\\nu+e^{-4F}dy^2,\\qquad F=f(y)\\chi(x),",
+          "number": "7"
+        },
+        {
+          "type": "equation",
+          "latex": "\\delta\\sigma=s(y)\\chi(x),\\qquad (\\Box_4-m^2)\\chi=0.",
+          "number": "8"
+        },
+        {
+          "type": "paragraph",
+          "text": "The mixed Einstein equation gives the constraint below. The remaining scalar equation can be written in the familiar proper-coordinate form [3], with signs adjusted to the metric convention in (7):"
+        },
+        {
+          "type": "equation",
+          "latex": "3M_5^3(f^\\prime+2A^\\prime f)+\\sigma^\\prime s=0,\\qquad W=\\frac{\\sigma^{\\prime\\prime}}{\\sigma^\\prime},",
+          "number": "9"
+        },
+        {
+          "type": "equation",
+          "latex": "f^{\\prime\\prime}+(2A^\\prime-2W)f^\\prime+(4A^{\\prime\\prime}-4A^\\prime W+m^2e^{-2A})f=0.",
+          "number": "10"
+        },
+        {
+          "type": "paragraph",
+          "text": "This representation requires a nonzero scalar gradient, but never divides by A′. It is therefore regular at the midpoint, where the warp derivative vanishes. Regularity of the chosen branch implies σ′ > 0 throughout the interval: on its right half, σ > 0 and A′ < 0, so (4) drives σ′ upward rather than toward zero. Reflection covers the other half."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a linear physical boundary potential, U″i = 0. Perturbing the normal scalar junction gives s′ + 2σ′f = 0 at both endpoints. Let B = f′ + 2A′f. Equation (10) implies B′ = 2WB − 2A″f − m²e⁻²ᴬf. Using (9) and the background equation then gives"
+        },
+        {
+          "type": "equation",
+          "latex": "W_i(f_i^\\prime+2A_i^\\prime f_i)-m^2e^{-2A_i}f_i=0.",
+          "number": "11"
+        },
+        {
+          "type": "paragraph",
+          "text": "No division by m² was used in this derivation. A putative propagating scalar zero mode can thus be tested in the same regular problem when q > 0. A mode with null four-momentum still obeys the momentum constraint; a strictly constant deformation of the action parameters is not a propagating mode of a fixed action. The case q = 0 is separately degenerate because (9) cannot then be solved for s using σ′."
+        }
+      ]
+    },
+    {
+      "title": "4. Linear spectral stability without dividing by the warp derivative",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Stability criteria depend on the boundary conditions, and a numerical list of positive roots is not a proof that negative roots are absent. We give the positive quadratic form directly. This is a specialization of established scalar–gravity Sturm–Liouville methods [5,6], not a new general stability criterion."
+        },
+        {
+          "type": "equation",
+          "latex": "g=e^{2A}f,\\quad p=\\frac{e^{-2A}}{\\sigma^{\\prime 2}},\\quad w=\\frac{e^{-4A}}{\\sigma^{\\prime 2}},\\quad Q=-2A^{\\prime\\prime}p=\\frac{2e^{-2A}}{3M_5^3}.",
+          "number": "12"
+        },
+        {
+          "type": "equation",
+          "latex": "-(pg^\\prime)^\\prime+Qg=m^2wg,\\qquad g_i^\\prime=\\frac{m^2e^{-2A_i}}{W_i}g_i.",
+          "number": "13"
+        },
+        {
+          "type": "paragraph",
+          "text": "For every smooth finite background of the specified branch, p, w and Q are positive. Moreover, W = μ²σ/σ′ − 4A′ is positive on the right half away from the midpoint. Consequently WL > 0 and W₀ < 0. Multiplication by the complex conjugate of g and integration by parts yield"
+        },
+        {
+          "type": "equation",
+          "latex": "\\mathcal{H}[g]=m^2\\mathcal{D}[g],\\qquad \\mathcal{H}[g]=\\int_0^L(p|g^\\prime|^2+Q|g|^2)dy,",
+          "number": "14"
+        },
+        {
+          "type": "equation",
+          "latex": "\\mathcal{D}[g]=\\int_0^Lw|g|^2dy+\\frac{w_L}{W_L}|g_L|^2-\\frac{w_0}{W_0}|g_0|^2.",
+          "number": "15"
+        },
+        {
+          "type": "paragraph",
+          "text": "Both quadratic forms are strictly positive for a nontrivial admissible mode. Thus every scalar eigenvalue of this regular problem is real and has m² > 0. This proves the absence of scalar tachyons and a scalar zero eigenfunction at each regular q > 0 branch point, including finite backreaction. The boundary terms in (15) are essential: discarding them would replace the linear-brane problem by a different spectral problem."
+        },
+        {
+          "type": "paragraph",
+          "text": "The argument assumes a smooth background, μ > 0, q > 0, the single canonical bulk scalar, and the stated physical endpoint potentials. It gives no uniform mass gap when parameters approach a degenerate limit, and does not establish nonlinear or quantum stability. At q = 0, separate flat-space variables recover the massless gravitational radion and the free bulk-scalar sector. Additional fields or boundary kinetic terms would require a new analysis. Unlike a criterion restricted to a monotone scale factor [5], the displayed quadratic form is nonsingular through A′ = 0; its relation to the more general formulation in [6] is by a change of field variable and coordinate."
+        },
+        {
+          "type": "paragraph",
+          "text": "The transverse tensor equation is also positive. With Neumann conditions at the endpoints,"
+        },
+        {
+          "type": "equation",
+          "latex": "-(e^{4A}h^\\prime)^\\prime=m_T^2e^{2A}h,\\qquad h_0^\\prime=h_L^\\prime=0,",
+          "number": "16"
+        },
+        {
+          "type": "equation",
+          "latex": "m_T^2\\int_0^Le^{2A}|h|^2dy=\\int_0^Le^{4A}|h^\\prime|^2dy\\geq0.",
+          "number": "17"
+        },
+        {
+          "type": "paragraph",
+          "text": "The only tensor zero mode on the connected interval is constant. Every nonconstant tensor eigenmode has positive squared mass. Together, these results establish linear spectral stability of the included physical scalar and transverse tensor sectors under the specified action and boundary conditions."
+        }
+      ]
+    },
+    {
+      "title": "5. Canonical normalization and the brane coupling",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The spectral quadratic form does not by itself set the physical coupling. Following the established requirement of exact canonical normalization [4], we derive the four-dimensional kinetic coefficient in the interval convention of (1). In an ADM decomposition along y, the four-dimensional curvature term contributes −3M₅³∫e²ᴬ(∂F)², while the scalar contributes −(1/2)∫e²ᴬ(∂δσ)². The bulk terms containing extrinsic curvature carry no four-dimensional derivatives in the gauge (7). The stated boundary potentials add none either. For one normal mode,"
+        },
+        {
+          "type": "equation",
+          "latex": "S_{\\mathrm{kin}}^{(2)}=-N_f\\int d^4x(\\partial\\chi)^2,\\qquad N_f=\\int_0^Le^{2A}\\left(3M_5^3f^2+\\frac{s^2}{2}\\right)dy.",
+          "number": "18"
+        },
+        {
+          "type": "equation",
+          "latex": "Z_f=2N_f,\\qquad \\varphi_f=\\sqrt{2N_f}\\,\\chi,\\qquad \\overline{M}_{\\mathrm{Pl}}^2=M_5^3\\int_0^Le^{2A}dy.",
+          "number": "19"
+        },
+        {
+          "type": "paragraph",
+          "text": "In particular, Nf is half the conventional kinetic coefficient Zf. It is positive for every nonzero real physical mode, so the included modes have positive kinetic energy. As an independent check of notation, the constraint and (12) imply Nf = (9M₅⁶/2)ℋ[g], where M₅⁶ means (M₅³)². On shell this equals (9M₅⁶/2)m²𝒟[g]. Neither ℋ nor 𝒟 is to be substituted for Nf without the corresponding factor."
+        },
+        {
+          "type": "paragraph",
+          "text": "For minimal matter on a boundary with A = 0, the variation of its induced metric couples fχ to the trace of its stress tensor. Canonical normalization gives gf = fb/√(2Nf). Relative to the massless tensor potential with GT = 1/(8πM̄Pl²), the scalar Yukawa amplitude is"
+        },
+        {
+          "type": "equation",
+          "latex": "\\alpha_f=2\\overline{M}_{\\mathrm{Pl}}^2g_f^2=\\frac{\\overline{M}_{\\mathrm{Pl}}^2f_b^2}{N_f}.",
+          "number": "20"
+        },
+        {
+          "type": "paragraph",
+          "text": "This ratio is independent of the arbitrary normalization of f and s. Its flat gravitational-radion limit is α = 1/3. Reflection makes the same-brane amplitude equal on either endpoint for each parity eigenmode. The product of couplings between different branes would retain the relative parity sign and is not the observable considered here. In a gauge with moving boundaries, the induced perturbation must include brane displacement before the coupling is identified."
+        }
+      ]
+    },
+    {
+      "title": "6. Closed weak-backreaction mass and coupling coefficients",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Set L = M₅³ = 1 for this derivation, write t = y − 1/2, and keep x > 0 fixed as ε tends to zero. Introduce C = cosh²(x/2) and T = tanh(x/2). The background has σ′ = εv₁ + O(ε³) and A = ε²a₂ + O(ε⁴), where"
+        },
+        {
+          "type": "equation",
+          "latex": "v_1(t)=\\frac{\\sqrt{12}\\cosh(xt)}{\\sqrt C},\\qquad a_2^\\prime(t)=-\\frac{2t+\\sinh(2xt)/x}{C}.",
+          "number": "21"
+        },
+        {
+          "type": "paragraph",
+          "text": "Choose the light even mode with f(0) = 1 at the midpoint, and expand f = 1 + ε²f₂ + O(ε⁴), mᵣ²L² = κ ε² + O(ε⁴). Defining b = f₂′ + 2a₂′ reduces the leading equation and the right-endpoint condition to"
+        },
+        {
+          "type": "equation",
+          "latex": "b^\\prime-2x\\tanh(xt)b=\\frac{8\\cosh^2(xt)}{C}-\\kappa,\\quad b(0)=0,\\quad xTb(1/2)=\\kappa.",
+          "number": "22"
+        },
+        {
+          "type": "equation",
+          "latex": "b(t)=\\frac{8t\\cosh^2(xt)}{C}-\\frac{\\kappa\\sinh(2xt)}{2x},\\qquad \\kappa(x)=\\frac{4xT}{C}.",
+          "number": "23"
+        },
+        {
+          "type": "equation",
+          "latex": "f_2(t)=\\frac{4t^2+2t\\sinh(2xt)/x}{C}-\\frac{\\kappa[\\cosh(2xt)-1]}{4x^2},\\qquad s_1=-\\frac{3b}{v_1}.",
+          "number": "24"
+        },
+        {
+          "type": "paragraph",
+          "text": "Here s = εs₁ + O(ε³). Let angle brackets denote the integral over the full unit interval. Expanding (20) shows that explicit corrections from the warped volume cancel between the Planck mass and the mode norm:"
+        },
+        {
+          "type": "equation",
+          "latex": "\\alpha_r=\\frac13\\left[1+c_\\alpha(x)\\epsilon^2+O(\\epsilon^4)\\right],\\qquad c_\\alpha=2[f_2(1/2)-\\langle f_2\\rangle]-\\frac{\\langle s_1^2\\rangle}{6}.",
+          "number": "25"
+        },
+        {
+          "type": "paragraph",
+          "text": "The elementary integrals listed in Appendix A simplify this coefficient to"
+        },
+        {
+          "type": "equation",
+          "latex": "c_\\alpha(x)=\\frac{1+T^2+2T/x}{C}>0,\\qquad x>0.",
+          "number": "26"
+        },
+        {
+          "type": "paragraph",
+          "text": "Since κ(x) > 0 as well, switching on sufficiently weak stabilization at fixed x raises both the radion squared mass and its same-brane Yukawa amplitude above their unstabilized values. Eliminating ε gives a local relation between two outputs of the model:"
+        },
+        {
+          "type": "equation",
+          "latex": "3\\alpha_r-1=\\frac{1+T^2+2T/x}{4xT}(m_rL)^2+O(\\epsilon^4).",
+          "number": "27"
+        },
+        {
+          "type": "paragraph",
+          "text": "The error estimate is at fixed x. It is not a uniform statement near x = 0 or at arbitrarily large x, where κ tends to zero. Nor does positivity of the leading coefficient imply monotonicity at arbitrary finite backreaction or across different x. The coefficient depends on the endpoint source prescription and the absence of additional boundary or matter interactions."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "x",
+            "κ(x)",
+            "cα(x)",
+            "cα/κ"
+          ],
+          "rows": [
+            [
+              "0.5",
+              "0.460454359",
+              "1.917310499",
+              "4.163953414"
+            ],
+            [
+              "1.0",
+              "1.453723963",
+              "1.681257411",
+              "1.156517643"
+            ],
+            [
+              "2.0",
+              "2.558800034",
+              "0.983420240",
+              "0.384328680"
+            ],
+            [
+              "3.0",
+              "1.962795584",
+              "0.437802588",
+              "0.223050526"
+            ],
+            [
+              "4.0",
+              "1.089749499",
+              "0.170364783",
+              "0.156333894"
+            ]
+          ],
+          "caption": "Table 1. Derived weak-backreaction coefficients. Independent full-interval quadrature of (25) agrees with the closed expressions to below 4 × 10⁻¹⁵ in the recorded checks. The digits describe numerical evaluation, not physical precision."
+        }
+      ]
+    },
+    {
+      "title": "7. Independent effective-potential check and conditional length selection",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "An independent leading-order calculation checks the radion mass. At weak gravitational backreaction, solve the scalar problem on a flat interval while holding μ, q, Λ₅ and the boundary tensions fixed. Its profile is"
+        },
+        {
+          "type": "equation",
+          "latex": "\\sigma_L(y)=\\frac{q\\sinh[\\mu(y-L/2)]}{\\mu\\cosh(\\mu L/2)}.",
+          "number": "28"
+        },
+        {
+          "type": "paragraph",
+          "text": "On this solution, the bulk scalar energy is one half of the endpoint term [σσ′]₀ᴸ. Adding the two linear sources gives −q²tanh(μL/2)/μ. The leading four-dimensional Jordan-frame potential is therefore"
+        },
+        {
+          "type": "equation",
+          "latex": "V_J(L)=\\Lambda_5 L+T_0+T_L-\\frac{q^2}{\\mu}\\tanh(\\mu L/2).",
+          "number": "29"
+        },
+        {
+          "type": "paragraph",
+          "text": "Equation (29) omits higher gravitational-backreaction corrections. At a tuned Minkowski extremum, VJ = VJ′ = 0, so"
+        },
+        {
+          "type": "equation",
+          "latex": "\\Lambda_5=\\frac{q^2}{2}\\,\\mathrm{sech}^2(x/2),\\qquad V_J^{\\prime\\prime}=\\frac{q^2\\mu}{2}\\tanh(x/2)\\,\\mathrm{sech}^2(x/2)>0.",
+          "number": "30"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Weyl conversion to the Einstein frame adds no second-derivative correction at this extremum because VJ and VJ′ both vanish. Using the flat radion field √(3/2)M̄Pl ln(L/L*) gives mᵣ² = 2L²VJ″/(3M̄Pl²), reproducing κ(x)ε²/L² without the coupled mode equation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The stationary condition may also be inverted:"
+        },
+        {
+          "type": "equation",
+          "latex": "L=\\frac{2}{\\mu}\\,\\mathrm{arcosh}\\left(\\frac{q}{\\sqrt{2\\Lambda_5}}\\right),\\qquad 0<2\\Lambda_5<q^2.",
+          "number": "31"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is conditional length selection, valid to the stated perturbative order with an appropriately tuned tension sum. It predicts a length only after the dimensionful mass μ and the ratio q/√(2Λ₅) have been fixed independently. Those data have not been derived from DDF geometry in this work. Equation (31) cannot replace the exact backreacted boundary-value problem at finite ε."
+        }
+      ]
+    },
+    {
+      "title": "8. Finite-backreaction numerical benchmarks",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The numerical calculation integrates the background from its reflection center, fixes q by shooting, and then solves (10) separately for even and odd parity. Even scalar profiles start with f = 1, f′ = 0; odd profiles with f = 0, f′ = 1. Scalar roots satisfy (11). Tensor roots satisfy Neumann conditions in (16). Masses and source couplings are extracted from the same profiles and the canonical integrals (18)–(20), rather than from a separate fitted coupling formula."
+        },
+        {
+          "type": "paragraph",
+          "text": "Table 2 records the previously reproduced x = 2 branch. The dimensionless radion mass and its coupling are the primary quantities. For illustration only, the displayed length conversion fixes R₀ = L/π = 8.2 μm. Thus the scalar Compton range is λᵣ = L/(mᵣL); no 8.2 μm scale has been inferred by the solver."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "ε",
+            "mᵣL",
+            "αᵣ",
+            "λᵣ (μm)",
+            "λT1 (μm)",
+            "αT1"
+          ],
+          "rows": [
+            [
+              "0.050",
+              "0.080014",
+              "0.334150",
+              "321.959",
+              "8.193",
+              "2.667886"
+            ],
+            [
+              "0.143",
+              "0.229415",
+              "0.339864",
+              "112.290",
+              "8.148",
+              "2.676406"
+            ],
+            [
+              "0.400",
+              "0.645056",
+              "0.377156",
+              "39.936",
+              "7.862",
+              "2.731928"
+            ],
+            [
+              "0.530",
+              "0.850124",
+              "0.402267",
+              "30.303",
+              "7.675",
+              "2.769692"
+            ],
+            [
+              "0.700",
+              "1.104504",
+              "0.435910",
+              "23.324",
+              "7.428",
+              "2.821690"
+            ],
+            [
+              "0.900",
+              "1.378494",
+              "0.472702",
+              "18.688",
+              "7.152",
+              "2.881968"
+            ]
+          ],
+          "caption": "Table 2. Finite-backreaction reference results at x = 2. Both ranges assume L = π × 8.2 μm. T1 denotes the first massive tensor mode. These are model benchmarks, not experimental fits."
+        },
+        {
+          "type": "paragraph",
+          "text": "The small-ε value agrees with the positive leading correction cα(2) = 0.9834202398385. The displayed finite-ε values also rise along this branch, but that finite sample is not a theorem of global monotonicity. At ε = 0.53, the next two scalar masses are approximately mL = 2.65214 and 4.33035, with amplitudes 0.09157 and 0.02564. A radion-only potential therefore requires an estimate of the omitted higher-mode contribution in the distance range of interest."
+        },
+        {
+          "type": "paragraph",
+          "text": "Recorded numerical checks include the bulk constraint, endpoint residuals, an energy identity, and a tighter-tolerance repeat at ε = 0.53. The original root search covered positive m²L² up to 32 and retained the lowest three scalar roots and first massive tensor root. It does not certify the complete tower or numerical truncation errors at arbitrary distance. The absence of negative eigenvalues follows from Section 4, not from the scanned grid. The accompanying machine-readable records preserve the solver tolerances and residuals; quoted decimal places should not be interpreted as a measure of effective-theory accuracy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Additional reproduced runs extend the numerical family to x = 1 and x = 3. Table 3 gives their lightest scalar results; their machine-readable records also contain the lowest three scalar and three massive tensor modes. The largest recorded relative residual in the exact norm identity is below 3.2 × 10⁻¹⁰, and the bulk-constraint residual is below 1.6 × 10⁻¹⁰. At ε = 0.05 the light modes follow the analytical coefficients. At x = 1 and ε = 0.4, the numerical mass is substantially above the leading weak-backreaction estimate, illustrating why the series is not an exact formula at moderate ε."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "x",
+            "ε",
+            "mᵣL",
+            "αᵣ"
+          ],
+          "rows": [
+            [
+              "1.0",
+              "0.05",
+              "0.060999461",
+              "0.334727784"
+            ],
+            [
+              "1.0",
+              "0.40",
+              "0.635686326",
+              "0.403628870"
+            ],
+            [
+              "3.0",
+              "0.05",
+              "0.070026294",
+              "0.333697456"
+            ],
+            [
+              "3.0",
+              "0.40",
+              "0.548725555",
+              "0.354123886"
+            ]
+          ],
+          "caption": "Table 3. Additional dimensionless scalar benchmarks. These runs vary the specified stabilizer parameter x and reconstruct the corresponding action constants, as in Section 2."
+        },
+        {
+          "type": "paragraph",
+          "text": "A second spectral method assembles piecewise-linear finite elements for (14)–(15) on the full interval, including the positive endpoint spectral weights, and solves the resulting generalized eigenproblem. It shares the independently integrated background with the shooting calculation; only the spectral discretization is independent. At x = 2, ε = 0.53, refinement from 64 to 2048 elements shows second-order convergence for all three retained scalar masses and couplings. At the finest grid their relative differences from shooting are below 1.7 × 10⁻⁷ for masses and 4.8 × 10⁻⁷ for couplings; Richardson-extrapolated differences are below 10⁻¹¹."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Elements",
+            "mᵣL",
+            "αᵣ"
+          ],
+          "rows": [
+            [
+              "64",
+              "0.850128646275",
+              "0.402245818217"
+            ],
+            [
+              "256",
+              "0.850124201272",
+              "0.402265236449"
+            ],
+            [
+              "2048",
+              "0.850123909161",
+              "0.402266512079"
+            ]
+          ],
+          "caption": "Table 4. Independent finite-element spectral refinement at x = 2, ε = 0.53, using the shared high-accuracy background. The omitted intermediate grid sizes are retained in the machine-readable record."
+        },
+        {
+          "type": "paragraph",
+          "text": "The same finite-element check was performed at all four points of Table 3. Finest-grid relative discrepancies are below 2.3 × 10⁻⁷ for masses and 7.4 × 10⁻⁷ for couplings, with extrapolated discrepancies below 8 × 10⁻⁹. For the two very light radions at ε = 0.05, roundoff limits the last refinements, so second-order convergence is not established from their last three meshes. These cross-checks support the reported low-lying eigenvalues and residues; they do not turn a finite numerical tower into an exhaustive spectrum."
+        }
+      ]
+    },
+    {
+      "title": "9. Exchange signal and its relation to short-distance gravity",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "For normalized tensor profiles define I = ∫e²ᴬdy. The same-brane coupling of a massive tensor mode includes its massive spin-two polarization factor [10]:"
+        },
+        {
+          "type": "equation",
+          "latex": "\\alpha_{T,n}=\\frac43\\frac{I\\,h_n(0)^2}{\\int_0^Le^{2A}h_n^2dy}.",
+          "number": "32"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the appropriate flat interval limit this yields αT,n = 8/3 and mT,n = nπ/L for n > 0. Backreaction changes both the profiles and the masses. Consequently, R₀ = L/π and the range 1/mT,1 need not coincide, as Table 2 illustrates."
+        },
+        {
+          "type": "paragraph",
+          "text": "For pointlike nonrelativistic sources on the same boundary, the correction to the potential relative to the massless tensor exchange is"
+        },
+        {
+          "type": "equation",
+          "latex": "V(r)=-\\frac{G_Tm_1m_2}{r}\\left[1+\\Delta_V(r)\\right],",
+          "number": "33"
+        },
+        {
+          "type": "equation",
+          "latex": "\\Delta_V(r)=\\sum_n\\alpha_{s,n}e^{-m_{s,n}r}+\\sum_{n>0}\\alpha_{T,n}e^{-m_{T,n}r}.",
+          "number": "34"
+        },
+        {
+          "type": "paragraph",
+          "text": "The relative correction to the attractive force magnitude contains an additional radial derivative:"
+        },
+        {
+          "type": "equation",
+          "latex": "\\Delta_F(r)=\\sum_n\\alpha_{s,n}(1+m_{s,n}r)e^{-m_{s,n}r}+\\sum_{n>0}\\alpha_{T,n}(1+m_{T,n}r)e^{-m_{T,n}r}.",
+          "number": "35"
+        },
+        {
+          "type": "paragraph",
+          "text": "These expressions are linear, static exchange formulas. A laboratory observable requires integration over the actual source and test-mass geometry and application of the experimental response and fit. The published single-Yukawa confidence curve in a torsion-balance analysis [11] is not a pointwise bound on ΔV at r = λ. A multimode signal must be evaluated in the appropriate experimental analysis. No exclusion contour or claim of agreement is supplied here."
+        },
+        {
+          "type": "paragraph",
+          "text": "The normalization GT refers to the massless tensor mode. If a scalar remains active at the distance used to infer Newton’s constant, the conversion between GT and that measured constant must be included. If all additional exchanges have micrometric range while Newton’s constant is determined macroscopically, their contribution at that reference distance is exponentially suppressed. This convention issue is separate from the actual data analysis."
+        }
+      ]
+    },
+    {
+      "title": "10. Relation to earlier work and effective-theory limitations",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Neither reflection symmetry nor canonical radion coupling is itself new. Equal endpoint warp factors with a nontrivial interior have been considered previously [7], and exactly reflection-symmetric warped models with an odd stabilizing scalar and a radion spectrum are explicit in [8]. The distinction studied here is the chosen convex quadratic bulk potential, linear physical endpoint sources, reconstructed flat-slice branch, and the resulting closed coefficients and benchmarks. General normalization and fluctuation methods remain those of the established scalar–gravity literature [3,4,6]."
+        },
+        {
+          "type": "paragraph",
+          "text": "A recent discussion of two linear brane potentials in an effective Randall–Sundrum description finds no nonzero-radius minimum in its approximation [9]. That comparison must retain its assumptions: its stated expansion is about an AdS/RS background with a negative bulk constant and a truncated weak-backreaction effective potential. The present branch instead has Λ₅ > 0 and a nonmonotonic warp factor. Equations (29)–(30) and the exact positive form (14) concern that different domain. They do not constitute a refutation of the RS calculation, nor do they support stabilization for arbitrary linear-brane models."
+        },
+        {
+          "type": "paragraph",
+          "text": "The calculation is classical and uses a two-derivative five-dimensional action. A physical application requires bulk curvature invariants and scalar-gradient energy to lie below the ultraviolet cutoff, control of boundary interactions and their radiative corrections, and a specification of the source-matter sector. Linear brane potentials are an imposed truncation, not a demonstrated radiatively protected structure. The negative endpoint background energies noted in Section 2 and the tuning needed for flat slices require a microscopic interpretation before a complete compactification claim can be made."
+        },
+        {
+          "type": "paragraph",
+          "text": "Small spacetime curvature is not by itself control of an arbitrary scalar potential. At x = 2, the endpoint field amplitudes σb/√(M₅³) are approximately 0.489, 0.621 and 0.924 at ε = 0.4, 0.53 and 0.9. The last value is close to the gravitational field scale in this convention. A quadratic potential therefore needs a protective mechanism or an explicit bound on higher scalar operators before the strongest-backreaction benchmarks can be treated as a robust microscopic prediction. The numerical results remain well-defined outputs of the specified truncated classical action."
+        },
+        {
+          "type": "paragraph",
+          "text": "The current model also does not calculate the absolute length. Micrometric extra dimensions have independent theoretical motivations in the literature [12], but those motivations do not fix the stabilizer parameters of (1). A proposed connection to DDF geometry must supply the effective action, its dimensional coefficients and boundary data before the spectrum here becomes a prediction of that geometry. The recovery of a consistent effective sector should be assessed separately from broader historical DDF claims."
+        }
+      ]
+    },
+    {
+      "title": "11. Conclusions",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A reflection-symmetric physical interval with a canonical scalar, a convex quadratic bulk potential and linear endpoint potentials admits a regular scalar spectral formulation through the interior zero of the warp derivative. For every smooth branch point with μ > 0 and q > 0, the endpoint signs make the generalized norm positive and establish strictly positive scalar squared masses. The canonical scalar norm is independently positive; the transverse tensor sector has one massless mode and positive massive excitations."
+        },
+        {
+          "type": "paragraph",
+          "text": "At fixed x = μL, the light radion has mᵣ²L² = κ(x)ε² + O(ε⁴), with κ = 4x tanh(x/2)sech²(x/2). Its minimally coupled same-brane Yukawa amplitude is αᵣ = [1 + cα(x)ε² + O(ε⁴)]/3, with cα = sech²(x/2)[1 + tanh²(x/2) + 2tanh(x/2)/x] > 0. A separate weak-backreaction effective-potential calculation reproduces the mass coefficient. Finite-backreaction benchmarks illustrate why masses and normalized residues must be computed together."
+        },
+        {
+          "type": "paragraph",
+          "text": "These results characterize the stated effective family and its perturbations. They leave the absolute compactification length, ultraviolet completion, full experimental response, and derivation from DDF geometry unresolved. The reproducible coefficients and stability check provide a concrete basis for a focused theoretical article without converting those open questions into established predictions."
+        }
+      ]
+    },
+    {
+      "title": "Appendix A. Elementary integrals and normalization check",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The three integrals entering (25) can be evaluated directly from (24). With C = cosh²(x/2), T = tanh(x/2), and averaging over −1/2 ≤ t ≤ 1/2, they are"
+        },
+        {
+          "type": "equation",
+          "latex": "f_2(1/2)=\\frac{1+2T/x}{C},",
+          "number": "A1"
+        },
+        {
+          "type": "equation",
+          "latex": "\\langle f_2\\rangle=\\frac{1/3+1/x^2-\\sinh(x)/x^3+T/x}{C},",
+          "number": "A2"
+        },
+        {
+          "type": "equation",
+          "latex": "\\langle s_1^2\\rangle=\\frac{12}{C}\\left[\\frac16-\\frac{T^2}{2}-\\frac1{x^2}+\\frac{\\sinh x}{x^3}\\right].",
+          "number": "A3"
+        },
+        {
+          "type": "paragraph",
+          "text": "Substitution into (25) cancels the inverse-square and hyperbolic-cubic terms and gives (26). The accompanying standard-library script independently integrates the unsimplified profiles with composite Simpson quadrature at x = 0.5, 1, 2, 3 and 4, checks the endpoint condition xTb(1/2) = κ, and compares the averages with (A1)–(A3). This quadrature is independent of the finite-backreaction spectral solver."
+        },
+        {
+          "type": "paragraph",
+          "text": "For the canonical-norm identity, insert s = −3M₅³e⁻²ᴬg′/σ′ and f = e⁻²ᴬg in (18). The result is"
+        },
+        {
+          "type": "equation",
+          "latex": "N_f=\\frac{9M_5^6}{2}\\int_0^L\\left[p(g^\\prime)^2+Qg^2\\right]dy=\\frac{9M_5^6}{2}m^2\\mathcal{D}[g].",
+          "number": "A4"
+        },
+        {
+          "type": "paragraph",
+          "text": "The identity checks dimensions and normalization, but the source amplitude remains (20). In particular, replacing Nf by 𝒟[g] alone loses a mass-dependent factor. Direct matter couplings, additional kinetic boundary terms, or a different physical-interval counting would require rederivation."
+        }
+      ]
+    },
+    {
+      "title": "Research and data statement",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is a first research draft dated 5 September 2026, not a peer-reviewed publication. The accompanying repository contains the active model conventions, analytical derivations, machine-readable benchmark results, numerical reproduction scripts, and a separated historical archive. Historical documents are provenance, not additional premises of this article. Numerical precision and model-dependent conclusions are explicitly distinguished from physical validation."
+        },
+        {
+          "type": "paragraph",
+          "text": "AI tools assisted drafting, algebraic checks, numerical implementation and literature screening. Scientific responsibility remains with the named author, who must review and approve the scientific content before submission. Bibliographic priority, the physical interpretation of the boundary sources, and independent expert review remain to be assessed. No affiliation or funding claim is made in this draft."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "key": "GW1999",
+      "text": "W. D. Goldberger and M. B. Wise, Modulus Stabilization with Bulk Fields, Physical Review Letters 83, 4922–4925 (1999). DOI: 10.1103/PhysRevLett.83.4922. arXiv: hep-ph/9907447."
+    },
+    {
+      "key": "DFGK2000",
+      "text": "O. DeWolfe, D. Z. Freedman, S. S. Gubser and A. Karch, Modeling the fifth dimension with scalars and gravity, Physical Review D 62, 046008 (2000). DOI: 10.1103/PhysRevD.62.046008. arXiv: hep-th/9909134."
+    },
+    {
+      "key": "CGK2001",
+      "text": "C. Csáki, M. L. Graesser and G. D. Kribs, Radion Dynamics and Electroweak Physics, Physical Review D 63, 065002 (2001). DOI: 10.1103/PhysRevD.63.065002. arXiv: hep-th/0008151."
+    },
+    {
+      "key": "KMP2004",
+      "text": "L. Kofman, J. Martin and M. Peloso, Exact identification of the radion and its coupling to the observable sector, Physical Review D 70, 085015 (2004). DOI: 10.1103/PhysRevD.70.085015. arXiv: hep-ph/0401189."
+    },
+    {
+      "key": "LS2004",
+      "text": "J. Lesgourgues and L. Sorbo, Goldberger-Wise variations: stabilizing brane models with a bulk scalar, Physical Review D 69, 084010 (2004). DOI: 10.1103/PhysRevD.69.084010. arXiv: hep-th/0310007."
+    },
+    {
+      "key": "O2025",
+      "text": "M. Olechowski, Stability of multibrane models, Nuclear Physics B 1011, 116807 (2025). DOI: 10.1016/j.nuclphysb.2025.116807. arXiv: 2408.15343."
+    },
+    {
+      "key": "Boos2005",
+      "text": "E. E. Boos, Y. S. Mikhailov, M. N. Smolyakov and I. P. Volobuev, Energy scales in a stabilized brane world, Nuclear Physics B 717, 19–33 (2005). DOI: 10.1016/j.nuclphysb.2005.04.012. arXiv: hep-th/0412204."
+    },
+    {
+      "key": "MP2011",
+      "text": "A. D. Medina and E. Pontón, Warped Universal Extra Dimensions, Journal of High Energy Physics 06 (2011), 009. DOI: 10.1007/JHEP06(2011)009. arXiv: 1012.5298."
+    },
+    {
+      "key": "LNR2026",
+      "text": "S. Lüst, M. Nee and L. Randall, More effective RS field theory, Journal of High Energy Physics 06 (2026), 130. DOI: 10.1007/JHEP06(2026)130. arXiv: 2510.11771; comparison uses preprint v2."
+    },
+    {
+      "key": "CR2004",
+      "text": "P. Callin and F. Ravndal, Higher order corrections to the Newtonian potential in the Randall-Sundrum model, Physical Review D 70, 104009 (2004). DOI: 10.1103/PhysRevD.70.104009. arXiv: hep-ph/0403302."
+    },
+    {
+      "key": "Lee2020",
+      "text": "J. G. Lee, E. G. Adelberger, T. S. Cook, S. M. Fleischer and B. R. Heckel, New Test of the Gravitational 1/r² Law at Separations down to 52 μm, Physical Review Letters 124, 101101 (2020). DOI: 10.1103/PhysRevLett.124.101101. arXiv: 2002.11761."
+    },
+    {
+      "key": "MVV2023",
+      "text": "M. Montero, C. Vafa and I. Valenzuela, The Dark Dimension and the Swampland, Journal of High Energy Physics 02 (2023), 022. DOI: 10.1007/JHEP02(2023)022. arXiv: 2205.12293."
+    }
+  ]
+}

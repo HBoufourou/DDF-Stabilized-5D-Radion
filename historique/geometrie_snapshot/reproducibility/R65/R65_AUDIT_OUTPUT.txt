@@ -1,0 +1,19 @@
+R65 SPECTRAL RELEASE GATE
+python: 3.12.13
+R64 baseline byte-identical: a911e9830162a51fb2b66c6b2914cfa4bb986899236880f9c8ca06662db822cd
+config frozen: afa0fec726d9bb5769c1f6da4b959378b72a1af0f7174121053bf81d657a232d
+preregistration frozen: 5c7772bdd8d75978660c7ad3435c50d2aef7c889eb50877bd3d9bb67ba177ca4
+fresh spectral run: byte-identical structured results
+data rows: spectra=750 metrics=25 profiles=801
+claim ledger: guarded
+aliasing incident disclosure: present
+hash manifest files checked: 62
+R65 results sha256: d1f050f023f0a42a9d63652eb34df614d9dabdc399d44299095bfb5786b6fe66
+FINAL VERDICT
+R65_SPECTRAL_PIPELINE: GO
+POSITIVE_1D_CONTROLS: PASS_3_OF_3
+TRANSVERSE_FALSE_POSITIVE: REJECTED_5_OF_5
+CHEEGER_TUNNELING_FALSE_POSITIVE: REJECTED_4_OF_5
+R66: AUTHORIZED_AFTER_SINGLE_PLATFORM_LOCK
+DDF_METRIC_SPIN2_R_MICRONS_FANO: NOT_DERIVED
+

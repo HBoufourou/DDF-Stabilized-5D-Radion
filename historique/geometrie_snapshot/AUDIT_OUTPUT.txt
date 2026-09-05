@@ -1,0 +1,13 @@
+required files: 14 present
+claim ledger: 20 unique guarded claims
+scientific boundary language: guarded
+release archives: R63-R65 byte-verified
+R65 executable gate: byte-identical GO
+repository manifest: 95 files byte-verified
+FINAL VERDICT
+DDF_CORRECTED_REPOSITORY: GO
+PUBLISHABLE_ARTICLE_NOW: NO
+NEXT_SCIENTIFIC_ROUND: R66
+LEGACY_ARTICLES_I_VIII: DEPRECATED_HISTORICAL_ARCHIVE
+R_MICRONS_SPIN2_FANO: NOT_DERIVED
+

@@ -1,0 +1,70 @@
+{
+  "schema": "ddf-r65-preregistered-spectral-pilot-v1",
+  "date_frozen": "2026-09-05",
+  "scope": "dimensionless scalar Laplacian pipeline validation only; not the DDF geometry and not a spin-2 calculation",
+  "smoothing_parameters_abs_t": [0.1, 0.01, 0.001, 0.0001, 0.00001],
+  "length_map": "L(|t|) = 6 * (1 - log10(|t|)), giving 12,18,24,30,36",
+  "product_models": {
+    "kk_interval_neumann": {
+      "longitudinal_domain": "[0,L]",
+      "transverse_domain": "[0,1]",
+      "boundary_conditions": "Neumann x Neumann",
+      "expected_class": "KK_1D"
+    },
+    "kk_interval_dirichlet": {
+      "longitudinal_domain": "[0,L]",
+      "transverse_domain": "[0,1]",
+      "boundary_conditions": "Dirichlet longitudinal, Neumann transverse",
+      "expected_class": "KK_1D"
+    },
+    "kk_circle_periodic": {
+      "longitudinal_domain": "circle of circumference L",
+      "transverse_domain": "circle of circumference 1",
+      "boundary_conditions": "periodic x periodic",
+      "expected_class": "KK_1D_WITH_DOUBLETS"
+    },
+    "transverse_contaminated": {
+      "longitudinal_domain": "[0,L]",
+      "transverse_domain": "[0,L/3]",
+      "boundary_conditions": "Neumann x Neumann",
+      "expected_class": "TRANSVERSE_CONTAMINATED"
+    }
+  },
+  "dumbbell_model": {
+    "domain": "[-2,2]",
+    "operator": "-A(x)^(-1) d/dx (A(x) du/dx)",
+    "boundary_conditions": "natural Neumann",
+    "caps": "A=1 for |x|>=0.75",
+    "neck": "A=|t| for |x|<=0.25 with linear transitions",
+    "diagnostic_neck_region": "|x|<0.75, including the two transition zones",
+    "expected_class": "CHEEGER_TUNNELING"
+  },
+  "resolutions": {
+    "product_cells_per_unit": [12, 24, 48],
+    "dumbbell_elements_or_cells": [200, 400, 800]
+  },
+  "discretizations": [
+    "cell-centered finite-volume/second-difference",
+    "continuous piecewise-linear Galerkin finite elements with consistent mass"
+  ],
+  "requested_positive_modes": 30,
+  "classification_modes": 10,
+  "fit_law": "lambda_n = a (n + delta)^2 + c with n fixed as 1,...,10",
+  "competing_fit": "lambda_n = a (n + delta)^p + c with p fitted in [0.5,4]",
+  "thresholds": {
+    "max_richardson_relative_change_first10": 0.05,
+    "max_cross_method_relative_difference_first10": 0.05,
+    "max_algebraic_relative_residual": 0.10,
+    "max_quadratic_relative_l2_residual": 0.10,
+    "free_exponent_interval": [1.8, 2.2],
+    "effective_counting_dimension_interval": [0.8, 1.2],
+    "max_control_length_relative_error": 0.05,
+    "minimum_transverse_gap_ratio_to_longitudinal_mode10": 1.25,
+    "maximum_transverse_modes_among_first10": 0,
+    "tunneling_isolation_ratio_lambda2_over_lambda1": 20.0,
+    "minimum_neck_gradient_energy_fraction": 0.60,
+    "minimum_parameter_points_for_false_positive_class": 3
+  },
+  "global_gate": "GO only if all three positive controls are accepted with their registered topology/multiplicity and both negative controls are rejected for the registered reason"
+}
+
