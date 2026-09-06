@@ -1,1 +1,0 @@
-{'kappa': 2.558800033796898, 'f2_boundary': 0.7398243458386384, 'mean_f2': 0.21451149573154685, 'mean_s1_squared': 0.4032327622539204, 'c_alpha': 0.9834202398385298, 'refinement_absolute_difference': 0.0}

@@ -1,0 +1,269 @@
+{
+  "scope": "Affine branes, fixed x>0, weak backreaction; same-brane minimal matter.",
+  "source_sha256": {
+    "spectre_5d.json": "f664203a89dfbd6df22d4d3fee54fcdcfeb1c0704fd1dbf20c13520f2f8b06ee",
+    "extension_x.json": "531ce6f723df888e8247f8408e254966c5057e6daedb4eaf5297d1d585a1bf3d"
+  },
+  "formula": "3 alpha_r - 1 = pi^2 D(pi*m_s1/m_T1)*(m_r/m_T1)^2 + O(epsilon^4)",
+  "cases": [
+    {
+      "source": "extension_x.json",
+      "x_actual": 1.0,
+      "epsilon": 0.05,
+      "tolerance": 2e-10,
+      "x_inferred_at_leading_order": 1.0169492638863047,
+      "radion_over_tensor_mass": 0.019391535316082408,
+      "first_stabilizer_over_tensor_mass": 0.3237050044423394,
+      "three_alpha_minus_one": 0.004183353072418683,
+      "observable_relation_rhs": 0.0041683123625511145,
+      "relation_residual": 1.5040709867568391e-05,
+      "residual_over_epsilon_four": 2.406513578810942,
+      "relative_residual_to_coupling_shift": 0.0035953718481792707,
+      "spectral_closure_residual": 0.0013326184208977132,
+      "closure_over_epsilon_squared": 0.5330473683590852
+    },
+    {
+      "source": "extension_x.json",
+      "x_actual": 1.0,
+      "epsilon": 0.4,
+      "tolerance": 2e-10,
+      "x_inferred_at_leading_order": 1.653828640233337,
+      "radion_over_tensor_mass": 0.19030889270453258,
+      "first_stabilizer_over_tensor_mass": 0.5264300062401668,
+      "three_alpha_minus_one": 0.21088661134149023,
+      "observable_relation_rhs": 0.1816237839567451,
+      "relation_residual": 0.029262827384745116,
+      "residual_over_epsilon_four": 1.143079194716606,
+      "relative_residual_to_coupling_shift": 0.13876095404349595,
+      "spectral_closure_residual": 0.04668314176132715,
+      "closure_over_epsilon_squared": 0.29176963600829464
+    },
+    {
+      "source": "spectre_5d.json",
+      "x_actual": 2.0,
+      "epsilon": 0.05,
+      "tolerance": 2e-10,
+      "x_inferred_at_leading_order": 2.0060060165283873,
+      "radion_over_tensor_mass": 0.02544890222846509,
+      "first_stabilizer_over_tensor_mass": 0.6385315468051503,
+      "three_alpha_minus_one": 0.0024505822910765307,
+      "observable_relation_rhs": 0.0024461718602169754,
+      "relation_residual": 4.41043085955533e-06,
+      "residual_over_epsilon_four": 0.7056689375288526,
+      "relative_residual_to_coupling_shift": 0.0017997481152195241,
+      "spectral_closure_residual": 0.0005379419474356162,
+      "closure_over_epsilon_squared": 0.21517677897424642
+    },
+    {
+      "source": "spectre_5d.json",
+      "x_actual": 2.0,
+      "epsilon": 0.143,
+      "tolerance": 2e-10,
+      "x_inferred_at_leading_order": 2.0477317855165387,
+      "radion_over_tensor_mass": 0.07256428167811248,
+      "first_stabilizer_over_tensor_mass": 0.6518132715826999,
+      "three_alpha_minus_one": 0.01959295505433234,
+      "observable_relation_rhs": 0.019315929479664012,
+      "relation_residual": 0.000277025574668327,
+      "residual_over_epsilon_four": 0.662484489264061,
+      "relative_residual_to_coupling_shift": 0.014139039971261093,
+      "spectral_closure_residual": 0.0042295006219117415,
+      "closure_over_epsilon_squared": 0.20683166032137232
+    },
+    {
+      "source": "spectre_5d.json",
+      "x_actual": 2.0,
+      "epsilon": 0.4,
+      "tolerance": 2e-10,
+      "x_inferred_at_leading_order": 2.3106775625780784,
+      "radion_over_tensor_mass": 0.1968671365151487,
+      "first_stabilizer_over_tensor_mass": 0.7355115119516671,
+      "three_alpha_minus_one": 0.13146921342197193,
+      "observable_relation_rhs": 0.12023674976855511,
+      "relation_residual": 0.011232463653416819,
+      "residual_over_epsilon_four": 0.4387681114615944,
+      "relative_residual_to_coupling_shift": 0.08543797715868574,
+      "spectral_closure_residual": 0.02619172324587149,
+      "closure_over_epsilon_squared": 0.16369827028669678
+    },
+    {
+      "source": "spectre_5d.json",
+      "x_actual": 2.0,
+      "epsilon": 0.53,
+      "tolerance": 2e-12,
+      "x_inferred_at_leading_order": 2.4824572063108628,
+      "radion_over_tensor_mass": 0.2532900710820482,
+      "first_stabilizer_over_tensor_mass": 0.7901906707969418,
+      "three_alpha_minus_one": 0.2067995969946006,
+      "observable_relation_rhs": 0.1806999164772196,
+      "relation_residual": 0.026099680517380985,
+      "residual_over_epsilon_four": 0.33077426480566874,
+      "relative_residual_to_coupling_shift": 0.12620759854799152,
+      "spectral_closure_residual": 0.040225742175178825,
+      "closure_over_epsilon_squared": 0.14320306933135926
+    },
+    {
+      "source": "spectre_5d.json",
+      "x_actual": 2.0,
+      "epsilon": 0.53,
+      "tolerance": 2e-10,
+      "x_inferred_at_leading_order": 2.4824572063474624,
+      "radion_over_tensor_mass": 0.25329007108791685,
+      "first_stabilizer_over_tensor_mass": 0.7901906708085917,
+      "three_alpha_minus_one": 0.2067995969911709,
+      "observable_relation_rhs": 0.18069991648203948,
+      "relation_residual": 0.026099680509131418,
+      "residual_over_epsilon_four": 0.33077426470111787,
+      "relative_residual_to_coupling_shift": 0.12620759851019303,
+      "spectral_closure_residual": 0.04022574220274455,
+      "closure_over_epsilon_squared": 0.14320306942949287
+    },
+    {
+      "source": "spectre_5d.json",
+      "x_actual": 2.0,
+      "epsilon": 0.7,
+      "tolerance": 2e-10,
+      "x_inferred_at_leading_order": 2.7119736591829824,
+      "radion_over_tensor_mass": 0.3184538728696742,
+      "first_stabilizer_over_tensor_mass": 0.8632480267879734,
+      "three_alpha_minus_one": 0.30773010327939443,
+      "observable_relation_rhs": 0.25421342107843203,
+      "relation_residual": 0.053516682200962395,
+      "residual_over_epsilon_four": 0.22289330362749857,
+      "relative_residual_to_coupling_shift": 0.17390785506731368,
+      "spectral_closure_residual": 0.06044627048549378,
+      "closure_over_epsilon_squared": 0.1233597356846812
+    },
+    {
+      "source": "spectre_5d.json",
+      "x_actual": 2.0,
+      "epsilon": 0.9,
+      "tolerance": 2e-10,
+      "x_inferred_at_leading_order": 2.969908375550507,
+      "radion_over_tensor_mass": 0.3827105640827881,
+      "first_stabilizer_over_tensor_mass": 0.9453511969977685,
+      "three_alpha_minus_one": 0.4181045832806225,
+      "observable_relation_rhs": 0.3266004389529806,
+      "relation_residual": 0.09150414432764192,
+      "residual_over_epsilon_four": 0.13946676471215047,
+      "relative_residual_to_coupling_shift": 0.21885467891708418,
+      "spectral_closure_residual": 0.08823604011460784,
+      "closure_over_epsilon_squared": 0.10893338285754053
+    },
+    {
+      "source": "extension_x.json",
+      "x_actual": 3.0,
+      "epsilon": 0.05,
+      "tolerance": 2e-10,
+      "x_inferred_at_leading_order": 3.0027477137118996,
+      "radion_over_tensor_mass": 0.022280434676311786,
+      "first_stabilizer_over_tensor_mass": 0.9558042829902724,
+      "three_alpha_minus_one": 0.0010923678207954701,
+      "observable_relation_rhs": 0.0010915531039810895,
+      "relation_residual": 8.147168143806619e-07,
+      "residual_over_epsilon_four": 0.13035469030090588,
+      "relative_residual_to_coupling_shift": 0.0007458264504600468,
+      "spectral_closure_residual": 0.00034135061778606257,
+      "closure_over_epsilon_squared": 0.136540247114425
+    },
+    {
+      "source": "extension_x.json",
+      "x_actual": 3.0,
+      "epsilon": 0.4,
+      "tolerance": 2e-10,
+      "x_inferred_at_leading_order": 3.158800693871218,
+      "radion_over_tensor_mass": 0.17035181814884084,
+      "first_stabilizer_over_tensor_mass": 1.0054774893434264,
+      "three_alpha_minus_one": 0.06237165689116697,
+      "observable_relation_rhs": 0.059851881314768866,
+      "relation_residual": 0.0025197755763981047,
+      "residual_over_epsilon_four": 0.09842873345305095,
+      "relative_residual_to_coupling_shift": 0.04039936891198658,
+      "spectral_closure_residual": 0.020988552843754116,
+      "closure_over_epsilon_squared": 0.1311784552734632
+    }
+  ],
+  "radius_sensitivity": [
+    {
+      "x": 0.1,
+      "z_q_over_sqrt_2Lambda5": 1.001250260438369,
+      "d_log_L_d_log_z": 400.33327779100193,
+      "d_log_L_d_log_mu_at_fixed_z": -1.0
+    },
+    {
+      "x": 0.5,
+      "z_q_over_sqrt_2Lambda5": 1.0314130998795732,
+      "d_log_L_d_log_z": 16.331952660294387,
+      "d_log_L_d_log_mu_at_fixed_z": -1.0
+    },
+    {
+      "x": 1,
+      "z_q_over_sqrt_2Lambda5": 1.1276259652063807,
+      "d_log_L_d_log_z": 4.327906827477306,
+      "d_log_L_d_log_mu_at_fixed_z": -1.0
+    },
+    {
+      "x": 2,
+      "z_q_over_sqrt_2Lambda5": 1.5430806348152437,
+      "d_log_L_d_log_z": 1.3130352854993315,
+      "d_log_L_d_log_mu_at_fixed_z": -1.0
+    },
+    {
+      "x": 3,
+      "z_q_over_sqrt_2Lambda5": 2.352409615243247,
+      "d_log_L_d_log_z": 0.7365275953216747,
+      "d_log_L_d_log_mu_at_fixed_z": -1.0
+    },
+    {
+      "x": 6,
+      "z_q_over_sqrt_2Lambda5": 10.067661995777765,
+      "d_log_L_d_log_z": 0.33498994110456304,
+      "d_log_L_d_log_mu_at_fixed_z": -1.0
+    },
+    {
+      "x": 10,
+      "z_q_over_sqrt_2Lambda5": 74.20994852478785,
+      "d_log_L_d_log_z": 0.20001816079640386,
+      "d_log_L_d_log_mu_at_fixed_z": -1.0
+    }
+  ],
+  "exact_scale_degeneracy_algebra_check": [
+    {
+      "scale_s": 0.1,
+      "L": 0.2,
+      "B_M5_cubed": 70.0,
+      "mu": 10.0,
+      "q": 12.649110640673516,
+      "Lambda5": 199.99999999999997,
+      "MPlanck_squared": 14.42,
+      "x": 2.0,
+      "epsilon": 0.08728715609439695,
+      "Lambda5_L_squared_over_B": 0.11428571428571428
+    },
+    {
+      "scale_s": 1,
+      "L": 2.0,
+      "B_M5_cubed": 7.0,
+      "mu": 1.0,
+      "q": 0.4,
+      "Lambda5": 0.2,
+      "MPlanck_squared": 14.42,
+      "x": 2.0,
+      "epsilon": 0.08728715609439697,
+      "Lambda5_L_squared_over_B": 0.1142857142857143
+    },
+    {
+      "scale_s": 10,
+      "L": 20.0,
+      "B_M5_cubed": 0.7,
+      "mu": 0.1,
+      "q": 0.012649110640673518,
+      "Lambda5": 0.0002,
+      "MPlanck_squared": 14.42,
+      "x": 2.0,
+      "epsilon": 0.08728715609439695,
+      "Lambda5_L_squared_over_B": 0.1142857142857143
+    }
+  ],
+  "scale_demo_note": "Arbitrary algebraic point, not a solved background; the scale symmetry is proved in the accompanying note."
+}

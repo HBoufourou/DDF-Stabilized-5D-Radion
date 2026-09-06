@@ -1,0 +1,256 @@
+{
+  "scope": "Counterexample and unit audit; neither MOND derivation nor dark-matter viability test.",
+  "spatial_setup": {
+    "geometry": "one dimensional, translationally invariant planes; energy per area",
+    "mass": 1.0,
+    "source_centers": [
+      -2.0,
+      2.0
+    ],
+    "source_half_width": 0.5,
+    "source_integral_each": 1.0,
+    "dirichlet_endpoints": [
+      -12.0,
+      12.0
+    ],
+    "infinite_line_reference_energy": -0.009461474204164197,
+    "infinite_line_force_along_separation": -0.009461474204164197
+  },
+  "spatial_convergence": [
+    {
+      "cells": 384,
+      "interaction_energy_per_transverse_area": -0.009462864549204357,
+      "max_discrete_residual": 1.9317880628477724e-14,
+      "relative_error_vs_infinite_line": 0.00014694803475223672
+    },
+    {
+      "cells": 768,
+      "interaction_energy_per_transverse_area": -0.009461831011084516,
+      "max_discrete_residual": 1.1041167979897182e-13,
+      "relative_error_vs_infinite_line": 3.7711556636788046e-05
+    },
+    {
+      "cells": 1536,
+      "interaction_energy_per_transverse_area": -0.009461563951731346,
+      "max_discrete_residual": 4.792000130038332e-13,
+      "relative_error_vs_infinite_line": 9.485579647749987e-06,
+      "observed_order_from_three_meshes": 1.9523592829963712
+    },
+    {
+      "cells": 3072,
+      "interaction_energy_per_transverse_area": -0.009461496647696268,
+      "max_discrete_residual": 2.23443485936059e-12,
+      "relative_error_vs_infinite_line": 2.372096735259177e-06,
+      "observed_order_from_three_meshes": 1.9883955059392746
+    }
+  ],
+  "time_source_response": [
+    {
+      "steps": 4096,
+      "end_time": 100.37,
+      "omega": 1.4142135623730951,
+      "rk4_time_average": 0.501909577027215,
+      "exact_time_average": 0.5019095821687852,
+      "absolute_error": 5.141570280642327e-09,
+      "static_response": 0.4999999999999999
+    },
+    {
+      "steps": 8192,
+      "end_time": 100.37,
+      "omega": 1.4142135623730951,
+      "rk4_time_average": 0.501909581850275,
+      "exact_time_average": 0.5019095821687852,
+      "absolute_error": 3.185102182001742e-10,
+      "static_response": 0.4999999999999999
+    },
+    {
+      "steps": 16384,
+      "end_time": 100.37,
+      "omega": 1.4142135623730951,
+      "rk4_time_average": 0.5019095821489683,
+      "exact_time_average": 0.5019095821687852,
+      "absolute_error": 1.9816925878046732e-11,
+      "static_response": 0.4999999999999999
+    }
+  ],
+  "legendre_density_nonnegative": [
+    {
+      "interaction": "quartic",
+      "X": -1.0,
+      "density": 0.0,
+      "pressure": 0.0,
+      "maximization_error": 0.0
+    },
+    {
+      "interaction": "quartic",
+      "X": -0.01,
+      "density": 0.0,
+      "pressure": 0.0,
+      "maximization_error": 0.0
+    },
+    {
+      "interaction": "quartic",
+      "X": 0.0,
+      "density": 0.0,
+      "pressure": 0.0,
+      "maximization_error": 0.0
+    },
+    {
+      "interaction": "quartic",
+      "X": 0.01,
+      "density": 0.005,
+      "pressure": 2.5e-05,
+      "maximization_error": 6.776263578034403e-21
+    },
+    {
+      "interaction": "quartic",
+      "X": 1.0,
+      "density": 0.5,
+      "pressure": 0.25,
+      "maximization_error": 0.0
+    },
+    {
+      "interaction": "sextic",
+      "X": -1.0,
+      "density": 0.0,
+      "pressure": 0.0,
+      "maximization_error": 0.0
+    },
+    {
+      "interaction": "sextic",
+      "X": -0.01,
+      "density": 0.0,
+      "pressure": 0.0,
+      "maximization_error": 0.0
+    },
+    {
+      "interaction": "sextic",
+      "X": 0.0,
+      "density": 0.0,
+      "pressure": 0.0,
+      "maximization_error": 0.0
+    },
+    {
+      "interaction": "sextic",
+      "X": 0.01,
+      "density": 0.057735026918962574,
+      "pressure": 0.00038490017945975053,
+      "maximization_error": 0.0
+    },
+    {
+      "interaction": "sextic",
+      "X": 1.0,
+      "density": 0.5773502691896258,
+      "pressure": 0.3849001794597505,
+      "maximization_error": 5.551115123125783e-17
+    },
+    {
+      "interaction": "mixed",
+      "X": -1.0,
+      "density": 0.0,
+      "pressure": 0.0,
+      "maximization_error": 0.0
+    },
+    {
+      "interaction": "mixed",
+      "X": -0.01,
+      "density": 0.0,
+      "pressure": 0.0,
+      "maximization_error": 0.0
+    },
+    {
+      "interaction": "mixed",
+      "X": 0.0,
+      "density": 0.0,
+      "pressure": 0.0,
+      "maximization_error": 0.0
+    },
+    {
+      "interaction": "mixed",
+      "X": 0.01,
+      "density": 0.004963052169740649,
+      "pressure": 2.487638551841521e-05,
+      "maximization_error": 6.776263578034403e-21
+    },
+    {
+      "interaction": "mixed",
+      "X": 1.0,
+      "density": 0.3333333333333333,
+      "pressure": 0.18518518518518517,
+      "maximization_error": 2.7755575615628914e-17
+    }
+  ],
+  "degeneracy": {
+    "rho_eV4": 3.0734022277815385e-06,
+    "v_1d_over_c": 0.0006671281903963041,
+    "thermal_lambda_threshold_mass_eV": 15.805434425327226,
+    "legacy_h_over_mv_threshold_mass_eV": 31.486463766266436,
+    "interpretation": "Phase-space degeneracy only; no equilibration or formation rate computed."
+  },
+  "kelvon_convention_only": [
+    {
+      "planck_convention": "archived_nonreduced",
+      "Lambda_meV": 1.7928463463875555,
+      "spacing_um": 2.7624452553607126,
+      "v_over_c_archived_formula": 0.4762133114181445,
+      "g4_threshold_archived_formula": 9961.332314220554,
+      "lifetime_seconds_archived_formula": 1.2899717140069468e-13,
+      "power_over_rhoH_archived_formula": 3.831927289164106e+27
+    },
+    {
+      "planck_convention": "corrected_reduced",
+      "Lambda_meV": 0.8009633381723683,
+      "spacing_um": 4.132938058594226,
+      "v_over_c_archived_formula": 0.3182997625457092,
+      "g4_threshold_archived_formula": 4450.276510933999,
+      "lifetime_seconds_archived_formula": 2.8874243853380293e-13,
+      "power_over_rhoH_archived_formula": 7.648149958290657e+26
+    }
+  ],
+  "density_response": [
+    {
+      "k_times_response_length": 0.0,
+      "response_divided_by_contact_limit": 1.0
+    },
+    {
+      "k_times_response_length": 0.1,
+      "response_divided_by_contact_limit": 0.9900990099009901
+    },
+    {
+      "k_times_response_length": 1.0,
+      "response_divided_by_contact_limit": 0.5
+    },
+    {
+      "k_times_response_length": 10.0,
+      "response_divided_by_contact_limit": 0.009900990099009901
+    }
+  ],
+  "BK_plummer_formal_deep_branch": {
+    "assumption": "Only algebraic slope in gradient-dominated spherical approximation, not a validated central solution.",
+    "peak_radius_over_b": 0.7071067811865475,
+    "samples": [
+      {
+        "r_over_b": 0.1,
+        "dlogrho_dlogr": 0.48514851485148514
+      },
+      {
+        "r_over_b": 0.5,
+        "dlogrho_dlogr": 0.2
+      },
+      {
+        "r_over_b": 1.0,
+        "dlogrho_dlogr": -0.25
+      },
+      {
+        "r_over_b": 2.0,
+        "dlogrho_dlogr": -0.7
+      }
+    ]
+  },
+  "validation": {
+    "finite_separation_interaction_nonzero": true,
+    "last_spatial_relative_error_below_2e_5": true,
+    "time_error_below_1e_8": true,
+    "constrained_max_error_below_1e_12": true
+  }
+}

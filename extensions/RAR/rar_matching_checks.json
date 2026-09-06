@@ -1,0 +1,122 @@
+{
+  "scope": "Algebra and parameter matching for the proposed 5D/Khoury extension.\n\nStandard library only. This is not a 5D spectrum, halo solution, UV completion,\nor cutoff calculation. All numerical examples use a declared FLAT interval.\nThe accompanying note gives the general warped overlap formulas.",
+  "algebra": {
+    "profile_variance_polynomial_identity_zero": true,
+    "identity": "p*a^2+(1-p)*b^2-[p*a+(1-p)*b]^2=p*(1-p)*(a-b)^2",
+    "phase_leading_sign_for_exp[-i*(m*t+theta)]": 1,
+    "phase_leading_sign_for_exp[-i*m*t+i*theta]": -1,
+    "bare_mass_curvature_completed_square_identity_zero": true,
+    "fixed_flux_to_fixed_g_curvature_ratio_at_g_a0": "4/5",
+    "flat_volume_cancellation_rational_checks": 48,
+    "mass_dimensions": {
+      "M5_cubed_R5": "5",
+      "bulk_kinetic_H5": "5",
+      "xi5_H5_squared_Rslice": "5",
+      "D5_H5_squared_Rslice_DY_squared": "5",
+      "Z_squared": "2",
+      "M4_squared": "2",
+      "J_zeta_squared": "2",
+      "a0_squared_matching": "2",
+      "density_mZ2chi2": "3",
+      "g6_4D_phi6": "4"
+    }
+  },
+  "matching_examples": {
+    "scope": "Flat constant-profile coefficient matching; all scales are inputs",
+    "R_input_m": 3e-06,
+    "L_input_eV_minus1": 47.76223676474481,
+    "M4_input_eV": 2.435e+27,
+    "M5_from_flat_planck_relation_eV": 4.9885128046920966e+17,
+    "a0_input_m_s2": 1.2e-10,
+    "a0_input_eV": 2.6346705104272104e-34,
+    "condensate_mass_input_eV": 0.1,
+    "radius_for_adiabatic_diagnostic_m": 3.085677581491367e+20,
+    "a0_r_over_c_squared": 4.1199352008117157e-07,
+    "xi5_for_mchi_r_equal_1_at_g_a0": 9941753953669.438,
+    "xi5_for_mchi_r_equal_1_at_g_a0_fixed_flux": 12427192442086.797,
+    "rows": [
+      {
+        "Z_eV": 1000.0,
+        "f5_squared_eV3": 20937.042896997224,
+        "xi5_required": 5.929225e+48,
+        "D5_required_eV_minus6": 9.490799544465688e+118,
+        "a0_recovered_eV": 2.634670510427201e-34,
+        "mchi_times_10kpc_at_g_equals_a0_fixed_g": 7.722669697014717e+17,
+        "mchi_times_10kpc_at_g_equals_a0_fixed_flux": 6.907365764121044e+17
+      },
+      {
+        "Z_eV": 1000000000000.0,
+        "f5_squared_eV3": 2.0937042896997224e+22,
+        "xi5_required": 5.929225e+30,
+        "D5_required_eV_minus6": 9.490799544465686e+100,
+        "a0_recovered_eV": 2.634670510427201e-34,
+        "mchi_times_10kpc_at_g_equals_a0_fixed_g": 772266969.7014717,
+        "mchi_times_10kpc_at_g_equals_a0_fixed_flux": 690736576.4121045
+      },
+      {
+        "Z_eV": 1000000000000000.0,
+        "f5_squared_eV3": 2.0937042896997224e+28,
+        "xi5_required": 5.929224999999999e+24,
+        "D5_required_eV_minus6": 9.490799544465686e+94,
+        "a0_recovered_eV": 2.634670510427201e-34,
+        "mchi_times_10kpc_at_g_equals_a0_fixed_g": 772266.9697014717,
+        "mchi_times_10kpc_at_g_equals_a0_fixed_flux": 690736.5764121045
+      },
+      {
+        "Z_eV": 1e+17,
+        "f5_squared_eV3": 2.093704289699722e+32,
+        "xi5_required": 5.929225e+20,
+        "D5_required_eV_minus6": 9.490799544465688e+90,
+        "a0_recovered_eV": 2.634670510427201e-34,
+        "mchi_times_10kpc_at_g_equals_a0_fixed_g": 7722.669697014717,
+        "mchi_times_10kpc_at_g_equals_a0_fixed_flux": 6907.365764121045
+      },
+      {
+        "Z_eV": 2.435e+27,
+        "f5_squared_eV3": 1.2414043817094835e+53,
+        "xi5_required": 1.0,
+        "D5_required_eV_minus6": 1.60068129383953e+70,
+        "a0_recovered_eV": 2.6346705104272014e-34,
+        "mchi_times_10kpc_at_g_equals_a0_fixed_g": 3.1715275963099455e-07,
+        "mchi_times_10kpc_at_g_equals_a0_fixed_flux": 2.8367005191462197e-07
+      }
+    ],
+    "profile_moment_example": {
+      "scope": "Two-value profile illustration only, not a DDF eigenfunction",
+      "probability_p": 0.5,
+      "s_squared_values": [
+        0.5,
+        1.5
+      ],
+      "mean_s_squared": 1.0,
+      "mean_s_fourth": 1.25,
+      "quartic_excess": 0.25,
+      "F4_at_chi_1": 0.5333333333333333,
+      "target_F_at_chi_1": 0.5
+    },
+    "brane_floor_examples": [
+      {
+        "gamma": 0.1,
+        "F4_chi_infinity": 0.9
+      },
+      {
+        "gamma": 0.5,
+        "F4_chi_infinity": 0.5
+      },
+      {
+        "gamma": 0.9,
+        "F4_chi_infinity": 0.09999999999999998
+      },
+      {
+        "gamma": 1.0,
+        "F4_chi_infinity": 0.0
+      }
+    ],
+    "cautions": [
+      "D5 is a Wilson coefficient; its inverse sixth root is not proven to be a physical cutoff.",
+      "Adiabaticity is a local diagnostic, not a global halo solution or quantum consistency test.",
+      "The nonlinear rational profile must be checked at finite chi, not only its quadratic Taylor coefficient."
+    ]
+  },
+  "checks_passed": true
+}

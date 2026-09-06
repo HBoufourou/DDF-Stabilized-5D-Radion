@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-06",
+  "scope": "PDF rendering and visual layout only; no scientific validation is implied.",
+  "renderer": "ReportLab; article display equations rendered with Matplotlib.",
+  "tex_independently_compiled": false,
+  "visual_review": "All 20 final PDF pages rendered with Poppler and visually inspected; no observed clipping, overlapping elements or broken tables. Article pages 5 and 6 additionally inspected at full page resolution.",
+  "files": [
+    {
+      "path": "publications/article_1/manuscript.pdf",
+      "sha256": "861448b7f513c9653c3fb71246ad3ed5aef91948fe6b8717e1e8f30dd4cd7d8f",
+      "pages": 11,
+      "characters_per_page": [
+        3702,
+        2234,
+        2492,
+        2603,
+        2086,
+        2072,
+        3512,
+        3409,
+        3988,
+        4402,
+        1591
+      ],
+      "text_checks": "PASS",
+      "equations": 36,
+      "minimum_equation_scale": 1.0
+    },
+    {
+      "path": "THEORIE_DDF.pdf",
+      "sha256": "21e6dfb5bee2161d5743bbd8a3fc16569e9e960aaf5e6a5479b0f9f500ae7aa0",
+      "pages": 9,
+      "characters_per_page": [
+        3291,
+        2024,
+        2158,
+        2370,
+        2403,
+        2925,
+        3137,
+        3603,
+        1355
+      ],
+      "text_checks": "PASS"
+    }
+  ]
+}

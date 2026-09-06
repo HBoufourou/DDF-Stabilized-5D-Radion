@@ -1,0 +1,1366 @@
+{
+  "action": "M5^3 R/2 on one physical interval; quadratic U=tau+lambda(sigma-v)^2",
+  "units": "M5^3=L=1; lambda_hat=lambda L; x=mu L; epsilon=qL/sqrt(12M5^3)",
+  "scope": "First three scalar modes, no tensor/Phi/exclusion calculation; fixed background with reconstructed brane minima and tensions.",
+  "method": "P1 full-interval FEM, 8-point Gauss quadrature, generalized eigenproblem including endpoint spectral weights.",
+  "cases": [
+    {
+      "lambda_hat": 0.0,
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.3,
+        "q": 1.0392304845413263,
+        "Lambda5": 0.19666340424278578,
+        "volume_I": 1.028278116921972,
+        "A_center": 0.020072302740417214,
+        "sigma_boundary": 0.37816375655800466,
+        "W_right": 1.8465208099403225,
+        "U_total_each_boundary": -0.29322587422262153,
+        "background_tolerance": 2e-12,
+        "constraint_max_abs": 4.3642867098014904e-13,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "each_endpoint_D_weight": 0.5014435369162457,
+      "boundary_sign_quantity_B": 1.8465208099403225,
+      "runs": [
+        {
+          "elements": 256,
+          "modes": [
+            {
+              "mL": 0.48369088510130953,
+              "m2L2": 0.23395687233008824,
+              "alpha": 0.35983754406287105,
+              "canonical_N": 1.0528059254858073,
+              "canonical_Z": 2.1056118509716146,
+              "SL_norm_D": 1.0000000000000002,
+              "energy_H": 0.23395687233017942,
+              "norm_identity_relative_residual": 3.894662370385049e-13,
+              "assembled_energy_relative_difference": 4.3154368967179835e-12,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.1478861234070528e-11,
+              "parity": "even"
+            },
+            {
+              "mL": 2.2468728518140013,
+              "m2L2": 5.048437612218783,
+              "alpha": 0.03262982099367041,
+              "canonical_N": 22.717969254985338,
+              "canonical_Z": 45.435938509970676,
+              "SL_norm_D": 1.0,
+              "energy_H": 5.048437612218964,
+              "norm_identity_relative_residual": 3.597122599785507e-14,
+              "assembled_energy_relative_difference": -2.8310687127941492e-14,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 2.149867397437282e-13,
+              "parity": "odd"
+            },
+            {
+              "mL": 3.95032472513277,
+              "m2L2": 15.605065433995295,
+              "alpha": 0.006779461642043895,
+              "canonical_N": 70.22279445297812,
+              "canonical_Z": 140.44558890595624,
+              "SL_norm_D": 0.9999999999999996,
+              "energy_H": 15.605065433995136,
+              "norm_identity_relative_residual": -9.658940314238862e-15,
+              "assembled_energy_relative_difference": 3.6193270602780103e-14,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.6083309397029682e-13,
+              "parity": "even"
+            }
+          ]
+        },
+        {
+          "elements": 512,
+          "modes": [
+            {
+              "mL": 0.4836908332871003,
+              "m2L2": 0.23395682220596942,
+              "alpha": 0.3598378405937727,
+              "canonical_N": 1.0528056999155064,
+              "canonical_Z": 2.105611399831013,
+              "SL_norm_D": 0.9999999999999992,
+              "energy_H": 0.23395682220344585,
+              "norm_identity_relative_residual": -1.078559463962847e-11,
+              "assembled_energy_relative_difference": 1.5585310819687948e-12,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 3.2919752672298946e-11,
+              "parity": "even"
+            },
+            {
+              "mL": 2.246871540711378,
+              "m2L2": 5.048431720458721,
+              "alpha": 0.032629967977269275,
+              "canonical_N": 22.717942742053356,
+              "canonical_Z": 45.43588548410671,
+              "SL_norm_D": 1.0000000000000002,
+              "energy_H": 5.048431720456302,
+              "norm_identity_relative_residual": -4.793943020331426e-13,
+              "assembled_energy_relative_difference": 4.996003610813204e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 6.272808397353958e-13,
+              "parity": "odd"
+            },
+            {
+              "mL": 3.9502955887573474,
+              "m2L2": 15.60483523855576,
+              "alpha": 0.006779597547394562,
+              "canonical_N": 70.22175857349373,
+              "canonical_Z": 140.44351714698746,
+              "SL_norm_D": 1.0000000000000002,
+              "energy_H": 15.604835238554163,
+              "norm_identity_relative_residual": -1.0258460747536446e-13,
+              "assembled_energy_relative_difference": -2.531308496145357e-14,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 4.334502918390354e-13,
+              "parity": "even"
+            }
+          ]
+        },
+        {
+          "elements": 1024,
+          "modes": [
+            {
+              "mL": 0.4836908203322228,
+              "m2L2": 0.23395680967365867,
+              "alpha": 0.35983791472982973,
+              "canonical_N": 1.0528056435200943,
+              "canonical_Z": 2.1056112870401886,
+              "SL_norm_D": 0.9999999999999996,
+              "energy_H": 0.23395680967113205,
+              "norm_identity_relative_residual": -1.0799028338226435e-11,
+              "assembled_energy_relative_difference": 1.6462387009141821e-12,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 9.676457529540124e-11,
+              "parity": "even"
+            },
+            {
+              "mL": 2.2468712129249644,
+              "m2L2": 5.0484302474709,
+              "alpha": 0.032630004724224726,
+              "canonical_N": 22.717936113648562,
+              "canonical_Z": 45.435872227297125,
+              "SL_norm_D": 0.9999999999999994,
+              "energy_H": 5.048430247477459,
+              "norm_identity_relative_residual": 1.2996270726262082e-12,
+              "assembled_energy_relative_difference": -1.4717116414431075e-12,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.7401567706610381e-12,
+              "parity": "odd"
+            },
+            {
+              "mL": 3.950288304685455,
+              "m2L2": 15.604777690134686,
+              "alpha": 0.006779631524022034,
+              "canonical_N": 70.22149960556499,
+              "canonical_Z": 140.44299921112997,
+              "SL_norm_D": 1.0000000000000002,
+              "energy_H": 15.604777690125552,
+              "norm_identity_relative_residual": -5.855316231873076e-13,
+              "assembled_energy_relative_difference": 5.471179065352771e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.2696224671559388e-12,
+              "parity": "even"
+            }
+          ]
+        }
+      ],
+      "convergence": [
+        {
+          "mode": 1,
+          "mL_order_last_three": 1.9998524213999982,
+          "mL_richardson_candidate": 0.4836908160139304,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 0.4836908160139304,
+          "mL_finest_vs_richardson_relative": 8.927794947766188e-09,
+          "alpha_order_last_three": 1.9999351652976098,
+          "alpha_richardson_candidate": 0.3598379394418487,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 0.3598379394418487,
+          "alpha_finest_vs_richardson_relative": -6.86754126899558e-08
+        },
+        {
+          "mode": 2,
+          "mL_order_last_three": 1.9999526509490935,
+          "mL_richardson_candidate": 2.2468711036628264,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 2.2468711036628264,
+          "mL_finest_vs_richardson_relative": 4.8628574056408524e-08,
+          "alpha_order_last_three": 1.9999585510275069,
+          "alpha_richardson_candidate": 0.03263001697320988,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 0.03263001697320988,
+          "alpha_finest_vs_richardson_relative": -3.753900944536426e-07
+        },
+        {
+          "mode": 3,
+          "mL_order_last_three": 2.0000043500840765,
+          "mL_richardson_candidate": 3.950285876661491,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 3.950285876661491,
+          "mL_finest_vs_richardson_relative": 6.146451270172548e-07,
+          "alpha_order_last_three": 1.9999876944287287,
+          "alpha_richardson_candidate": 0.006779642849564524,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 0.006779642849564524,
+          "alpha_finest_vs_richardson_relative": -1.670521993846208e-06
+        }
+      ],
+      "weak_coefficients": {
+        "kappa": 2.558800033796898,
+        "c_alpha": 0.9834202398385298
+      },
+      "asymptotic_comparison": {
+        "kappa_from_finite_epsilon": 2.599520061069132,
+        "mass_estimate_method": "Richardson",
+        "coupling_estimate_method": "Richardson",
+        "kappa_finite_epsilon_relative_difference": 0.01591371999937441,
+        "c_alpha_from_finite_epsilon": 0.8834868702838462,
+        "c_alpha_finite_epsilon_relative_difference": -0.10161817451620869
+      },
+      "radion_range_um_if_R_equals_3um": 19.485129030231462
+    },
+    {
+      "lambda_hat": 1.0,
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.3,
+        "q": 1.0392304845413263,
+        "Lambda5": 0.19666340424278578,
+        "volume_I": 1.028278116921972,
+        "A_center": 0.020072302740417214,
+        "sigma_boundary": 0.37816375655800466,
+        "W_right": 1.8465208099403225,
+        "U_total_each_boundary": -0.29322587422262153,
+        "background_tolerance": 2e-12,
+        "constraint_max_abs": 4.3642867098014904e-13,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "each_endpoint_D_weight": 0.24071777371725475,
+      "boundary_sign_quantity_B": 3.8465208099403227,
+      "runs": [
+        {
+          "elements": 256,
+          "modes": [
+            {
+              "mL": 0.537837574356343,
+              "m2L2": 0.2892692563895149,
+              "alpha": 0.35607469435382594,
+              "canonical_N": 1.3017116537533182,
+              "canonical_Z": 2.6034233075066364,
+              "SL_norm_D": 1.0,
+              "energy_H": 0.28926925638962625,
+              "norm_identity_relative_residual": 3.850253449400043e-13,
+              "assembled_energy_relative_difference": 2.0936585798381202e-12,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.6720253476711973e-11,
+              "parity": "even"
+            },
+            {
+              "mL": 2.82832788263196,
+              "m2L2": 7.999438611673386,
+              "alpha": 0.031019225928900215,
+              "canonical_N": 35.997473752531626,
+              "canonical_Z": 71.99494750506325,
+              "SL_norm_D": 0.9999999999999998,
+              "energy_H": 7.999438611673695,
+              "norm_identity_relative_residual": 3.885780586188048e-14,
+              "assembled_energy_relative_difference": -6.505906924303417e-14,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 3.3556985901734755e-13,
+              "parity": "odd"
+            },
+            {
+              "mL": 4.70323737987952,
+              "m2L2": 22.120441851495976,
+              "alpha": 0.009991529761888933,
+              "canonical_N": 99.5419883317311,
+              "canonical_Z": 199.0839766634622,
+              "SL_norm_D": 0.9999999999999999,
+              "energy_H": 22.1204418514958,
+              "norm_identity_relative_residual": -7.66053886991358e-15,
+              "assembled_energy_relative_difference": 3.197442310920451e-14,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.6696676463664606e-13,
+              "parity": "even"
+            }
+          ]
+        },
+        {
+          "elements": 512,
+          "modes": [
+            {
+              "mL": 0.537837548178787,
+              "m2L2": 0.289269228230969,
+              "alpha": 0.3560748954789401,
+              "canonical_N": 1.301711527025333,
+              "canonical_Z": 2.603423054050666,
+              "SL_norm_D": 1.0000000000000002,
+              "energy_H": 0.2892692282278518,
+              "norm_identity_relative_residual": -1.0776379788524082e-11,
+              "assembled_energy_relative_difference": 6.773248628633155e-12,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 5.103960725833724e-11,
+              "parity": "even"
+            },
+            {
+              "mL": 2.8283278448573657,
+              "m2L2": 7.999438397995511,
+              "alpha": 0.0310192469833915,
+              "canonical_N": 35.997472790961986,
+              "canonical_Z": 71.99494558192397,
+              "SL_norm_D": 1.0,
+              "energy_H": 7.999438397991552,
+              "norm_identity_relative_residual": -4.948264020754323e-13,
+              "assembled_energy_relative_difference": 2.6756374893466273e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 8.694426716166713e-13,
+              "parity": "odd"
+            },
+            {
+              "mL": 4.703205414173976,
+              "m2L2": 22.1201411679154,
+              "alpha": 0.009991664297909628,
+              "canonical_N": 99.5406352556066,
+              "canonical_Z": 199.0812705112132,
+              "SL_norm_D": 1.0000000000000002,
+              "energy_H": 22.12014116791258,
+              "norm_identity_relative_residual": -1.27675647831893e-13,
+              "assembled_energy_relative_difference": 6.927791673660977e-14,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 4.0599377496730176e-13,
+              "parity": "even"
+            }
+          ]
+        },
+        {
+          "elements": 1024,
+          "modes": [
+            {
+              "mL": 0.5378375416332962,
+              "m2L2": 0.2892692211901477,
+              "alpha": 0.35607494576322857,
+              "canonical_N": 1.3017114953411342,
+              "canonical_Z": 2.6034229906822683,
+              "SL_norm_D": 1.0000000000000007,
+              "energy_H": 0.2892692211869187,
+              "norm_identity_relative_residual": -1.1163070468001024e-11,
+              "assembled_energy_relative_difference": 2.758904216193514e-12,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.4584871983516692e-10,
+              "parity": "even"
+            },
+            {
+              "mL": 2.82832783541063,
+              "m2L2": 7.999438344558579,
+              "alpha": 0.031019252247042668,
+              "canonical_N": 35.99747255056081,
+              "canonical_Z": 71.99494510112162,
+              "SL_norm_D": 1.0,
+              "energy_H": 7.999438344569068,
+              "norm_identity_relative_residual": 1.3111733920823099e-12,
+              "assembled_energy_relative_difference": -1.103006574965093e-12,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 2.440134800516152e-12,
+              "parity": "odd"
+            },
+            {
+              "mL": 4.703197422713469,
+              "m2L2": 22.12006599701862,
+              "alpha": 0.009991697931151265,
+              "canonical_N": 99.54029698656362,
+              "canonical_Z": 199.08059397312724,
+              "SL_norm_D": 0.9999999999999998,
+              "energy_H": 22.120065997014137,
+              "norm_identity_relative_residual": -2.0250467969162855e-13,
+              "assembled_energy_relative_difference": 1.0302869668521453e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.2752137646315305e-12,
+              "parity": "even"
+            }
+          ]
+        }
+      ],
+      "convergence": [
+        {
+          "mode": 1,
+          "mL_order_last_three": 1.9997571283617934,
+          "mL_richardson_candidate": 0.537837539451466,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 0.537837539451466,
+          "mL_finest_vs_richardson_relative": 4.056671665253475e-09,
+          "alpha_order_last_three": 1.9999136407240228,
+          "alpha_richardson_candidate": 0.35607496252465803,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 0.35607496252465803,
+          "alpha_finest_vs_richardson_relative": -4.7072755027244284e-08
+        },
+        {
+          "mode": 2,
+          "mL_order_last_three": 1.9995284496105192,
+          "mL_richardson_candidate": 2.8283278322617176,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 2.8283278322617176,
+          "mL_finest_vs_richardson_relative": 1.1133476363056616e-09,
+          "alpha_order_last_three": 1.9999922306586029,
+          "alpha_richardson_candidate": 0.031019254001593055,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 0.031019254001593055,
+          "alpha_finest_vs_richardson_relative": -5.656326829139857e-08
+        },
+        {
+          "mode": 3,
+          "mL_order_last_three": 1.9999938402300284,
+          "mL_richardson_candidate": 4.7031947588933,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 4.7031947588933,
+          "mL_finest_vs_richardson_relative": 5.663852562509675e-07,
+          "alpha_order_last_three": 2.000032751511714,
+          "alpha_richardson_candidate": 0.00999170914223181,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 0.00999170914223181,
+          "alpha_finest_vs_richardson_relative": -1.1220383204779694e-06
+        }
+      ],
+      "weak_coefficients": {
+        "kappa": 3.359794732912209,
+        "c_alpha": 0.8399486832280524
+      },
+      "asymptotic_comparison": {
+        "kappa_from_finite_epsilon": 3.2141024315911912,
+        "mass_estimate_method": "Richardson",
+        "coupling_estimate_method": "Richardson",
+        "kappa_finite_epsilon_relative_difference": -0.04336345309843803,
+        "c_alpha_from_finite_epsilon": 0.7580543063774907,
+        "c_alpha_finite_epsilon_relative_difference": -0.09749926214043092
+      },
+      "radion_range_um_if_R_equals_3um": 17.523466231794824,
+      "quadratic_parameters": {
+        "v_left": -0.8977789988286677,
+        "v_right": 0.8977789988286677,
+        "tau_each": -0.5632258742226215
+      }
+    },
+    {
+      "lambda_hat": 20.0,
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.3,
+        "q": 1.0392304845413263,
+        "Lambda5": 0.19666340424278578,
+        "volume_I": 1.028278116921972,
+        "A_center": 0.020072302740417214,
+        "sigma_boundary": 0.37816375655800466,
+        "W_right": 1.8465208099403225,
+        "U_total_each_boundary": -0.29322587422262153,
+        "background_tolerance": 2e-12,
+        "constraint_max_abs": 4.3642867098014904e-13,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "each_endpoint_D_weight": 0.02212671228108358,
+      "boundary_sign_quantity_B": 41.84652080994032,
+      "runs": [
+        {
+          "elements": 256,
+          "modes": [
+            {
+              "mL": 0.5996714964404923,
+              "m2L2": 0.3596059036431794,
+              "alpha": 0.35013528802412835,
+              "canonical_N": 1.6182265663949196,
+              "canonical_Z": 3.236453132789839,
+              "SL_norm_D": 1.0,
+              "energy_H": 0.35960590364331546,
+              "norm_identity_relative_residual": 3.7836400679225335e-13,
+              "assembled_energy_relative_difference": 9.867662242868391e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 3.843522944486537e-11,
+              "parity": "even"
+            },
+            {
+              "mL": 3.7656687199029,
+              "m2L2": 14.180260908055148,
+              "alpha": 0.024118291707236963,
+              "canonical_N": 63.8111740862508,
+              "canonical_Z": 127.6223481725016,
+              "SL_norm_D": 0.9999999999999998,
+              "energy_H": 14.180260908055734,
+              "norm_identity_relative_residual": 4.1522341120980855e-14,
+              "assembled_energy_relative_difference": -3.8968828164342995e-14,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.3403197701858702e-12,
+              "parity": "odd"
+            },
+            {
+              "mL": 6.466716341229969,
+              "m2L2": 41.81842023793072,
+              "alpha": 0.010751744785229066,
+              "canonical_N": 188.18289107068722,
+              "canonical_Z": 376.36578214137444,
+              "SL_norm_D": 1.0,
+              "energy_H": 41.818420237930496,
+              "norm_identity_relative_residual": -5.218048215738236e-15,
+              "assembled_energy_relative_difference": -6.661338147750939e-15,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 3.655107044999628e-13,
+              "parity": "even"
+            }
+          ]
+        },
+        {
+          "elements": 512,
+          "modes": [
+            {
+              "mL": 0.5996714878078265,
+              "m2L2": 0.35960589328965226,
+              "alpha": 0.35013533968740906,
+              "canonical_N": 1.6182265197860675,
+              "canonical_Z": 3.236453039572135,
+              "SL_norm_D": 0.9999999999999998,
+              "energy_H": 0.3596058932857928,
+              "norm_identity_relative_residual": -1.0732303934446463e-11,
+              "assembled_energy_relative_difference": 5.964784222101116e-12,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.571122365114515e-10,
+              "parity": "even"
+            },
+            {
+              "mL": 3.7656605065661424,
+              "m2L2": 14.180199050711977,
+              "alpha": 0.024117879166721208,
+              "canonical_N": 63.81089572817354,
+              "canonical_Z": 127.62179145634708,
+              "SL_norm_D": 1.0000000000000002,
+              "energy_H": 14.180199050705232,
+              "norm_identity_relative_residual": -4.759526106568046e-13,
+              "assembled_energy_relative_difference": 4.505285033928885e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 4.554172277466371e-12,
+              "parity": "odd"
+            },
+            {
+              "mL": 6.466624076991462,
+              "m2L2": 41.817226953125676,
+              "alpha": 0.01075134846721941,
+              "canonical_N": 188.17752128902686,
+              "canonical_Z": 376.3550425780537,
+              "SL_norm_D": 0.9999999999999993,
+              "energy_H": 41.81722695311708,
+              "norm_identity_relative_residual": -2.049471703458039e-13,
+              "assembled_energy_relative_difference": 1.567634910770721e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.2352760929518662e-12,
+              "parity": "even"
+            }
+          ]
+        },
+        {
+          "elements": 1024,
+          "modes": [
+            {
+              "mL": 0.5996714856488508,
+              "m2L2": 0.3596058907002998,
+              "alpha": 0.3501353526056942,
+              "canonical_N": 1.6182265081325922,
+              "canonical_Z": 3.2364530162651843,
+              "SL_norm_D": 1.0000000000000004,
+              "energy_H": 0.3596058906961316,
+              "norm_identity_relative_residual": -1.1591505533203872e-11,
+              "assembled_energy_relative_difference": -1.9317880628477724e-12,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 5.960889137884297e-10,
+              "parity": "even"
+            },
+            {
+              "mL": 3.7656584531861634,
+              "m2L2": 14.180183586052408,
+              "alpha": 0.024117776030356523,
+              "canonical_N": 63.81082613731128,
+              "canonical_Z": 127.62165227462256,
+              "SL_norm_D": 1.0,
+              "energy_H": 14.180183586069173,
+              "norm_identity_relative_residual": 1.1823875212257917e-12,
+              "assembled_energy_relative_difference": -8.455458555545192e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.4423355777233014e-11,
+              "parity": "odd"
+            },
+            {
+              "mL": 6.466601010514493,
+              "m2L2": 41.81692862918707,
+              "alpha": 0.01075124938616549,
+              "canonical_N": 188.17617883138274,
+              "canonical_Z": 376.3523576627655,
+              "SL_norm_D": 1.0000000000000004,
+              "energy_H": 41.81692862919616,
+              "norm_identity_relative_residual": 2.169375790117556e-13,
+              "assembled_energy_relative_difference": -2.084998840246044e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 4.212951823931129e-12,
+              "parity": "even"
+            }
+          ]
+        }
+      ],
+      "convergence": [
+        {
+          "mode": 1,
+          "mL_order_last_three": 1.9994590824809177,
+          "mL_richardson_candidate": 0.5996714849291922,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 0.5996714849291922,
+          "mL_finest_vs_richardson_relative": 1.2000880289519955e-09,
+          "alpha_order_last_three": 1.9997246938684514,
+          "alpha_richardson_candidate": 0.35013535691178915,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 0.35013535691178915,
+          "alpha_finest_vs_richardson_relative": -1.2298372320529438e-08
+        },
+        {
+          "mode": 2,
+          "mL_order_last_three": 1.9999678281673383,
+          "mL_richardson_candidate": 3.7656577687261703,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 3.7656577687261703,
+          "mL_finest_vs_richardson_relative": 1.8176372762468418e-07,
+          "alpha_order_last_three": 1.999982714000636,
+          "alpha_richardson_candidate": 0.024117741651568297,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 0.024117741651568297,
+          "alpha_finest_vs_richardson_relative": 1.4254563600601955e-06
+        },
+        {
+          "mode": 3,
+          "mL_order_last_three": 1.9999738970856773,
+          "mL_richardson_candidate": 6.466593321688837,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 6.466593321688837,
+          "mL_finest_vs_richardson_relative": 1.1890071438536154e-06,
+          "alpha_order_last_three": 1.9999774087183226,
+          "alpha_richardson_candidate": 0.010751216359147516,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 0.010751216359147516,
+          "alpha_finest_vs_richardson_relative": 3.0719331534090344e-06
+        }
+      ],
+      "weak_coefficients": {
+        "kappa": 4.297387689410801,
+        "c_alpha": 0.6226781189295816
+      },
+      "asymptotic_comparison": {
+        "kappa_from_finite_epsilon": 3.9956209981909154,
+        "mass_estimate_method": "Richardson",
+        "coupling_estimate_method": "Richardson",
+        "kappa_finite_epsilon_relative_difference": -0.07022096050665128,
+        "c_alpha_from_finite_epsilon": 0.5600674526151946,
+        "c_alpha_finite_epsilon_relative_difference": -0.10055061260546327
+      },
+      "radion_range_um_if_R_equals_3um": 15.716568483962908,
+      "quadratic_parameters": {
+        "v_left": -0.40414451867153783,
+        "v_right": 0.40414451867153783,
+        "tau_each": -0.30672587422262154
+      }
+    },
+    {
+      "lambda_hat": "infinity",
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.3,
+        "q": 1.0392304845413263,
+        "Lambda5": 0.19666340424278578,
+        "volume_I": 1.028278116921972,
+        "A_center": 0.020072302740417214,
+        "sigma_boundary": 0.37816375655800466,
+        "W_right": 1.8465208099403225,
+        "U_total_each_boundary": -0.29322587422262153,
+        "background_tolerance": 2e-12,
+        "constraint_max_abs": 4.3642867098014904e-13,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "each_endpoint_D_weight": 0.0,
+      "boundary_sign_quantity_B": null,
+      "runs": [
+        {
+          "elements": 256,
+          "modes": [
+            {
+              "mL": 0.6071101993425302,
+              "m2L2": 0.36858279414572676,
+              "alpha": 0.34928629977176495,
+              "canonical_N": 1.658622573656395,
+              "canonical_Z": 3.31724514731279,
+              "SL_norm_D": 0.9999999999999998,
+              "energy_H": 0.3685827941458656,
+              "norm_identity_relative_residual": 3.7680969455777813e-13,
+              "assembled_energy_relative_difference": -1.1636247521096266e-12,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 3.8914273218955706e-11,
+              "parity": "even"
+            },
+            {
+              "mL": 3.8927451762121152,
+              "m2L2": 15.153465006922692,
+              "alpha": 0.022622387943657264,
+              "canonical_N": 68.19059253115498,
+              "canonical_Z": 136.38118506230995,
+              "SL_norm_D": 1.0000000000000002,
+              "energy_H": 15.153465006923328,
+              "norm_identity_relative_residual": 4.1744385725905886e-14,
+              "assembled_energy_relative_difference": 1.2878587085651816e-14,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.1860723737617021e-12,
+              "parity": "odd"
+            },
+            {
+              "mL": 6.755153280678773,
+              "m2L2": 45.63209584546518,
+              "alpha": 0.009830754282003959,
+              "canonical_N": 205.344431304592,
+              "canonical_Z": 410.688862609184,
+              "SL_norm_D": 0.9999999999999996,
+              "energy_H": 45.63209584546489,
+              "norm_identity_relative_residual": -5.88418203051333e-15,
+              "assembled_energy_relative_difference": 1.865174681370263e-14,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 3.9374569868209576e-13,
+              "parity": "even"
+            }
+          ]
+        },
+        {
+          "elements": 512,
+          "modes": [
+            {
+              "mL": 0.6071101912778761,
+              "m2L2": 0.3685827843534593,
+              "alpha": 0.34928633033101625,
+              "canonical_N": 1.6586225295727781,
+              "canonical_Z": 3.3172450591455562,
+              "SL_norm_D": 0.9999999999999994,
+              "energy_H": 0.36858278434950625,
+              "norm_identity_relative_residual": -1.0724421350971625e-11,
+              "assembled_energy_relative_difference": 5.579758877161112e-12,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.6301096663128673e-10,
+              "parity": "even"
+            },
+            {
+              "mL": 3.8927335933519305,
+              "m2L2": 15.153374828810634,
+              "alpha": 0.02262192346202893,
+              "canonical_N": 68.19018672961627,
+              "canonical_Z": 136.38037345923254,
+              "SL_norm_D": 0.9999999999999993,
+              "energy_H": 15.153374828803615,
+              "norm_identity_relative_residual": -4.624078897563777e-13,
+              "assembled_energy_relative_difference": 4.374278717023117e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 5.435818957458304e-12,
+              "parity": "odd"
+            },
+            {
+              "mL": 6.755035061247957,
+              "m2L2": 45.63049867868919,
+              "alpha": 0.009830283800213118,
+              "canonical_N": 205.33724405405798,
+              "canonical_Z": 410.67448810811595,
+              "SL_norm_D": 0.9999999999999996,
+              "energy_H": 45.63049867867955,
+              "norm_identity_relative_residual": -2.1083135237631723e-13,
+              "assembled_energy_relative_difference": 1.7053025658242404e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.5500124273272924e-12,
+              "parity": "even"
+            }
+          ]
+        },
+        {
+          "elements": 1024,
+          "modes": [
+            {
+              "mL": 0.6071101892609382,
+              "m2L2": 0.3685827819044522,
+              "alpha": 0.34928633797321246,
+              "canonical_N": 1.6586225185507224,
+              "canonical_Z": 3.317245037101445,
+              "SL_norm_D": 0.9999999999999998,
+              "energy_H": 0.3685827819001605,
+              "norm_identity_relative_residual": -1.1643574993058792e-11,
+              "assembled_energy_relative_difference": 1.0732081889841538e-11,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 6.67458419502666e-10,
+              "parity": "even"
+            },
+            {
+              "mL": 3.8927306975877785,
+              "m2L2": 15.153352283942233,
+              "alpha": 0.022621807340931097,
+              "canonical_N": 68.1900852778179,
+              "canonical_Z": 136.3801705556358,
+              "SL_norm_D": 1.0000000000000004,
+              "energy_H": 15.153352283959533,
+              "norm_identity_relative_residual": 1.1410872247097359e-12,
+              "assembled_energy_relative_difference": -9.480194407274212e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 2.0849726362625994e-11,
+              "parity": "odd"
+            },
+            {
+              "mL": 6.7550055061795256,
+              "m2L2": 45.6300993885157,
+              "alpha": 0.009830166181314473,
+              "canonical_N": 205.33544724837066,
+              "canonical_Z": 410.6708944967413,
+              "SL_norm_D": 1.0,
+              "energy_H": 45.630099388526816,
+              "norm_identity_relative_residual": 2.4358293160275934e-13,
+              "assembled_energy_relative_difference": -3.077538224260934e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 5.6037221487456706e-12,
+              "parity": "even"
+            }
+          ]
+        }
+      ],
+      "convergence": [
+        {
+          "mode": 1,
+          "mL_order_last_three": 1.9994459474413928,
+          "mL_richardson_candidate": 0.6071101885886255,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 0.6071101885886255,
+          "mL_finest_vs_richardson_relative": 1.1073981731613003e-09,
+          "alpha_order_last_three": 1.9995499939876555,
+          "alpha_richardson_candidate": 0.3492863405206112,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 0.3492863405206112,
+          "alpha_finest_vs_richardson_relative": -7.293153081455728e-09
+        },
+        {
+          "mode": 2,
+          "mL_order_last_three": 1.999975534838083,
+          "mL_richardson_candidate": 3.892729732333061,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 3.892729732333061,
+          "mL_finest_vs_richardson_relative": 2.479634559904298e-07,
+          "alpha_order_last_three": 1.9999914180418337,
+          "alpha_richardson_candidate": 0.022621768633898486,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 0.022621768633898486,
+          "alpha_finest_vs_richardson_relative": 1.7110524483943124e-06
+        },
+        {
+          "mode": 3,
+          "mL_order_last_three": 1.9999897135358902,
+          "mL_richardson_candidate": 6.754995654490048,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 6.754995654490048,
+          "mL_finest_vs_richardson_relative": 1.4584301724074322e-06,
+          "alpha_order_last_three": 2.000019000465825,
+          "alpha_richardson_candidate": 0.009830126975014924,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 0.009830126975014924,
+          "alpha_finest_vs_richardson_relative": 3.98838180304395e-06
+        }
+      ],
+      "weak_coefficients": {
+        "kappa": 4.411529036348532,
+        "c_alpha": 0.5925948730367703
+      },
+      "asymptotic_comparison": {
+        "kappa_from_finite_epsilon": 4.095364234312406,
+        "mass_estimate_method": "Richardson",
+        "coupling_estimate_method": "Richardson",
+        "kappa_finite_epsilon_relative_difference": -0.07166785017872612,
+        "c_alpha_from_finite_epsilon": 0.5317669062425947,
+        "c_alpha_finite_epsilon_relative_difference": -0.10264679895467343
+      },
+      "radion_range_um_if_R_equals_3um": 15.523999000378424
+    },
+    {
+      "lambda_hat": 1.0,
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.01,
+        "q": 0.034641016151377546,
+        "Lambda5": 0.0002519400191380237,
+        "volume_I": 1.0000344559818735,
+        "A_center": 2.4996457828627988e-05,
+        "sigma_boundary": 0.013190455492759514,
+        "W_right": 1.5235751836466842,
+        "U_total_each_boundary": -0.0003544333132409339,
+        "background_tolerance": 2e-12,
+        "constraint_max_abs": 3.860518675569136e-15,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "each_endpoint_D_weight": 236.5022143421059,
+      "boundary_sign_quantity_B": 3.523575183646684,
+      "runs": [
+        {
+          "elements": 256,
+          "modes": [
+            {
+              "mL": 0.01832925993755824,
+              "m2L2": 0.0003359617698585775,
+              "alpha": 0.3333613278380542,
+              "canonical_N": 0.0015118279692576042,
+              "canonical_Z": 0.0030236559385152083,
+              "SL_norm_D": 1.0000000000000002,
+              "energy_H": 0.00033596177094613426,
+              "norm_identity_relative_residual": 3.2371441083256514e-09,
+              "assembled_energy_relative_difference": -2.8553094333361173e-09,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.0343177420406295e-08,
+              "parity": "even"
+            },
+            {
+              "mL": 2.6385434976022544,
+              "m2L2": 6.961911788739137,
+              "alpha": 3.6904913822436895e-05,
+              "canonical_N": 31.328603049327704,
+              "canonical_Z": 62.65720609865541,
+              "SL_norm_D": 1.0000000000000004,
+              "energy_H": 6.9619117887394895,
+              "norm_identity_relative_residual": 5.0182080713057076e-14,
+              "assembled_energy_relative_difference": -2.3869795029440866e-14,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 3.006333178988971e-13,
+              "parity": "odd"
+            },
+            {
+              "mL": 4.523909130395111,
+              "m2L2": 20.46575382007225,
+              "alpha": 1.0639807761342888e-05,
+              "canonical_N": 92.09589219032983,
+              "canonical_Z": 184.19178438065967,
+              "SL_norm_D": 1.0,
+              "energy_H": 20.465753820073296,
+              "norm_identity_relative_residual": 5.10702591327572e-14,
+              "assembled_energy_relative_difference": -3.8746783559417963e-14,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.261544483489038e-13,
+              "parity": "even"
+            }
+          ]
+        },
+        {
+          "elements": 512,
+          "modes": [
+            {
+              "mL": 0.01832925997252678,
+              "m2L2": 0.00033596177114047235,
+              "alpha": 0.33336132804951,
+              "canonical_N": 0.0015118279690852856,
+              "canonical_Z": 0.0030236559381705713,
+              "SL_norm_D": 0.9999999999999998,
+              "energy_H": 0.00033596177090784127,
+              "norm_identity_relative_residual": -6.924329998270196e-10,
+              "assembled_energy_relative_difference": 1.208898092741606e-09,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 3.130017226241308e-08,
+              "parity": "even"
+            },
+            {
+              "mL": 2.6385434744048784,
+              "m2L2": 6.961911666324566,
+              "alpha": 3.690490983980505e-05,
+              "canonical_N": 31.328602498463233,
+              "canonical_Z": 62.65720499692647,
+              "SL_norm_D": 0.9999999999999997,
+              "energy_H": 6.961911666325163,
+              "norm_identity_relative_residual": 8.615330671091215e-14,
+              "assembled_energy_relative_difference": 1.7319479184152442e-14,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 8.710408956673354e-13,
+              "parity": "odd"
+            },
+            {
+              "mL": 4.52387914639692,
+              "m2L2": 20.465482531204927,
+              "alpha": 1.0639937486215547e-05,
+              "canonical_N": 92.0946713904215,
+              "canonical_Z": 184.189342780843,
+              "SL_norm_D": 0.9999999999999998,
+              "energy_H": 20.465482531204778,
+              "norm_identity_relative_residual": -7.105427357601002e-15,
+              "assembled_energy_relative_difference": -1.2878587085651816e-14,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 3.22892890182282e-13,
+              "parity": "even"
+            }
+          ]
+        },
+        {
+          "elements": 1024,
+          "modes": [
+            {
+              "mL": 0.018329260135954716,
+              "m2L2": 0.00033596177713149866,
+              "alpha": 0.33336132810308466,
+              "canonical_N": 0.0015118279690422031,
+              "canonical_Z": 0.0030236559380844063,
+              "SL_norm_D": 1.0,
+              "energy_H": 0.0003359617708982674,
+              "norm_identity_relative_residual": -1.855339415435253e-08,
+              "assembled_energy_relative_difference": 1.6309070538511605e-08,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 8.544414722200056e-08,
+              "parity": "even"
+            },
+            {
+              "mL": 2.638543468604607,
+              "m2L2": 6.96191163571603,
+              "alpha": 3.690490884390837e-05,
+              "canonical_N": 31.328602360728166,
+              "canonical_Z": 62.65720472145633,
+              "SL_norm_D": 1.0000000000000009,
+              "energy_H": 6.96191163571737,
+              "norm_identity_relative_residual": 1.9162449405030202e-13,
+              "assembled_energy_relative_difference": -7.005507285384738e-14,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 2.5140875381733053e-12,
+              "parity": "odd"
+            },
+            {
+              "mL": 4.523871650360152,
+              "m2L2": 20.46541470893229,
+              "alpha": 1.0639969916577488e-05,
+              "canonical_N": 92.09436619015472,
+              "canonical_Z": 184.18873238030943,
+              "SL_norm_D": 0.9999999999999993,
+              "energy_H": 20.46541470892327,
+              "norm_identity_relative_residual": -4.4009240696141205e-13,
+              "assembled_energy_relative_difference": 5.766498389903063e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.0825384720516378e-12,
+              "parity": "even"
+            }
+          ]
+        }
+      ],
+      "convergence": [
+        {
+          "mode": 1,
+          "mL_order_last_three": -2.2245252272790905,
+          "mL_richardson_candidate": 0.018329260190430696,
+          "mL_second_order_resolved": false,
+          "mL_estimate_method": "finest grid; order-two extrapolation not validated",
+          "mL_selected_estimate": 0.018329260135954716,
+          "mL_finest_vs_richardson_relative": -2.972077361995673e-09,
+          "alpha_order_last_three": 1.9807338313030636,
+          "alpha_richardson_candidate": 0.3333613281209429,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 0.3333613281209429,
+          "alpha_finest_vs_richardson_relative": -5.3570148317305666e-11
+        },
+        {
+          "mode": 2,
+          "mL_order_last_three": 1.9997693180267766,
+          "mL_richardson_candidate": 2.6385434666711833,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 2.6385434666711833,
+          "mL_finest_vs_richardson_relative": 7.327616291519234e-10,
+          "alpha_order_last_three": 1.999654145308565,
+          "alpha_richardson_candidate": 3.690490851194282e-05,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 3.690490851194282e-05,
+          "alpha_finest_vs_richardson_relative": 8.995159950231368e-09
+        },
+        {
+          "mode": 3,
+          "mL_order_last_three": 1.9999928364958592,
+          "mL_richardson_candidate": 4.52386915168123,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 4.52386915168123,
+          "mL_finest_vs_richardson_relative": 5.523322710310197e-07,
+          "alpha_order_last_three": 2.0000380894287053,
+          "alpha_richardson_candidate": 1.0639980726698134e-05,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 1.0639980726698134e-05,
+          "alpha_finest_vs_richardson_relative": -1.0159906229656457e-06
+        }
+      ],
+      "weak_coefficients": {
+        "kappa": 3.359794732912209,
+        "c_alpha": 0.8399486832280524
+      },
+      "asymptotic_comparison": {
+        "kappa_from_finite_epsilon": 3.359617771314987,
+        "mass_estimate_method": "finest grid; order-two extrapolation not validated",
+        "coupling_estimate_method": "Richardson",
+        "kappa_finite_epsilon_relative_difference": -5.2670359736106676e-05,
+        "c_alpha_from_finite_epsilon": 0.8398436282863742,
+        "c_alpha_finite_epsilon_relative_difference": -0.00012507304764675098
+      },
+      "radion_range_um_if_R_equals_3um": 514.1930383912068,
+      "quadratic_parameters": {
+        "v_left": -0.030510963568448287,
+        "v_right": 0.030510963568448287,
+        "tau_each": -0.0006544333132409339
+      }
+    },
+    {
+      "lambda_hat": 1.0,
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.005,
+        "q": 0.017320508075688773,
+        "Lambda5": 6.29933641544064e-05,
+        "volume_I": 1.0000086147361338,
+        "A_center": 6.2497785796852625e-06,
+        "sigma_boundary": 0.0065955060734630925,
+        "W_right": 1.5232850365285926,
+        "U_total_each_boundary": -8.861530972589893e-05,
+        "background_tolerance": 2e-12,
+        "constraint_max_abs": 1.2422517441795788e-15,
+        "source_relative_residual": 0.0
+      },
+      "each_endpoint_D_weight": 946.0867624316838,
+      "boundary_sign_quantity_B": 3.5232850365285926,
+      "runs": [
+        {
+          "elements": 256,
+          "modes": [
+            {
+              "mL": 0.009164811129058271,
+              "m2L2": 8.399376303131033e-05,
+              "alpha": 0.33334033261630425,
+              "canonical_N": 0.00037797192826231196,
+              "canonical_Z": 0.0007559438565246239,
+              "SL_norm_D": 1.0000000000000002,
+              "energy_H": 8.399376183606932e-05,
+              "norm_identity_relative_residual": -1.4230116418545435e-08,
+              "assembled_energy_relative_difference": 8.528930006690416e-09,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 4.193368904627907e-08,
+              "parity": "even"
+            },
+            {
+              "mL": 2.6383706596387313,
+              "m2L2": 6.960999737642515,
+              "alpha": 9.226812679544858e-06,
+              "canonical_N": 31.32449881939021,
+              "canonical_Z": 62.64899763878042,
+              "SL_norm_D": 0.9999999999999999,
+              "energy_H": 6.960999737642269,
+              "norm_identity_relative_residual": -3.519406988061746e-14,
+              "assembled_energy_relative_difference": -1.5543122344752192e-15,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 3.200558588130902e-13,
+              "parity": "odd"
+            },
+            {
+              "mL": 4.5237467696013685,
+              "m2L2": 20.464284835478814,
+              "alpha": 2.659839844239661e-06,
+              "canonical_N": 92.08928175965102,
+              "canonical_Z": 184.17856351930203,
+              "SL_norm_D": 1.0,
+              "energy_H": 20.464284835478004,
+              "norm_identity_relative_residual": -3.963496197911809e-14,
+              "assembled_energy_relative_difference": 2.5757174171303632e-14,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.3333447731656475e-13,
+              "parity": "even"
+            }
+          ]
+        },
+        {
+          "elements": 512,
+          "modes": [
+            {
+              "mL": 0.009164810967072206,
+              "m2L2": 8.399376006216698e-05,
+              "alpha": 0.3333403326688661,
+              "canonical_N": 0.00037797192825154107,
+              "canonical_Z": 0.0007559438565030821,
+              "SL_norm_D": 1.0000000000000004,
+              "energy_H": 8.39937618336758e-05,
+              "norm_identity_relative_residual": 2.1090956980884812e-08,
+              "assembled_energy_relative_difference": -1.0889216528475743e-08,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.1810802580110518e-07,
+              "parity": "even"
+            },
+            {
+              "mL": 2.6383706364289146,
+              "m2L2": 6.960999615170316,
+              "alpha": 9.226811677859407e-06,
+              "canonical_N": 31.32449826826173,
+              "canonical_Z": 62.64899653652346,
+              "SL_norm_D": 0.9999999999999998,
+              "energy_H": 6.960999615169274,
+              "norm_identity_relative_residual": -1.4943601911454607e-13,
+              "assembled_energy_relative_difference": 1.361133428190442e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 8.664919538025836e-13,
+              "parity": "odd"
+            },
+            {
+              "mL": 4.52371678735947,
+              "m2L2": 20.464013572237885,
+              "alpha": 2.659872271187291e-06,
+              "canonical_N": 92.08806107507962,
+              "canonical_Z": 184.17612215015924,
+              "SL_norm_D": 1.0,
+              "energy_H": 20.464013572239917,
+              "norm_identity_relative_residual": 9.9253938401489e-14,
+              "assembled_energy_relative_difference": -1.247890679678676e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 3.5823210186654636e-13,
+              "parity": "even"
+            }
+          ]
+        },
+        {
+          "elements": 1024,
+          "modes": [
+            {
+              "mL": 0.009164810325762078,
+              "m2L2": 8.39937483071952e-05,
+              "alpha": 0.33334033268168206,
+              "canonical_N": 0.00037797192824884807,
+              "canonical_Z": 0.0007559438564976961,
+              "SL_norm_D": 1.0000000000000002,
+              "energy_H": 8.399376183307734e-05,
+              "norm_identity_relative_residual": 1.6103439115511264e-07,
+              "assembled_energy_relative_difference": -1.7326138823658965e-07,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 3.7189804117234503e-07,
+              "parity": "even"
+            },
+            {
+              "mL": 2.6383706306263304,
+              "m2L2": 6.96099958455158,
+              "alpha": 9.226811427381274e-06,
+              "canonical_N": 31.32449813046062,
+              "canonical_Z": 62.64899626092124,
+              "SL_norm_D": 0.9999999999999994,
+              "energy_H": 6.960999584546804,
+              "norm_identity_relative_residual": -6.855627177060342e-13,
+              "assembled_energy_relative_difference": 5.39124300757976e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 2.503803461790869e-12,
+              "parity": "odd"
+            },
+            {
+              "mL": 4.523709291760213,
+              "m2L2": 20.46394575635769,
+              "alpha": 2.6598803777132327e-06,
+              "canonical_N": 92.0877559036469,
+              "canonical_Z": 184.1755118072938,
+              "SL_norm_D": 1.0000000000000004,
+              "energy_H": 20.463945756365977,
+              "norm_identity_relative_residual": 4.0456527017340704e-13,
+              "assembled_energy_relative_difference": -6.779021788361206e-13,
+              "canonical_normalization_method": "positive elementwise integral; assembled energy retained only as a cancellation diagnostic",
+              "matrix_relative_residual": 1.1004128056042817e-12,
+              "parity": "even"
+            }
+          ]
+        }
+      ],
+      "convergence": [
+        {
+          "mode": 1,
+          "mL_order_last_three": -1.9851524810204833,
+          "mL_richardson_candidate": 0.009164810111992034,
+          "mL_second_order_resolved": false,
+          "mL_estimate_method": "finest grid; order-two extrapolation not validated",
+          "mL_selected_estimate": 0.009164810325762078,
+          "mL_finest_vs_richardson_relative": 2.3325092524117963e-08,
+          "alpha_order_last_three": 2.036073150618697,
+          "alpha_richardson_candidate": 0.3333403326859541,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 0.3333403326859541,
+          "alpha_finest_vs_richardson_relative": -1.2815859484760495e-11
+        },
+        {
+          "mode": 2,
+          "mL_order_last_three": 1.9999676760014486,
+          "mL_richardson_candidate": 2.6383706286921353,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 2.6383706286921353,
+          "mL_finest_vs_richardson_relative": 7.331020235312735e-10,
+          "alpha_order_last_three": 1.9996729844610333,
+          "alpha_richardson_candidate": 9.226811343888563e-06,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 9.226811343888563e-06,
+          "alpha_finest_vs_richardson_relative": 9.048923610421866e-09
+        },
+        {
+          "mode": 3,
+          "mL_order_last_three": 1.999992535290173,
+          "mL_richardson_candidate": 4.523706793227126,
+          "mL_second_order_resolved": true,
+          "mL_estimate_method": "Richardson",
+          "mL_selected_estimate": 4.523706793227126,
+          "mL_finest_vs_richardson_relative": 5.523198562951137e-07,
+          "alpha_order_last_three": 2.0000375444742544,
+          "alpha_richardson_candidate": 2.6598830798885463e-06,
+          "alpha_second_order_resolved": true,
+          "alpha_estimate_method": "Richardson",
+          "alpha_selected_estimate": 2.6598830798885463e-06,
+          "alpha_finest_vs_richardson_relative": -1.015900034873063e-06
+        }
+      ],
+      "weak_coefficients": {
+        "kappa": 3.359794732912209,
+        "c_alpha": 0.8399486832280524
+      },
+      "asymptotic_comparison": {
+        "kappa_from_finite_epsilon": 3.3597499322878077,
+        "mass_estimate_method": "finest grid; order-two extrapolation not validated",
+        "coupling_estimate_method": "Richardson",
+        "kappa_finite_epsilon_relative_difference": -1.3334333780035124e-05,
+        "c_alpha_from_finite_epsilon": 0.8399223144905932,
+        "c_alpha_finite_epsilon_relative_difference": -3.1393271976876136e-05
+      },
+      "radion_range_um_if_R_equals_3um": 1028.365850003086,
+      "quadratic_parameters": {
+        "v_left": -0.015255760111307479,
+        "v_right": 0.015255760111307479,
+        "tau_each": -0.00016361530972589894
+      }
+    }
+  ],
+  "mass_positivity_and_moderate_epsilon_monotonicity_passed": true,
+  "small_epsilon_error_reduction": {
+    "kappa_finite_epsilon_relative_difference": 3.9499805993282955,
+    "c_alpha_finite_epsilon_relative_difference": 3.9840717380105555
+  },
+  "small_epsilon_error_reduction_note": "Diagnostic ratio only; when mesh order is not resolved the finest-grid result is used, and no Richardson convergence or asymptotic remainder bound is claimed."
+}

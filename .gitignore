@@ -1,9 +1,5 @@
 __pycache__/
 *.pyc
-.venv/
-*.aux
-*.log
-*.out
-*.toc
+mpl-cache/
 *_recalcule.json
-article/qa/
+work/

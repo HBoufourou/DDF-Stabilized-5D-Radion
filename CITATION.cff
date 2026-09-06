@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the precise repository commit and the individual manuscript used."
+title: "DDF-Stabilized-5D-Radion: corrected effective model and publication base"
+type: software
+authors:
+  - family-names: "Boufourou"
+    given-names: "Hicham"
+version: "2026-09-06-correction"
+repository-code: "https://github.com/HBoufourou/DDF-Stabilized-5D-Radion"
+abstract: "Classical five-dimensional interval model, reproducible calculations and research manuscripts. No experimental detection or absolute-radius prediction is claimed."

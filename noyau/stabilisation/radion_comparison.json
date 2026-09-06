@@ -1,0 +1,3771 @@
+{
+  "scope": "Three scalar eigenmodes on fixed symmetric backgrounds; R0 is input; no exclusion or absolute-scale prediction.",
+  "action": "M5^3 R/2; affine U=T+J sigma versus quadratic U=tau+lambda(sigma-v_i)^2 reconstructed on same background.",
+  "radius_input_um": 3.0,
+  "L_input_um": 9.42477796076938,
+  "cases": [
+    {
+      "epsilon": 0.1,
+      "x": 2.0,
+      "lambda_hat": 0.0,
+      "boundary_constants": {
+        "family": "affine",
+        "J_left": 0.34641016151377546,
+        "J_right": -0.34641016151377546,
+        "T_each": 0.010360893140415349,
+        "U_each": -0.0350817074004618
+      },
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.1,
+        "half_steps": 8192,
+        "Lambda5": 0.024762350138616558,
+        "A_center": 0.0024652911912051373,
+        "sigma_boundary": 0.13118148827476028,
+        "q_boundary": 0.34641016151377546,
+        "W_right": 1.5615289612298537,
+        "U_each_boundary": -0.0350817074004618,
+        "constraint_max_abs": 3.2612801348363973e-16,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.0034072345991354,
+          "boundary_positive_B": 1.5615289612298537,
+          "first_tensor_mass_mL": 3.1514731011467583,
+          "each_spectral_boundary_weight": 5.336649873448415,
+          "modes": [
+            {
+              "mL": 0.16020796638704385,
+              "m2L2": 0.02566659249387217,
+              "alpha": 0.3365694520811435,
+              "canonical_N": 0.11549966622242479,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 0.025666592493872174,
+              "energy_identity_relative_residual": 4.440892098500626e-16,
+              "eigen_equation_relative_residual": 1.5780392442011316e-16,
+              "dm2_dlambda_hat_fixed_background": 0.013593305293217261,
+              "g_left": 0.19682900563765965,
+              "g_right": 0.19682900563765965
+            },
+            {
+              "mL": 2.030096897815459,
+              "m2L2": 4.1212934145199505,
+              "alpha": 0.0038366453739320083,
+              "canonical_N": 18.545820365339768,
+              "spectral_D": 0.9999999999999993,
+              "positive_energy_K": 4.121293414519949,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 2.573053191125332e-15,
+              "dm2_dlambda_hat_fixed_background": 3.9951461680603826,
+              "g_left": 0.26629330009593244,
+              "g_right": -0.26629330009593244
+            },
+            {
+              "mL": 3.751544955336716,
+              "m2L2": 14.074089551912364,
+              "alpha": 0.0006571064646736829,
+              "canonical_N": 63.33340298360331,
+              "spectral_D": 1.0,
+              "positive_energy_K": 14.074089551911847,
+              "energy_identity_relative_residual": -3.674838211509268e-14,
+              "eigen_equation_relative_residual": 2.1592498485421056e-14,
+              "dm2_dlambda_hat_fixed_background": 7.979768720991757,
+              "g_left": 0.20365527704321015,
+              "g_right": 0.20365527704321015
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.0034072345991354,
+          "boundary_positive_B": 1.5615289612298537,
+          "first_tensor_mass_mL": 3.15147310114695,
+          "each_spectral_boundary_weight": 5.336649873448415,
+          "modes": [
+            {
+              "mL": 0.16020796638704354,
+              "m2L2": 0.025666592493872077,
+              "alpha": 0.3365694520811437,
+              "canonical_N": 0.11549966622242439,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 0.025666592493872084,
+              "energy_identity_relative_residual": 0.0,
+              "eigen_equation_relative_residual": 2.1080069003279215e-16,
+              "dm2_dlambda_hat_fixed_background": 0.013593305293217166,
+              "g_left": 0.19682900563765934,
+              "g_right": 0.19682900563765934
+            },
+            {
+              "mL": 2.030096897815463,
+              "m2L2": 4.121293414519967,
+              "alpha": 0.0038366453739320473,
+              "canonical_N": 18.545820365339857,
+              "spectral_D": 0.999999999999999,
+              "positive_energy_K": 4.121293414519968,
+              "energy_identity_relative_residual": 1.3322676295501878e-15,
+              "eigen_equation_relative_residual": 5.2636067280315334e-15,
+              "dm2_dlambda_hat_fixed_background": 3.9951461680604545,
+              "g_left": 0.26629330009593444,
+              "g_right": -0.26629330009593444
+            },
+            {
+              "mL": 3.7515449553358495,
+              "m2L2": 14.074089551905862,
+              "alpha": 0.0006571064646736899,
+              "canonical_N": 63.333402983602305,
+              "spectral_D": 0.9999999999999993,
+              "positive_energy_K": 14.074089551911623,
+              "energy_identity_relative_residual": 4.098943406916078e-13,
+              "eigen_equation_relative_residual": 1.495733628470955e-13,
+              "dm2_dlambda_hat_fixed_background": 7.979768720988033,
+              "g_left": 0.20365527704320963,
+              "g_right": 0.20365527704320963
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0034072345991354,
+          "boundary_positive_B": 1.5615289612298537,
+          "first_tensor_mass_mL": 3.1514731011471158,
+          "each_spectral_boundary_weight": 5.336649873448415,
+          "modes": [
+            {
+              "mL": 0.16020796638704393,
+              "m2L2": 0.0256665924938722,
+              "alpha": 0.3365694520811435,
+              "canonical_N": 0.11549966622242493,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 0.025666592493872206,
+              "energy_identity_relative_residual": -1.1102230246251565e-16,
+              "eigen_equation_relative_residual": 1.0571088452881036e-16,
+              "dm2_dlambda_hat_fixed_background": 0.013593305293217289,
+              "g_left": 0.19682900563765976,
+              "g_right": 0.19682900563765976
+            },
+            {
+              "mL": 2.0300968978154583,
+              "m2L2": 4.121293414519947,
+              "alpha": 0.0038366453739319944,
+              "canonical_N": 18.545820365339743,
+              "spectral_D": 0.9999999999999993,
+              "positive_energy_K": 4.121293414519943,
+              "energy_identity_relative_residual": -2.220446049250313e-16,
+              "eigen_equation_relative_residual": 2.7721653456691107e-14,
+              "dm2_dlambda_hat_fixed_background": 3.995146168060359,
+              "g_left": 0.26629330009593183,
+              "g_right": -0.26629330009593183
+            },
+            {
+              "mL": 3.751544955325246,
+              "m2L2": 14.074089551826303,
+              "alpha": 0.0006571064646733618,
+              "canonical_N": 63.3334029836036,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 14.07408955191191,
+              "energy_identity_relative_residual": 6.0822458181064576e-12,
+              "eigen_equation_relative_residual": 1.7816745076160692e-12,
+              "dm2_dlambda_hat_fixed_background": 7.97976872093909,
+              "g_left": 0.20365527704316086,
+              "g_right": 0.20365527704316086
+            }
+          ]
+        }
+      ],
+      "physical_input_scale_output": {
+        "range_radion_um": 58.8283976965303,
+        "radion_mass_eV": 0.003354281063678169,
+        "alpha_potential_relative_to_tensor_G": 0.3365694520811435,
+        "range_first_tensor_um": 2.9905944484624736,
+        "radion_to_first_tensor_mass_ratio": 0.05083589840215653
+      }
+    },
+    {
+      "epsilon": 0.1,
+      "x": 2.0,
+      "lambda_hat": 1.0,
+      "boundary_constants": {
+        "family": "quadratic",
+        "v_right": 0.304386569031648,
+        "v_left": -0.304386569031648,
+        "tau_each": -0.06508170740046179,
+        "U_each": -0.0350817074004618
+      },
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.1,
+        "half_steps": 8192,
+        "Lambda5": 0.024762350138616558,
+        "A_center": 0.0024652911912051373,
+        "sigma_boundary": 0.13118148827476028,
+        "q_boundary": 0.34641016151377546,
+        "W_right": 1.5615289612298537,
+        "U_each_boundary": -0.0350817074004618,
+        "constraint_max_abs": 3.2612801348363973e-16,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.0034072345991354,
+          "boundary_positive_B": 3.561528961229854,
+          "first_tensor_mass_mL": 3.1514731011467583,
+          "each_spectral_boundary_weight": 2.339819056379566,
+          "modes": [
+            {
+              "mL": 0.18281902864183158,
+              "m2L2": 0.033422797233542835,
+              "alpha": 0.3360987387512299,
+              "canonical_N": 0.1504025875509428,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 0.03342279723354284,
+              "energy_identity_relative_residual": 4.440892098500626e-16,
+              "eigen_equation_relative_residual": 1.7490518533275067e-16,
+              "dm2_dlambda_hat_fixed_background": 0.004424798943483768,
+              "g_left": 0.2244514841098674,
+              "g_right": 0.2244514841098674
+            },
+            {
+              "mL": 2.6611157121506843,
+              "m2L2": 7.081536833455244,
+              "alpha": 0.0036601632460174834,
+              "canonical_N": 31.866915750548593,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 7.081536833455242,
+              "energy_identity_relative_residual": -5.551115123125783e-16,
+              "eigen_equation_relative_residual": 7.357227219715056e-15,
+              "dm2_dlambda_hat_fixed_background": 2.163199446249332,
+              "g_left": 0.34094288357426733,
+              "g_right": -0.34094288357426733
+            },
+            {
+              "mL": 4.545086896323309,
+              "m2L2": 20.657814895129853,
+              "alpha": 0.0010698108563929882,
+              "canonical_N": 92.96016702807228,
+              "spectral_D": 0.9999999999999984,
+              "positive_energy_K": 20.657814895127174,
+              "energy_identity_relative_residual": -1.2811973704174306e-13,
+              "eigen_equation_relative_residual": 4.9537185108193325e-14,
+              "dm2_dlambda_hat_fixed_background": 5.380428129601242,
+              "g_left": 0.3148207390407407,
+              "g_right": 0.3148207390407407
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.0034072345991354,
+          "boundary_positive_B": 3.561528961229854,
+          "first_tensor_mass_mL": 3.15147310114695,
+          "each_spectral_boundary_weight": 2.339819056379566,
+          "modes": [
+            {
+              "mL": 0.18281902864183114,
+              "m2L2": 0.033422797233542675,
+              "alpha": 0.33609873875122986,
+              "canonical_N": 0.1504025875509421,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 0.03342279723354269,
+              "energy_identity_relative_residual": 6.661338147750939e-16,
+              "eigen_equation_relative_residual": 1.9850948421833096e-16,
+              "dm2_dlambda_hat_fixed_background": 0.004424798943483728,
+              "g_left": 0.22445148410986687,
+              "g_right": 0.22445148410986687
+            },
+            {
+              "mL": 2.6611157121507003,
+              "m2L2": 7.0815368334553295,
+              "alpha": 0.003660163246017495,
+              "canonical_N": 31.866915750548984,
+              "spectral_D": 0.9999999999999999,
+              "positive_energy_K": 7.0815368334553295,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 1.6755149567433665e-14,
+              "dm2_dlambda_hat_fixed_background": 2.1631994462493926,
+              "g_left": 0.34094288357427,
+              "g_right": -0.34094288357427
+            },
+            {
+              "mL": 4.54508689632362,
+              "m2L2": 20.65781489513268,
+              "alpha": 0.0010698108563930524,
+              "canonical_N": 92.96016702807258,
+              "spectral_D": 1.0000000000000013,
+              "positive_energy_K": 20.65781489512724,
+              "energy_identity_relative_residual": -2.6489921367556235e-13,
+              "eigen_equation_relative_residual": 1.4231664024961517e-13,
+              "dm2_dlambda_hat_fixed_background": 5.380428129602304,
+              "g_left": 0.31482073904075064,
+              "g_right": 0.31482073904075064
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0034072345991354,
+          "boundary_positive_B": 3.561528961229854,
+          "first_tensor_mass_mL": 3.1514731011471158,
+          "each_spectral_boundary_weight": 2.339819056379566,
+          "modes": [
+            {
+              "mL": 0.18281902864183172,
+              "m2L2": 0.033422797233542884,
+              "alpha": 0.3360987387512299,
+              "canonical_N": 0.150402587550943,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 0.033422797233542884,
+              "energy_identity_relative_residual": -2.220446049250313e-16,
+              "eigen_equation_relative_residual": 1.5551656166408082e-16,
+              "dm2_dlambda_hat_fixed_background": 0.00442479894348378,
+              "g_left": 0.22445148410986754,
+              "g_right": 0.22445148410986754
+            },
+            {
+              "mL": 2.6611157121506794,
+              "m2L2": 7.081536833455217,
+              "alpha": 0.0036601632460174626,
+              "canonical_N": 31.866915750548472,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 7.081536833455216,
+              "energy_identity_relative_residual": -6.661338147750939e-16,
+              "eigen_equation_relative_residual": 4.45877093627793e-14,
+              "dm2_dlambda_hat_fixed_background": 2.1631994462493047,
+              "g_left": 0.3409428835742657,
+              "g_right": -0.3409428835742657
+            },
+            {
+              "mL": 4.545086896322635,
+              "m2L2": 20.65781489512372,
+              "alpha": 0.0010698108563927055,
+              "canonical_N": 92.96016702807248,
+              "spectral_D": 0.9999999999999999,
+              "positive_energy_K": 20.657814895127217,
+              "energy_identity_relative_residual": 1.694200335577989e-13,
+              "eigen_equation_relative_residual": 8.600394988441861e-14,
+              "dm2_dlambda_hat_fixed_background": 5.380428129598223,
+              "g_left": 0.3148207390406994,
+              "g_right": 0.3148207390406994
+            }
+          ]
+        }
+      ],
+      "physical_input_scale_output": {
+        "range_radion_um": 51.55249992731254,
+        "radion_mass_eV": 0.0038276898439110626,
+        "alpha_potential_relative_to_tensor_G": 0.3360987387512299,
+        "range_first_tensor_um": 2.9905944484624736,
+        "radion_to_first_tensor_mass_ratio": 0.05801065811898784
+      }
+    },
+    {
+      "epsilon": 0.1,
+      "x": 2.0,
+      "lambda_hat": 20.0,
+      "boundary_constants": {
+        "family": "quadratic",
+        "v_right": 0.13984174231260466,
+        "v_left": -0.13984174231260466,
+        "tau_each": -0.0365817074004618,
+        "U_each": -0.0350817074004618
+      },
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.1,
+        "half_steps": 8192,
+        "Lambda5": 0.024762350138616558,
+        "A_center": 0.0024652911912051373,
+        "sigma_boundary": 0.13118148827476028,
+        "q_boundary": 0.34641016151377546,
+        "W_right": 1.5615289612298537,
+        "U_each_boundary": -0.0350817074004618,
+        "constraint_max_abs": 3.2612801348363973e-16,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.0034072345991354,
+          "boundary_positive_B": 41.561528961229854,
+          "first_tensor_mass_mL": 3.1514731011467583,
+          "each_spectral_boundary_weight": 0.20050593762099028,
+          "modes": [
+            {
+              "mL": 0.20638731869696236,
+              "m2L2": 0.042595725318921515,
+              "alpha": 0.33538238751435484,
+              "canonical_N": 0.19168076393514683,
+              "spectral_D": 0.9999999999999997,
+              "positive_energy_K": 0.042595725318921515,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 4.2041624442175314e-16,
+              "dm2_dlambda_hat_fixed_background": 5.266272004697462e-05,
+              "g_left": 0.25311668721649183,
+              "g_right": 0.25311668721649183
+            },
+            {
+              "mL": 3.6192237905863203,
+              "m2L2": 13.098780846346013,
+              "alpha": 0.0028767540683585844,
+              "canonical_N": 58.944513808557,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 13.098780846346,
+              "energy_identity_relative_residual": -7.771561172376096e-16,
+              "eigen_equation_relative_residual": 1.0505191872006365e-14,
+              "dm2_dlambda_hat_fixed_background": 0.04271648288216321,
+              "g_left": 0.4110876681051247,
+              "g_right": -0.4110876681051247
+            },
+            {
+              "mL": 6.3299668892672925,
+              "m2L2": 40.06848081922025,
+              "alpha": 0.0012085423205542099,
+              "canonical_N": 180.30816368648823,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 40.06848081921961,
+              "energy_identity_relative_residual": -1.6542323066914832e-14,
+              "eigen_equation_relative_residual": 2.9395101764615794e-14,
+              "dm2_dlambda_hat_fixed_background": 0.16791852684247122,
+              "g_left": 0.466015125385262,
+              "g_right": 0.466015125385262
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.0034072345991354,
+          "boundary_positive_B": 41.561528961229854,
+          "first_tensor_mass_mL": 3.15147310114695,
+          "each_spectral_boundary_weight": 0.20050593762099028,
+          "modes": [
+            {
+              "mL": 0.20638731869696178,
+              "m2L2": 0.042595725318921265,
+              "alpha": 0.33538238751435495,
+              "canonical_N": 0.1916807639351457,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 0.042595725318921265,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 3.570590326013861e-16,
+              "dm2_dlambda_hat_fixed_background": 5.266272004697404e-05,
+              "g_left": 0.2531166872164911,
+              "g_right": 0.2531166872164911
+            },
+            {
+              "mL": 3.619223790586346,
+              "m2L2": 13.098780846346198,
+              "alpha": 0.002876754068358443,
+              "canonical_N": 58.9445138085581,
+              "spectral_D": 1.0,
+              "positive_energy_K": 13.098780846346244,
+              "energy_identity_relative_residual": 3.552713678800501e-15,
+              "eigen_equation_relative_residual": 3.292070076234002e-14,
+              "dm2_dlambda_hat_fixed_background": 0.04271648288216252,
+              "g_left": 0.41108766810511843,
+              "g_right": -0.41108766810511843
+            },
+            {
+              "mL": 6.329966889267553,
+              "m2L2": 40.06848081922354,
+              "alpha": 0.0012085423205542567,
+              "canonical_N": 180.3081636864923,
+              "spectral_D": 0.9999999999999989,
+              "positive_energy_K": 40.06848081922051,
+              "energy_identity_relative_residual": -7.4495964952348e-14,
+              "eigen_equation_relative_residual": 9.404094738953136e-14,
+              "dm2_dlambda_hat_fixed_background": 0.16791852684249556,
+              "g_left": 0.46601512538527634,
+              "g_right": 0.46601512538527634
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0034072345991354,
+          "boundary_positive_B": 41.561528961229854,
+          "first_tensor_mass_mL": 3.1514731011471158,
+          "each_spectral_boundary_weight": 0.20050593762099028,
+          "modes": [
+            {
+              "mL": 0.20638731869696256,
+              "m2L2": 0.04259572531892159,
+              "alpha": 0.33538238751435495,
+              "canonical_N": 0.19168076393514719,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 0.0425957253189216,
+              "energy_identity_relative_residual": -3.3306690738754696e-16,
+              "eigen_equation_relative_residual": 6.890426236544305e-16,
+              "dm2_dlambda_hat_fixed_background": 5.266272004697479e-05,
+              "g_left": 0.2531166872164921,
+              "g_right": 0.2531166872164921
+            },
+            {
+              "mL": 3.6192237905863607,
+              "m2L2": 13.098780846346305,
+              "alpha": 0.002876754068359006,
+              "canonical_N": 58.94451380855671,
+              "spectral_D": 0.9999999999999999,
+              "positive_energy_K": 13.098780846345935,
+              "energy_identity_relative_residual": -2.808864252301646e-14,
+              "eigen_equation_relative_residual": 2.7746994394059783e-13,
+              "dm2_dlambda_hat_fixed_background": 0.04271648288217024,
+              "g_left": 0.4110876681051538,
+              "g_right": -0.4110876681051538
+            },
+            {
+              "mL": 6.329966889270375,
+              "m2L2": 40.06848081925927,
+              "alpha": 0.001208542320553702,
+              "canonical_N": 180.30816368648686,
+              "spectral_D": 0.9999999999999992,
+              "positive_energy_K": 40.0684808192193,
+              "energy_identity_relative_residual": -9.967582315084655e-13,
+              "eigen_equation_relative_residual": 1.9044236403561797e-12,
+              "dm2_dlambda_hat_fixed_background": 0.1679185268425632,
+              "g_left": 0.4660151253851624,
+              "g_right": 0.4660151253851624
+            }
+          ]
+        }
+      ],
+      "physical_input_scale_output": {
+        "range_radion_um": 45.6654896253957,
+        "radion_mass_eV": 0.004321140143655914,
+        "alpha_potential_relative_to_tensor_G": 0.33538238751435495,
+        "range_first_tensor_um": 2.9905944484624736,
+        "radion_to_first_tensor_mass_ratio": 0.0654891576329301
+      }
+    },
+    {
+      "epsilon": 0.1,
+      "x": 2.0,
+      "lambda_hat": null,
+      "boundary_constants": {
+        "family": "stiff_limit",
+        "scope": "Limiting spectral boundary problem, not a finite quadratic action.",
+        "U_each": -0.0350817074004618
+      },
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.1,
+        "half_steps": 8192,
+        "Lambda5": 0.024762350138616558,
+        "A_center": 0.0024652911912051373,
+        "sigma_boundary": 0.13118148827476028,
+        "q_boundary": 0.34641016151377546,
+        "W_right": 1.5615289612298537,
+        "U_each_boundary": -0.0350817074004618,
+        "constraint_max_abs": 3.2612801348363973e-16,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.0034072345991354,
+          "boundary_positive_B": null,
+          "first_tensor_mass_mL": 3.1514731011467583,
+          "each_spectral_boundary_weight": 0.0,
+          "modes": [
+            {
+              "mL": 0.20909037776925024,
+              "m2L2": 0.04371878607568777,
+              "alpha": 0.3352828267248435,
+              "canonical_N": 0.19673453734059498,
+              "spectral_D": 0.9999999999999997,
+              "positive_energy_K": 0.04371878607568777,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 4.2848249770808934e-16,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 0.2563936971395309,
+              "g_right": 0.2563936971395309
+            },
+            {
+              "mL": 3.7445703076573427,
+              "m2L2": 14.021806788989005,
+              "alpha": 0.0027081740754143525,
+              "canonical_N": 63.098130550450485,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 14.021806788988997,
+              "energy_identity_relative_residual": -1.1102230246251565e-15,
+              "eigen_equation_relative_residual": 2.4219861618622888e-14,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 0.4126747723304427,
+              "g_right": -0.4126747723304427
+            },
+            {
+              "mL": 6.613174814677537,
+              "m2L2": 43.73408112948527,
+              "alpha": 0.0011113087181308249,
+              "canonical_N": 196.8033650826815,
+              "spectral_D": 1.000000000000001,
+              "positive_energy_K": 43.73408112948478,
+              "energy_identity_relative_residual": -1.2323475573339238e-14,
+              "eigen_equation_relative_residual": 2.1221535370547804e-14,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 0.46686896654641613,
+              "g_right": 0.46686896654641613
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.0034072345991354,
+          "boundary_positive_B": null,
+          "first_tensor_mass_mL": 3.15147310114695,
+          "each_spectral_boundary_weight": 0.0,
+          "modes": [
+            {
+              "mL": 0.2090903777692496,
+              "m2L2": 0.04371878607568751,
+              "alpha": 0.33528282672484355,
+              "canonical_N": 0.19673453734059382,
+              "spectral_D": 1.0,
+              "positive_energy_K": 0.043718786075687514,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 4.258419149342119e-16,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 0.2563936971395302,
+              "g_right": 0.2563936971395302
+            },
+            {
+              "mL": 3.744570307657308,
+              "m2L2": 14.021806788988748,
+              "alpha": 0.002708174075413814,
+              "canonical_N": 63.098130550451586,
+              "spectral_D": 1.0,
+              "positive_energy_K": 14.021806788989242,
+              "energy_identity_relative_residual": 3.530509218307998e-14,
+              "eigen_equation_relative_residual": 2.576750360877936e-13,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 0.4126747723304053,
+              "g_right": -0.4126747723304053
+            },
+            {
+              "mL": 6.613174814678064,
+              "m2L2": 43.734081129492246,
+              "alpha": 0.0011113087181311633,
+              "canonical_N": 196.80336508268573,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 43.734081129485716,
+              "energy_identity_relative_residual": -1.4943601911454607e-13,
+              "eigen_equation_relative_residual": 2.6026230733427845e-13,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 0.4668689665464923,
+              "g_right": 0.4668689665464923
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0034072345991354,
+          "boundary_positive_B": null,
+          "first_tensor_mass_mL": 3.1514731011471158,
+          "each_spectral_boundary_weight": 0.0,
+          "modes": [
+            {
+              "mL": 0.2090903777692504,
+              "m2L2": 0.04371878607568785,
+              "alpha": 0.33528282672484355,
+              "canonical_N": 0.1967345373405953,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 0.04371878607568784,
+              "energy_identity_relative_residual": 0.0,
+              "eigen_equation_relative_residual": 9.09843504717482e-16,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 0.25639369713953114,
+              "g_right": 0.25639369713953114
+            },
+            {
+              "mL": 3.7445703076574266,
+              "m2L2": 14.021806788989636,
+              "alpha": 0.0027081740754149896,
+              "canonical_N": 63.09813055045015,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 14.021806788988922,
+              "energy_identity_relative_residual": -5.062616992290714e-14,
+              "eigen_equation_relative_residual": 5.020308374940429e-13,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 0.4126747723304901,
+              "g_right": -0.4126747723304901
+            },
+            {
+              "mL": 6.613174814673852,
+              "m2L2": 43.73408112943654,
+              "alpha": 0.001111308718127678,
+              "canonical_N": 196.8033650826801,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 43.734081129484466,
+              "energy_identity_relative_residual": 1.0953460360951794e-12,
+              "eigen_equation_relative_residual": 1.850272934803914e-12,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 0.46686896654575355,
+              "g_right": 0.46686896654575355
+            }
+          ]
+        }
+      ],
+      "physical_input_scale_output": {
+        "range_radion_um": 45.07513957036535,
+        "radion_mass_eV": 0.004377734207388513,
+        "alpha_potential_relative_to_tensor_G": 0.33528282672484355,
+        "range_first_tensor_um": 2.9905944484624736,
+        "radion_to_first_tensor_mass_ratio": 0.06634687051371083
+      }
+    },
+    {
+      "epsilon": 0.3,
+      "x": 2.0,
+      "lambda_hat": 0.0,
+      "boundary_constants": {
+        "family": "affine",
+        "J_left": 1.0392304845413263,
+        "J_right": -1.0392304845413263,
+        "T_each": 0.0997734297411147,
+        "U_each": -0.2932258742226499
+      },
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.3,
+        "half_steps": 8192,
+        "Lambda5": 0.19666340424275472,
+        "A_center": 0.020072302740424656,
+        "sigma_boundary": 0.3781637565580251,
+        "q_boundary": 1.0392304845413263,
+        "W_right": 1.846520809940439,
+        "U_each_boundary": -0.2932258742226499,
+        "constraint_max_abs": 1.582067810090848e-15,
+        "source_relative_residual": 0.0
+      },
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.0282781169219786,
+          "boundary_positive_B": 1.846520809940439,
+          "first_tensor_mass_mL": 3.222830457148103,
+          "each_spectral_boundary_weight": 0.501443536916214,
+          "modes": [
+            {
+              "mL": 0.48369081601127345,
+              "m2L2": 0.2339568054936516,
+              "alpha": 0.3598379394412679,
+              "canonical_N": 1.052805624721433,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 0.23395680549365178,
+              "energy_identity_relative_residual": 4.440892098500626e-16,
+              "eigen_equation_relative_residual": 1.412859773143296e-16,
+              "dm2_dlambda_hat_fixed_background": 0.09362849874641203,
+              "g_left": 0.6069770590954203,
+              "g_right": 0.6069770590954203
+            },
+            {
+              "mL": 2.2468711036642,
+              "m2L2": 5.0484297564811795,
+              "alpha": 0.03263001697331269,
+              "canonical_N": 22.717933904165296,
+              "spectral_D": 0.9999999999999997,
+              "positive_energy_K": 5.048429756481177,
+              "energy_identity_relative_residual": -2.220446049250313e-16,
+              "eigen_equation_relative_residual": 3.4384556903708307e-15,
+              "dm2_dlambda_hat_fixed_background": 3.953299146400999,
+              "g_left": 0.8490588026491387,
+              "g_right": -0.8490588026491387
+            },
+            {
+              "mL": 3.950285876661662,
+              "m2L2": 15.604758507352596,
+              "alpha": 0.006779642849606414,
+              "canonical_N": 70.2214132830835,
+              "spectral_D": 0.9999999999999996,
+              "positive_energy_K": 15.604758507351889,
+              "energy_identity_relative_residual": -4.4853010194856324e-14,
+              "eigen_equation_relative_residual": 2.1792600157804105e-14,
+              "dm2_dlambda_hat_fixed_background": 7.847849453218842,
+              "g_left": 0.6804291238864345,
+              "g_right": 0.6804291238864345
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.028278116921979,
+          "boundary_positive_B": 1.846520809940439,
+          "first_tensor_mass_mL": 3.2228304571482305,
+          "each_spectral_boundary_weight": 0.501443536916214,
+          "modes": [
+            {
+              "mL": 0.48369081601127223,
+              "m2L2": 0.2339568054936504,
+              "alpha": 0.359837939441269,
+              "canonical_N": 1.0528056247214268,
+              "spectral_D": 0.9999999999999993,
+              "positive_energy_K": 0.2339568054936504,
+              "energy_identity_relative_residual": 6.661338147750939e-16,
+              "eigen_equation_relative_residual": 1.5509373109927458e-16,
+              "dm2_dlambda_hat_fixed_background": 0.09362849874641137,
+              "g_left": 0.6069770590954193,
+              "g_right": 0.6069770590954193
+            },
+            {
+              "mL": 2.2468711036642044,
+              "m2L2": 5.048429756481199,
+              "alpha": 0.03263001697331309,
+              "canonical_N": 22.717933904165392,
+              "spectral_D": 1.0,
+              "positive_energy_K": 5.048429756481198,
+              "energy_identity_relative_residual": -2.220446049250313e-16,
+              "eigen_equation_relative_residual": 1.20705263880314e-14,
+              "dm2_dlambda_hat_fixed_background": 3.9532991464010756,
+              "g_left": 0.8490588026491455,
+              "g_right": -0.8490588026491455
+            },
+            {
+              "mL": 3.950285876661036,
+              "m2L2": 15.604758507347647,
+              "alpha": 0.0067796428496064405,
+              "canonical_N": 70.22141328308255,
+              "spectral_D": 0.9999999999999996,
+              "positive_energy_K": 15.60475850735168,
+              "energy_identity_relative_residual": 2.589040093425865e-13,
+              "eigen_equation_relative_residual": 9.696540852191982e-14,
+              "dm2_dlambda_hat_fixed_background": 7.847849453216272,
+              "g_left": 0.6804291238864311,
+              "g_right": 0.6804291238864311
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0282781169219786,
+          "boundary_positive_B": 1.846520809940439,
+          "first_tensor_mass_mL": 3.2228304571480466,
+          "each_spectral_boundary_weight": 0.501443536916214,
+          "modes": [
+            {
+              "mL": 0.48369081601127384,
+              "m2L2": 0.23395680549365197,
+              "alpha": 0.359837939441268,
+              "canonical_N": 1.052805624721434,
+              "spectral_D": 1.0,
+              "positive_energy_K": 0.23395680549365197,
+              "energy_identity_relative_residual": 0.0,
+              "eigen_equation_relative_residual": 1.680940532759727e-16,
+              "dm2_dlambda_hat_fixed_background": 0.09362849874641227,
+              "g_left": 0.6069770590954207,
+              "g_right": 0.6069770590954207
+            },
+            {
+              "mL": 2.2468711036641897,
+              "m2L2": 5.048429756481133,
+              "alpha": 0.03263001697331328,
+              "canonical_N": 22.717933904165278,
+              "spectral_D": 1.0,
+              "positive_energy_K": 5.048429756481173,
+              "energy_identity_relative_residual": 7.993605777301127e-15,
+              "eigen_equation_relative_residual": 2.2592965109084425e-14,
+              "dm2_dlambda_hat_fixed_background": 3.953299146401032,
+              "g_left": 0.849058802649146,
+              "g_right": -0.849058802649146
+            },
+            {
+              "mL": 3.950285876665953,
+              "m2L2": 15.6047585073865,
+              "alpha": 0.006779642849606367,
+              "canonical_N": 70.22141328308376,
+              "spectral_D": 0.9999999999999991,
+              "positive_energy_K": 15.604758507351946,
+              "energy_identity_relative_residual": -2.213340621892712e-12,
+              "eigen_equation_relative_residual": 9.482564326100782e-13,
+              "dm2_dlambda_hat_fixed_background": 7.847849453235865,
+              "g_left": 0.6804291238864334,
+              "g_right": 0.6804291238864334
+            }
+          ]
+        }
+      ],
+      "physical_input_scale_output": {
+        "range_radion_um": 19.485129030338477,
+        "radion_mass_eV": 0.010127055360668156,
+        "alpha_potential_relative_to_tensor_G": 0.359837939441268,
+        "range_first_tensor_um": 2.9243790779827656,
+        "radion_to_first_tensor_mass_ratio": 0.15008261292134567
+      }
+    },
+    {
+      "epsilon": 0.3,
+      "x": 2.0,
+      "lambda_hat": 1.0,
+      "boundary_constants": {
+        "family": "quadratic",
+        "v_right": 0.8977789988286882,
+        "v_left": -0.8977789988286882,
+        "tau_each": -0.5632258742226499,
+        "U_each": -0.2932258742226499
+      },
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.3,
+        "half_steps": 8192,
+        "Lambda5": 0.19666340424275472,
+        "A_center": 0.020072302740424656,
+        "sigma_boundary": 0.3781637565580251,
+        "q_boundary": 1.0392304845413263,
+        "W_right": 1.846520809940439,
+        "U_each_boundary": -0.2932258742226499,
+        "constraint_max_abs": 1.582067810090848e-15,
+        "source_relative_residual": 0.0
+      },
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.0282781169219786,
+          "boundary_positive_B": 3.846520809940439,
+          "first_tensor_mass_mL": 3.222830457148103,
+          "each_spectral_boundary_weight": 0.24071777371724745,
+          "modes": [
+            {
+              "mL": 0.5378375394484024,
+              "m2L2": 0.28926921883991186,
+              "alpha": 0.3560749625239062,
+              "canonical_N": 1.301711484779604,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 0.289269218839912,
+              "energy_identity_relative_residual": 4.440892098500626e-16,
+              "eigen_equation_relative_residual": 1.5583575812999757e-16,
+              "dm2_dlambda_hat_fixed_background": 0.0326398283534768,
+              "g_left": 0.6713867871883838,
+              "g_right": 0.6713867871883838
+            },
+            {
+              "mL": 2.8283278322644594,
+              "m2L2": 7.999438326761776,
+              "alpha": 0.031019254001598724,
+              "canonical_N": 35.99747247042799,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 7.9994383267617755,
+              "energy_identity_relative_residual": -5.551115123125783e-16,
+              "eigen_equation_relative_residual": 3.044570291822494e-15,
+              "dm2_dlambda_hat_fixed_background": 2.1744644975703964,
+              "g_left": 1.04206877297013,
+              "g_right": -1.04206877297013
+            },
+            {
+              "mL": 4.703194758889465,
+              "m2L2": 22.12004094004533,
+              "alpha": 0.009991709142182984,
+              "canonical_N": 99.54018423020182,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 22.12004094004485,
+              "energy_identity_relative_residual": -2.1649348980190553e-14,
+              "eigen_equation_relative_residual": 1.2087857425247693e-14,
+              "dm2_dlambda_hat_fixed_background": 5.355667659908152,
+              "g_left": 0.9834761104373323,
+              "g_right": 0.9834761104373323
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.028278116921979,
+          "boundary_positive_B": 3.846520809940439,
+          "first_tensor_mass_mL": 3.2228304571482305,
+          "each_spectral_boundary_weight": 0.24071777371724745,
+          "modes": [
+            {
+              "mL": 0.5378375394484008,
+              "m2L2": 0.2892692188399102,
+              "alpha": 0.356074962523907,
+              "canonical_N": 1.3017114847795959,
+              "spectral_D": 0.9999999999999992,
+              "positive_energy_K": 0.2892692188399102,
+              "energy_identity_relative_residual": 6.661338147750939e-16,
+              "eigen_equation_relative_residual": 2.2130502258455844e-16,
+              "dm2_dlambda_hat_fixed_background": 0.03263982835347649,
+              "g_left": 0.6713867871883824,
+              "g_right": 0.6713867871883824
+            },
+            {
+              "mL": 2.828327832264475,
+              "m2L2": 7.999438326761864,
+              "alpha": 0.031019254001598894,
+              "canonical_N": 35.99747247042839,
+              "spectral_D": 0.9999999999999999,
+              "positive_energy_K": 7.999438326761865,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 2.1310251192456604e-14,
+              "dm2_dlambda_hat_fixed_background": 2.1744644975704595,
+              "g_left": 1.0420687729701383,
+              "g_right": -1.0420687729701383
+            },
+            {
+              "mL": 4.703194758888315,
+              "m2L2": 22.120040940034514,
+              "alpha": 0.00999170914218262,
+              "canonical_N": 99.54018423020192,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 22.12004094004487,
+              "energy_identity_relative_residual": 4.68292071786891e-13,
+              "eigen_equation_relative_residual": 1.345881261646375e-13,
+              "dm2_dlambda_hat_fixed_background": 5.355667659905343,
+              "g_left": 0.9834761104373146,
+              "g_right": 0.9834761104373146
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0282781169219786,
+          "boundary_positive_B": 3.846520809940439,
+          "first_tensor_mass_mL": 3.2228304571480466,
+          "each_spectral_boundary_weight": 0.24071777371724745,
+          "modes": [
+            {
+              "mL": 0.537837539448403,
+              "m2L2": 0.2892692188399124,
+              "alpha": 0.3560749625239061,
+              "canonical_N": 1.3017114847796054,
+              "spectral_D": 0.9999999999999999,
+              "positive_energy_K": 0.2892692188399123,
+              "energy_identity_relative_residual": -2.220446049250313e-16,
+              "eigen_equation_relative_residual": 1.8877622183854296e-16,
+              "dm2_dlambda_hat_fixed_background": 0.0326398283534769,
+              "g_left": 0.6713867871883841,
+              "g_right": 0.6713867871883841
+            },
+            {
+              "mL": 2.8283278322644554,
+              "m2L2": 7.999438326761752,
+              "alpha": 0.031019254001598662,
+              "canonical_N": 35.997472470427866,
+              "spectral_D": 1.0,
+              "positive_energy_K": 7.999438326761748,
+              "energy_identity_relative_residual": -5.551115123125783e-16,
+              "eigen_equation_relative_residual": 4.2628686893128066e-14,
+              "dm2_dlambda_hat_fixed_background": 2.17446449757038,
+              "g_left": 1.042068772970127,
+              "g_right": -1.042068772970127
+            },
+            {
+              "mL": 4.70319475888099,
+              "m2L2": 22.120040939965616,
+              "alpha": 0.009991709142181554,
+              "canonical_N": 99.54018423020192,
+              "spectral_D": 1.0000000000000007,
+              "positive_energy_K": 22.12004094004487,
+              "energy_identity_relative_residual": 3.58224561125553e-12,
+              "eigen_equation_relative_residual": 1.1292049162726533e-12,
+              "dm2_dlambda_hat_fixed_background": 5.355667659888085,
+              "g_left": 0.9834761104372625,
+              "g_right": 0.9834761104372625
+            }
+          ]
+        }
+      ],
+      "physical_input_scale_output": {
+        "range_radion_um": 17.52346623189462,
+        "radion_mass_eV": 0.01126072763166247,
+        "alpha_potential_relative_to_tensor_G": 0.3560749625239061,
+        "range_first_tensor_um": 2.9243790779827656,
+        "radion_to_first_tensor_mass_ratio": 0.16688359707396683
+      }
+    },
+    {
+      "epsilon": 0.3,
+      "x": 2.0,
+      "lambda_hat": 20.0,
+      "boundary_constants": {
+        "family": "quadratic",
+        "v_right": 0.40414451867155826,
+        "v_left": -0.40414451867155826,
+        "tau_each": -0.3067258742226499,
+        "U_each": -0.2932258742226499
+      },
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.3,
+        "half_steps": 8192,
+        "Lambda5": 0.19666340424275472,
+        "A_center": 0.020072302740424656,
+        "sigma_boundary": 0.3781637565580251,
+        "q_boundary": 1.0392304845413263,
+        "W_right": 1.846520809940439,
+        "U_each_boundary": -0.2932258742226499,
+        "constraint_max_abs": 1.582067810090848e-15,
+        "source_relative_residual": 0.0
+      },
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.0282781169219786,
+          "boundary_positive_B": 41.846520809940436,
+          "first_tensor_mass_mL": 3.222830457148103,
+          "each_spectral_boundary_weight": 0.022126712281083517,
+          "modes": [
+            {
+              "mL": 0.599671484925626,
+              "m2L2": 0.35960588983290537,
+              "alpha": 0.35013535691084136,
+              "canonical_N": 1.6182265042480748,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 0.35960588983290553,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 3.0829985373166315e-16,
+              "dm2_dlambda_hat_fixed_background": 0.00041909164725203085,
+              "g_left": 0.7423049256943506,
+              "g_right": 0.7423049256943506
+            },
+            {
+              "mL": 3.765657768725955,
+              "m2L2": 14.180178431166139,
+              "alpha": 0.02411774165143542,
+              "canonical_N": 63.8108029402476,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 14.180178431166134,
+              "energy_identity_relative_residual": -8.881784197001252e-16,
+              "eigen_equation_relative_residual": 4.6999732826390315e-15,
+              "dm2_dlambda_hat_fixed_background": 0.04488688567398272,
+              "g_left": 1.2233764816061217,
+              "g_right": -1.2233764816061217
+            },
+            {
+              "mL": 6.466593321653105,
+              "m2L2": 41.81682918764853,
+              "alpha": 0.010751216359020111,
+              "canonical_N": 188.17573134441585,
+              "spectral_D": 1.0,
+              "positive_energy_K": 41.81682918764797,
+              "energy_identity_relative_residual": -1.3433698597964394e-14,
+              "eigen_equation_relative_residual": 3.444213412010714e-14,
+              "dm2_dlambda_hat_fixed_background": 0.17401201808588862,
+              "g_left": 1.402669360182971,
+              "g_right": 1.402669360182971
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.028278116921979,
+          "boundary_positive_B": 41.846520809940436,
+          "first_tensor_mass_mL": 3.2228304571482305,
+          "each_spectral_boundary_weight": 0.022126712281083517,
+          "modes": [
+            {
+              "mL": 0.599671484925624,
+              "m2L2": 0.3596058898329029,
+              "alpha": 0.350135356910842,
+              "canonical_N": 1.6182265042480635,
+              "spectral_D": 0.9999999999999997,
+              "positive_energy_K": 0.359605889832903,
+              "energy_identity_relative_residual": 4.440892098500626e-16,
+              "eigen_equation_relative_residual": 4.363649235876351e-16,
+              "dm2_dlambda_hat_fixed_background": 0.0004190916472520259,
+              "g_left": 0.7423049256943485,
+              "g_right": 0.7423049256943485
+            },
+            {
+              "mL": 3.7656577687259762,
+              "m2L2": 14.180178431166297,
+              "alpha": 0.024117741651434065,
+              "canonical_N": 63.81080294024869,
+              "spectral_D": 1.0,
+              "positive_energy_K": 14.180178431166375,
+              "energy_identity_relative_residual": 5.551115123125783e-15,
+              "eigen_equation_relative_residual": 6.568304788469211e-14,
+              "dm2_dlambda_hat_fixed_background": 0.04488688567398147,
+              "g_left": 1.2233764816060975,
+              "g_right": -1.2233764816060975
+            },
+            {
+              "mL": 6.466593321653325,
+              "m2L2": 41.816829187651386,
+              "alpha": 0.010751216359019645,
+              "canonical_N": 188.1757313444204,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 41.81682918764898,
+              "energy_identity_relative_residual": -5.773159728050814e-14,
+              "eigen_equation_relative_residual": 9.996430503090622e-14,
+              "dm2_dlambda_hat_fixed_background": 0.17401201808589703,
+              "g_left": 1.4026693601829572,
+              "g_right": 1.4026693601829572
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0282781169219786,
+          "boundary_positive_B": 41.846520809940436,
+          "first_tensor_mass_mL": 3.2228304571480466,
+          "each_spectral_boundary_weight": 0.022126712281083517,
+          "modes": [
+            {
+              "mL": 0.5996714849256267,
+              "m2L2": 0.3596058898329061,
+              "alpha": 0.3501353569108412,
+              "canonical_N": 1.618226504248077,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 0.359605889832906,
+              "energy_identity_relative_residual": -1.1102230246251565e-16,
+              "eigen_equation_relative_residual": 4.228479270685511e-16,
+              "dm2_dlambda_hat_fixed_background": 0.0004190916472520324,
+              "g_left": 0.7423049256943509,
+              "g_right": 0.7423049256943509
+            },
+            {
+              "mL": 3.765657768725969,
+              "m2L2": 14.180178431166244,
+              "alpha": 0.024117741651437225,
+              "canonical_N": 63.81080294024729,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 14.180178431166064,
+              "energy_identity_relative_residual": -1.2878587085651816e-14,
+              "eigen_equation_relative_residual": 1.2741168575330878e-13,
+              "dm2_dlambda_hat_fixed_background": 0.04488688567398618,
+              "g_left": 1.2233764816061645,
+              "g_right": -1.2233764816061645
+            },
+            {
+              "mL": 6.46659332165254,
+              "m2L2": 41.81682918764123,
+              "alpha": 0.010751216359014949,
+              "canonical_N": 188.17573134441474,
+              "spectral_D": 1.0,
+              "positive_energy_K": 41.81682918764772,
+              "energy_identity_relative_residual": 1.5520917884259688e-13,
+              "eigen_equation_relative_residual": 2.6521024496236756e-13,
+              "dm2_dlambda_hat_fixed_background": 0.17401201808577363,
+              "g_left": 1.40266936018263,
+              "g_right": 1.40266936018263
+            }
+          ]
+        }
+      ],
+      "physical_input_scale_output": {
+        "range_radion_um": 15.716568484056353,
+        "radion_mass_eV": 0.012555347600220621,
+        "alpha_potential_relative_to_tensor_G": 0.3501353569108412,
+        "range_first_tensor_um": 2.9243790779827656,
+        "radion_to_first_tensor_mass_ratio": 0.18606982058134364
+      }
+    },
+    {
+      "epsilon": 0.3,
+      "x": 2.0,
+      "lambda_hat": null,
+      "boundary_constants": {
+        "family": "stiff_limit",
+        "scope": "Limiting spectral boundary problem, not a finite quadratic action.",
+        "U_each": -0.2932258742226499
+      },
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.3,
+        "half_steps": 8192,
+        "Lambda5": 0.19666340424275472,
+        "A_center": 0.020072302740424656,
+        "sigma_boundary": 0.3781637565580251,
+        "q_boundary": 1.0392304845413263,
+        "W_right": 1.846520809940439,
+        "U_each_boundary": -0.2932258742226499,
+        "constraint_max_abs": 1.582067810090848e-15,
+        "source_relative_residual": 0.0
+      },
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.0282781169219786,
+          "boundary_positive_B": null,
+          "first_tensor_mass_mL": 3.222830457148103,
+          "each_spectral_boundary_weight": 0.0,
+          "modes": [
+            {
+              "mL": 0.6071101885849962,
+              "m2L2": 0.3685827810837096,
+              "alpha": 0.34928634051964624,
+              "canonical_N": 1.6586225148766944,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 0.3685827810837099,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 3.7106428702898725e-16,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 0.7506012485134718,
+              "g_right": 0.7506012485134718
+            },
+            {
+              "mL": 3.8927297323325876,
+              "m2L2": 15.153344768986138,
+              "alpha": 0.022621768633809942,
+              "canonical_N": 68.19005146043749,
+              "spectral_D": 1.0,
+              "positive_energy_K": 15.15334476898611,
+              "energy_identity_relative_residual": -1.887379141862766e-15,
+              "eigen_equation_relative_residual": 2.6179542250124726e-14,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 1.2248093427272055,
+              "g_right": -1.2248093427272055
+            },
+            {
+              "mL": 6.754995654472782,
+              "m2L2": 45.62996629194617,
+              "alpha": 0.009830126975158676,
+              "canonical_N": 205.33484831376558,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 45.62996629194791,
+              "energy_identity_relative_residual": 3.7969627442180354e-14,
+              "eigen_equation_relative_residual": 6.363883513500542e-14,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 1.4010563341405444,
+              "g_right": 1.4010563341405444
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.028278116921979,
+          "boundary_positive_B": null,
+          "first_tensor_mass_mL": 3.2228304571482305,
+          "each_spectral_boundary_weight": 0.0,
+          "modes": [
+            {
+              "mL": 0.6071101885849941,
+              "m2L2": 0.36858278108370707,
+              "alpha": 0.34928634051964685,
+              "canonical_N": 1.6586225148766822,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 0.3685827810837072,
+              "energy_identity_relative_residual": 4.440892098500626e-16,
+              "eigen_equation_relative_residual": 5.151796149377878e-16,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 0.7506012485134694,
+              "g_right": 0.7506012485134694
+            },
+            {
+              "mL": 3.892729732332545,
+              "m2L2": 15.153344768985805,
+              "alpha": 0.0226217686338048,
+              "canonical_N": 68.19005146043864,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 15.153344768986365,
+              "energy_identity_relative_residual": 3.6637359812630166e-14,
+              "eigen_equation_relative_residual": 2.18997350169289e-13,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 1.2248093427270763,
+              "g_right": -1.2248093427270763
+            },
+            {
+              "mL": 6.754995654473837,
+              "m2L2": 45.62996629196042,
+              "alpha": 0.009830126975165306,
+              "canonical_N": 205.33484831377012,
+              "spectral_D": 0.9999999999999997,
+              "positive_energy_K": 45.62996629194892,
+              "energy_identity_relative_residual": -2.517985819849855e-13,
+              "eigen_equation_relative_residual": 3.9598866242918023e-13,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 1.401056334141032,
+              "g_right": 1.401056334141032
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0282781169219786,
+          "boundary_positive_B": null,
+          "first_tensor_mass_mL": 3.2228304571480466,
+          "each_spectral_boundary_weight": 0.0,
+          "modes": [
+            {
+              "mL": 0.6071101885849968,
+              "m2L2": 0.36858278108371034,
+              "alpha": 0.34928634051964624,
+              "canonical_N": 1.658622514876697,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 0.36858278108371045,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 6.313999113003001e-16,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 0.7506012485134723,
+              "g_right": 0.7506012485134723
+            },
+            {
+              "mL": 3.892729732331946,
+              "m2L2": 15.153344768981142,
+              "alpha": 0.02262176863377305,
+              "canonical_N": 68.19005146043718,
+              "spectral_D": 1.0,
+              "positive_energy_K": 15.153344768986038,
+              "energy_identity_relative_residual": 3.2307490016592055e-13,
+              "eigen_equation_relative_residual": 1.8109528074206664e-12,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 1.224809342726204,
+              "g_right": -1.224809342726204
+            },
+            {
+              "mL": 6.7549956544705445,
+              "m2L2": 45.62996629191594,
+              "alpha": 0.009830126975142886,
+              "canonical_N": 205.33484831376438,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 45.62996629194764,
+              "energy_identity_relative_residual": 6.941114349956479e-13,
+              "eigen_equation_relative_residual": 1.1347534897079421e-12,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 1.401056334139415,
+              "g_right": 1.401056334139415
+            }
+          ]
+        }
+      ],
+      "physical_input_scale_output": {
+        "range_radion_um": 15.523999000471212,
+        "radion_mass_eV": 0.012711092057788097,
+        "alpha_potential_relative_to_tensor_G": 0.34928634051964624,
+        "range_first_tensor_um": 2.9243790779827656,
+        "radion_to_first_tensor_mass_ratio": 0.18837794809790953
+      }
+    },
+    {
+      "epsilon": 0.53,
+      "x": 2.0,
+      "lambda_hat": 0.0,
+      "boundary_constants": {
+        "family": "affine",
+        "J_left": 1.8359738560230099,
+        "J_right": -1.8359738560230099,
+        "T_each": 0.33963489631303667,
+        "U_each": -0.8000329681916336
+      },
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.53,
+        "half_steps": 8192,
+        "Lambda5": 0.48805449655746613,
+        "A_center": 0.052123034971773126,
+        "sigma_boundary": 0.6207429701495635,
+        "q_boundary": 1.8359738560230099,
+        "W_right": 2.4191110805325615,
+        "U_each_boundary": -0.8000329681916336,
+        "constraint_max_abs": 1.3988810110276972e-14,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.076067628721228,
+          "boundary_positive_B": 2.4191110805325615,
+          "first_tensor_mass_mL": 3.356325421237677,
+          "each_spectral_boundary_weight": 0.12263408753410217,
+          "modes": [
+            {
+              "mL": 0.8501239045196662,
+              "m2L2": 0.7227106530357627,
+              "alpha": 0.40226653233151843,
+              "canonical_N": 3.2521979386609323,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 0.7227106530357628,
+              "energy_identity_relative_residual": 0.0,
+              "eigen_equation_relative_residual": 1.6374707324932577e-16,
+              "dm2_dlambda_hat_fixed_background": 0.17816859132881693,
+              "g_left": 1.102619458959307,
+              "g_right": 1.102619458959307
+            },
+            {
+              "mL": 2.652137036020318,
+              "m2L2": 7.033830857830638,
+              "alpha": 0.0915721597426735,
+              "canonical_N": 31.652238860237873,
+              "spectral_D": 1.0000000000000007,
+              "positive_energy_K": 7.0338308578306385,
+              "energy_identity_relative_residual": -5.551115123125783e-16,
+              "eigen_equation_relative_residual": 3.4407453700902427e-15,
+              "dm2_dlambda_hat_fixed_background": 3.8418077666989205,
+              "g_left": 1.6412100300780508,
+              "g_right": -1.6412100300780508
+            },
+            {
+              "mL": 4.330345364058339,
+              "m2L2": 18.751890972021553,
+              "alpha": 0.025640278703312196,
+              "canonical_N": 84.38350937410294,
+              "spectral_D": 1.0,
+              "positive_energy_K": 18.751890972022878,
+              "energy_identity_relative_residual": 7.061018436615996e-14,
+              "eigen_equation_relative_residual": 2.8411695306310288e-14,
+              "dm2_dlambda_hat_fixed_background": 7.645417595773435,
+              "g_left": 1.417980893194262,
+              "g_right": 1.417980893194262
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.0760676287212285,
+          "boundary_positive_B": 2.4191110805325615,
+          "first_tensor_mass_mL": 3.3563254212378055,
+          "each_spectral_boundary_weight": 0.12263408753410217,
+          "modes": [
+            {
+              "mL": 0.8501239045196635,
+              "m2L2": 0.7227106530357579,
+              "alpha": 0.40226653233152126,
+              "canonical_N": 3.2521979386609106,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 0.7227106530357579,
+              "energy_identity_relative_residual": -4.440892098500626e-16,
+              "eigen_equation_relative_residual": 1.4935609301682675e-16,
+              "dm2_dlambda_hat_fixed_background": 0.17816859132881582,
+              "g_left": 1.102619458959307,
+              "g_right": 1.102619458959307
+            },
+            {
+              "mL": 2.652137036020318,
+              "m2L2": 7.033830857830638,
+              "alpha": 0.09157215974267569,
+              "canonical_N": 31.65223886023794,
+              "spectral_D": 0.9999999999999993,
+              "positive_energy_K": 7.033830857830654,
+              "energy_identity_relative_residual": 2.886579864025407e-15,
+              "eigen_equation_relative_residual": 1.4232898496816683e-14,
+              "dm2_dlambda_hat_fixed_background": 3.8418077666990222,
+              "g_left": 1.6412100300780716,
+              "g_right": -1.6412100300780716
+            },
+            {
+              "mL": 4.3303453640548755,
+              "m2L2": 18.75189097199155,
+              "alpha": 0.02564027870330944,
+              "canonical_N": 84.38350937410206,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 18.75189097202268,
+              "energy_identity_relative_residual": 1.659783421814609e-12,
+              "eigen_equation_relative_residual": 6.053624080226121e-13,
+              "dm2_dlambda_hat_fixed_background": 7.6454175957602875,
+              "g_left": 1.417980893194178,
+              "g_right": 1.417980893194178
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0760676287212276,
+          "boundary_positive_B": 2.4191110805325615,
+          "first_tensor_mass_mL": 3.356325421237944,
+          "each_spectral_boundary_weight": 0.12263408753410217,
+          "modes": [
+            {
+              "mL": 0.8501239045196669,
+              "m2L2": 0.7227106530357638,
+              "alpha": 0.40226653233151793,
+              "canonical_N": 3.2521979386609363,
+              "spectral_D": 0.9999999999999996,
+              "positive_energy_K": 0.7227106530357637,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 1.4156251732535689e-16,
+              "dm2_dlambda_hat_fixed_background": 0.1781685913288172,
+              "g_left": 1.1026194589593072,
+              "g_right": 1.1026194589593072
+            },
+            {
+              "mL": 2.652137036020325,
+              "m2L2": 7.033830857830676,
+              "alpha": 0.09157215974267133,
+              "canonical_N": 31.652238860237826,
+              "spectral_D": 0.9999999999999997,
+              "positive_energy_K": 7.033830857830628,
+              "energy_identity_relative_residual": -6.439293542825908e-15,
+              "eigen_equation_relative_residual": 2.90326906672108e-14,
+              "dm2_dlambda_hat_fixed_background": 3.8418077666988473,
+              "g_left": 1.6412100300780303,
+              "g_right": -1.6412100300780303
+            },
+            {
+              "mL": 4.3303453640548835,
+              "m2L2": 18.75189097199162,
+              "alpha": 0.02564027870330879,
+              "canonical_N": 84.38350937410328,
+              "spectral_D": 1.0000000000000007,
+              "positive_energy_K": 18.751890972022952,
+              "energy_identity_relative_residual": 1.6699974736411605e-12,
+              "eigen_equation_relative_residual": 9.174602438304146e-13,
+              "dm2_dlambda_hat_fixed_background": 7.645417595760236,
+              "g_left": 1.4179808931941706,
+              "g_right": 1.4179808931941706
+            }
+          ]
+        }
+      ],
+      "physical_input_scale_output": {
+        "range_radion_um": 11.086358012829347,
+        "radion_mass_eV": 0.017799080651341895,
+        "alpha_potential_relative_to_tensor_G": 0.40226653233151793,
+        "range_first_tensor_um": 2.808064409109994,
+        "radion_to_first_tensor_mass_ratio": 0.25329007108199536
+      }
+    },
+    {
+      "epsilon": 0.53,
+      "x": 2.0,
+      "lambda_hat": 1.0,
+      "boundary_constants": {
+        "family": "quadratic",
+        "v_right": 1.5387298981610684,
+        "v_left": -1.5387298981610684,
+        "tau_each": -1.6427329681916336,
+        "U_each": -0.8000329681916336
+      },
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.53,
+        "half_steps": 8192,
+        "Lambda5": 0.48805449655746613,
+        "A_center": 0.052123034971773126,
+        "sigma_boundary": 0.6207429701495635,
+        "q_boundary": 1.8359738560230099,
+        "W_right": 2.4191110805325615,
+        "U_each_boundary": -0.8000329681916336,
+        "constraint_max_abs": 1.3988810110276972e-14,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.076067628721228,
+          "boundary_positive_B": 4.419111080532561,
+          "first_tensor_mass_mL": 3.356325421237677,
+          "each_spectral_boundary_weight": 0.06713238807497786,
+          "modes": [
+            {
+              "mL": 0.9132732714929934,
+              "m2L2": 0.8340680684235148,
+              "alpha": 0.39303095617463074,
+              "canonical_N": 3.7533063079058167,
+              "spectral_D": 1.0,
+              "positive_energy_K": 0.8340680684235148,
+              "energy_identity_relative_residual": 0.0,
+              "eigen_equation_relative_residual": 1.4275250786620826e-16,
+              "dm2_dlambda_hat_fixed_background": 0.06948000872171917,
+              "g_left": 1.170848219751283,
+              "g_right": 1.170848219751283
+            },
+            {
+              "mL": 3.1525276461923553,
+              "m2L2": 9.938430560007113,
+              "alpha": 0.08650543087763136,
+              "canonical_N": 44.722937520032005,
+              "spectral_D": 1.0000000000000007,
+              "positive_energy_K": 9.938430560007113,
+              "energy_identity_relative_residual": -6.661338147750939e-16,
+              "eigen_equation_relative_residual": 8.42006895238091e-15,
+              "dm2_dlambda_hat_fixed_background": 2.1712463704422795,
+              "g_left": 1.8961254358559163,
+              "g_right": -1.8961254358559163
+            },
+            {
+              "mL": 5.015137428647792,
+              "m2L2": 25.151603428223986,
+              "alpha": 0.033005709520380164,
+              "canonical_N": 113.18221542701338,
+              "spectral_D": 1.0000000000000009,
+              "positive_energy_K": 25.151603428225194,
+              "energy_identity_relative_residual": 4.707345624410664e-14,
+              "eigen_equation_relative_residual": 2.5155180685922452e-14,
+              "dm2_dlambda_hat_fixed_background": 5.305795942180501,
+              "g_left": 1.863218760904214,
+              "g_right": 1.863218760904214
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.0760676287212285,
+          "boundary_positive_B": 4.419111080532561,
+          "first_tensor_mass_mL": 3.3563254212378055,
+          "each_spectral_boundary_weight": 0.06713238807497786,
+          "modes": [
+            {
+              "mL": 0.9132732714929903,
+              "m2L2": 0.8340680684235091,
+              "alpha": 0.39303095617463313,
+              "canonical_N": 3.75330630790579,
+              "spectral_D": 1.0,
+              "positive_energy_K": 0.8340680684235089,
+              "energy_identity_relative_residual": -2.220446049250313e-16,
+              "eigen_equation_relative_residual": 1.4859472879044488e-16,
+              "dm2_dlambda_hat_fixed_background": 0.06948000872171856,
+              "g_left": 1.1708482197512822,
+              "g_right": 1.1708482197512822
+            },
+            {
+              "mL": 3.1525276461923704,
+              "m2L2": 9.938430560007207,
+              "alpha": 0.08650543087763252,
+              "canonical_N": 44.722937520032424,
+              "spectral_D": 1.0,
+              "positive_energy_K": 9.938430560007205,
+              "energy_identity_relative_residual": -2.220446049250313e-16,
+              "eigen_equation_relative_residual": 1.1725161871944382e-14,
+              "dm2_dlambda_hat_fixed_background": 2.171246370442349,
+              "g_left": 1.8961254358559374,
+              "g_right": -1.8961254358559374
+            },
+            {
+              "mL": 5.0151374286474635,
+              "m2L2": 25.15160342822069,
+              "alpha": 0.03300570952038383,
+              "canonical_N": 113.18221542701353,
+              "spectral_D": 1.0,
+              "positive_energy_K": 25.15160342822523,
+              "energy_identity_relative_residual": 1.8052226380405045e-13,
+              "eigen_equation_relative_residual": 1.4208620339530697e-13,
+              "dm2_dlambda_hat_fixed_background": 5.305795942180406,
+              "g_left": 1.8632187609043183,
+              "g_right": 1.8632187609043183
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0760676287212276,
+          "boundary_positive_B": 4.419111080532561,
+          "first_tensor_mass_mL": 3.356325421237944,
+          "each_spectral_boundary_weight": 0.06713238807497786,
+          "modes": [
+            {
+              "mL": 0.9132732714929941,
+              "m2L2": 0.834068068423516,
+              "alpha": 0.3930309561746299,
+              "canonical_N": 3.753306307905822,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 0.834068068423516,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 1.457734669101081e-16,
+              "dm2_dlambda_hat_fixed_background": 0.06948000872171935,
+              "g_left": 1.1708482197512828,
+              "g_right": 1.1708482197512828
+            },
+            {
+              "mL": 3.1525276461923517,
+              "m2L2": 9.938430560007088,
+              "alpha": 0.08650543087763059,
+              "canonical_N": 44.72293752003186,
+              "spectral_D": 1.0,
+              "positive_energy_K": 9.938430560007081,
+              "energy_identity_relative_residual": -6.661338147750939e-16,
+              "eigen_equation_relative_residual": 6.501310215808385e-14,
+              "dm2_dlambda_hat_fixed_background": 2.171246370442249,
+              "g_left": 1.896125435855905,
+              "g_right": -1.896125435855905
+            },
+            {
+              "mL": 5.015137428647373,
+              "m2L2": 25.151603428219786,
+              "alpha": 0.03300570952034912,
+              "canonical_N": 113.18221542701326,
+              "spectral_D": 0.9999999999999999,
+              "positive_energy_K": 25.15160342822517,
+              "energy_identity_relative_residual": 2.1405099914773018e-13,
+              "eigen_equation_relative_residual": 2.1960954090328736e-13,
+              "dm2_dlambda_hat_fixed_background": 5.305795942174628,
+              "g_left": 1.863218760903337,
+              "g_right": 1.863218760903337
+            }
+          ]
+        }
+      ],
+      "physical_input_scale_output": {
+        "range_radion_um": 10.319778597442156,
+        "radion_mass_eV": 0.019121241656183317,
+        "alpha_potential_relative_to_tensor_G": 0.3930309561746299,
+        "range_first_tensor_um": 2.808064409109994,
+        "radion_to_first_tensor_mass_ratio": 0.27210510211972927
+      }
+    },
+    {
+      "epsilon": 0.53,
+      "x": 2.0,
+      "lambda_hat": 20.0,
+      "boundary_constants": {
+        "family": "quadratic",
+        "v_right": 0.6666423165501387,
+        "v_left": -0.6666423165501387,
+        "tau_each": -0.8421679681916336,
+        "U_each": -0.8000329681916336
+      },
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.53,
+        "half_steps": 8192,
+        "Lambda5": 0.48805449655746613,
+        "A_center": 0.052123034971773126,
+        "sigma_boundary": 0.6207429701495635,
+        "q_boundary": 1.8359738560230099,
+        "W_right": 2.4191110805325615,
+        "U_each_boundary": -0.8000329681916336,
+        "constraint_max_abs": 1.3988810110276972e-14,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.076067628721228,
+          "boundary_positive_B": 42.41911108053256,
+          "first_tensor_mass_mL": 3.356325421237677,
+          "each_spectral_boundary_weight": 0.006993675078233679,
+          "modes": [
+            {
+              "mL": 0.9975687267012359,
+              "m2L2": 0.995143364492325,
+              "alpha": 0.3773527626461014,
+              "canonical_N": 4.478145140215462,
+              "spectral_D": 0.9999999999999999,
+              "positive_energy_K": 0.9951433644923249,
+              "energy_identity_relative_residual": 0.0,
+              "eigen_equation_relative_residual": 3.820351776113781e-16,
+              "dm2_dlambda_hat_fixed_background": 0.0010306131115848025,
+              "g_left": 1.2531500224165857,
+              "g_right": 1.2531500224165857
+            },
+            {
+              "mL": 4.044892803052059,
+              "m2L2": 16.361157788182343,
+              "alpha": 0.06595358110361242,
+              "canonical_N": 73.62521004682053,
+              "spectral_D": 1.0000000000000007,
+              "positive_energy_K": 16.36115778818234,
+              "energy_identity_relative_residual": -8.881784197001252e-16,
+              "eigen_equation_relative_residual": 4.389575956552395e-15,
+              "dm2_dlambda_hat_fixed_background": 0.04869039233684704,
+              "g_left": 2.1242845027161033,
+              "g_right": -2.1242845027161033
+            },
+            {
+              "mL": 6.732835060960979,
+              "m2L2": 45.331067958105436,
+              "alpha": 0.03267517698225896,
+              "canonical_N": 203.9898058114742,
+              "spectral_D": 0.9999999999999987,
+              "positive_energy_K": 45.33106795810538,
+              "energy_identity_relative_residual": 0.0,
+              "eigen_equation_relative_residual": 2.718369971841066e-14,
+              "dm2_dlambda_hat_fixed_background": 0.1851768433258295,
+              "g_left": 2.4888196281239514,
+              "g_right": 2.4888196281239514
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.0760676287212285,
+          "boundary_positive_B": 42.41911108053256,
+          "first_tensor_mass_mL": 3.3563254212378055,
+          "each_spectral_boundary_weight": 0.006993675078233679,
+          "modes": [
+            {
+              "mL": 0.9975687267012322,
+              "m2L2": 0.9951433644923177,
+              "alpha": 0.377352762646103,
+              "canonical_N": 4.47814514021543,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 0.9951433644923178,
+              "energy_identity_relative_residual": -3.3306690738754696e-16,
+              "eigen_equation_relative_residual": 4.443115141520754e-16,
+              "dm2_dlambda_hat_fixed_background": 0.0010306131115847908,
+              "g_left": 1.2531500224165837,
+              "g_right": 1.2531500224165837
+            },
+            {
+              "mL": 4.044892803052107,
+              "m2L2": 16.361157788182734,
+              "alpha": 0.06595358110361514,
+              "canonical_N": 73.62521004682155,
+              "spectral_D": 0.9999999999999993,
+              "positive_energy_K": 16.361157788182567,
+              "energy_identity_relative_residual": -9.547918011776346e-15,
+              "eigen_equation_relative_residual": 6.326660424338675e-14,
+              "dm2_dlambda_hat_fixed_background": 0.048690392336850886,
+              "g_left": 2.1242845027161614,
+              "g_right": -2.1242845027161614
+            },
+            {
+              "mL": 6.73283506096192,
+              "m2L2": 45.3310679581181,
+              "alpha": 0.03267517698225564,
+              "canonical_N": 203.98980581147907,
+              "spectral_D": 0.9999999999999996,
+              "positive_energy_K": 45.33106795810646,
+              "energy_identity_relative_residual": -2.5623947408348613e-13,
+              "eigen_equation_relative_residual": 3.8927666001546254e-13,
+              "dm2_dlambda_hat_fixed_background": 0.18517684332586645,
+              "g_left": 2.488819628123854,
+              "g_right": 2.488819628123854
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0760676287212276,
+          "boundary_positive_B": 42.41911108053256,
+          "first_tensor_mass_mL": 3.356325421237944,
+          "each_spectral_boundary_weight": 0.006993675078233679,
+          "modes": [
+            {
+              "mL": 0.9975687267012366,
+              "m2L2": 0.9951433644923265,
+              "alpha": 0.3773527626461009,
+              "canonical_N": 4.478145140215469,
+              "spectral_D": 0.9999999999999994,
+              "positive_energy_K": 0.9951433644923264,
+              "energy_identity_relative_residual": 4.440892098500626e-16,
+              "eigen_equation_relative_residual": 5.58791972265212e-16,
+              "dm2_dlambda_hat_fixed_background": 0.0010306131115848062,
+              "g_left": 1.2531500224165861,
+              "g_right": 1.2531500224165861
+            },
+            {
+              "mL": 4.044892803052143,
+              "m2L2": 16.36115778818302,
+              "alpha": 0.06595358110363322,
+              "canonical_N": 73.6252100468202,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 16.36115778818227,
+              "energy_identity_relative_residual": -4.651834473179406e-14,
+              "eigen_equation_relative_residual": 1.9910388696556615e-13,
+              "dm2_dlambda_hat_fixed_background": 0.0486903923368642,
+              "g_left": 2.124284502716434,
+              "g_right": -2.124284502716434
+            },
+            {
+              "mL": 6.732835060964341,
+              "m2L2": 45.331067958150705,
+              "alpha": 0.032675176982244696,
+              "canonical_N": 203.989805811473,
+              "spectral_D": 0.999999999999999,
+              "positive_energy_K": 45.33106795810511,
+              "energy_identity_relative_residual": -1.0048628595882292e-12,
+              "eigen_equation_relative_residual": 2.198165837087426e-12,
+              "dm2_dlambda_hat_fixed_background": 0.18517684332593246,
+              "g_left": 2.488819628123401,
+              "g_right": 2.488819628123401
+            }
+          ]
+        }
+      ],
+      "physical_input_scale_output": {
+        "range_radion_um": 9.447748018259619,
+        "radion_mass_eV": 0.020886139217369797,
+        "alpha_potential_relative_to_tensor_G": 0.3773527626461009,
+        "range_first_tensor_um": 2.808064409109994,
+        "radion_to_first_tensor_mass_ratio": 0.297220502037402
+      }
+    },
+    {
+      "epsilon": 0.53,
+      "x": 2.0,
+      "lambda_hat": null,
+      "boundary_constants": {
+        "family": "stiff_limit",
+        "scope": "Limiting spectral boundary problem, not a finite quadratic action.",
+        "U_each": -0.8000329681916336
+      },
+      "background": {
+        "x": 2.0,
+        "epsilon": 0.53,
+        "half_steps": 8192,
+        "Lambda5": 0.48805449655746613,
+        "A_center": 0.052123034971773126,
+        "sigma_boundary": 0.6207429701495635,
+        "q_boundary": 1.8359738560230099,
+        "W_right": 2.4191110805325615,
+        "U_each_boundary": -0.8000329681916336,
+        "constraint_max_abs": 1.3988810110276972e-14,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.076067628721228,
+          "boundary_positive_B": null,
+          "first_tensor_mass_mL": 3.356325421237677,
+          "each_spectral_boundary_weight": 0.0,
+          "modes": [
+            {
+              "mL": 1.0086733928351657,
+              "m2L2": 1.0174220134136043,
+              "alpha": 0.3749808292544126,
+              "canonical_N": 4.578399060361219,
+              "spectral_D": 1.0,
+              "positive_energy_K": 1.0174220134136043,
+              "energy_identity_relative_residual": 0.0,
+              "eigen_equation_relative_residual": 4.062452391663719e-16,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 1.263111156532554,
+              "g_right": 1.263111156532554
+            },
+            {
+              "mL": 4.17420033413958,
+              "m2L2": 17.423948429530977,
+              "alpha": 0.061435914638304605,
+              "canonical_N": 78.40776793288916,
+              "spectral_D": 1.0000000000000007,
+              "positive_energy_K": 17.423948429530924,
+              "energy_identity_relative_residual": -3.6637359812630166e-15,
+              "eigen_equation_relative_residual": 2.4542659407036857e-14,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 2.1157820395548375,
+              "g_right": -2.1157820395548375
+            },
+            {
+              "mL": 7.02985804318616,
+              "m2L2": 49.41890410734915,
+              "alpha": 0.029551464242480847,
+              "canonical_N": 222.38506848306304,
+              "spectral_D": 0.9999999999999994,
+              "positive_energy_K": 49.418904107347345,
+              "energy_identity_relative_residual": -3.597122599785507e-14,
+              "eigen_equation_relative_residual": 6.400196198024245e-14,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 2.4712832808702236,
+              "g_right": 2.4712832808702236
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.0760676287212285,
+          "boundary_positive_B": null,
+          "first_tensor_mass_mL": 3.3563254212378055,
+          "each_spectral_boundary_weight": 0.0,
+          "modes": [
+            {
+              "mL": 1.0086733928351619,
+              "m2L2": 1.017422013413597,
+              "alpha": 0.37498082925441406,
+              "canonical_N": 4.578399060361186,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 1.017422013413597,
+              "energy_identity_relative_residual": -4.440892098500626e-16,
+              "eigen_equation_relative_residual": 5.230703155309201e-16,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 1.2631111565325515,
+              "g_right": 1.2631111565325515
+            },
+            {
+              "mL": 4.174200334139605,
+              "m2L2": 17.42394842953119,
+              "alpha": 0.06143591463830206,
+              "canonical_N": 78.40776793289028,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 17.423948429531173,
+              "energy_identity_relative_residual": -1.4432899320127035e-15,
+              "eigen_equation_relative_residual": 1.2861073081393472e-13,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 2.115782039554808,
+              "g_right": -2.115782039554808
+            },
+            {
+              "mL": 7.029858043184967,
+              "m2L2": 49.41890410733237,
+              "alpha": 0.02955146424245305,
+              "canonical_N": 222.38506848306812,
+              "spectral_D": 1.0000000000000009,
+              "positive_energy_K": 49.418904107348474,
+              "energy_identity_relative_residual": 3.2507330161024584e-13,
+              "eigen_equation_relative_residual": 4.851000310080211e-13,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 2.471283280869089,
+              "g_right": 2.471283280869089
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0760676287212276,
+          "boundary_positive_B": null,
+          "first_tensor_mass_mL": 3.356325421237944,
+          "each_spectral_boundary_weight": 0.0,
+          "modes": [
+            {
+              "mL": 1.0086733928351665,
+              "m2L2": 1.017422013413606,
+              "alpha": 0.3749808292544124,
+              "canonical_N": 4.578399060361227,
+              "spectral_D": 0.9999999999999999,
+              "positive_energy_K": 1.017422013413606,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 6.931236200025544e-16,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 1.2631111565325548,
+              "g_right": 1.2631111565325548
+            },
+            {
+              "mL": 4.174200334139196,
+              "m2L2": 17.423948429527776,
+              "alpha": 0.061435914638239726,
+              "canonical_N": 78.40776793288877,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 17.42394842953084,
+              "energy_identity_relative_residual": 1.758593271006248e-13,
+              "eigen_equation_relative_residual": 1.035113066074013e-12,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 2.1157820395537152,
+              "g_right": -2.1157820395537152
+            },
+            {
+              "mL": 7.029858043186638,
+              "m2L2": 49.418904107355864,
+              "alpha": 0.029551464242491547,
+              "canonical_N": 222.3850684830619,
+              "spectral_D": 1.0,
+              "positive_energy_K": 49.41890410734709,
+              "energy_identity_relative_residual": -1.7752466163756253e-13,
+              "eigen_equation_relative_residual": 1.2761189983772427e-12,
+              "dm2_dlambda_hat_fixed_background": null,
+              "g_left": 2.471283280870665,
+              "g_right": 2.471283280870665
+            }
+          ]
+        }
+      ],
+      "physical_input_scale_output": {
+        "range_radion_um": 9.34373606730949,
+        "radion_mass_eV": 0.021118638088502846,
+        "alpha_potential_relative_to_tensor_G": 0.3749808292544124,
+        "range_first_tensor_um": 2.808064409109994,
+        "radion_to_first_tensor_mass_ratio": 0.30052908053925487
+      }
+    }
+  ],
+  "background_refinement": [
+    {
+      "epsilon": 0.1,
+      "coarse": {
+        "x": 2.0,
+        "epsilon": 0.1,
+        "half_steps": 4096,
+        "Lambda5": 0.024762350138616353,
+        "A_center": 0.0024652911912051313,
+        "sigma_boundary": 0.13118148827476087,
+        "q_boundary": 0.34641016151377546,
+        "W_right": 1.5615289612298604,
+        "U_each_boundary": -0.03508170740046176,
+        "constraint_max_abs": 2.3245294578089215e-16,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "fine": {
+        "x": 2.0,
+        "epsilon": 0.1,
+        "half_steps": 8192,
+        "Lambda5": 0.024762350138616558,
+        "A_center": 0.0024652911912051373,
+        "sigma_boundary": 0.13118148827476028,
+        "q_boundary": 0.34641016151377546,
+        "W_right": 1.5615289612298537,
+        "U_each_boundary": -0.0350817074004618,
+        "constraint_max_abs": 3.2612801348363973e-16,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "max_A_difference": 7.806255641895632e-18
+    },
+    {
+      "epsilon": 0.3,
+      "coarse": {
+        "x": 2.0,
+        "epsilon": 0.3,
+        "half_steps": 4096,
+        "Lambda5": 0.1966634042427532,
+        "A_center": 0.020072302740424538,
+        "sigma_boundary": 0.37816375655802503,
+        "q_boundary": 1.0392304845413263,
+        "W_right": 1.8465208099404373,
+        "U_each_boundary": -0.29322587422264856,
+        "constraint_max_abs": 1.4432899320127035e-15,
+        "source_relative_residual": 0.0
+      },
+      "fine": {
+        "x": 2.0,
+        "epsilon": 0.3,
+        "half_steps": 8192,
+        "Lambda5": 0.19666340424275472,
+        "A_center": 0.020072302740424656,
+        "sigma_boundary": 0.3781637565580251,
+        "q_boundary": 1.0392304845413263,
+        "W_right": 1.846520809940439,
+        "U_each_boundary": -0.2932258742226499,
+        "constraint_max_abs": 1.582067810090848e-15,
+        "source_relative_residual": 0.0
+      },
+      "max_A_difference": 1.1796119636642288e-16
+    },
+    {
+      "epsilon": 0.53,
+      "coarse": {
+        "x": 2.0,
+        "epsilon": 0.53,
+        "half_steps": 4096,
+        "Lambda5": 0.4880544965574632,
+        "A_center": 0.05212303497177286,
+        "sigma_boundary": 0.6207429701495594,
+        "q_boundary": 1.8359738560230099,
+        "W_right": 2.419111080532547,
+        "U_each_boundary": -0.8000329681916295,
+        "constraint_max_abs": 4.718447854656915e-15,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "fine": {
+        "x": 2.0,
+        "epsilon": 0.53,
+        "half_steps": 8192,
+        "Lambda5": 0.48805449655746613,
+        "A_center": 0.052123034971773126,
+        "sigma_boundary": 0.6207429701495635,
+        "q_boundary": 1.8359738560230099,
+        "W_right": 2.4191110805325615,
+        "U_each_boundary": -0.8000329681916336,
+        "constraint_max_abs": 1.3988810110276972e-14,
+        "source_relative_residual": 2.220446049250313e-16
+      },
+      "max_A_difference": 2.636779683484747e-16
+    }
+  ],
+  "monotone_checks": [
+    {
+      "coarse": {
+        "epsilon": 0.3,
+        "a0": 0.02,
+        "delta": 0.05,
+        "steps": 2048,
+        "completed_to_L": false,
+        "last_y": 0.95751953125,
+        "sigma_prime_min_sample": 1.0356757560275958,
+        "Lambda5": 0.5275790780618347,
+        "U0": 0.06,
+        "W0": -0.1924500897298753,
+        "constraint_max_abs": 0.7000480489685249,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      },
+      "fine": {
+        "epsilon": 0.3,
+        "a0": 0.02,
+        "delta": 0.05,
+        "steps": 4096,
+        "completed_to_L": false,
+        "last_y": 0.95751953125,
+        "sigma_prime_min_sample": 1.0356757560275955,
+        "Lambda5": 0.5275790780618347,
+        "U0": 0.06,
+        "W0": -0.1924500897298753,
+        "constraint_max_abs": 1.159288869846832,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      }
+    },
+    {
+      "coarse": {
+        "epsilon": 0.3,
+        "a0": 0.02,
+        "delta": 0.2,
+        "steps": 2048,
+        "completed_to_L": true,
+        "last_y": 1.0,
+        "sigma_prime_min_sample": 0.9792959679893344,
+        "Lambda5": 0.4401083122473387,
+        "U0": 0.06,
+        "W0": -0.7698003589195012,
+        "constraint_max_abs": 1.1807077537895339e-10,
+        "UL": -7.349498829190246,
+        "WL": 10.608329063891647,
+        "A_boundary": -0.3978625673550691,
+        "sigma_boundary": 1.8882086161517073,
+        "q_boundary": 9.336044190351396,
+        "qL_over_q0": 8.983612710776034,
+        "max_abs_A": 0.3978625673550691,
+        "regular_positive_boundary_domain": true
+      },
+      "fine": {
+        "epsilon": 0.3,
+        "a0": 0.02,
+        "delta": 0.2,
+        "steps": 4096,
+        "completed_to_L": true,
+        "last_y": 1.0,
+        "sigma_prime_min_sample": 0.9792959679893364,
+        "Lambda5": 0.4401083122473387,
+        "U0": 0.06,
+        "W0": -0.7698003589195012,
+        "constraint_max_abs": 7.46858130895589e-12,
+        "UL": -7.349498829259247,
+        "WL": 10.60832906398286,
+        "A_boundary": -0.3978625673587657,
+        "sigma_boundary": 1.8882086161641582,
+        "q_boundary": 9.336044190422047,
+        "qL_over_q0": 8.98361271084402,
+        "max_abs_A": 0.3978625673587657,
+        "regular_positive_boundary_domain": true
+      }
+    },
+    {
+      "coarse": {
+        "epsilon": 0.3,
+        "a0": 0.1,
+        "delta": 0.05,
+        "steps": 2048,
+        "completed_to_L": false,
+        "last_y": 0.9384765625,
+        "sigma_prime_min_sample": 1.0356485098628243,
+        "Lambda5": 0.4326153903091734,
+        "U0": 0.30000000000000004,
+        "W0": -0.1924500897298753,
+        "constraint_max_abs": 0.8177735571324762,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      },
+      "fine": {
+        "epsilon": 0.3,
+        "a0": 0.1,
+        "delta": 0.05,
+        "steps": 4096,
+        "completed_to_L": false,
+        "last_y": 0.9384765625,
+        "sigma_prime_min_sample": 1.0356485098443422,
+        "Lambda5": 0.4326153903091734,
+        "U0": 0.30000000000000004,
+        "W0": -0.1924500897298753,
+        "constraint_max_abs": 1.7392261272607998,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      }
+    },
+    {
+      "coarse": {
+        "epsilon": 0.3,
+        "a0": 0.1,
+        "delta": 0.2,
+        "steps": 2048,
+        "completed_to_L": true,
+        "last_y": 1.0,
+        "sigma_prime_min_sample": 0.9772136596757449,
+        "Lambda5": 0.29526156123669384,
+        "U0": 0.30000000000000004,
+        "W0": -0.7698003589195012,
+        "constraint_max_abs": 2.4271490373095617e-10,
+        "UL": -9.023875751493488,
+        "WL": 12.721238903198879,
+        "A_boundary": -0.5024118703069558,
+        "sigma_boundary": 1.918324557578325,
+        "q_boundary": 11.130326934116267,
+        "qL_over_q0": 10.710162085967616,
+        "max_abs_A": 0.5024118703069558,
+        "regular_positive_boundary_domain": true
+      },
+      "fine": {
+        "epsilon": 0.3,
+        "a0": 0.1,
+        "delta": 0.2,
+        "steps": 4096,
+        "completed_to_L": true,
+        "last_y": 1.0,
+        "sigma_prime_min_sample": 0.9772135921379251,
+        "Lambda5": 0.29526156123669384,
+        "U0": 0.30000000000000004,
+        "W0": -0.7698003589195012,
+        "constraint_max_abs": 1.5131618180674877e-11,
+        "UL": -9.023875751666763,
+        "WL": 12.721238903427771,
+        "A_boundary": -0.5024118703145699,
+        "sigma_boundary": 1.9183245576042023,
+        "q_boundary": 11.13032693430097,
+        "qL_over_q0": 10.710162086145345,
+        "max_abs_A": 0.5024118703145699,
+        "regular_positive_boundary_domain": true
+      }
+    },
+    {
+      "coarse": {
+        "epsilon": 0.3,
+        "a0": 0.2,
+        "delta": 0.05,
+        "steps": 2048,
+        "completed_to_L": false,
+        "last_y": 0.91552734375,
+        "sigma_prime_min_sample": 1.0356137417403606,
+        "Lambda5": 0.1670307806183468,
+        "U0": 0.6000000000000001,
+        "W0": -0.1924500897298753,
+        "constraint_max_abs": 1.3086116497611333,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      },
+      "fine": {
+        "epsilon": 0.3,
+        "a0": 0.2,
+        "delta": 0.05,
+        "steps": 4096,
+        "completed_to_L": false,
+        "last_y": 0.91552734375,
+        "sigma_prime_min_sample": 1.035613741740362,
+        "Lambda5": 0.1670307806183468,
+        "U0": 0.6000000000000001,
+        "W0": -0.1924500897298753,
+        "constraint_max_abs": 6.273429245671552,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      }
+    },
+    {
+      "coarse": {
+        "epsilon": 0.3,
+        "a0": 0.2,
+        "delta": 0.2,
+        "steps": 2048,
+        "completed_to_L": true,
+        "last_y": 1.0,
+        "sigma_prime_min_sample": 0.9743596891282001,
+        "Lambda5": -0.03267687752661236,
+        "U0": 0.6000000000000001,
+        "W0": -0.7698003589195012,
+        "constraint_max_abs": 7.003861379750731e-10,
+        "UL": -11.970551911334196,
+        "WL": 16.513467404140627,
+        "A_boundary": -0.6412451632086812,
+        "sigma_boundary": 1.9870846464096004,
+        "q_boundary": 14.380107274643805,
+        "qL_over_q0": 13.837264676652163,
+        "max_abs_A": 0.6412451632086812,
+        "regular_positive_boundary_domain": true
+      },
+      "fine": {
+        "epsilon": 0.3,
+        "a0": 0.2,
+        "delta": 0.2,
+        "steps": 4096,
+        "completed_to_L": true,
+        "last_y": 1.0,
+        "sigma_prime_min_sample": 0.9743596891282059,
+        "Lambda5": -0.03267687752661236,
+        "U0": 0.6000000000000001,
+        "W0": -0.7698003589195012,
+        "constraint_max_abs": 4.4040937563494253e-11,
+        "UL": -11.970551911985119,
+        "WL": 16.51346740500152,
+        "A_boundary": -0.6412451632302948,
+        "sigma_boundary": 1.9870846464836092,
+        "q_boundary": 14.380107275361539,
+        "qL_over_q0": 13.837264677342802,
+        "max_abs_A": 0.6412451632302948,
+        "regular_positive_boundary_domain": true
+      }
+    },
+    {
+      "coarse": {
+        "epsilon": 0.53,
+        "a0": 0.02,
+        "delta": 0.05,
+        "steps": 2048,
+        "completed_to_L": false,
+        "last_y": 0.64306640625,
+        "sigma_prime_min_sample": 1.8346896471893919,
+        "Lambda5": 1.667959464575908,
+        "U0": 0.06,
+        "W0": -0.10893401305464638,
+        "constraint_max_abs": 1.375966897967267,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      },
+      "fine": {
+        "epsilon": 0.53,
+        "a0": 0.02,
+        "delta": 0.05,
+        "steps": 4096,
+        "completed_to_L": false,
+        "last_y": 0.64306640625,
+        "sigma_prime_min_sample": 1.8346895432856933,
+        "Lambda5": 1.667959464575908,
+        "U0": 0.06,
+        "W0": -0.10893401305464638,
+        "constraint_max_abs": 6.710453268409303,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      }
+    },
+    {
+      "coarse": {
+        "epsilon": 0.53,
+        "a0": 0.02,
+        "delta": 0.2,
+        "steps": 2048,
+        "completed_to_L": false,
+        "last_y": 0.6826171875,
+        "sigma_prime_min_sample": 1.8151143051609824,
+        "Lambda5": 1.570927778303632,
+        "U0": 0.06,
+        "W0": -0.4357360522185855,
+        "constraint_max_abs": 0.6051861763117281,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      },
+      "fine": {
+        "epsilon": 0.53,
+        "a0": 0.02,
+        "delta": 0.2,
+        "steps": 4096,
+        "completed_to_L": false,
+        "last_y": 0.6826171875,
+        "sigma_prime_min_sample": 1.8151143051609842,
+        "Lambda5": 1.570927778303632,
+        "U0": 0.06,
+        "W0": -0.4357360522185855,
+        "constraint_max_abs": 0.962077869097437,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      }
+    },
+    {
+      "coarse": {
+        "epsilon": 0.53,
+        "a0": 0.1,
+        "delta": 0.05,
+        "steps": 2048,
+        "completed_to_L": false,
+        "last_y": 0.63427734375,
+        "sigma_prime_min_sample": 1.8346861811280792,
+        "Lambda5": 1.5162645228795397,
+        "U0": 0.30000000000000004,
+        "W0": -0.10893401305464638,
+        "constraint_max_abs": 1.7233950562580262,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      },
+      "fine": {
+        "epsilon": 0.53,
+        "a0": 0.1,
+        "delta": 0.05,
+        "steps": 4096,
+        "completed_to_L": false,
+        "last_y": 0.634033203125,
+        "sigma_prime_min_sample": 1.8346859764391545,
+        "Lambda5": 1.5162645228795397,
+        "U0": 0.30000000000000004,
+        "W0": -0.10893401305464638,
+        "constraint_max_abs": 0.25304140832621025,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      }
+    },
+    {
+      "coarse": {
+        "epsilon": 0.53,
+        "a0": 0.1,
+        "delta": 0.2,
+        "steps": 2048,
+        "completed_to_L": false,
+        "last_y": 0.67431640625,
+        "sigma_prime_min_sample": 1.8148763281177123,
+        "Lambda5": 1.3311060915181592,
+        "U0": 0.30000000000000004,
+        "W0": -0.4357360522185855,
+        "constraint_max_abs": 1.6238084814214695,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      },
+      "fine": {
+        "epsilon": 0.53,
+        "a0": 0.1,
+        "delta": 0.2,
+        "steps": 4096,
+        "completed_to_L": false,
+        "last_y": 0.674072265625,
+        "sigma_prime_min_sample": 1.814876328117717,
+        "Lambda5": 1.3311060915181592,
+        "U0": 0.30000000000000004,
+        "W0": -0.4357360522185855,
+        "constraint_max_abs": 0.2381207432902308,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      }
+    },
+    {
+      "coarse": {
+        "epsilon": 0.53,
+        "a0": 0.2,
+        "delta": 0.05,
+        "steps": 2048,
+        "completed_to_L": false,
+        "last_y": 0.62353515625,
+        "sigma_prime_min_sample": 1.834681833695702,
+        "Lambda5": 1.0972970457590796,
+        "U0": 0.6000000000000001,
+        "W0": -0.10893401305464638,
+        "constraint_max_abs": 2.2195922207629746,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      },
+      "fine": {
+        "epsilon": 0.53,
+        "a0": 0.2,
+        "delta": 0.05,
+        "steps": 4096,
+        "completed_to_L": false,
+        "last_y": 0.623291015625,
+        "sigma_prime_min_sample": 1.8346815022492353,
+        "Lambda5": 1.0972970457590796,
+        "U0": 0.6000000000000001,
+        "W0": -0.10893401305464638,
+        "constraint_max_abs": 0.35411620988666725,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      }
+    },
+    {
+      "coarse": {
+        "epsilon": 0.53,
+        "a0": 0.2,
+        "delta": 0.2,
+        "steps": 2048,
+        "completed_to_L": false,
+        "last_y": 0.6640625,
+        "sigma_prime_min_sample": 1.8145701828563492,
+        "Lambda5": 0.8019801830363187,
+        "U0": 0.6000000000000001,
+        "W0": -0.4357360522185855,
+        "constraint_max_abs": 1.8442024411735665,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      },
+      "fine": {
+        "epsilon": 0.53,
+        "a0": 0.2,
+        "delta": 0.2,
+        "steps": 4096,
+        "completed_to_L": false,
+        "last_y": 0.663818359375,
+        "sigma_prime_min_sample": 1.8145701628623747,
+        "Lambda5": 0.8019801830363187,
+        "U0": 0.6000000000000001,
+        "W0": -0.4357360522185855,
+        "constraint_max_abs": 0.2862122723166485,
+        "scope_stop": "Finite numerical threshold before L; not a proof of all-parameter nonexistence."
+      }
+    }
+  ],
+  "weak_coupling_checks": [
+    {
+      "epsilon": 0.02,
+      "x": 2.0,
+      "lambda_hat": 1.0,
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.0001377765595656,
+          "boundary_positive_B": 3.524735371400475,
+          "first_tensor_mass_mL": 3.14199268134439,
+          "each_spectral_boundary_weight": 59.106092055516974,
+          "modes": [
+            {
+              "mL": 0.03665562367625564,
+              "m2L2": 0.001343634747095273,
+              "alpha": 0.33344527047372446,
+              "canonical_N": 0.006046356361928731,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 0.0013436347470952735,
+              "energy_identity_relative_residual": -1.1102230246251565e-16,
+              "eigen_equation_relative_residual": 1.7766497453485128e-16,
+              "dm2_dlambda_hat_fixed_background": 0.00018167928721563568,
+              "g_left": 0.04489823154024606,
+              "g_right": 0.04489823154024606
+            },
+            {
+              "mL": 2.639234537539401,
+              "m2L2": 6.965558944140816,
+              "alpha": 0.0001475822683971681,
+              "canonical_N": 31.34501524863367,
+              "spectral_D": 0.9999999999999997,
+              "positive_energy_K": 6.965558944140815,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 6.009074909640501e-15,
+              "dm2_dlambda_hat_fixed_background": 2.161048567709559,
+              "g_left": 0.0680097874656201,
+              "g_right": -0.0680097874656201
+            },
+            {
+              "mL": 4.524518337739034,
+              "m2L2": 20.47126618853679,
+              "alpha": 4.256709249029619e-05,
+              "canonical_N": 92.12069784840614,
+              "spectral_D": 0.9999999999999988,
+              "positive_energy_K": 20.4712661885347,
+              "energy_identity_relative_residual": -1.0103029524088925e-13,
+              "eigen_equation_relative_residual": 3.9660319208497866e-14,
+              "dm2_dlambda_hat_fixed_background": 5.383711768496288,
+              "g_left": 0.06261605285685054,
+              "g_right": 0.06261605285685054
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.0001377765595656,
+          "boundary_positive_B": 3.524735371400475,
+          "first_tensor_mass_mL": 3.141992681344544,
+          "each_spectral_boundary_weight": 59.106092055516974,
+          "modes": [
+            {
+              "mL": 0.03665562367625556,
+              "m2L2": 0.001343634747095267,
+              "alpha": 0.3334452704737245,
+              "canonical_N": 0.0060463563619287,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 0.0013436347470952665,
+              "energy_identity_relative_residual": -1.1102230246251565e-16,
+              "eigen_equation_relative_residual": 1.4969145388340975e-16,
+              "dm2_dlambda_hat_fixed_background": 0.00018167928721563408,
+              "g_left": 0.04489823154024595,
+              "g_right": 0.04489823154024595
+            },
+            {
+              "mL": 2.639234537539418,
+              "m2L2": 6.9655589441409065,
+              "alpha": 0.00014758226839716847,
+              "canonical_N": 31.345015248634084,
+              "spectral_D": 0.9999999999999999,
+              "positive_energy_K": 6.965558944140907,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 2.2281341571990347e-14,
+              "dm2_dlambda_hat_fixed_background": 2.161048567709619,
+              "g_left": 0.06800978746562064,
+              "g_right": -0.06800978746562064
+            },
+            {
+              "mL": 4.524518337738651,
+              "m2L2": 20.47126618853332,
+              "alpha": 4.25670924903008e-05,
+              "canonical_N": 92.12069784840618,
+              "spectral_D": 0.9999999999999993,
+              "positive_energy_K": 20.471266188534706,
+              "energy_identity_relative_residual": 6.838973831690964e-14,
+              "eigen_equation_relative_residual": 4.80350822522894e-14,
+              "dm2_dlambda_hat_fixed_background": 5.38371176849596,
+              "g_left": 0.06261605285685394,
+              "g_right": 0.06261605285685394
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0001377765595656,
+          "boundary_positive_B": 3.524735371400475,
+          "first_tensor_mass_mL": 3.141992681344638,
+          "each_spectral_boundary_weight": 59.106092055516974,
+          "modes": [
+            {
+              "mL": 0.03665562367625566,
+              "m2L2": 0.0013436347470952746,
+              "alpha": 0.3334452704737245,
+              "canonical_N": 0.006046356361928738,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 0.0013436347470952752,
+              "energy_identity_relative_residual": 0.0,
+              "eigen_equation_relative_residual": 1.3850389812670924e-16,
+              "dm2_dlambda_hat_fixed_background": 0.00018167928721563611,
+              "g_left": 0.04489823154024609,
+              "g_right": 0.04489823154024609
+            },
+            {
+              "mL": 2.639234537539397,
+              "m2L2": 6.965558944140795,
+              "alpha": 0.0001475822683971684,
+              "canonical_N": 31.34501524863358,
+              "spectral_D": 1.0,
+              "positive_energy_K": 6.9655589441407955,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 3.6201773952064484e-14,
+              "dm2_dlambda_hat_fixed_background": 2.161048567709549,
+              "g_left": 0.06800978746562007,
+              "g_right": -0.06800978746562007
+            },
+            {
+              "mL": 4.524518337744371,
+              "m2L2": 20.47126618858508,
+              "alpha": 4.256709249031881e-05,
+              "canonical_N": 92.12069784840618,
+              "spectral_D": 0.9999999999999994,
+              "positive_energy_K": 20.471266188534706,
+              "energy_identity_relative_residual": -2.4601432002668844e-12,
+              "eigen_equation_relative_residual": 9.411018836626508e-13,
+              "dm2_dlambda_hat_fixed_background": 5.383711768511852,
+              "g_left": 0.0626160528568672,
+              "g_right": 0.0626160528568672
+            }
+          ]
+        }
+      ],
+      "kappa_observed": 3.359086867738186,
+      "c_alpha_observed": 0.8395285529338992
+    },
+    {
+      "epsilon": 0.02,
+      "x": 2.0,
+      "lambda_hat": 20.0,
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.0001377765595656,
+          "boundary_positive_B": 41.524735371400475,
+          "first_tensor_mass_mL": 3.14199268134439,
+          "each_spectral_boundary_weight": 5.017089969869374,
+          "modes": [
+            {
+              "mL": 0.041452867506080425,
+              "m2L2": 0.0017183402244766582,
+              "alpha": 0.33341631384486153,
+              "canonical_N": 0.007732531010144962,
+              "spectral_D": 1.0,
+              "positive_energy_K": 0.0017183402244766582,
+              "energy_identity_relative_residual": 0.0,
+              "eigen_equation_relative_residual": 2.6290453857512444e-16,
+              "dm2_dlambda_hat_fixed_background": 2.1407346973765075e-06,
+              "g_left": 0.050772008293110245,
+              "g_right": 0.050772008293110245
+            },
+            {
+              "mL": 3.5999254943795664,
+              "m2L2": 12.959463565083965,
+              "alpha": 0.0001161624559264556,
+              "canonical_N": 58.317586042878006,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 12.959463565084,
+              "energy_identity_relative_residual": 3.1086244689504383e-15,
+              "eigen_equation_relative_residual": 1.3976647000649474e-14,
+              "dm2_dlambda_hat_fixed_background": 0.04242262370576268,
+              "g_left": 0.08230055167092813,
+              "g_right": -0.08230055167092813
+            },
+            {
+              "mL": 6.3121087497776935,
+              "m2L2": 39.84271686902012,
+              "alpha": 4.8409929476775044e-05,
+              "canonical_N": 179.29222591058846,
+              "spectral_D": 0.9999999999999993,
+              "positive_energy_K": 39.842716869019654,
+              "energy_identity_relative_residual": -1.1102230246251565e-14,
+              "eigen_equation_relative_residual": 2.998197402879451e-14,
+              "dm2_dlambda_hat_fixed_background": 0.16710522509997028,
+              "g_left": 0.09315754581269242,
+              "g_right": 0.09315754581269242
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.0001377765595656,
+          "boundary_positive_B": 41.524735371400475,
+          "first_tensor_mass_mL": 3.141992681344544,
+          "each_spectral_boundary_weight": 5.017089969869374,
+          "modes": [
+            {
+              "mL": 0.0414528675060803,
+              "m2L2": 0.0017183402244766483,
+              "alpha": 0.33341631384486164,
+              "canonical_N": 0.007732531010144915,
+              "spectral_D": 0.9999999999999999,
+              "positive_energy_K": 0.0017183402244766478,
+              "energy_identity_relative_residual": -1.1102230246251565e-16,
+              "eigen_equation_relative_residual": 2.7526994019598327e-16,
+              "dm2_dlambda_hat_fixed_background": 2.140734697376483e-06,
+              "g_left": 0.0507720082931101,
+              "g_right": 0.0507720082931101
+            },
+            {
+              "mL": 3.599925494379608,
+              "m2L2": 12.959463565084267,
+              "alpha": 0.00011616245592645477,
+              "canonical_N": 58.317586042879135,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 12.959463565084253,
+              "energy_identity_relative_residual": -1.3322676295501878e-15,
+              "eigen_equation_relative_residual": 2.8235246906999495e-14,
+              "dm2_dlambda_hat_fixed_background": 0.042422623705764176,
+              "g_left": 0.08230055167092863,
+              "g_right": -0.08230055167092863
+            },
+            {
+              "mL": 6.312108749776736,
+              "m2L2": 39.84271686900803,
+              "alpha": 4.8409929476769935e-05,
+              "canonical_N": 179.29222591059286,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 39.842716869020634,
+              "energy_identity_relative_residual": 3.161915174132446e-13,
+              "eigen_equation_relative_residual": 3.6920835385194793e-13,
+              "dm2_dlambda_hat_fixed_background": 0.1671052250999059,
+              "g_left": 0.09315754581268865,
+              "g_right": 0.09315754581268865
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0001377765595656,
+          "boundary_positive_B": 41.524735371400475,
+          "first_tensor_mass_mL": 3.141992681344638,
+          "each_spectral_boundary_weight": 5.017089969869374,
+          "modes": [
+            {
+              "mL": 0.04145286750608045,
+              "m2L2": 0.0017183402244766608,
+              "alpha": 0.3334163138448616,
+              "canonical_N": 0.007732531010144976,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 0.0017183402244766613,
+              "energy_identity_relative_residual": -2.220446049250313e-16,
+              "eigen_equation_relative_residual": 5.102788207752595e-16,
+              "dm2_dlambda_hat_fixed_background": 2.1407346973765134e-06,
+              "g_left": 0.05077200829311029,
+              "g_right": 0.05077200829311029
+            },
+            {
+              "mL": 3.599925494379663,
+              "m2L2": 12.95946356508466,
+              "alpha": 0.0001161624559264898,
+              "canonical_N": 58.31758604287775,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 12.959463565083944,
+              "energy_identity_relative_residual": -5.551115123125783e-14,
+              "eigen_equation_relative_residual": 2.496710779547116e-13,
+              "dm2_dlambda_hat_fixed_background": 0.04242262370577726,
+              "g_left": 0.08230055167094007,
+              "g_right": -0.08230055167094007
+            },
+            {
+              "mL": 6.312108749776397,
+              "m2L2": 39.84271686900375,
+              "alpha": 4.840992947676837e-05,
+              "canonical_N": 179.2922259105875,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 39.84271686901944,
+              "energy_identity_relative_residual": 3.934630399271555e-13,
+              "eigen_equation_relative_residual": 4.2203551131441716e-13,
+              "dm2_dlambda_hat_fixed_background": 0.16710522509987746,
+              "g_left": 0.09315754581268575,
+              "g_right": 0.09315754581268575
+            }
+          ]
+        }
+      ],
+      "kappa_observed": 4.295850561191652,
+      "c_alpha_observed": 0.6223538364619197
+    },
+    {
+      "epsilon": 0.01,
+      "x": 2.0,
+      "lambda_hat": 1.0,
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.0000344559818735,
+          "boundary_positive_B": 3.523575183646975,
+          "first_tensor_mass_mL": 3.141692698848561,
+          "each_spectral_boundary_weight": 236.50221434208635,
+          "modes": [
+            {
+              "mL": 0.018329259965833636,
+              "m2L2": 0.0003359617708951116,
+              "alpha": 0.3333613281198122,
+              "canonical_N": 0.0015118279690280022,
+              "spectral_D": 1.0,
+              "positive_energy_K": 0.0003359617708951116,
+              "energy_identity_relative_residual": 0.0,
+              "eigen_equation_relative_residual": 1.1644709981191698e-16,
+              "dm2_dlambda_hat_fixed_background": 4.5457353877414956e-05,
+              "g_left": 0.022449223036551794,
+              "g_right": 0.022449223036551794
+            },
+            {
+              "mL": 2.638543466671777,
+              "m2L2": 6.96191162551632,
+              "alpha": 3.69049085119954e-05,
+              "canonical_N": 31.328602314823435,
+              "spectral_D": 1.0000000000000007,
+              "positive_energy_K": 6.9619116255163185,
+              "energy_identity_relative_residual": -8.881784197001252e-16,
+              "eigen_equation_relative_residual": 4.752308867850194e-15,
+              "dm2_dlambda_hat_fixed_background": 2.1609780480155205,
+              "g_left": 0.03400204944294089,
+              "g_right": -0.03400204944294089
+            },
+            {
+              "mL": 4.523869151675174,
+              "m2L2": 20.465392101478262,
+              "alpha": 1.0639980726640148e-05,
+              "canonical_N": 92.09426445664378,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 20.465392101476397,
+              "energy_identity_relative_residual": -9.170442183403793e-14,
+              "eigen_equation_relative_residual": 4.130911903382419e-14,
+              "dm2_dlambda_hat_fixed_background": 5.38381577871531,
+              "g_left": 0.0313025148709693,
+              "g_right": 0.0313025148709693
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.0000344559818735,
+          "boundary_positive_B": 3.523575183646975,
+          "first_tensor_mass_mL": 3.141692698848553,
+          "each_spectral_boundary_weight": 236.50221434208635,
+          "modes": [
+            {
+              "mL": 0.01832925996583359,
+              "m2L2": 0.00033596177089511,
+              "alpha": 0.33336132811981223,
+              "canonical_N": 0.0015118279690279949,
+              "spectral_D": 1.0,
+              "positive_energy_K": 0.00033596177089510997,
+              "energy_identity_relative_residual": -1.1102230246251565e-16,
+              "eigen_equation_relative_residual": 1.3154873476543243e-16,
+              "dm2_dlambda_hat_fixed_background": 4.545735387741453e-05,
+              "g_left": 0.02244922303655174,
+              "g_right": 0.02244922303655174
+            },
+            {
+              "mL": 2.6385434666717935,
+              "m2L2": 6.9619116255164055,
+              "alpha": 3.690490851199554e-05,
+              "canonical_N": 31.32860231482382,
+              "spectral_D": 0.9999999999999997,
+              "positive_energy_K": 6.961911625516404,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 1.4952150501537064e-14,
+              "dm2_dlambda_hat_fixed_background": 2.1609780480155836,
+              "g_left": 0.03400204944294116,
+              "g_right": -0.03400204944294116
+            },
+            {
+              "mL": 4.523869151673278,
+              "m2L2": 20.465392101461106,
+              "alpha": 1.0639980726640167e-05,
+              "canonical_N": 92.09426445664371,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 20.465392101476382,
+              "energy_identity_relative_residual": 7.467360063628803e-13,
+              "eigen_equation_relative_residual": 2.1876451976272325e-13,
+              "dm2_dlambda_hat_fixed_background": 5.3838157787108045,
+              "g_left": 0.031302514870969314,
+              "g_right": 0.031302514870969314
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0000344559818735,
+          "boundary_positive_B": 3.523575183646975,
+          "first_tensor_mass_mL": 3.141692698847916,
+          "each_spectral_boundary_weight": 236.50221434208635,
+          "modes": [
+            {
+              "mL": 0.018329259965833646,
+              "m2L2": 0.000335961770895112,
+              "alpha": 0.3333613281198121,
+              "canonical_N": 0.0015118279690280042,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 0.00033596177089511203,
+              "energy_identity_relative_residual": 0.0,
+              "eigen_equation_relative_residual": 1.6701317080102876e-16,
+              "dm2_dlambda_hat_fixed_background": 4.545735387741505e-05,
+              "g_left": 0.022449223036551808,
+              "g_right": 0.022449223036551808
+            },
+            {
+              "mL": 2.638543466671772,
+              "m2L2": 6.961911625516293,
+              "alpha": 3.690490851199551e-05,
+              "canonical_N": 31.32860231482333,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 6.961911625516295,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 4.4840152247900574e-14,
+              "dm2_dlambda_hat_fixed_background": 2.1609780480155107,
+              "g_left": 0.034002049442940885,
+              "g_right": -0.034002049442940885
+            },
+            {
+              "mL": 4.523869151669997,
+              "m2L2": 20.465392101431416,
+              "alpha": 1.0639980726635303e-05,
+              "canonical_N": 92.0942644566437,
+              "spectral_D": 0.999999999999999,
+              "positive_energy_K": 20.46539210147638,
+              "energy_identity_relative_residual": 2.198019544152885e-12,
+              "eigen_equation_relative_residual": 5.944973618326923e-13,
+              "dm2_dlambda_hat_fixed_background": 5.383815778700531,
+              "g_left": 0.03130251487096216,
+              "g_right": 0.03130251487096216
+            }
+          ]
+        }
+      ],
+      "kappa_observed": 3.3596177089511197,
+      "c_alpha_observed": 0.8398435943623994
+    },
+    {
+      "epsilon": 0.01,
+      "x": 2.0,
+      "lambda_hat": 20.0,
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.0000344559818735,
+          "boundary_positive_B": 41.523575183646976,
+          "first_tensor_mass_mL": 3.141692698848561,
+          "each_spectral_boundary_weight": 20.068920598665617,
+          "modes": [
+            {
+              "mL": 0.020729214195449302,
+              "m2L2": 0.00042970032116081684,
+              "alpha": 0.3333540865667298,
+              "canonical_N": 0.0019336514452236754,
+              "spectral_D": 1.0,
+              "positive_energy_K": 0.0004297003211608168,
+              "energy_identity_relative_residual": -1.1102230246251565e-16,
+              "eigen_equation_relative_residual": 2.244428514975711e-16,
+              "dm2_dlambda_hat_fixed_background": 5.354562064494808e-07,
+              "g_left": 0.025388351699623963,
+              "g_right": 0.025388351699623963
+            },
+            {
+              "mL": 3.5993154630819255,
+              "m2L2": 12.955071802780656,
+              "alpha": 2.9049299705674865e-05,
+              "canonical_N": 58.29782311251298,
+              "spectral_D": 0.9999999999999997,
+              "positive_energy_K": 12.955071802780662,
+              "energy_identity_relative_residual": 6.661338147750939e-16,
+              "eigen_equation_relative_residual": 1.842081108348188e-14,
+              "dm2_dlambda_hat_fixed_background": 0.04241330668199932,
+              "g_left": 0.04115158060405693,
+              "g_right": -0.04115158060405693
+            },
+            {
+              "mL": 6.311544794099764,
+              "m2L2": 39.83559768792784,
+              "alpha": 1.2103016421857801e-05,
+              "canonical_N": 179.26018959565175,
+              "spectral_D": 0.9999999999999994,
+              "positive_energy_K": 39.835597687922615,
+              "energy_identity_relative_residual": -1.305622276959184e-13,
+              "eigen_equation_relative_residual": 1.4694992907532612e-13,
+              "dm2_dlambda_hat_fixed_background": 0.16707947987891197,
+              "g_left": 0.04657804488938219,
+              "g_right": 0.04657804488938219
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.0000344559818735,
+          "boundary_positive_B": 41.523575183646976,
+          "first_tensor_mass_mL": 3.141692698848553,
+          "each_spectral_boundary_weight": 20.068920598665617,
+          "modes": [
+            {
+              "mL": 0.02072921419544924,
+              "m2L2": 0.00042970032116081423,
+              "alpha": 0.3333540865667299,
+              "canonical_N": 0.0019336514452236641,
+              "spectral_D": 1.0,
+              "positive_energy_K": 0.00042970032116081423,
+              "energy_identity_relative_residual": 0.0,
+              "eigen_equation_relative_residual": 3.674623967603333e-16,
+              "dm2_dlambda_hat_fixed_background": 5.354562064494746e-07,
+              "g_left": 0.02538835169962389,
+              "g_right": 0.02538835169962389
+            },
+            {
+              "mL": 3.5993154630819566,
+              "m2L2": 12.95507180278088,
+              "alpha": 2.9049299705673937e-05,
+              "canonical_N": 58.297823112514095,
+              "spectral_D": 0.9999999999999999,
+              "positive_energy_K": 12.95507180278091,
+              "energy_identity_relative_residual": 2.4424906541753444e-15,
+              "eigen_equation_relative_residual": 3.681311551225694e-14,
+              "dm2_dlambda_hat_fixed_background": 0.0424133066819995,
+              "g_left": 0.041151580604056666,
+              "g_right": -0.041151580604056666
+            },
+            {
+              "mL": 6.311544794100125,
+              "m2L2": 39.83559768793239,
+              "alpha": 1.2103016421857246e-05,
+              "canonical_N": 179.26018959565636,
+              "spectral_D": 1.0000000000000013,
+              "positive_energy_K": 39.83559768792364,
+              "energy_identity_relative_residual": -2.2104540420286867e-13,
+              "eigen_equation_relative_residual": 3.6110740400922e-13,
+              "dm2_dlambda_hat_fixed_background": 0.16707947987892746,
+              "g_left": 0.04657804488938172,
+              "g_right": 0.04657804488938172
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0000344559818735,
+          "boundary_positive_B": 41.523575183646976,
+          "first_tensor_mass_mL": 3.141692698847916,
+          "each_spectral_boundary_weight": 20.068920598665617,
+          "modes": [
+            {
+              "mL": 0.020729214195449316,
+              "m2L2": 0.0004297003211608174,
+              "alpha": 0.3333540865667298,
+              "canonical_N": 0.001933651445223678,
+              "spectral_D": 0.9999999999999999,
+              "positive_energy_K": 0.0004297003211608173,
+              "energy_identity_relative_residual": 0.0,
+              "eigen_equation_relative_residual": 5.326501425303636e-16,
+              "dm2_dlambda_hat_fixed_background": 5.354562064494824e-07,
+              "g_left": 0.02538835169962398,
+              "g_right": 0.02538835169962398
+            },
+            {
+              "mL": 3.599315463081909,
+              "m2L2": 12.95507180278054,
+              "alpha": 2.904929970567435e-05,
+              "canonical_N": 58.297823112512674,
+              "spectral_D": 0.9999999999999992,
+              "positive_energy_K": 12.955071802780594,
+              "energy_identity_relative_residual": 5.10702591327572e-15,
+              "eigen_equation_relative_residual": 1.2175977953575227e-13,
+              "dm2_dlambda_hat_fixed_background": 0.04241330668199801,
+              "g_left": 0.04115158060405646,
+              "g_right": -0.04115158060405646
+            },
+            {
+              "mL": 6.311544794096234,
+              "m2L2": 39.835597687883265,
+              "alpha": 1.210301642185628e-05,
+              "canonical_N": 179.2601895956507,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 39.83559768792238,
+              "energy_identity_relative_residual": 9.821032875834135e-13,
+              "eigen_equation_relative_residual": 1.6157762072415608e-12,
+              "dm2_dlambda_hat_fixed_background": 0.1670794798787029,
+              "g_left": 0.046578044889379125,
+              "g_right": 0.046578044889379125
+            }
+          ]
+        }
+      ],
+      "kappa_observed": 4.297003211608174,
+      "c_alpha_observed": 0.6225970018958193
+    },
+    {
+      "epsilon": 0.005,
+      "x": 2.0,
+      "lambda_hat": 1.0,
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.0000086147361338,
+          "boundary_positive_B": 3.523285036528977,
+          "first_tensor_mass_mL": 3.1416176673013076,
+          "each_spectral_boundary_weight": 946.0867624315806,
+          "modes": [
+            {
+              "mL": 0.009164811063676538,
+              "m2L2": 8.399376183288789e-05,
+              "alpha": 0.3333403326867291,
+              "canonical_N": 0.0003779719282479956,
+              "spectral_D": 1.0,
+              "positive_energy_K": 8.399376183288792e-05,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 1.294904026895099e-16,
+              "dm2_dlambda_hat_fixed_background": 1.1366686440573965e-05,
+              "g_left": 0.01122462484534999,
+              "g_right": 0.01122462484534999
+            },
+            {
+              "mL": 2.638370628691461,
+              "m2L2": 6.960999574341775,
+              "alpha": 9.226811343896579e-06,
+              "canonical_N": 31.324498084538007,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 6.96099957434178,
+              "energy_identity_relative_residual": 4.440892098500626e-16,
+              "eigen_equation_relative_residual": 6.6026918334263776e-15,
+              "dm2_dlambda_hat_fixed_background": 2.160960386098889,
+              "g_left": 0.017000668940180035,
+              "g_right": -0.017000668940180035
+            },
+            {
+              "mL": 4.523706793223159,
+              "m2L2": 20.463923151053354,
+              "alpha": 2.6598830798702542e-06,
+              "canonical_N": 92.087654179731,
+              "spectral_D": 1.0,
+              "positive_energy_K": 20.463923151051333,
+              "energy_identity_relative_residual": -9.880984919163893e-14,
+              "eigen_equation_relative_residual": 5.323077945211446e-14,
+              "dm2_dlambda_hat_fixed_background": 5.383841794914375,
+              "g_left": 0.015650568140540527,
+              "g_right": 0.015650568140540527
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.0000086147361336,
+          "boundary_positive_B": 3.523285036528977,
+          "first_tensor_mass_mL": 3.141617667301273,
+          "each_spectral_boundary_weight": 946.0867624315806,
+          "modes": [
+            {
+              "mL": 0.009164811063676519,
+              "m2L2": 8.399376183288754e-05,
+              "alpha": 0.333340332686729,
+              "canonical_N": 0.00037797192824799404,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 8.399376183288757e-05,
+              "energy_identity_relative_residual": -1.1102230246251565e-16,
+              "eigen_equation_relative_residual": 2.59607765729662e-16,
+              "dm2_dlambda_hat_fixed_background": 1.1366686440573866e-05,
+              "g_left": 0.011224624845349968,
+              "g_right": 0.011224624845349968
+            },
+            {
+              "mL": 2.6383706286914776,
+              "m2L2": 6.960999574341864,
+              "alpha": 9.226811343896606e-06,
+              "canonical_N": 31.324498084538412,
+              "spectral_D": 1.0000000000000004,
+              "positive_energy_K": 6.960999574341869,
+              "energy_identity_relative_residual": 4.440892098500626e-16,
+              "eigen_equation_relative_residual": 1.1259793051283545e-14,
+              "dm2_dlambda_hat_fixed_background": 2.160960386098952,
+              "g_left": 0.01700066894018017,
+              "g_right": -0.01700066894018017
+            },
+            {
+              "mL": 4.523706793222483,
+              "m2L2": 20.463923151047243,
+              "alpha": 2.659883079870594e-06,
+              "canonical_N": 92.08765417973106,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 20.463923151051347,
+              "energy_identity_relative_residual": 2.0028423364237824e-13,
+              "eigen_equation_relative_residual": 8.762109381038928e-14,
+              "dm2_dlambda_hat_fixed_background": 5.383841794913456,
+              "g_left": 0.015650568140541533,
+              "g_right": 0.015650568140541533
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0000086147361338,
+          "boundary_positive_B": 3.523285036528977,
+          "first_tensor_mass_mL": 3.141617667301361,
+          "each_spectral_boundary_weight": 946.0867624315806,
+          "modes": [
+            {
+              "mL": 0.009164811063676545,
+              "m2L2": 8.399376183288801e-05,
+              "alpha": 0.33334033268672913,
+              "canonical_N": 0.00037797192824799605,
+              "spectral_D": 1.0,
+              "positive_energy_K": 8.399376183288801e-05,
+              "energy_identity_relative_residual": 0.0,
+              "eigen_equation_relative_residual": 1.3300611335238124e-16,
+              "dm2_dlambda_hat_fixed_background": 1.1366686440573995e-05,
+              "g_left": 0.011224624845349997,
+              "g_right": 0.011224624845349997
+            },
+            {
+              "mL": 2.6383706286914563,
+              "m2L2": 6.96099957434175,
+              "alpha": 9.226811343896542e-06,
+              "canonical_N": 31.324498084537886,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 6.960999574341752,
+              "energy_identity_relative_residual": 4.440892098500626e-16,
+              "eigen_equation_relative_residual": 3.5452259079495975e-14,
+              "dm2_dlambda_hat_fixed_background": 2.1609603860988673,
+              "g_left": 0.01700066894017997,
+              "g_right": -0.01700066894017997
+            },
+            {
+              "mL": 4.5237067932194055,
+              "m2L2": 20.463923151019397,
+              "alpha": 2.659883079868669e-06,
+              "canonical_N": 92.08765417973098,
+              "spectral_D": 0.9999999999999996,
+              "positive_energy_K": 20.46392315105133,
+              "energy_identity_relative_residual": 1.56097357262297e-12,
+              "eigen_equation_relative_residual": 4.4521885116941446e-13,
+              "dm2_dlambda_hat_fixed_background": 5.3838417949022315,
+              "g_left": 0.01565056814053586,
+              "g_right": 0.01565056814053586
+            }
+          ]
+        }
+      ],
+      "kappa_observed": 3.3597504733155206,
+      "c_alpha_observed": 0.8399224075006373
+    },
+    {
+      "epsilon": 0.005,
+      "x": 2.0,
+      "lambda_hat": 20.0,
+      "runs": [
+        {
+          "basis_modes": 20,
+          "quadrature_points": 256,
+          "volume_I": 1.0000086147361338,
+          "boundary_positive_B": 41.523285036528975,
+          "first_tensor_mass_mL": 3.1416176673013076,
+          "each_spectral_boundary_weight": 80.2762433271097,
+          "modes": [
+            {
+              "mL": 0.010364954845193237,
+              "m2L2": 0.00010743228894289478,
+              "alpha": 0.33333852214863974,
+              "canonical_N": 0.0004834453002430265,
+              "spectral_D": 0.9999999999999999,
+              "positive_energy_K": 0.00010743228894289478,
+              "energy_identity_relative_residual": 2.220446049250313e-16,
+              "eigen_equation_relative_residual": 3.6779420981132374e-16,
+              "dm2_dlambda_hat_fixed_background": 1.3388109732004522e-07,
+              "g_left": 0.012694469412379275,
+              "g_right": 0.012694469412379275
+            },
+            {
+              "mL": 3.599162888084483,
+              "m2L2": 12.953973494964636,
+              "alpha": 7.262868152718392e-06,
+              "canonical_N": 58.29288072734078,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 12.953973494964618,
+              "energy_identity_relative_residual": -1.6653345369377348e-15,
+              "eigen_equation_relative_residual": 2.024306456806181e-14,
+              "dm2_dlambda_hat_fixed_background": 0.042410976134406836,
+              "g_left": 0.02057595343465732,
+              "g_right": -0.02057595343465732
+            },
+            {
+              "mL": 6.311403748351712,
+              "m2L2": 39.83381727470804,
+              "alpha": 3.0257874859774143e-06,
+              "canonical_N": 179.25217773618388,
+              "spectral_D": 1.0000000000000013,
+              "positive_energy_K": 39.83381727470753,
+              "energy_identity_relative_residual": -1.4099832412739488e-14,
+              "eigen_equation_relative_residual": 2.3903346609336486e-14,
+              "dm2_dlambda_hat_fixed_background": 0.16707304039453846,
+              "g_left": 0.02328893135840842,
+              "g_right": 0.02328893135840842
+            }
+          ]
+        },
+        {
+          "basis_modes": 32,
+          "quadrature_points": 384,
+          "volume_I": 1.0000086147361336,
+          "boundary_positive_B": 41.523285036528975,
+          "first_tensor_mass_mL": 3.141617667301273,
+          "each_spectral_boundary_weight": 80.2762433271097,
+          "modes": [
+            {
+              "mL": 0.01036495484519321,
+              "m2L2": 0.0001074322889428942,
+              "alpha": 0.3333385221486397,
+              "canonical_N": 0.00048344530024302385,
+              "spectral_D": 1.0,
+              "positive_energy_K": 0.00010743228894289419,
+              "energy_identity_relative_residual": -1.1102230246251565e-16,
+              "eigen_equation_relative_residual": 4.3039209979370025e-16,
+              "dm2_dlambda_hat_fixed_background": 1.3388109732004374e-07,
+              "g_left": 0.01269446941237924,
+              "g_right": 0.01269446941237924
+            },
+            {
+              "mL": 3.599162888084523,
+              "m2L2": 12.953973494964924,
+              "alpha": 7.262868152718322e-06,
+              "canonical_N": 58.29288072734187,
+              "spectral_D": 1.0,
+              "positive_energy_K": 12.95397349496486,
+              "energy_identity_relative_residual": -4.884981308350689e-15,
+              "eigen_equation_relative_residual": 3.6634241040166637e-14,
+              "dm2_dlambda_hat_fixed_background": 0.04241097613440819,
+              "g_left": 0.020575953434657415,
+              "g_right": -0.020575953434657415
+            },
+            {
+              "mL": 6.311403748352216,
+              "m2L2": 39.833817274714406,
+              "alpha": 3.025787485977354e-06,
+              "canonical_N": 179.2521777361879,
+              "spectral_D": 0.9999999999999999,
+              "positive_energy_K": 39.83381727470842,
+              "energy_identity_relative_residual": -1.4999113062685865e-13,
+              "eigen_equation_relative_residual": 1.7829021053105305e-13,
+              "dm2_dlambda_hat_fixed_background": 0.16707304039456589,
+              "g_left": 0.02328893135840845,
+              "g_right": 0.02328893135840845
+            }
+          ]
+        },
+        {
+          "basis_modes": 48,
+          "quadrature_points": 512,
+          "volume_I": 1.0000086147361338,
+          "boundary_positive_B": 41.523285036528975,
+          "first_tensor_mass_mL": 3.141617667301361,
+          "each_spectral_boundary_weight": 80.2762433271097,
+          "modes": [
+            {
+              "mL": 0.010364954845193248,
+              "m2L2": 0.00010743228894289498,
+              "alpha": 0.3333385221486397,
+              "canonical_N": 0.0004834453002430275,
+              "spectral_D": 1.0000000000000002,
+              "positive_energy_K": 0.000107432288942895,
+              "energy_identity_relative_residual": -1.1102230246251565e-16,
+              "eigen_equation_relative_residual": 4.75948436554127e-16,
+              "dm2_dlambda_hat_fixed_background": 1.3388109732004567e-07,
+              "g_left": 0.012694469412379287,
+              "g_right": 0.012694469412379287
+            },
+            {
+              "mL": 3.5991628880844786,
+              "m2L2": 12.953973494964604,
+              "alpha": 7.262868152718524e-06,
+              "canonical_N": 58.292880727340474,
+              "spectral_D": 0.9999999999999998,
+              "positive_energy_K": 12.95397349496455,
+              "energy_identity_relative_residual": -3.885780586188048e-15,
+              "eigen_equation_relative_residual": 1.5833780135077744e-13,
+              "dm2_dlambda_hat_fixed_background": 0.042410976134407266,
+              "g_left": 0.020575953434657453,
+              "g_right": -0.020575953434657453
+            },
+            {
+              "mL": 6.31140374835574,
+              "m2L2": 39.833817274758886,
+              "alpha": 3.025787485975451e-06,
+              "canonical_N": 179.25217773618266,
+              "spectral_D": 1.0000000000000009,
+              "positive_energy_K": 39.83381727470726,
+              "energy_identity_relative_residual": -1.2969625373671079e-12,
+              "eigen_equation_relative_residual": 2.5110085365115343e-12,
+              "dm2_dlambda_hat_fixed_background": 0.1670730403946422,
+              "g_left": 0.023288931358400784,
+              "g_right": 0.023288931358400784
+            }
+          ]
+        }
+      ],
+      "kappa_observed": 4.297291557715799,
+      "c_alpha_observed": 0.622657836757412
+    }
+  ],
+  "counterexample_a0_zero_delta_finite": {
+    "a0": 0.0,
+    "delta": 0.2,
+    "sigma0": -0.2,
+    "W0_at_eps03": -0.7698003589195012,
+    "interpretation": "Not the reflection center: sigma0 and W0 remain nonzero as a0 tends to zero at fixed delta."
+  },
+  "R_real_branch_check": {
+    "mu": 1.0,
+    "lambda": 0.5,
+    "v": 0.3,
+    "q": 0.2,
+    "z_mu_v_over_q_minus_mu_over_2lambda": 0.5,
+    "physical_muL": 1.0986122886681098,
+    "printed_archive_branch_imaginary_part": 6.283185307179586,
+    "interpretation": "Archive printed 2 log(-sqrt(3)); the real positive branch is log(3), without the imaginary branch contribution."
+  },
+  "weak_formula_comparison": [
+    {
+      "lambda_hat": 1.0,
+      "kappa_formula": 3.359794732912209,
+      "c_alpha_formula": 0.8399486832280522,
+      "epsilon_list": [
+        0.02,
+        0.01,
+        0.005
+      ],
+      "kappa_errors": [
+        -0.0007078651740228814,
+        -0.00017702396108942864,
+        -4.425959668852286e-05
+      ],
+      "c_alpha_errors": [
+        -0.0004201302941529983,
+        -0.00010508886565274711,
+        -2.627572741487061e-05
+      ],
+      "kappa_error_reduction_when_epsilon_halved": [
+        3.9986969541670314,
+        3.999674066965311
+      ],
+      "c_alpha_error_reduction_when_epsilon_halved": [
+        3.997857351903158,
+        3.999465514064993
+      ]
+    },
+    {
+      "lambda_hat": 20.0,
+      "kappa_formula": 4.297387689410801,
+      "c_alpha_formula": 0.6226781189295816,
+      "epsilon_list": [
+        0.02,
+        0.01,
+        0.005
+      ],
+      "kappa_errors": [
+        -0.0015371282191489755,
+        -0.0003844778026271811,
+        -9.613169500166663e-05
+      ],
+      "c_alpha_errors": [
+        -0.00032428246766191826,
+        -8.111703376223467e-05,
+        -2.028217216953898e-05
+      ],
+      "kappa_error_reduction_when_epsilon_halved": [
+        3.9979634939796296,
+        3.9994905178829465
+      ],
+      "c_alpha_error_reduction_when_epsilon_halved": [
+        3.9977111171549415,
+        3.9994253615528046
+      ]
+    }
+  ],
+  "reference_comparisons": [
+    {
+      "lambda_hat": 0.0,
+      "n": 0,
+      "relative_mass_difference": -5.4922733028206494e-12,
+      "relative_alpha_difference": -1.6138201885951275e-12
+    },
+    {
+      "lambda_hat": 0.0,
+      "n": 1,
+      "relative_mass_difference": 6.068479052601106e-13,
+      "relative_alpha_difference": 3.169020601490047e-12
+    },
+    {
+      "lambda_hat": 0.0,
+      "n": 2,
+      "relative_mass_difference": 1.1295409052536343e-12,
+      "relative_alpha_difference": 6.171729793891245e-12
+    },
+    {
+      "lambda_hat": 1.0,
+      "n": 0,
+      "relative_mass_difference": -5.695000027117203e-12,
+      "relative_alpha_difference": -2.1117552151395103e-12
+    },
+    {
+      "lambda_hat": 1.0,
+      "n": 1,
+      "relative_mass_difference": 9.678924328682115e-13,
+      "relative_alpha_difference": 1.8074430840897548e-13
+    },
+    {
+      "lambda_hat": 1.0,
+      "n": 2,
+      "relative_mass_difference": -2.6173507805538065e-12,
+      "relative_alpha_difference": -5.029643368459347e-12
+    },
+    {
+      "lambda_hat": 20.0,
+      "n": 0,
+      "relative_mass_difference": -5.945688386077563e-12,
+      "relative_alpha_difference": -2.7073898678509067e-12
+    },
+    {
+      "lambda_hat": 20.0,
+      "n": 1,
+      "relative_mass_difference": -5.340172748447003e-14,
+      "relative_alpha_difference": -5.434652727842604e-12
+    },
+    {
+      "lambda_hat": 20.0,
+      "n": 2,
+      "relative_mass_difference": -5.6130655678998664e-12,
+      "relative_alpha_difference": -1.2330469978394376e-11
+    },
+    {
+      "lambda_hat": null,
+      "n": 0,
+      "relative_mass_difference": -5.977107697674455e-12,
+      "relative_alpha_difference": -2.7626789744772395e-12
+    },
+    {
+      "lambda_hat": null,
+      "n": 1,
+      "relative_mass_difference": -2.864375403532904e-13,
+      "relative_alpha_difference": -5.545008896490344e-12
+    },
+    {
+      "lambda_hat": null,
+      "n": 2,
+      "relative_mass_difference": -2.887245997840182e-12,
+      "relative_alpha_difference": 1.301736496372996e-11
+    }
+  ],
+  "independent_affine_shooting_comparison_eps053": {
+    "scalar_relative_mass_differences": [
+      -5.140332604014475e-14,
+      -3.68594044175552e-14,
+      -8.83182416089312e-13
+    ],
+    "scalar_relative_alpha_differences": [
+      -3.8746783559417963e-14,
+      -3.3806291099836017e-13,
+      -2.6703084188284265e-12
+    ],
+    "first_tensor_relative_mass_difference": 1.5698553568199713e-13
+  },
+  "checks_passed": true
+}

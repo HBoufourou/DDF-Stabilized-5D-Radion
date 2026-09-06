@@ -1,0 +1,14 @@
+{
+  "scope": "One fixed set of comparison tolerances per calculation; mathematical identities also checked by each solver.",
+  "jobs": [
+    {"id":"weak_stiffness","profile":"article1","script":"noyau/stabilisation/weak_coupling_quadratic.py","result":"noyau/stabilisation/weak_coupling_quadratic.json","rtol":1e-10,"atol":1e-11},
+    {"id":"fixed_action_length","profile":"article1","script":"noyau/stabilisation/r_fixed_action_checks.py","result":"noyau/stabilisation/r_fixed_action_checks.json","rtol":1e-7,"atol":1e-9},
+    {"id":"spectral_galerkin","profile":"article1","script":"noyau/stabilisation/radion_comparison.py","result":"noyau/stabilisation/radion_comparison.json","rtol":1e-6,"atol":1e-8},
+    {"id":"curved_fixed_tension","profile":"article1","script":"noyau/courbure/courbure_action_fixe.py","result":"noyau/courbure/courbure_action_fixe.json","rtol":1e-7,"atol":1e-9},
+    {"id":"phi_projection_charged","profile":"extensions","script":"matiere/Phi/phi_projection.py","result":"matiere/Phi/phi_projection.json","rtol":1e-6,"atol":1e-8},
+    {"id":"hydrostatic_halos","profile":"extensions","script":"extensions/RAR/halo_hydrostatic.py","result":"extensions/RAR/halo_hydrostatic.json","rtol":1e-7,"atol":1e-9},
+    {"id":"finite_chi_interiors","profile":"extensions","script":"extensions/RAR/halo_chi_boundary.py","result":"extensions/RAR/halo_chi_boundary.json","rtol":1e-7,"atol":1e-9},
+    {"id":"local_source_response","profile":"extensions","script":"extensions/RAR/local_coupling_checks.py","result":"extensions/RAR/local_coupling_checks.json","rtol":1e-8,"atol":1e-10},
+    {"id":"uv_consistency","profile":"extensions","script":"extensions/UV/uv_matching_checks.py","result":"extensions/UV/uv_matching_checks.json","rtol":1e-10,"atol":1e-12}
+  ]
+}

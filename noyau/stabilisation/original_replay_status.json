@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-06",
+  "script": "EFT_v3/programme_v2/scripts/etape1_quadratic_and_monotone.py",
+  "read_before_execution": true,
+  "attempted": true,
+  "completed": false,
+  "stage_reached": "import scipy.integrate, before any background or spectrum calculation",
+  "error": "ModuleNotFoundError: No module named 'scipy.integrate'",
+  "runtime_attempted": "work/ddf_correction_2026_09_06/runtime",
+  "interpretation": "Environment availability differs from the parent process; this does not diagnose physical or numerical failure of the archived model.",
+  "independent_new_numpy_calculation": "radion_comparison.py completed successfully; results are in radion_comparison.json"
+}

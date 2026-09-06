@@ -1,0 +1,56 @@
+[
+  {
+    "script": "etape1_quadratic_and_monotone",
+    "return_code": 0,
+    "seconds": 130.11,
+    "reference_present": false,
+    "same_displayed_output": null,
+    "script_sha256": "34a71ebbe53d55d00c73b6a88b022dfebc3a7b90b2af840b3f74822352c1b1b8",
+    "conclusion": "Replaying output does not validate its physical interpretation."
+  },
+  {
+    "script": "etape3a_phi_sector",
+    "return_code": 0,
+    "seconds": 232.44,
+    "reference_present": true,
+    "same_displayed_output": false,
+    "script_sha256": "e7b0243648c1182825d3b57138522cfd3651b57f765701056d9e3280038ff5c3",
+    "conclusion": "Replaying output does not validate its physical interpretation."
+  },
+  {
+    "script": "etape3bcd_scales_relic_condensate",
+    "return_code": 0,
+    "seconds": 0.25,
+    "reference_present": true,
+    "same_displayed_output": true,
+    "script_sha256": "9661cf09b6e83bc2fc9f40067e4dd71ac42d3d04e28dddc2c3fb1261e9619500",
+    "conclusion": "Replaying output does not validate its physical interpretation."
+  },
+  {
+    "script": "etape4_kelvon_kill",
+    "return_code": 0,
+    "seconds": 0.17,
+    "reference_present": true,
+    "same_displayed_output": true,
+    "script_sha256": "d76991c7d5fce5cc72863d98cf424fc73b3a2c9ee745ecbdd0a8d4e9a2244bc1",
+    "conclusion": "Replaying output does not validate its physical interpretation."
+  },
+  {
+    "script": "axe1_R_selection",
+    "return_code": 0,
+    "seconds": 1.47,
+    "reference_present": true,
+    "same_displayed_output": true,
+    "script_sha256": "f632de01a14fec0b1b3f22cbddb6166ea9d586e81d7ae8cd8cdbeecc2d17aa13",
+    "conclusion": "Replaying output does not validate its physical interpretation."
+  },
+  {
+    "script": "etape4prime_BK_derivation",
+    "return_code": 0,
+    "seconds": 0.89,
+    "reference_present": true,
+    "same_displayed_output": true,
+    "script_sha256": "57e0c877b9a012b2071d1951d7f8d105b6ca8fffc8e9caa914176a8ed40dcfa5",
+    "conclusion": "Replaying output does not validate its physical interpretation."
+  }
+]

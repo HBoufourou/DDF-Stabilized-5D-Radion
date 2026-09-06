@@ -1,0 +1,1129 @@
+{
+  "scope": "Probe Phi spectrum with homogeneous Neumann conditions, normalized modes and local-potential overlaps only.",
+  "background": {
+    "x": 2.0,
+    "epsilon": 0.3,
+    "q": 1.0392304845413263,
+    "Lambda5": 0.19666340424278578,
+    "volume_I": 1.028278116921972,
+    "A_center": 0.020072302740417214,
+    "sigma_boundary": 0.37816375655800466,
+    "W_right": 1.8465208099403225,
+    "U_total_each_boundary": -0.29322587422262153,
+    "background_tolerance": 2e-12,
+    "constraint_max_abs": 4.3642867098014904e-13,
+    "source_relative_residual": 2.220446049250313e-16
+  },
+  "method": "P1 full-interval FEM, 8-point Gauss per element; 256/512/1024 elements; negative spectral shift at mPhi=0.",
+  "operator": "-(exp(4A) psi_prime)_prime + mPhi^2 exp(4A) psi = mn^2 exp(2A) psi",
+  "normalization": "integral exp(2A) psi_n psi_m=delta_nm; each psi_n(0)>0 fixes eigenfunction sign",
+  "quartic_measure": "lambda_ijkl=integral exp(4A) psi_i psi_j psi_k psi_l",
+  "sextic_measure": "lambda_000000=integral exp(4A) psi_0^6, not exp(6A)",
+  "cases": [
+    {
+      "mPhiL": 0.0,
+      "runs": [
+        {
+          "elements": 256,
+          "mPhiL": 0.0,
+          "raw_FEM_zero_m2_if_massless": -5.217354326347845e-13,
+          "massless_zero_mode_fixed_analytically": true,
+          "lambda_0000_L": 1.0001336856592358,
+          "sextic_overlap_000000_L2_with_e4A_measure": 0.972629553425692,
+          "orthonormality_max_abs_error": 3.507480398881447e-14,
+          "modes": [
+            {
+              "n": 0,
+              "m2L2": 0.0,
+              "mL": 0.0,
+              "flat_mL": 0.0,
+              "relative_mass_shift_from_flat": null,
+              "psi_boundary_squared_L": 0.9724995441830215,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "even",
+              "reflection_relative_residual": 0.0,
+              "lambda_nn00_L": 1.0001336856592358,
+              "lambda_n000_L": 1.0001336856592358
+            },
+            {
+              "n": 1,
+              "m2L2": 10.386762501693175,
+              "mL": 3.2228500588288584,
+              "flat_mL": 3.141592653589793,
+              "relative_mass_shift_from_flat": 0.025865035413237036,
+              "psi_boundary_squared_L": 1.9738298448762475,
+              "canonical_norm": 1.0,
+              "parity": "odd",
+              "reflection_relative_residual": 1.2112284045904784e-14,
+              "lambda_nn00_L": 0.9923088684647496,
+              "lambda_n000_L": 3.052702374390864e-15
+            },
+            {
+              "n": 2,
+              "m2L2": 40.87415911039386,
+              "mL": 6.393290163162772,
+              "flat_mL": 6.283185307179586,
+              "relative_mass_shift_from_flat": 0.017523732088145172,
+              "psi_boundary_squared_L": 2.0097909233575915,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "even",
+              "reflection_relative_residual": 2.3648383864482604e-14,
+              "lambda_nn00_L": 0.9976047793609928,
+              "lambda_n000_L": -0.010928936901499684
+            },
+            {
+              "n": 3,
+              "m2L2": 91.6319646005864,
+              "mL": 9.572458649719328,
+              "flat_mL": 9.42477796076938,
+              "relative_mass_shift_from_flat": 0.015669407763734045,
+              "psi_boundary_squared_L": 2.019620626201286,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "odd",
+              "reflection_relative_residual": 2.5780667036350766e-14,
+              "lambda_nn00_L": 0.9988445501576647,
+              "lambda_n000_L": 7.460224948189917e-16
+            }
+          ]
+        },
+        {
+          "elements": 512,
+          "mPhiL": 0.0,
+          "raw_FEM_zero_m2_if_massless": -1.0046172227440309e-11,
+          "massless_zero_mode_fixed_analytically": true,
+          "lambda_0000_L": 1.0001336856592358,
+          "sextic_overlap_000000_L2_with_e4A_measure": 0.972629553425692,
+          "orthonormality_max_abs_error": 1.0291205294271844e-13,
+          "modes": [
+            {
+              "n": 0,
+              "m2L2": 0.0,
+              "mL": 0.0,
+              "flat_mL": 0.0,
+              "relative_mass_shift_from_flat": null,
+              "psi_boundary_squared_L": 0.9724995441830215,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "even",
+              "reflection_relative_residual": 0.0,
+              "lambda_nn00_L": 1.0001336856592358,
+              "lambda_n000_L": 1.0001336856592358
+            },
+            {
+              "n": 1,
+              "m2L2": 10.386667741981883,
+              "mL": 3.2228353575666695,
+              "flat_mL": 3.141592653589793,
+              "relative_mass_shift_from_flat": 0.02586035585614299,
+              "psi_boundary_squared_L": 1.9737913788121626,
+              "canonical_norm": 1.0,
+              "parity": "odd",
+              "reflection_relative_residual": 1.0834011325682809e-13,
+              "lambda_nn00_L": 0.9923088668093591,
+              "lambda_n000_L": 5.4234429683121804e-14
+            },
+            {
+              "n": 2,
+              "m2L2": 40.872633991927316,
+              "mL": 6.393170887120672,
+              "flat_mL": 6.283185307179586,
+              "relative_mass_shift_from_flat": 0.01750474871645258,
+              "psi_boundary_squared_L": 2.009637081225265,
+              "canonical_norm": 1.0,
+              "parity": "even",
+              "reflection_relative_residual": 2.94335957726906e-14,
+              "lambda_nn00_L": 0.9976047721042234,
+              "lambda_n000_L": -0.010928938265152344
+            },
+            {
+              "n": 3,
+              "m2L2": 91.62423431583164,
+              "mL": 9.572054863812244,
+              "flat_mL": 9.42477796076938,
+              "relative_mass_shift_from_flat": 0.01562656474835844,
+              "psi_boundary_squared_L": 2.0192744968367458,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "odd",
+              "reflection_relative_residual": 3.523697227430047e-14,
+              "lambda_nn00_L": 0.9988445331598611,
+              "lambda_n000_L": -4.614952789889514e-15
+            }
+          ]
+        },
+        {
+          "elements": 1024,
+          "mPhiL": 0.0,
+          "raw_FEM_zero_m2_if_massless": -7.145353753124084e-12,
+          "massless_zero_mode_fixed_analytically": true,
+          "lambda_0000_L": 1.0001336856592358,
+          "sextic_overlap_000000_L2_with_e4A_measure": 0.972629553425692,
+          "orthonormality_max_abs_error": 2.946719367393096e-13,
+          "modes": [
+            {
+              "n": 0,
+              "m2L2": 0.0,
+              "mL": 0.0,
+              "flat_mL": 0.0,
+              "relative_mass_shift_from_flat": null,
+              "psi_boundary_squared_L": 0.9724995441830215,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "even",
+              "reflection_relative_residual": 0.0,
+              "lambda_nn00_L": 1.0001336856592358,
+              "lambda_n000_L": 1.0001336856592358
+            },
+            {
+              "n": 1,
+              "m2L2": 10.38664405211952,
+              "mL": 3.2228316822507996,
+              "flat_mL": 3.141592653589793,
+              "relative_mass_shift_from_flat": 0.02585918596676673,
+              "psi_boundary_squared_L": 1.973781762394046,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "odd",
+              "reflection_relative_residual": 1.8893596070455033e-13,
+              "lambda_nn00_L": 0.992308866394461,
+              "lambda_n000_L": -2.106145827633698e-14
+            },
+            {
+              "n": 2,
+              "m2L2": 40.87225271875453,
+              "mL": 6.393141068266407,
+              "flat_mL": 6.283185307179586,
+              "relative_mass_shift_from_flat": 0.017500002898398925,
+              "psi_boundary_squared_L": 2.009598622471146,
+              "canonical_norm": 1.0,
+              "parity": "even",
+              "reflection_relative_residual": 2.084852524203213e-13,
+              "lambda_nn00_L": 0.9976047702857149,
+              "lambda_n000_L": -0.010928938607140691
+            },
+            {
+              "n": 3,
+              "m2L2": 91.62230182273098,
+              "mL": 9.571953918753003,
+              "flat_mL": 9.42477796076938,
+              "relative_mass_shift_from_flat": 0.015615854144919172,
+              "psi_boundary_squared_L": 2.0191879736930005,
+              "canonical_norm": 1.0,
+              "parity": "odd",
+              "reflection_relative_residual": 1.2842983760152367e-13,
+              "lambda_nn00_L": 0.9988445289001924,
+              "lambda_n000_L": 4.649600514605454e-14
+            }
+          ]
+        }
+      ],
+      "convergence": [
+        {
+          "n": 0,
+          "mL": {
+            "order_last_three": null,
+            "symmetry_or_exact_zero": true,
+            "second_order_resolved": false,
+            "finest_value": 0.0,
+            "finest_relative_step": 0.0,
+            "richardson_candidate": 0.0,
+            "selected_estimate": 0.0,
+            "method": "exact/symmetry zero"
+          },
+          "psi_boundary_squared_L": {
+            "order_last_three": null,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": false,
+            "finest_value": 0.9724995441830215,
+            "finest_relative_step": 0.0,
+            "richardson_candidate": 0.9724995441830216,
+            "selected_estimate": 0.9724995441830215,
+            "method": "finest grid; order two not validated"
+          },
+          "lambda_nn00_L": {
+            "order_last_three": null,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": false,
+            "finest_value": 1.0001336856592358,
+            "finest_relative_step": 0.0,
+            "richardson_candidate": 1.0001336856592358,
+            "selected_estimate": 1.0001336856592358,
+            "method": "finest grid; order two not validated"
+          },
+          "lambda_n000_L": {
+            "order_last_three": null,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": false,
+            "finest_value": 1.0001336856592358,
+            "finest_relative_step": 0.0,
+            "richardson_candidate": 1.0001336856592358,
+            "selected_estimate": 1.0001336856592358,
+            "method": "finest grid; order two not validated"
+          }
+        },
+        {
+          "n": 1,
+          "mL": {
+            "order_last_three": 1.9999998733556765,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 3.2228316822507996,
+            "finest_relative_step": 1.1403930691091915e-06,
+            "richardson_candidate": 3.2228304571455095,
+            "selected_estimate": 3.2228304571455095,
+            "method": "Richardson"
+          },
+          "psi_boundary_squared_L": {
+            "order_last_three": 2.000014687968184,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 1.973781762394046,
+            "finest_relative_step": 4.871959020004035e-06,
+            "richardson_candidate": 1.9737785569213404,
+            "selected_estimate": 1.9737785569213404,
+            "method": "Richardson"
+          },
+          "lambda_nn00_L": {
+            "order_last_three": 1.996342564866709,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 0.992308866394461,
+            "finest_relative_step": 4.18113884747904e-10,
+            "richardson_candidate": 0.9923088662561618,
+            "selected_estimate": 0.9923088662561618,
+            "method": "Richardson"
+          },
+          "lambda_n000_L": {
+            "order_last_three": -0.5569422418864834,
+            "symmetry_or_exact_zero": true,
+            "second_order_resolved": false,
+            "finest_value": -2.106145827633698e-14,
+            "finest_relative_step": 1.3883411036014173,
+            "richardson_candidate": -4.6160087596156574e-14,
+            "selected_estimate": 0.0,
+            "method": "exact/symmetry zero"
+          }
+        },
+        {
+          "n": 2,
+          "mL": {
+            "order_last_three": 2.0000075601531067,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 6.393141068266407,
+            "finest_relative_step": 4.664085862504385e-06,
+            "richardson_candidate": 6.393131128648318,
+            "selected_estimate": 6.393131128648318,
+            "method": "Richardson"
+          },
+          "psi_boundary_squared_L": {
+            "order_last_three": 2.000066732315356,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 2.009598622471146,
+            "finest_relative_step": 1.913569897829249e-05,
+            "richardson_candidate": 2.00958580288644,
+            "selected_estimate": 2.00958580288644,
+            "method": "Richardson"
+          },
+          "lambda_nn00_L": {
+            "order_last_three": 1.9965717939906207,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 0.9976047702857149,
+            "finest_relative_step": 1.8228746418961814e-09,
+            "richardson_candidate": 0.9976047696795455,
+            "selected_estimate": 0.9976047696795455,
+            "method": "Richardson"
+          },
+          "lambda_n000_L": {
+            "order_last_three": 1.995457143723935,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": -0.010928938607140691,
+            "finest_relative_step": 3.1292000042873565e-08,
+            "richardson_candidate": -0.010928938721136807,
+            "selected_estimate": -0.010928938721136807,
+            "method": "Richardson"
+          }
+        },
+        {
+          "n": 3,
+          "mL": {
+            "order_last_three": 2.000020259026561,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 9.571953918753003,
+            "finest_relative_step": 1.054536383338227e-05,
+            "richardson_candidate": 9.571920270399923,
+            "selected_estimate": 9.571920270399923,
+            "method": "Richardson"
+          },
+          "psi_boundary_squared_L": {
+            "order_last_three": 2.000153349993466,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 2.0191879736930005,
+            "finest_relative_step": 4.284128544873535e-05,
+            "richardson_candidate": 2.0191591326450857,
+            "selected_estimate": 2.0191591326450857,
+            "method": "Richardson"
+          },
+          "lambda_nn00_L": {
+            "order_last_three": 1.9965351962442726,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 0.9988445289001924,
+            "finest_relative_step": 4.264596255928061e-09,
+            "richardson_candidate": 0.9988445274803027,
+            "selected_estimate": 0.9988445274803027,
+            "method": "Richardson"
+          },
+          "lambda_n000_L": {
+            "order_last_three": -3.2530652419049146,
+            "symmetry_or_exact_zero": true,
+            "second_order_resolved": false,
+            "finest_value": 4.649600514605454e-14,
+            "finest_relative_step": 1.0992548236217907,
+            "richardson_candidate": 6.353299112470256e-14,
+            "selected_estimate": 0.0,
+            "method": "exact/symmetry zero"
+          }
+        }
+      ]
+    },
+    {
+      "mPhiL": 1.0,
+      "runs": [
+        {
+          "elements": 256,
+          "mPhiL": 1.0,
+          "raw_FEM_zero_m2_if_massless": null,
+          "massless_zero_mode_fixed_analytically": false,
+          "lambda_0000_L": 1.0001216923330307,
+          "sextic_overlap_000000_L2_with_e4A_measure": 0.9726125000816931,
+          "orthonormality_max_abs_error": 2.220446049250313e-16,
+          "modes": [
+            {
+              "n": 0,
+              "m2L2": 1.0284124221222042,
+              "mL": 1.0141067114077316,
+              "flat_mL": 1.0,
+              "relative_mass_shift_from_flat": 0.014106711407731565,
+              "psi_boundary_squared_L": 0.9733420848658864,
+              "canonical_norm": 1.0,
+              "parity": "even",
+              "reflection_relative_residual": 1.8802077097008473e-14,
+              "lambda_nn00_L": 1.0001216923330307,
+              "lambda_n000_L": 1.0001216923330307
+            },
+            {
+              "n": 1,
+              "m2L2": 11.407130638269079,
+              "mL": 3.3774443945487955,
+              "flat_mL": 3.296908309475615,
+              "relative_mass_shift_from_flat": 0.024427760044679614,
+              "psi_boundary_squared_L": 1.974414081544727,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "odd",
+              "reflection_relative_residual": 3.0567139183675533e-14,
+              "lambda_nn00_L": 0.9926926697774006,
+              "lambda_n000_L": 1.2983516958057417e-14
+            },
+            {
+              "n": 2,
+              "m2L2": 41.89997665703013,
+              "mL": 6.473019129975604,
+              "flat_mL": 6.362265131567328,
+              "relative_mass_shift_from_flat": 0.017407950803363104,
+              "psi_boundary_squared_L": 2.009375934665985,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "even",
+              "reflection_relative_residual": 3.177834372236152e-14,
+              "lambda_nn00_L": 0.997643205318837,
+              "lambda_n000_L": -0.010381803120809515
+            },
+            {
+              "n": 3,
+              "m2L2": 92.659055420567,
+              "mL": 9.625957376830993,
+              "flat_mL": 9.477681130413927,
+              "relative_mass_shift_from_flat": 0.015644781078490322,
+              "psi_boundary_squared_L": 2.0193695595162864,
+              "canonical_norm": 1.0,
+              "parity": "odd",
+              "reflection_relative_residual": 1.9279076413518914e-14,
+              "lambda_nn00_L": 0.9988564033275752,
+              "lambda_n000_L": 1.1582694147820941e-14
+            }
+          ]
+        },
+        {
+          "elements": 512,
+          "mPhiL": 1.0,
+          "raw_FEM_zero_m2_if_massless": null,
+          "massless_zero_mode_fixed_analytically": false,
+          "lambda_0000_L": 1.0001216918549187,
+          "sextic_overlap_000000_L2_with_e4A_measure": 0.9726124994178459,
+          "orthonormality_max_abs_error": 2.220446049250313e-16,
+          "modes": [
+            {
+              "n": 0,
+              "m2L2": 1.0284124219987567,
+              "mL": 1.0141067113468665,
+              "flat_mL": 1.0,
+              "relative_mass_shift_from_flat": 0.014106711346866474,
+              "psi_boundary_squared_L": 0.9733420839320439,
+              "canonical_norm": 1.0,
+              "parity": "even",
+              "reflection_relative_residual": 2.607571153582188e-13,
+              "lambda_nn00_L": 1.0001216918549187,
+              "lambda_n000_L": 1.0001216918549187
+            },
+            {
+              "n": 1,
+              "m2L2": 11.407035876736614,
+              "mL": 3.3774303659345244,
+              "flat_mL": 3.296908309475615,
+              "relative_mass_shift_from_flat": 0.024423504962962195,
+              "psi_boundary_squared_L": 1.9743756144059956,
+              "canonical_norm": 0.9999999999999999,
+              "parity": "odd",
+              "reflection_relative_residual": 2.6812240592246015e-13,
+              "lambda_nn00_L": 0.9926926823262012,
+              "lambda_n000_L": 2.5593054929592633e-13
+            },
+            {
+              "n": 2,
+              "m2L2": 41.89845153108735,
+              "mL": 6.472901322520478,
+              "flat_mL": 6.362265131567328,
+              "relative_mass_shift_from_flat": 0.01738943421332939,
+              "psi_boundary_squared_L": 2.009222092227189,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "even",
+              "reflection_relative_residual": 7.794311789383176e-14,
+              "lambda_nn00_L": 0.9976432028181792,
+              "lambda_n000_L": -0.010381784115296142
+            },
+            {
+              "n": 3,
+              "m2L2": 92.65132511831577,
+              "mL": 9.625555834252678,
+              "flat_mL": 9.477681130413927,
+              "relative_mass_shift_from_flat": 0.015602413903145651,
+              "psi_boundary_squared_L": 2.0190234297740832,
+              "canonical_norm": 1.0,
+              "parity": "odd",
+              "reflection_relative_residual": 3.634992895943888e-14,
+              "lambda_nn00_L": 0.9988563891752512,
+              "lambda_n000_L": 3.153675451497375e-15
+            }
+          ]
+        },
+        {
+          "elements": 1024,
+          "mPhiL": 1.0,
+          "raw_FEM_zero_m2_if_massless": null,
+          "massless_zero_mode_fixed_analytically": false,
+          "lambda_0000_L": 1.0001216917353701,
+          "sextic_overlap_000000_L2_with_e4A_measure": 0.9726124992518554,
+          "orthonormality_max_abs_error": 2.220446049250313e-16,
+          "modes": [
+            {
+              "n": 0,
+              "m2L2": 1.0284124219779616,
+              "mL": 1.0141067113366136,
+              "flat_mL": 1.0,
+              "relative_mass_shift_from_flat": 0.014106711336613564,
+              "psi_boundary_squared_L": 0.9733420836982705,
+              "canonical_norm": 1.0,
+              "parity": "even",
+              "reflection_relative_residual": 4.3856699164750994e-13,
+              "lambda_nn00_L": 1.0001216917353701,
+              "lambda_n000_L": 1.0001216917353701
+            },
+            {
+              "n": 1,
+              "m2L2": 11.407012186418742,
+              "mL": 3.3774268587815106,
+              "flat_mL": 3.296908309475615,
+              "relative_mass_shift_from_flat": 0.024422441192700983,
+              "psi_boundary_squared_L": 1.9743659977206955,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "odd",
+              "reflection_relative_residual": 4.589725647962606e-13,
+              "lambda_nn00_L": 0.9926926854628916,
+              "lambda_n000_L": -4.297566918312785e-13
+            },
+            {
+              "n": 2,
+              "m2L2": 41.89807025604748,
+              "mL": 6.4728718708195885,
+              "flat_mL": 6.362265131567328,
+              "relative_mass_shift_from_flat": 0.017384805091423816,
+              "psi_boundary_squared_L": 2.0091836333968356,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "even",
+              "reflection_relative_residual": 1.5849004973458823e-13,
+              "lambda_nn00_L": 0.9976432021888344,
+              "lambda_n000_L": -0.010381779364064338
+            },
+            {
+              "n": 3,
+              "m2L2": 92.6493926208379,
+              "mL": 9.625455450046918,
+              "flat_mL": 9.477681130413927,
+              "relative_mass_shift_from_flat": 0.015591822261120658,
+              "psi_boundary_squared_L": 2.0189369065380793,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "odd",
+              "reflection_relative_residual": 3.909305009187964e-14,
+              "lambda_nn00_L": 0.9988563856271758,
+              "lambda_n000_L": -1.7238416526369817e-14
+            }
+          ]
+        }
+      ],
+      "convergence": [
+        {
+          "n": 0,
+          "mL": {
+            "order_last_three": 2.5695816211338793,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": false,
+            "finest_value": 1.0141067113366136,
+            "finest_relative_step": 1.011028673519057e-11,
+            "richardson_candidate": 1.0141067113331959,
+            "selected_estimate": 1.0141067113366136,
+            "method": "finest grid; order two not validated"
+          },
+          "psi_boundary_squared_L": {
+            "order_last_three": 1.998068108211568,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 0.9733420836982705,
+            "finest_relative_step": 2.4017603747051806e-10,
+            "richardson_candidate": 0.9733420836203459,
+            "selected_estimate": 0.9733420836203459,
+            "method": "Richardson"
+          },
+          "lambda_nn00_L": {
+            "order_last_three": 1.9997514455040069,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 1.0001216917353701,
+            "finest_relative_step": 1.1953404686999173e-10,
+            "richardson_candidate": 1.0001216916955207,
+            "selected_estimate": 1.0001216916955207,
+            "method": "Richardson"
+          },
+          "lambda_n000_L": {
+            "order_last_three": 1.9997514455040069,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 1.0001216917353701,
+            "finest_relative_step": 1.1953404686999173e-10,
+            "richardson_candidate": 1.0001216916955207,
+            "selected_estimate": 1.0001216916955207,
+            "method": "Richardson"
+          }
+        },
+        {
+          "n": 1,
+          "mL": {
+            "order_last_three": 2.0000002278927798,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 3.3774268587815106,
+            "finest_relative_step": 1.0384043685345556e-06,
+            "richardson_candidate": 3.377425689730506,
+            "selected_estimate": 3.377425689730506,
+            "method": "Richardson"
+          },
+          "psi_boundary_squared_L": {
+            "order_last_three": 2.0000149093266764,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 1.9743659977206955,
+            "finest_relative_step": 4.870652711593658e-06,
+            "richardson_candidate": 1.9743627921589288,
+            "selected_estimate": 1.9743627921589288,
+            "method": "Richardson"
+          },
+          "lambda_nn00_L": {
+            "order_last_three": 2.0002344659106686,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 0.9926926854628916,
+            "finest_relative_step": 3.1597798571859272e-09,
+            "richardson_candidate": 0.992692686508455,
+            "selected_estimate": 0.992692686508455,
+            "method": "Richardson"
+          },
+          "lambda_n000_L": {
+            "order_last_three": -1.4969088679540343,
+            "symmetry_or_exact_zero": true,
+            "second_order_resolved": false,
+            "finest_value": -4.297566918312785e-13,
+            "finest_relative_step": 1.5955242912108138,
+            "richardson_candidate": -6.583191055403468e-13,
+            "selected_estimate": 0.0,
+            "method": "exact/symmetry zero"
+          }
+        },
+        {
+          "n": 2,
+          "mL": {
+            "order_last_three": 2.0000079792579495,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 6.4728718708195885,
+            "finest_relative_step": 4.5499171713012955e-06,
+            "richardson_candidate": 6.472862053585959,
+            "selected_estimate": 6.472862053585959,
+            "method": "Richardson"
+          },
+          "psi_boundary_squared_L": {
+            "order_last_three": 2.000066746542465,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 2.0091836333968356,
+            "finest_relative_step": 1.9139688940109925e-05,
+            "richardson_candidate": 2.0091708137867177,
+            "selected_estimate": 2.0091708137867177,
+            "method": "Richardson"
+          },
+          "lambda_nn00_L": {
+            "order_last_three": 1.9903850955426114,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 0.9976432021888344,
+            "finest_relative_step": 6.308315389129198e-10,
+            "richardson_candidate": 0.9976432019790528,
+            "selected_estimate": 0.9976432019790528,
+            "method": "Richardson"
+          },
+          "lambda_n000_L": {
+            "order_last_three": 2.000044495513465,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": -0.010381779364064338,
+            "finest_relative_step": 4.576499620090026e-07,
+            "richardson_candidate": -0.010381777780320404,
+            "selected_estimate": -0.010381777780320404,
+            "method": "Richardson"
+          }
+        },
+        {
+          "n": 3,
+          "mL": {
+            "order_last_three": 2.000020678166206,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 9.625455450046918,
+            "finest_relative_step": 1.0428490572992186e-05,
+            "richardson_candidate": 9.625421988644996,
+            "selected_estimate": 9.625421988644996,
+            "method": "Richardson"
+          },
+          "psi_boundary_squared_L": {
+            "order_last_three": 2.000153385792991,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 2.0189369065380793,
+            "finest_relative_step": 4.284665756010189e-05,
+            "richardson_candidate": 2.0189080654594114,
+            "selected_estimate": 2.0189080654594114,
+            "method": "Richardson"
+          },
+          "lambda_nn00_L": {
+            "order_last_three": 1.995930410865785,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 0.9988563856271758,
+            "finest_relative_step": 3.5521376017896236e-09,
+            "richardson_candidate": 0.9988563844444841,
+            "selected_estimate": 0.9988563844444841,
+            "method": "Richardson"
+          },
+          "lambda_n000_L": {
+            "order_last_three": -1.2745731977583292,
+            "symmetry_or_exact_zero": true,
+            "second_order_resolved": false,
+            "finest_value": -1.7238416526369817e-14,
+            "finest_relative_step": 1.1829446136582882,
+            "richardson_candidate": -2.4035780518992215e-14,
+            "selected_estimate": 0.0,
+            "method": "exact/symmetry zero"
+          }
+        }
+      ]
+    },
+    {
+      "mPhiL": 3.0,
+      "runs": [
+        {
+          "elements": 256,
+          "mPhiL": 3.0,
+          "raw_FEM_zero_m2_if_massless": null,
+          "massless_zero_mode_fixed_analytically": false,
+          "lambda_0000_L": 1.0000474711891787,
+          "sextic_overlap_000000_L2_with_e4A_measure": 0.9725396626825472,
+          "orthonormality_max_abs_error": 2.220446049250313e-16,
+          "modes": [
+            {
+              "n": 0,
+              "m2L2": 9.255484022347344,
+              "mL": 3.0422826992814693,
+              "flat_mL": 3.0,
+              "relative_mass_shift_from_flat": 0.014094233093823183,
+              "psi_boundary_squared_L": 0.980098628245359,
+              "canonical_norm": 1.0,
+              "parity": "even",
+              "reflection_relative_residual": 4.2274262625480645e-14,
+              "lambda_nn00_L": 1.0000474711891787,
+              "lambda_n000_L": 1.0000474711891787
+            },
+            {
+              "n": 1,
+              "m2L2": 19.56997799725874,
+              "mL": 4.423796785257969,
+              "flat_mL": 4.343915791206059,
+              "relative_mass_shift_from_flat": 0.0183891672609362,
+              "psi_boundary_squared_L": 1.9790878283490847,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "odd",
+              "reflection_relative_residual": 5.692414278086206e-14,
+              "lambda_nn00_L": 0.9957734096809915,
+              "lambda_n000_L": 3.805821471384119e-14
+            },
+            {
+              "n": 2,
+              "m2L2": 50.10668879826121,
+              "mL": 7.0786078291046195,
+              "flat_mL": 6.962644440466383,
+              "relative_mass_shift_from_flat": 0.016655078344122387,
+              "psi_boundary_squared_L": 2.0060390621029844,
+              "canonical_norm": 1.0,
+              "parity": "even",
+              "reflection_relative_residual": 4.498799804477433e-14,
+              "lambda_nn00_L": 0.9979376601203224,
+              "lambda_n000_L": -0.005999314355437233
+            },
+            {
+              "n": 3,
+              "m2L2": 100.87584147147942,
+              "mL": 10.043696603914288,
+              "flat_mL": 9.890724928426845,
+              "relative_mass_shift_from_flat": 0.015466174278872868,
+              "psi_boundary_squared_L": 2.0173606686328256,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "odd",
+              "reflection_relative_residual": 2.044313087693794e-14,
+              "lambda_nn00_L": 0.9989473979699651,
+              "lambda_n000_L": 1.5250458035445948e-14
+            }
+          ]
+        },
+        {
+          "elements": 512,
+          "mPhiL": 3.0,
+          "raw_FEM_zero_m2_if_massless": null,
+          "massless_zero_mode_fixed_analytically": false,
+          "lambda_0000_L": 1.00004746853528,
+          "sextic_overlap_000000_L2_with_e4A_measure": 0.9725396615472872,
+          "orthonormality_max_abs_error": 2.7338321891855525e-16,
+          "modes": [
+            {
+              "n": 0,
+              "m2L2": 9.25548401189327,
+              "mL": 3.0422826975633392,
+              "flat_mL": 3.0,
+              "relative_mass_shift_from_flat": 0.014094232521113081,
+              "psi_boundary_squared_L": 0.9800986198874072,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "even",
+              "reflection_relative_residual": 1.6875420585078569e-13,
+              "lambda_nn00_L": 1.00004746853528,
+              "lambda_n000_L": 1.00004746853528
+            },
+            {
+              "n": 1,
+              "m2L2": 19.56988321098397,
+              "mL": 4.423786072018398,
+              "flat_mL": 4.343915791206059,
+              "relative_mass_shift_from_flat": 0.018386700997756744,
+              "psi_boundary_squared_L": 1.9790493522856574,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "odd",
+              "reflection_relative_residual": 1.6649321696012882e-13,
+              "lambda_nn00_L": 0.9957735372684589,
+              "lambda_n000_L": 1.660637597069406e-13
+            },
+            {
+              "n": 2,
+              "m2L2": 50.10516361059316,
+              "mL": 7.078500096107448,
+              "flat_mL": 6.962644440466383,
+              "relative_mass_shift_from_flat": 0.016639605344159314,
+              "psi_boundary_squared_L": 2.0058852168156833,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "even",
+              "reflection_relative_residual": 2.6881791035802983e-14,
+              "lambda_nn00_L": 0.9979376956051287,
+              "lambda_n000_L": -0.0059991316333526
+            },
+            {
+              "n": 3,
+              "m2L2": 100.86811102643479,
+              "mL": 10.043311755911732,
+              "flat_mL": 9.890724928426845,
+              "relative_mass_shift_from_flat": 0.01542726428942931,
+              "psi_boundary_squared_L": 2.017014535896406,
+              "canonical_norm": 1.0000000000000002,
+              "parity": "odd",
+              "reflection_relative_residual": 4.014630968072104e-14,
+              "lambda_nn00_L": 0.9989474068429486,
+              "lambda_n000_L": -2.1537351537664955e-14
+            }
+          ]
+        },
+        {
+          "elements": 1024,
+          "mPhiL": 3.0,
+          "raw_FEM_zero_m2_if_massless": null,
+          "massless_zero_mode_fixed_analytically": false,
+          "lambda_0000_L": 1.0000474678717457,
+          "sextic_overlap_000000_L2_with_e4A_measure": 0.9725396612634362,
+          "orthonormality_max_abs_error": 4.5619225518386495e-16,
+          "modes": [
+            {
+              "n": 0,
+              "m2L2": 9.255484009267946,
+              "mL": 3.0422826971318666,
+              "flat_mL": 3.0,
+              "relative_mass_shift_from_flat": 0.014094232377288796,
+              "psi_boundary_squared_L": 0.9800986177978356,
+              "canonical_norm": 1.0,
+              "parity": "even",
+              "reflection_relative_residual": 7.539709512052664e-14,
+              "lambda_nn00_L": 1.0000474678717457,
+              "lambda_n000_L": 1.0000474678717457
+            },
+            {
+              "n": 1,
+              "m2L2": 19.56985951445302,
+              "mL": 4.423783393708718,
+              "flat_mL": 4.343915791206059,
+              "relative_mass_shift_from_flat": 0.01838608443201073,
+              "psi_boundary_squared_L": 1.9790397333699656,
+              "canonical_norm": 1.0,
+              "parity": "odd",
+              "reflection_relative_residual": 1.4820073919606265e-13,
+              "lambda_nn00_L": 0.995773569165728,
+              "lambda_n000_L": 6.738564436978314e-15
+            },
+            {
+              "n": 2,
+              "m2L2": 50.104782320058206,
+              "mL": 7.078473163052764,
+              "flat_mL": 6.962644440466383,
+              "relative_mass_shift_from_flat": 0.016635737122118854,
+              "psi_boundary_squared_L": 2.0058467572778276,
+              "canonical_norm": 1.0,
+              "parity": "even",
+              "reflection_relative_residual": 1.7395625793230561e-13,
+              "lambda_nn00_L": 0.9979377044735782,
+              "lambda_n000_L": -0.005999085951674007
+            },
+            {
+              "n": 3,
+              "m2L2": 100.86617849314541,
+              "mL": 10.043215545488676,
+              "flat_mL": 9.890724928426845,
+              "relative_mass_shift_from_flat": 0.015417536951569666,
+              "psi_boundary_squared_L": 2.016928011924445,
+              "canonical_norm": 1.0000000000000004,
+              "parity": "odd",
+              "reflection_relative_residual": 1.1908899614832055e-13,
+              "lambda_nn00_L": 0.9989474090530529,
+              "lambda_n000_L": 6.826404782578552e-14
+            }
+          ]
+        }
+      ],
+      "convergence": [
+        {
+          "n": 0,
+          "mL": {
+            "order_last_three": 1.9934982999224924,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 3.0422826971318666,
+            "finest_relative_step": 1.418252930604142e-10,
+            "richardson_candidate": 3.0422826969880425,
+            "selected_estimate": 3.0422826969880425,
+            "method": "Richardson"
+          },
+          "psi_boundary_squared_L": {
+            "order_last_three": 1.9999422218638723,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 0.9800986177978356,
+            "finest_relative_step": 2.13200137886201e-09,
+            "richardson_candidate": 0.9800986171013117,
+            "selected_estimate": 0.9800986171013117,
+            "method": "Richardson"
+          },
+          "lambda_nn00_L": {
+            "order_last_three": 1.9998702464155496,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 1.0000474678717457,
+            "finest_relative_step": 6.635028413163359e-10,
+            "richardson_candidate": 1.0000474676505675,
+            "selected_estimate": 1.0000474676505675,
+            "method": "Richardson"
+          },
+          "lambda_n000_L": {
+            "order_last_three": 1.9998702464155496,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 1.0000474678717457,
+            "finest_relative_step": 6.635028413163359e-10,
+            "richardson_candidate": 1.0000474676505675,
+            "selected_estimate": 1.0000474676505675,
+            "method": "Richardson"
+          }
+        },
+        {
+          "n": 1,
+          "mL": {
+            "order_last_three": 2.000000114702415,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 4.423783393708718,
+            "finest_relative_step": 6.05432349139732e-07,
+            "richardson_candidate": 4.423782500938825,
+            "selected_estimate": 4.423782500938825,
+            "method": "Richardson"
+          },
+          "psi_boundary_squared_L": {
+            "order_last_three": 2.000015023204592,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 1.9790397333699656,
+            "finest_relative_step": 4.860277322688393e-06,
+            "richardson_candidate": 1.979036527064735,
+            "selected_estimate": 1.979036527064735,
+            "method": "Richardson"
+          },
+          "lambda_nn00_L": {
+            "order_last_three": 1.9999818033168548,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 0.995773569165728,
+            "finest_relative_step": 3.2032652951446435e-08,
+            "richardson_candidate": 0.9957735797981511,
+            "selected_estimate": 0.9957735797981511,
+            "method": "Richardson"
+          },
+          "lambda_n000_L": {
+            "order_last_three": -0.3157681221334263,
+            "symmetry_or_exact_zero": true,
+            "second_order_resolved": false,
+            "finest_value": 6.738564436978314e-15,
+            "finest_relative_step": 0.9594218241904788,
+            "richardson_candidate": -4.636983398634245e-14,
+            "selected_estimate": 0.0,
+            "method": "exact/symmetry zero"
+          }
+        },
+        {
+          "n": 2,
+          "mL": {
+            "order_last_three": 2.000010424357026,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 7.078473163052764,
+            "finest_relative_step": 3.8048519333879625e-06,
+            "richardson_candidate": 7.07846418536787,
+            "selected_estimate": 7.07846418536787,
+            "method": "Richardson"
+          },
+          "psi_boundary_squared_L": {
+            "order_last_three": 2.000066918752645,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 2.0058467572778276,
+            "finest_relative_step": 1.9171878844389234e-05,
+            "richardson_candidate": 2.0058339374318757,
+            "selected_estimate": 2.0058339374318757,
+            "method": "Richardson"
+          },
+          "lambda_nn00_L": {
+            "order_last_three": 2.000447626264922,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 0.9979377044735782,
+            "finest_relative_step": 8.886776690109407e-09,
+            "richardson_candidate": 0.9979377074297281,
+            "selected_estimate": 0.9979377074297281,
+            "method": "Richardson"
+          },
+          "lambda_n000_L": {
+            "order_last_three": 1.9999634460452738,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": -0.005999085951674007,
+            "finest_relative_step": 7.614483236945975e-06,
+            "richardson_candidate": -0.0059990707244478095,
+            "selected_estimate": -0.0059990707244478095,
+            "method": "Richardson"
+          }
+        },
+        {
+          "n": 3,
+          "mL": {
+            "order_last_three": 2.0000236559862357,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 10.043215545488676,
+            "finest_relative_step": 9.579184522406712e-06,
+            "richardson_candidate": 10.043183475347659,
+            "selected_estimate": 10.043183475347659,
+            "method": "Richardson"
+          },
+          "psi_boundary_squared_L": {
+            "order_last_three": 2.000153594508172,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 2.016928011924445,
+            "finest_relative_step": 4.288968914001821e-05,
+            "richardson_candidate": 2.016899170600458,
+            "selected_estimate": 2.016899170600458,
+            "method": "Richardson"
+          },
+          "lambda_nn00_L": {
+            "order_last_three": 2.005304809440866,
+            "symmetry_or_exact_zero": false,
+            "second_order_resolved": true,
+            "finest_value": 0.9989474090530529,
+            "finest_relative_step": 2.2124331088370175e-09,
+            "richardson_candidate": 0.9989474097897544,
+            "selected_estimate": 0.9989474097897544,
+            "method": "Richardson"
+          },
+          "lambda_n000_L": {
+            "order_last_three": -1.2875101488291845,
+            "symmetry_or_exact_zero": true,
+            "second_order_resolved": false,
+            "finest_value": 6.826404782578552e-14,
+            "finest_relative_step": 1.3155006511279514,
+            "richardson_candidate": 9.819784761360234e-14,
+            "selected_estimate": 0.0,
+            "method": "exact/symmetry zero"
+          }
+        }
+      ]
+    }
+  ],
+  "structural_checks_passed": true
+}

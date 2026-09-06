@@ -1,0 +1,341 @@
+{
+  "scope": "Exploratory shooting for a free fluid surface with imposed chi(surface)=0.\n\nThis boundary is a declared model problem, not a derived normal-phase matching.\nOnly a branch with no interior nodes in chi is retained when found.",
+  "scans": [
+    {
+      "ell": 0.3,
+      "A": 1.0,
+      "B": 1.0,
+      "uc": 1.0,
+      "attempts": [
+        {
+          "chi0": 0.001,
+          "success": true,
+          "chi_surface": -0.00022868860700677116,
+          "nodes": 1,
+          "surface": 2.1909390055030675,
+          "mass": 0.8383530207856333
+        },
+        {
+          "chi0": 0.03,
+          "success": true,
+          "chi_surface": -0.006851387144609599,
+          "nodes": 1,
+          "surface": 2.1904600377116252,
+          "mass": 0.8375916045768788
+        },
+        {
+          "chi0": 0.1,
+          "success": true,
+          "chi_surface": -0.022522148278326676,
+          "nodes": 1,
+          "surface": 2.1856027542916223,
+          "mass": 0.8299108442833729
+        },
+        {
+          "chi0": 0.3,
+          "success": true,
+          "chi_surface": -0.058517995633460516,
+          "nodes": 1,
+          "surface": 2.1421418670952996,
+          "mass": 0.7644727141686726
+        },
+        {
+          "chi0": 0.6,
+          "success": true,
+          "chi_surface": -0.034773765619504404,
+          "nodes": 1,
+          "surface": 1.9824781045326527,
+          "mass": 0.5718261789062778
+        },
+        {
+          "chi0": 1.0,
+          "success": true,
+          "chi_surface": 0.46066020089722637,
+          "nodes": 0,
+          "surface": 1.5641862626514313,
+          "mass": 0.3089760772795135
+        },
+        {
+          "chi0": 1.5,
+          "success": true,
+          "chi_surface": 1.405523275298869,
+          "nodes": 0,
+          "surface": 1.3988834603537519,
+          "mass": 0.2500080130205272
+        },
+        {
+          "chi0": 2.0,
+          "success": true,
+          "chi_surface": 2.0885309850362903,
+          "nodes": 0,
+          "surface": 1.4991890443613782,
+          "mass": 0.2981542753448326
+        },
+        {
+          "chi0": 3.0,
+          "success": true,
+          "chi_surface": 3.1959198839670635,
+          "nodes": 0,
+          "surface": 1.7929362636301025,
+          "mass": 0.488964105501279
+        },
+        {
+          "chi0": 5.0,
+          "success": true,
+          "chi_surface": 5.2152996818288555,
+          "nodes": 0,
+          "surface": 2.383772959365193,
+          "mass": 1.1145412158533023
+        },
+        {
+          "chi0": 8.0,
+          "success": true,
+          "chi_surface": 8.198222562783881,
+          "nodes": 0,
+          "surface": 3.1506599282007053,
+          "mass": 2.550676642953408
+        },
+        {
+          "chi0": 12.0,
+          "success": true,
+          "chi_surface": 12.180962837012332,
+          "nodes": 0,
+          "surface": 3.99547266198288,
+          "mass": 5.230965389012792
+        },
+        {
+          "chi0": 20.0,
+          "success": true,
+          "chi_surface": 20.165202145157693,
+          "nodes": 0,
+          "surface": 5.333430869721534,
+          "mass": 12.657017264295435
+        }
+      ]
+    },
+    {
+      "ell": 0.1,
+      "A": 1.0,
+      "B": 1.0,
+      "uc": 1.0,
+      "attempts": [
+        {
+          "chi0": 0.001,
+          "success": true,
+          "chi_surface": -0.00014241035822276865,
+          "nodes": 3,
+          "surface": 2.190939344528323,
+          "mass": 0.8383535466703524
+        },
+        {
+          "chi0": 0.03,
+          "success": true,
+          "chi_surface": -0.004267867336131872,
+          "nodes": 3,
+          "surface": 2.1907652485269518,
+          "mass": 0.8380647321216808
+        },
+        {
+          "chi0": 0.1,
+          "success": true,
+          "chi_surface": -0.014074468116911449,
+          "nodes": 3,
+          "surface": 2.1890017869916374,
+          "mass": 0.8351449584071975
+        },
+        {
+          "chi0": 0.3,
+          "success": true,
+          "chi_surface": -0.037795653057997494,
+          "nodes": 3,
+          "surface": 2.173396590846485,
+          "mass": 0.8097666078906283
+        },
+        {
+          "chi0": 0.6,
+          "success": true,
+          "chi_surface": -0.03483334092079265,
+          "nodes": 3,
+          "surface": 2.1188470855751436,
+          "mass": 0.7279018139394894
+        },
+        {
+          "chi0": 1.0,
+          "success": true,
+          "chi_surface": 0.1767627536797193,
+          "nodes": 2,
+          "surface": 1.9716765684672246,
+          "mass": 0.5562088250848798
+        },
+        {
+          "chi0": 1.5,
+          "success": true,
+          "chi_surface": -0.593472575270391,
+          "nodes": 1,
+          "surface": 1.602247413990263,
+          "mass": 0.30654082866955723
+        },
+        {
+          "chi0": 2.0,
+          "success": true,
+          "chi_surface": 3.070669653978682,
+          "nodes": 0,
+          "surface": 1.5762379081079751,
+          "mass": 0.32267042325245937
+        },
+        {
+          "chi0": 3.0,
+          "success": true,
+          "chi_surface": 4.884457290942507,
+          "nodes": 0,
+          "surface": 1.9670775213908798,
+          "mass": 0.5809743221798757
+        },
+        {
+          "chi0": 5.0,
+          "success": true,
+          "chi_surface": 6.935496881534041,
+          "nodes": 0,
+          "surface": 2.556068163582213,
+          "mass": 1.2759583839423885
+        },
+        {
+          "chi0": 8.0,
+          "success": true,
+          "chi_surface": 9.771503731815544,
+          "nodes": 0,
+          "surface": 3.2878899362983702,
+          "mass": 2.7732172343569896
+        },
+        {
+          "chi0": 12.0,
+          "success": true,
+          "chi_surface": 13.62072870156781,
+          "nodes": 0,
+          "surface": 4.101120671469112,
+          "mass": 5.5057148509099445
+        },
+        {
+          "chi0": 20.0,
+          "success": true,
+          "chi_surface": 21.483440707897717,
+          "nodes": 0,
+          "surface": 5.40802770942368,
+          "mass": 13.001469712767326
+        }
+      ]
+    },
+    {
+      "ell": 0.03,
+      "A": 1.0,
+      "B": 1.0,
+      "uc": 1.0,
+      "attempts": [
+        {
+          "chi0": 0.001,
+          "success": true,
+          "chi_surface": 7.325661074643741e-05,
+          "nodes": 10,
+          "surface": 2.1909394789103533,
+          "mass": 0.8383537652302806
+        },
+        {
+          "chi0": 0.03,
+          "success": true,
+          "chi_surface": 0.0021987476167433266,
+          "nodes": 10,
+          "surface": 2.190886215740741,
+          "mass": 0.8382614315689992
+        },
+        {
+          "chi0": 0.1,
+          "success": true,
+          "chi_surface": 0.0073636568651851975,
+          "nodes": 10,
+          "surface": 2.1903469499299373,
+          "mass": 0.8373271616752195
+        },
+        {
+          "chi0": 0.3,
+          "success": true,
+          "chi_surface": 0.0227884196620904,
+          "nodes": 10,
+          "surface": 2.1855970628345274,
+          "mass": 0.8291421825282054
+        },
+        {
+          "chi0": 0.6,
+          "success": true,
+          "chi_surface": 0.04435347814120973,
+          "nodes": 10,
+          "surface": 2.169433743726975,
+          "mass": 0.8018757571338009
+        },
+        {
+          "chi0": 1.0,
+          "success": true,
+          "chi_surface": 0.008929638210443047,
+          "nodes": 10,
+          "surface": 2.129331176177412,
+          "mass": 0.7386836592745022
+        },
+        {
+          "chi0": 1.5,
+          "success": true,
+          "chi_surface": -0.028222284336897486,
+          "nodes": 9,
+          "surface": 2.030190294051493,
+          "mass": 0.6080855967267744
+        },
+        {
+          "chi0": 2.0,
+          "success": true,
+          "chi_surface": 17.93106651221623,
+          "nodes": 0,
+          "surface": 2.7535203631408263,
+          "mass": 0.9496077757493202
+        },
+        {
+          "chi0": 3.0,
+          "success": true,
+          "chi_surface": 21.299917166574414,
+          "nodes": 0,
+          "surface": 3.569820089012346,
+          "mass": 2.318925568633103
+        },
+        {
+          "chi0": 5.0,
+          "success": true,
+          "chi_surface": 23.17090324120483,
+          "nodes": 0,
+          "surface": 4.013569313444633,
+          "mass": 3.60669126428666
+        },
+        {
+          "chi0": 8.0,
+          "success": true,
+          "chi_surface": 25.51832999033284,
+          "nodes": 0,
+          "surface": 4.518464887898639,
+          "mass": 5.634668690309512
+        },
+        {
+          "chi0": 12.0,
+          "success": true,
+          "chi_surface": 28.773913592369315,
+          "nodes": 0,
+          "surface": 5.114619638587586,
+          "mass": 8.855389029990661
+        },
+        {
+          "chi0": 20.0,
+          "success": true,
+          "chi_surface": 35.94641427492499,
+          "nodes": 0,
+          "surface": 6.174620476406854,
+          "mass": 17.061195113470024
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+dP/d|grad theta| = -2*Lambda*u**2  => EOM div(|grad theta| grad theta) = alpha rho_b/(2 M_Pl)
+a0 = a_phi^2/a_N = Lambda**2*alpha**3/M_Pl
+n_s = P_X = 2*Lambda*m*u  => rho_s = (2 m^2 M_Pl/alpha) a_phi
+m(eV) rho_s/rho_DM @a_phi=a0 : alpha=1 3 10
+0.1 4.2e-03 1.4e-03 4.2e-04
+0.2 1.7e-02 5.6e-03 1.7e-03
+0.3 3.8e-02 1.3e-02 3.8e-03
+0.5 1.0e-01 3.5e-02 1.0e-02
+1.0 4.2e-01 1.4e-01 4.2e-02
+sextique : Lambda=1.8 meV -> g6,4=1/Lam^2=3.09e+05 eV^-2 ; g6=g6,4 L^2=7.11e+08 eV^-4 ; echelle 6.12 meV
+sextique : Lambda=0.06 meV -> g6,4=1/Lam^2=2.78e+08 eV^-2 ; g6=g6,4 L^2=6.40e+11 eV^-4 ; echelle 1.12 meV

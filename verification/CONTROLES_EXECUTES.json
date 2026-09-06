@@ -1,0 +1,79 @@
+{
+  "scope": "Résumé de cohérence des sorties effectivement calculées ; aucune validation observationnelle.",
+  "curved_fixed_tension_cases": 12,
+  "curved_flat_references": 3,
+  "curved_independent_inversion": {
+    "v": 0.3,
+    "tau_target": -0.03596726493373043,
+    "curvature_center_bisection": 4.334336236647929e-07,
+    "curvature_center_newton": 4.334336237657095e-07,
+    "relative_difference": -2.3283064365386963e-10
+  },
+  "Phi_charged_profiles": 12,
+  "Phi_previous_FEM_max_relative_mass_difference": 3.8373970667748836e-11,
+  "hydrostatic_cases": 27,
+  "finite_chi_interiors": 3,
+  "particle_parameter_window": {
+    "status": "Parametric contact/Born illustration at common K and a0, not an astrophysical viability region.",
+    "fixed_rK_kpc": 3.0,
+    "rho_gal_kg_m3": 1.5455884314007789e-21,
+    "rho_gal_GeV_cm3": 0.8670115250957809,
+    "L_input_m": 1e-06,
+    "inverse_L_eV": 0.1973269804593025,
+    "flat_interval_first_KK_mass_eV": 0.6199209921660014,
+    "KK_caveat": "L is an independent illustrative input. Warped KK masses and nonlinear truncation require the 5D eigenproblem.",
+    "rows": [
+      {
+        "m4D_eV": 0.1,
+        "g4": 7.421425807089404e-06,
+        "sigma_over_m_cm2_g_Born": 119668211922234.61,
+        "g4_rho_over_m4_at_rho_star": 4.94392224097406e-07,
+        "m4D_times_L_dimensionless": 0.5067730716156394,
+        "m4D_over_flat_first_KK_mass": 0.16131087874698422,
+        "healing_length_m_at_rho_star": 0.002806406997362395
+      },
+      {
+        "m4D_eV": 0.001,
+        "g4": 7.421425807089404e-14,
+        "sigma_over_m_cm2_g_Born": 11966.821192223462,
+        "g4_rho_over_m4_at_rho_star": 4.94392224097406e-07,
+        "m4D_times_L_dimensionless": 0.005067730716156396,
+        "m4D_over_flat_first_KK_mass": 0.0016131087874698424,
+        "healing_length_m_at_rho_star": 0.2806406997362395
+      },
+      {
+        "m4D_eV": 0.0001,
+        "g4": 7.421425807089405e-18,
+        "sigma_over_m_cm2_g_Born": 0.11966821192223462,
+        "g4_rho_over_m4_at_rho_star": 4.94392224097406e-07,
+        "m4D_times_L_dimensionless": 0.0005067730716156395,
+        "m4D_over_flat_first_KK_mass": 0.00016131087874698424,
+        "healing_length_m_at_rho_star": 2.806406997362395
+      },
+      {
+        "m4D_eV": 1e-05,
+        "g4": 7.421425807089406e-22,
+        "sigma_over_m_cm2_g_Born": 1.1966821192223463e-06,
+        "g4_rho_over_m4_at_rho_star": 4.94392224097406e-07,
+        "m4D_times_L_dimensionless": 5.0677307161563955e-05,
+        "m4D_over_flat_first_KK_mass": 1.6131087874698426e-05,
+        "healing_length_m_at_rho_star": 28.064069973623948
+      }
+    ]
+  },
+  "PDF_pages": 9,
+  "PDF_review": "Final French theory PDF: 9 pages; final English article PDF: 11 pages. All 20 pages rendered and visually inspected; text extraction passed. See PDF_RENDER_CONTROLS.json for hashes and scope.",
+  "scientific_scope": "Classical core and specified probe/static extensions, not complete cosmology or full RAR theory.",
+  "article_1_PDF_pages": 11,
+  "article_1_equations": 36,
+  "article_1_references": 20,
+  "correction_reproduction": {
+    "status": "PASS",
+    "jobs": 9,
+    "numeric_values_compared": 50506,
+    "physical_precision_claim": false
+  },
+  "new_spectral_cases": 12,
+  "new_small_epsilon_runs": 6,
+  "new_profile_quadrature_points": 35
+}

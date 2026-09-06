@@ -1,0 +1,58 @@
+{
+  "source_json_count": 18,
+  "source_csv_count": 32,
+  "unique_legacy_ids": 50,
+  "crosswalk_rows": 50,
+  "active_registry_count_at_read": 27,
+  "active_registry_ids_at_read": [
+    "C01",
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "G01",
+    "G02",
+    "G03",
+    "G04",
+    "G05",
+    "G06",
+    "U01",
+    "U02",
+    "U03",
+    "R01",
+    "R02",
+    "S01",
+    "E01",
+    "A01"
+  ],
+  "dispositions": {
+    "historique": 8,
+    "corrigé": 24,
+    "conservé": 12,
+    "hors noyau": 2,
+    "déclassé": 4
+  },
+  "without_equivalent_active_id": [
+    "DDFU-001",
+    "DDFU-002",
+    "DDFU-003",
+    "DDFU-004",
+    "V3-017",
+    "V3-021"
+  ],
+  "REGISTRE_UNIFIE_csv_found": [],
+  "source_sha256": {
+    "source/ddfr/registre_revendications.json": "fc48347260dfc3779e056388cbae1cf2b5f120c3d8af43a45ecc27bcf13b1c51",
+    "source/ddfr/EFT_v3/CLAIMS_v3.csv": "8b5332d74695883951f8d0eafd82575e66710f3bd7e41a692b5c62d3315cbdae",
+    "repository/registre_revendications.json": "d1c8019e18a90347495e516f2ab0ae6e0001de557701dd726b4895475ceaf4a3"
+  },
+  "scope": "Manual decisions; active links may be limits or partial replacements, never automatic status merge. New future IDs are not created or inferred."
+}

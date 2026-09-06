@@ -1,0 +1,1329 @@
+{
+  "scope": "Free probe Phi projection and classical weak nonlinear charged-profile closure; no abundance or portal.",
+  "background": {
+    "half_steps": 4096,
+    "central_derivative": 0.6271577221764126,
+    "Lambda5": 0.1966634042427532,
+    "A_center": 0.020072302740424538,
+    "source_relative_residual": 0.0,
+    "constraint_max_abs": 1.4432899320127035e-15
+  },
+  "background_refinement": {
+    "half_steps": 8192,
+    "central_derivative": 0.6271577221764151,
+    "Lambda5": 0.19666340424275472,
+    "A_center": 0.020072302740424656,
+    "source_relative_residual": 0.0,
+    "constraint_max_abs": 1.582067810090848e-15
+  },
+  "background_refinement_max_A_difference": 1.1796119636642288e-16,
+  "basis": "Normalized flat Neumann cosines, independent Ritz-Galerkin; exact even/odd blocks.",
+  "cases": [
+    {
+      "mPhiL": 0.0,
+      "runs": [
+        {
+          "basis_modes": 24,
+          "quadrature_points": 384,
+          "mPhiL": 0.0,
+          "masses_mL": [
+            0.0,
+            3.2228304583424414,
+            6.393131140610641,
+            9.57192030398425,
+            12.753809399601815,
+            15.937087924991213,
+            19.12109628868252,
+            22.305532404132723
+          ],
+          "coefficients_of_normalized_constant_first8": [
+            1.0,
+            0.0,
+            -7.548482932798786e-17,
+            0.0,
+            1.5930934234943615e-17,
+            0.0,
+            -1.8635985484232698e-16,
+            0.0
+          ],
+          "homogeneous_KK_canonical_norm_fraction": 4.59834985796011e-32,
+          "homogeneous_KK_initial_energy_fraction_at_rest": null,
+          "constant_profile_spectral_variance_m4L4": 0.0,
+          "analytic_lower_first_even_excited_m2L2": 37.924962154784474,
+          "continuum_variance_KK_norm_upper_bound": 0.0,
+          "continuum_variance_KK_energy_upper_bound": null,
+          "projection_parseval_abs_residual": 0.0,
+          "projection_energy_abs_residual": 1.948164190021067e-29,
+          "linear_equation_max_abs_residual_first8": 1.4601653219870059e-12,
+          "orthonormality_max_abs_residual": 3.4252117915389205e-15,
+          "lambda_n000_L_first8": [
+            1.0001336856592358,
+            0.0,
+            -0.010928937848247385,
+            0.0,
+            -0.0031216599079913667,
+            0.0,
+            -0.00142776115495222,
+            0.0
+          ],
+          "quartic_ratios_first8": [
+            1.0,
+            0.0,
+            -0.010927477001280685,
+            0.0,
+            -0.0031212426426110544,
+            0.0,
+            -0.0014275703092743192,
+            0.0
+          ],
+          "weak_warp_constant_projection_c2": -0.0,
+          "rotation_admixture_sum_divided_by_eta2": 7.186550091838931e-08,
+          "static_tree_sextic_sum_lambda_squared_over_mn2": 2.9892484556121476e-06
+        },
+        {
+          "basis_modes": 40,
+          "quadrature_points": 640,
+          "mPhiL": 0.0,
+          "masses_mL": [
+            0.0,
+            3.222830457241301,
+            6.393131129508242,
+            9.571920273063727,
+            12.753809303814258,
+            15.93708776757876,
+            19.12109591988853,
+            22.3055319030934
+          ],
+          "coefficients_of_normalized_constant_first8": [
+            0.9999999999999996,
+            0.0,
+            6.500676520030683e-17,
+            0.0,
+            7.869239997931879e-17,
+            0.0,
+            -6.415141302661859e-19,
+            0.0
+          ],
+          "homogeneous_KK_canonical_norm_fraction": 2.110005249365736e-32,
+          "homogeneous_KK_initial_energy_fraction_at_rest": null,
+          "constant_profile_spectral_variance_m4L4": 0.0,
+          "analytic_lower_first_even_excited_m2L2": 37.924962154784474,
+          "continuum_variance_KK_norm_upper_bound": 0.0,
+          "continuum_variance_KK_energy_upper_bound": null,
+          "projection_parseval_abs_residual": 8.881784197001252e-16,
+          "projection_energy_abs_residual": 4.558952074980508e-29,
+          "linear_equation_max_abs_residual_first8": 2.7498003873915877e-12,
+          "orthonormality_max_abs_residual": 3.500393369173578e-15,
+          "lambda_n000_L_first8": [
+            1.0001336856592355,
+            0.0,
+            -0.010928938658831098,
+            0.0,
+            -0.003121663207230534,
+            0.0,
+            -0.001427769143464167,
+            0.0
+          ],
+          "quartic_ratios_first8": [
+            1.0,
+            0.0,
+            -0.010927477811756051,
+            0.0,
+            -0.0031212459414092205,
+            0.0,
+            -0.0014275782967184598,
+            0.0
+          ],
+          "weak_warp_constant_projection_c2": -0.0,
+          "rotation_admixture_sum_divided_by_eta2": 7.186551372554027e-08,
+          "static_tree_sextic_sum_lambda_squared_over_mn2": 2.989253441022692e-06
+        },
+        {
+          "basis_modes": 64,
+          "quadrature_points": 1024,
+          "mPhiL": 0.0,
+          "masses_mL": [
+            0.0,
+            3.2228304571569457,
+            6.393131128739058,
+            9.571920270766014,
+            12.753809297501038,
+            15.93708775657507,
+            19.12109589759969,
+            22.305531871289677
+          ],
+          "coefficients_of_normalized_constant_first8": [
+            0.9999999999999998,
+            0.0,
+            5.0900136773307705e-17,
+            0.0,
+            -1.5930934234943622e-16,
+            0.0,
+            -6.33695676803567e-17,
+            0.0
+          ],
+          "homogeneous_KK_canonical_norm_fraction": 5.295213178359616e-32,
+          "homogeneous_KK_initial_energy_fraction_at_rest": null,
+          "constant_profile_spectral_variance_m4L4": 0.0,
+          "analytic_lower_first_even_excited_m2L2": 37.924962154784474,
+          "continuum_variance_KK_norm_upper_bound": 0.0,
+          "continuum_variance_KK_energy_upper_bound": null,
+          "projection_parseval_abs_residual": 4.440892098500626e-16,
+          "projection_energy_abs_residual": 1.360990575930672e-28,
+          "linear_equation_max_abs_residual_first8": 6.30961949354969e-12,
+          "orthonormality_max_abs_residual": 6.467107536446458e-15,
+          "lambda_n000_L_first8": [
+            1.000133685659236,
+            0.0,
+            -0.010928938715250042,
+            0.0,
+            -0.0031216634299290405,
+            0.0,
+            -0.001427769654779704,
+            0.0
+          ],
+          "quartic_ratios_first8": [
+            1.0,
+            0.0,
+            -0.010927477868167449,
+            0.0,
+            -0.003121246164077958,
+            0.0,
+            -0.0014275788079656498,
+            0.0
+          ],
+          "weak_warp_constant_projection_c2": -0.0,
+          "rotation_admixture_sum_divided_by_eta2": 7.186551458496328e-08,
+          "static_tree_sextic_sum_lambda_squared_over_mn2": 2.9892537909867707e-06
+        }
+      ],
+      "charged_stationary_profiles": [],
+      "charged_profile_eta01_refinement": []
+    },
+    {
+      "mPhiL": 0.1,
+      "runs": [
+        {
+          "basis_modes": 24,
+          "quadrature_points": 384,
+          "mPhiL": 0.1,
+          "masses_mL": [
+            0.10141082542573514,
+            3.224413102878288,
+            6.393933369440952,
+            9.572456800929283,
+            12.754212240417253,
+            15.937410375367822,
+            19.121365078804974,
+            22.305762838081613
+          ],
+          "coefficients_of_normalized_constant_first8": [
+            0.9999999999961996,
+            0.0,
+            -2.74955048631932e-06,
+            0.0,
+            -1.9734008650529156e-07,
+            0.0,
+            -4.015503188827931e-08,
+            0.0
+          ],
+          "homogeneous_KK_canonical_norm_fraction": 7.60078572348802e-12,
+          "homogeneous_KK_initial_energy_fraction_at_rest": 3.074130950973982e-08,
+          "constant_profile_spectral_variance_m4L4": 1.4009321778528295e-08,
+          "analytic_lower_first_even_excited_m2L2": 37.93496215478447,
+          "continuum_variance_KK_norm_upper_bound": 9.740321826933495e-12,
+          "continuum_variance_KK_energy_upper_bound": 3.592893242794675e-08,
+          "projection_parseval_abs_residual": 0.0,
+          "projection_energy_abs_residual": 6.938893903907228e-18,
+          "linear_equation_max_abs_residual_first8": 1.5916157281026244e-12,
+          "orthonormality_max_abs_residual": 3.425211651356096e-15,
+          "lambda_n000_L_first8": [
+            1.0001335627381958,
+            0.0,
+            -0.010923466994066124,
+            0.0,
+            -0.003121332094392321,
+            0.0,
+            -0.0014277073698885925,
+            0.0
+          ],
+          "quartic_ratios_first8": [
+            1.0,
+            0.0,
+            -0.010922008220741566,
+            0.0,
+            -0.0031209152564049985,
+            0.0,
+            -0.0014275167068484055,
+            0.0
+          ],
+          "weak_warp_constant_projection_c2": -2.78289516638699e-06,
+          "rotation_admixture_sum_divided_by_eta2": 7.179398519548442e-08,
+          "static_tree_sextic_sum_lambda_squared_over_mn2": 2.9855739208010066e-06
+        },
+        {
+          "basis_modes": 40,
+          "quadrature_points": 640,
+          "mPhiL": 0.1,
+          "masses_mL": [
+            0.10141082542573253,
+            3.2244131017769315,
+            6.393933358338024,
+            9.572456770008053,
+            12.754212144628557,
+            15.93741021795403,
+            19.12136471000848,
+            22.305762337039596
+          ],
+          "coefficients_of_normalized_constant_first8": [
+            0.9999999999962003,
+            0.0,
+            -2.7495506999089374e-06,
+            0.0,
+            -1.973402979170751e-07,
+            0.0,
+            -4.015525795320783e-08,
+            0.0
+          ],
+          "homogeneous_KK_canonical_norm_fraction": 7.600787078565773e-12,
+          "homogeneous_KK_initial_energy_fraction_at_rest": 3.07413607691841e-08,
+          "constant_profile_spectral_variance_m4L4": 1.4009321778528269e-08,
+          "analytic_lower_first_even_excited_m2L2": 37.93496215478447,
+          "continuum_variance_KK_norm_upper_bound": 9.740321826933477e-12,
+          "continuum_variance_KK_energy_upper_bound": 3.592893242794668e-08,
+          "projection_parseval_abs_residual": 1.3322676295501878e-15,
+          "projection_energy_abs_residual": 1.9081958235744878e-17,
+          "linear_equation_max_abs_residual_first8": 4.263256414560601e-12,
+          "orthonormality_max_abs_residual": 3.5003933688343285e-15,
+          "lambda_n000_L_first8": [
+            1.000133562737991,
+            0.0,
+            -0.01092346780452578,
+            0.0,
+            -0.0031213353935602216,
+            0.0,
+            -0.0014277153583926424,
+            0.0
+          ],
+          "quartic_ratios_first8": [
+            1.0,
+            0.0,
+            -0.010922009031095225,
+            0.0,
+            -0.003120918555132951,
+            0.0,
+            -0.0014275246942859238,
+            0.0
+          ],
+          "weak_warp_constant_projection_c2": -2.7828951663869828e-06,
+          "rotation_admixture_sum_divided_by_eta2": 7.179399799524746e-08,
+          "static_tree_sextic_sum_lambda_squared_over_mn2": 2.9855789058591725e-06
+        },
+        {
+          "basis_modes": 64,
+          "quadrature_points": 1024,
+          "mPhiL": 0.1,
+          "masses_mL": [
+            0.1014108254257323,
+            3.224413101692561,
+            6.3939333575687645,
+            9.572456767710257,
+            12.75421213831516,
+            15.937410206950178,
+            19.121364687719566,
+            22.305762305235692
+          ],
+          "coefficients_of_normalized_constant_first8": [
+            0.9999999999961998,
+            0.0,
+            -2.7495507146621863e-06,
+            0.0,
+            -1.9734031244854634e-07,
+            0.0,
+            -4.0155272361922605e-08,
+            0.0
+          ],
+          "homogeneous_KK_canonical_norm_fraction": 7.60078716899345e-12,
+          "homogeneous_KK_initial_energy_fraction_at_rest": 3.074136436650811e-08,
+          "constant_profile_spectral_variance_m4L4": 1.400932177852992e-08,
+          "analytic_lower_first_even_excited_m2L2": 37.93496215478447,
+          "continuum_variance_KK_norm_upper_bound": 9.740321826934626e-12,
+          "continuum_variance_KK_energy_upper_bound": 3.592893242795093e-08,
+          "projection_parseval_abs_residual": 4.440892098500626e-16,
+          "projection_energy_abs_residual": 3.469446951953614e-18,
+          "linear_equation_max_abs_residual_first8": 6.405282554355907e-12,
+          "orthonormality_max_abs_residual": 6.467107568613393e-15,
+          "lambda_n000_L_first8": [
+            1.0001335627379766,
+            0.0,
+            -0.010923467860935659,
+            0.0,
+            -0.0031213356162536933,
+            0.0,
+            -0.001427715869707045,
+            0.0
+          ],
+          "quartic_ratios_first8": [
+            1.0,
+            0.0,
+            -0.010922009087497728,
+            0.0,
+            -0.0031209187777967284,
+            0.0,
+            -0.0014275252055320636,
+            0.0
+          ],
+          "weak_warp_constant_projection_c2": -2.782895166386915e-06,
+          "rotation_admixture_sum_divided_by_eta2": 7.179399885415224e-08,
+          "static_tree_sextic_sum_lambda_squared_over_mn2": 2.985579255799955e-06
+        }
+      ],
+      "charged_stationary_profiles": [
+        {
+          "eta_g4_F2_L2": 0.001,
+          "omega2L2": 0.011284155504572225,
+          "norm": 1.000000000000072,
+          "maximum_nonlinear_projected_residual": 7.149836278586008e-14,
+          "newton_iterations": 1,
+          "free_mode_amplitudes_first8": [
+            1.0000000000000007,
+            7.442787847794281e-17,
+            2.672110642809181e-07,
+            -2.6746256172299878e-17,
+            1.9186613072109123e-08,
+            -2.1068607949694825e-17,
+            3.904421540546058e-09,
+            -8.680095099424347e-17
+          ],
+          "excited_free_mode_norm_fraction": 7.178703707130923e-14,
+          "first_order_predicted_excited_norm_fraction": 7.179399885415226e-14,
+          "a2_first_order": 2.672240767557476e-07,
+          "a2_relative_first_order_error": -4.8694994056908136e-05,
+          "energy_per_F2": 0.010784155510543788,
+          "undressed_energy_per_F2": 0.010784155513528354,
+          "energy_difference_dressed_minus_undressed": -2.984565719565957e-12,
+          "minimum_nodeless_profile_sample": 0.9861500097255698,
+          "rotating_phase_Hminus_first4_eigenvalues": [
+            2.1288794074399106e-16,
+            10.38654787542114,
+            40.87209709749217,
+            91.62164312542923
+          ],
+          "rotating_amplitude_Hplus_first4_eigenvalues": [
+            0.0019999999641769663,
+            10.388532236521737,
+            40.87409204143777,
+            91.62364054798408
+          ],
+          "eta_over_first_even_gap": 2.446656788279322e-05,
+          "eta_over_m0_squared": 0.09723695822029763
+        },
+        {
+          "eta_g4_F2_L2": 0.01,
+          "omega2L2": 0.02028415461844298,
+          "norm": 0.9999999999999997,
+          "maximum_nonlinear_projected_residual": 3.469446951953614e-18,
+          "newton_iterations": 2,
+          "free_mode_amplitudes_first8": [
+            0.9999999999964139,
+            7.442772504422016e-17,
+            2.670940089892356e-06,
+            -2.67461636545105e-17,
+            1.918488984795108e-07,
+            -2.1068339085394453e-17,
+            3.904297569484134e-08,
+            -8.680119648682517e-17
+          ],
+          "excited_free_mode_norm_fraction": 7.17244267039988e-12,
+          "first_order_predicted_excited_norm_fraction": 7.179399885415227e-12,
+          "a2_first_order": 2.672240767557476e-06,
+          "a2_relative_first_order_error": -0.0004867367046079707,
+          "energy_per_F2": 0.015284155215119027,
+          "undressed_energy_per_F2": 0.015284155513528352,
+          "energy_difference_dressed_minus_undressed": -2.98409325028004e-10,
+          "minimum_nodeless_profile_sample": 0.9861468981386395,
+          "rotating_phase_Hminus_first4_eigenvalues": [
+            5.805118487118563e-18,
+            10.386477534995294,
+            40.872074349246546,
+            91.62163152870681
+          ],
+          "rotating_amplitude_Hplus_first4_eigenvalues": [
+            0.019999996420225617,
+            10.406321212700858,
+            40.89202379626326,
+            91.64160575646281
+          ],
+          "eta_over_first_even_gap": 0.0002446656788279322,
+          "eta_over_m0_squared": 0.9723695822029763
+        },
+        {
+          "eta_g4_F2_L2": 0.1,
+          "omega2L2": 0.11028406651547866,
+          "norm": 1.0000000000000002,
+          "maximum_nonlinear_projected_residual": 1.1102230246251565e-16,
+          "newton_iterations": 2,
+          "free_mode_amplitudes_first8": [
+            0.9999999996444867,
+            7.442619835488451e-17,
+            2.659290706211673e-05,
+            -2.6745241926285237e-17,
+            1.9167651304750876e-06,
+            -2.1065662849244652e-17,
+            3.9030552100488316e-07,
+            -8.680363897313046e-17
+          ],
+          "excited_free_mode_norm_fraction": 7.110281642009395e-10,
+          "first_order_predicted_excited_norm_fraction": 7.179399885415228e-10,
+          "a2_first_order": 2.6722407675574762e-05,
+          "a2_relative_first_order_error": -0.004846143170564643,
+          "energy_per_F2": 0.06028412580038714,
+          "undressed_energy_per_F2": 0.06028415551352836,
+          "energy_difference_dressed_minus_undressed": -2.9713141218301597e-08,
+          "minimum_nodeless_profile_sample": 0.9861159386808038,
+          "rotating_phase_Hminus_first4_eigenvalues": [
+            2.2033629825633813e-17,
+            10.385777525474488,
+            40.87184725961484,
+            91.62151573643398
+          ],
+          "rotating_amplitude_Hplus_first4_eigenvalues": [
+            0.19999964456997368,
+            10.584220932291466,
+            41.07134248346603,
+            91.82125824946151
+          ],
+          "eta_over_first_even_gap": 0.002446656788279322,
+          "eta_over_m0_squared": 9.723695822029763
+        },
+        {
+          "eta_g4_F2_L2": 1.0,
+          "omega2L2": 1.0102757372542799,
+          "norm": 1.0000000000000016,
+          "maximum_nonlinear_projected_residual": 7.771561172376096e-15,
+          "newton_iterations": 2,
+          "free_mode_amplitudes_first8": [
+            0.9999999673457076,
+            7.441166072632248e-17,
+            0.00025481510698158936,
+            -2.6736354802549488e-17,
+            1.899480315835972e-05,
+            -2.1040084138985373e-17,
+            3.890383247357422e-06,
+            -8.682687813660308e-17
+          ],
+          "excited_free_mode_norm_fraction": 6.530858521269824e-08,
+          "first_order_predicted_excited_norm_fraction": 7.179399885415223e-08,
+          "a2_first_order": 0.0002672240767557476,
+          "a2_relative_first_order_error": -0.04643657085398212,
+          "energy_per_F2": 0.5102813061420459,
+          "undressed_energy_per_F2": 0.5102841555135283,
+          "energy_difference_dressed_minus_undressed": -2.8493714824273653e-06,
+          "minimum_nodeless_profile_sample": 0.9858212505705586,
+          "rotating_phase_Hminus_first4_eigenvalues": [
+            7.372591773203009e-15,
+            10.379101075019017,
+            40.86961452417497,
+            91.62037460978661
+          ],
+          "rotating_amplitude_Hplus_first4_eigenvalues": [
+            1.9999668433681101,
+            12.364167864826882,
+            42.86463971539266,
+            93.61782251196041
+          ],
+          "eta_over_first_even_gap": 0.024466567882793222,
+          "eta_over_m0_squared": 97.23695822029762
+        }
+      ],
+      "charged_profile_eta01_refinement": [
+        {
+          "basis_modes": 24,
+          "excited_free_mode_norm_fraction": 7.110280284901888e-10,
+          "omega2L2": 0.1102840665156392,
+          "a2": 2.6592904847641556e-05
+        },
+        {
+          "basis_modes": 40,
+          "excited_free_mode_norm_fraction": 7.110281556688814e-10,
+          "omega2L2": 0.11028406651548914,
+          "a2": 2.659290691804109e-05
+        }
+      ]
+    },
+    {
+      "mPhiL": 1.0,
+      "runs": [
+        {
+          "basis_modes": 24,
+          "quadrature_points": 384,
+          "mPhiL": 1.0,
+          "masses_mL": [
+            1.0141067113256543,
+            3.3774256909482223,
+            6.472862065607475,
+            9.625422022306228,
+            12.794030709606783,
+            15.969300740288839,
+            19.14795662724399,
+            22.328564029376945
+          ],
+          "coefficients_of_normalized_constant_first8": [
+            0.9999999619897095,
+            0.0,
+            -0.0002749785219387378,
+            0.0,
+            -1.972941414510563e-05,
+            0.0,
+            -4.01494919137213e-06,
+            0.0
+          ],
+          "homogeneous_KK_canonical_norm_fraction": 7.602057990959259e-08,
+          "homogeneous_KK_initial_energy_fraction_at_rest": 3.1496845694336033e-06,
+          "constant_profile_spectral_variance_m4L4": 0.00014009321778528293,
+          "analytic_lower_first_even_excited_m2L2": 38.924962154784474,
+          "continuum_variance_KK_norm_upper_bound": 9.754788097871652e-08,
+          "continuum_variance_KK_energy_upper_bound": 3.6921334509999857e-06,
+          "projection_parseval_abs_residual": 4.440892098500626e-16,
+          "projection_energy_abs_residual": 1.1102230246251565e-15,
+          "linear_equation_max_abs_residual_first8": 1.4207940379762363e-12,
+          "orthonormality_max_abs_residual": 3.425197772788035e-15,
+          "lambda_n000_L_first8": [
+            1.0001216917176143,
+            0.0,
+            -0.010381776922258291,
+            0.0,
+            -0.003088724323228982,
+            0.0,
+            -0.001422360938499981,
+            0.0
+          ],
+          "quartic_ratios_first8": [
+            1.0,
+            0.0,
+            -0.010380513699716454,
+            0.0,
+            -0.0030883484967958153,
+            0.0,
+            -0.0014221878700153086,
+            0.0
+          ],
+          "weak_warp_constant_projection_c2": -0.0002782895166386989,
+          "rotation_admixture_sum_divided_by_eta2": 6.488921741432605e-08,
+          "static_tree_sextic_sum_lambda_squared_over_mn2": 2.6377059468156296e-06
+        },
+        {
+          "basis_modes": 40,
+          "quadrature_points": 640,
+          "mPhiL": 1.0,
+          "masses_mL": [
+            1.0141067113230529,
+            3.377425689824068,
+            6.472862054448494,
+            9.625421991314306,
+            12.794030613688506,
+            15.969300582732387,
+            19.14795625819547,
+            22.328563528069076
+          ],
+          "coefficients_of_normalized_constant_first8": [
+            0.9999999619897032,
+            0.0,
+            -0.00027497854348494487,
+            0.0,
+            -1.9729435343940625e-05,
+            0.0,
+            -4.014971835800841e-06,
+            0.0
+          ],
+          "homogeneous_KK_canonical_norm_fraction": 7.602059356677432e-08,
+          "homogeneous_KK_initial_energy_fraction_at_rest": 3.149689713288701e-06,
+          "constant_profile_spectral_variance_m4L4": 0.00014009321778528266,
+          "analytic_lower_first_even_excited_m2L2": 38.924962154784474,
+          "continuum_variance_KK_norm_upper_bound": 9.754788097871632e-08,
+          "continuum_variance_KK_energy_upper_bound": 3.6921334509999785e-06,
+          "projection_parseval_abs_residual": 1.3322676295501878e-15,
+          "projection_energy_abs_residual": 1.7763568394002505e-15,
+          "linear_equation_max_abs_residual_first8": 2.7622348852673895e-12,
+          "orthonormality_max_abs_residual": 3.5003933347986336e-15,
+          "lambda_n000_L_first8": [
+            1.0001216916971172,
+            0.0,
+            -0.010381777720026613,
+            0.0,
+            -0.0030887276152491124,
+            0.0,
+            -0.0014223689261595796,
+            0.0
+          ],
+          "quartic_ratios_first8": [
+            1.0,
+            0.0,
+            -0.01038051449760045,
+            0.0,
+            -0.0030883517884786773,
+            0.0,
+            -0.0014221958567321408,
+            0.0
+          ],
+          "weak_warp_constant_projection_c2": -0.0002782895166386982,
+          "rotation_admixture_sum_divided_by_eta2": 6.488922948563675e-08,
+          "static_tree_sextic_sum_lambda_squared_over_mn2": 2.6377108981344446e-06
+        },
+        {
+          "basis_modes": 64,
+          "quadrature_points": 1024,
+          "mPhiL": 1.0,
+          "masses_mL": [
+            1.0141067113228697,
+            3.37742568973797,
+            6.472862053675503,
+            9.625421989011645,
+            12.79403060736722,
+            15.969300571720062,
+            19.147956235893712,
+            22.32856349625115
+          ],
+          "coefficients_of_normalized_constant_first8": [
+            0.9999999619897021,
+            0.0,
+            -0.00027497854498416364,
+            0.0,
+            -1.972943677465992e-05,
+            0.0,
+            -4.014973284535611e-06,
+            0.0
+          ],
+          "homogeneous_KK_canonical_norm_fraction": 7.602059448343898e-08,
+          "homogeneous_KK_initial_energy_fraction_at_rest": 3.1496900743275886e-06,
+          "constant_profile_spectral_variance_m4L4": 0.0001400932177852992,
+          "analytic_lower_first_even_excited_m2L2": 38.924962154784474,
+          "continuum_variance_KK_norm_upper_bound": 9.754788097872784e-08,
+          "continuum_variance_KK_energy_upper_bound": 3.6921334510004156e-06,
+          "projection_parseval_abs_residual": 0.0,
+          "projection_energy_abs_residual": 2.220446049250313e-16,
+          "linear_equation_max_abs_residual_first8": 8.52372859794226e-12,
+          "orthonormality_max_abs_residual": 6.467110753003801e-15,
+          "lambda_n000_L_first8": [
+            1.0001216916956774,
+            0.0,
+            -0.010381777775544755,
+            0.0,
+            -0.0030887278374343696,
+            0.0,
+            -0.001422369437365419,
+            0.0
+          ],
+          "quartic_ratios_first8": [
+            1.0,
+            0.0,
+            -0.010380514553126781,
+            0.0,
+            -0.003088352010641346,
+            0.0,
+            -0.0014221963678778256,
+            0.0
+          ],
+          "weak_warp_constant_projection_c2": -0.00027828951663869144,
+          "rotation_admixture_sum_divided_by_eta2": 6.488923029370824e-08,
+          "static_tree_sextic_sum_lambda_squared_over_mn2": 2.637711245863868e-06
+        }
+      ],
+      "charged_stationary_profiles": [
+        {
+          "eta_g4_F2_L2": 0.001,
+          "omega2L2": 1.0294124219419805,
+          "norm": 1.0000000000000648,
+          "maximum_nonlinear_projected_residual": 6.550315845288424e-14,
+          "newton_iterations": 1,
+          "free_mode_amplitudes_first8": [
+            1.0000000000000002,
+            7.440665769119362e-17,
+            2.5397915793070637e-07,
+            -2.6746669890414366e-17,
+            1.8986494949558742e-08,
+            -2.1040442135357218e-17,
+            3.889851424319255e-09,
+            -8.682713456722686e-17
+          ],
+          "excited_free_mode_norm_fraction": 6.48829393305928e-14,
+          "first_order_predicted_excited_norm_fraction": 6.48892302937083e-14,
+          "a2_first_order": 2.539915277755016e-07,
+          "a2_relative_first_order_error": -4.870180081817388e-05,
+          "energy_per_F2": 1.0289124219474515,
+          "undressed_energy_per_F2": 1.0289124219500863,
+          "energy_difference_dressed_minus_undressed": -2.6347812820404215e-12,
+          "minimum_nodeless_profile_sample": 0.9857975958639007,
+          "rotating_phase_Hminus_first4_eigenvalues": [
+            -3.4285443613098483e-17,
+            10.378584440011437,
+            40.8695282658168,
+            91.62033477946294
+          ],
+          "rotating_amplitude_Hplus_first4_eigenvalues": [
+            0.0019999999675766184,
+            10.38056958451006,
+            40.87152330952119,
+            91.62233224916943
+          ],
+          "eta_over_first_even_gap": 2.4468105745200767e-05,
+          "eta_over_m0_squared": 0.0009723725410704293
+        },
+        {
+          "eta_g4_F2_L2": 0.01,
+          "omega2L2": 1.0384124211399512,
+          "norm": 1.0000000000000002,
+          "maximum_nonlinear_projected_residual": 1.734723475976807e-18,
+          "newton_iterations": 2,
+          "free_mode_amplitudes_first8": [
+            0.9999999999967584,
+            7.440651214848385e-17,
+            2.538678835053824e-06,
+            -2.6746580876442554e-17,
+            1.8984757657644898e-07,
+            -2.1040186072677827e-17,
+            3.889724219374493e-08,
+            -8.682736718922092e-17
+          ],
+          "excited_free_mode_norm_fraction": 6.482636194319942e-12,
+          "first_order_predicted_excited_norm_fraction": 6.488923029370825e-12,
+          "a2_first_order": 2.5399152777550154e-06,
+          "a2_relative_first_order_error": -0.0004868047025111677,
+          "energy_per_F2": 1.033412421679998,
+          "undressed_energy_per_F2": 1.0334124219500862,
+          "energy_difference_dressed_minus_undressed": -2.700881740480554e-10,
+          "minimum_nodeless_profile_sample": 0.9857946455892306,
+          "rotating_phase_Hminus_first4_eigenvalues": [
+            -5.2043503591445815e-16,
+            10.37851762311652,
+            40.86950596632537,
+            91.62032339491518
+          ],
+          "rotating_amplitude_Hplus_first4_eigenvalues": [
+            0.019999996759969614,
+            10.398369131469233,
+            40.889456410644875,
+            91.64029809437366
+          ],
+          "eta_over_first_even_gap": 0.0002446810574520077,
+          "eta_over_m0_squared": 0.009723725410704294
+        },
+        {
+          "eta_g4_F2_L2": 0.1,
+          "omega2L2": 1.1284123413979517,
+          "norm": 0.9999999999999996,
+          "maximum_nonlinear_projected_residual": 2.220446049250313e-16,
+          "newton_iterations": 2,
+          "free_mode_amplitudes_first8": [
+            0.9999999996786769,
+            7.440506399237362e-17,
+            2.527604773865398e-05,
+            -2.67456940333271e-17,
+            1.8967381127291617e-06,
+            -2.103763724656563e-17,
+            3.8884497211605925e-07,
+            -8.682968159318954e-17
+          ],
+          "excited_free_mode_norm_fraction": 6.426464877482826e-10,
+          "first_order_predicted_excited_norm_fraction": 6.488923029370824e-10,
+          "a2_first_order": 2.5399152777550155e-05,
+          "a2_relative_first_order_error": -0.00484681674126497,
+          "energy_per_F2": 1.078412395056779,
+          "undressed_energy_per_F2": 1.0784124219500864,
+          "energy_difference_dressed_minus_undressed": -2.6893307358832885e-08,
+          "minimum_nodeless_profile_sample": 0.9857652914390762,
+          "rotating_phase_Hminus_first4_eigenvalues": [
+            6.351976821107991e-16,
+            10.377852678282903,
+            40.86928334848171,
+            91.62020971412731
+          ],
+          "rotating_amplitude_Hplus_first4_eigenvalues": [
+            0.19999967829965137,
+            10.576374067774246,
+            41.068788516633,
+            91.81995693496906
+          ],
+          "eta_over_first_even_gap": 0.0024468105745200767,
+          "eta_over_m0_squared": 0.09723725410704294
+        },
+        {
+          "eta_g4_F2_L2": 1.0,
+          "omega2L2": 2.028404802009884,
+          "norm": 1.0000000000000007,
+          "maximum_nonlinear_projected_residual": 7.105427357601002e-15,
+          "newton_iterations": 2,
+          "free_mode_amplitudes_first8": [
+            0.9999999704856192,
+            7.439127573968037e-17,
+            0.0002421954723308718,
+            -2.6737141132852074e-17,
+            1.8793404222922937e-05,
+            -2.1013274810718564e-17,
+            3.875476098698092e-06,
+            -8.685169938609793e-17
+          ],
+          "excited_free_mode_norm_fraction": 5.902876190346899e-08,
+          "first_order_predicted_excited_norm_fraction": 6.488923029370823e-08,
+          "a2_first_order": 0.00025399152777550154,
+          "a2_relative_first_order_error": -0.04644271227446639,
+          "energy_per_F2": 1.528409842844042,
+          "undressed_energy_per_F2": 1.5284124219500863,
+          "energy_difference_dressed_minus_undressed": -2.579106044287016e-06,
+          "minimum_nodeless_profile_sample": 0.9854859111720149,
+          "rotating_phase_Hminus_first4_eigenvalues": [
+            6.438524914496053e-15,
+            10.371510619031923,
+            40.86709383233877,
+            91.61908870993027
+          ],
+          "rotating_amplitude_Hplus_first4_eigenvalues": [
+            1.9999699870605558,
+            12.357326300848579,
+            42.862215767347436,
+            93.6165828152919
+          ],
+          "eta_over_first_even_gap": 0.024468105745200766,
+          "eta_over_m0_squared": 0.9723725410704294
+        }
+      ],
+      "charged_profile_eta01_refinement": [
+        {
+          "basis_modes": 24,
+          "excited_free_mode_norm_fraction": 6.426463597709895e-10,
+          "omega2L2": 1.1284123414037588,
+          "a2": 2.527604555980817e-05
+        },
+        {
+          "basis_modes": 40,
+          "excited_free_mode_norm_fraction": 6.426464797207251e-10,
+          "omega2L2": 1.1284123413983338,
+          "a2": 2.5276047596916663e-05
+        }
+      ]
+    },
+    {
+      "mPhiL": 3.0,
+      "runs": [
+        {
+          "basis_modes": 24,
+          "quadrature_points": 384,
+          "mPhiL": 3.0,
+          "masses_mL": [
+            3.0422826970659376,
+            4.423782502432632,
+            7.078464197947294,
+            10.043183509679013,
+            13.11136109234187,
+            16.224701476597787,
+            19.36149813961511,
+            22.51196891376514
+          ],
+          "coefficients_of_normalized_constant_first8": [
+            0.9999969170384878,
+            0.0,
+            -0.0024764968029247444,
+            0.0,
+            -0.00017723056474521282,
+            0.0,
+            -3.609427310387171e-05,
+            0.0
+          ],
+          "homogeneous_KK_canonical_norm_fraction": 6.165913519991398e-06,
+          "homogeneous_KK_initial_energy_fraction_at_rest": 3.384994372155878e-05,
+          "constant_profile_spectral_variance_m4L4": 0.011347550640607917,
+          "analytic_lower_first_even_excited_m2L2": 46.924962154784474,
+          "continuum_variance_KK_norm_upper_bound": 7.997031937331863e-06,
+          "continuum_variance_KK_energy_upper_bound": 4.054353417557898e-05,
+          "projection_parseval_abs_residual": 2.220446049250313e-16,
+          "projection_energy_abs_residual": 7.105427357601002e-15,
+          "linear_equation_max_abs_residual_first8": 2.2737367544323206e-12,
+          "orthonormality_max_abs_residual": 3.4250855887356285e-15,
+          "lambda_n000_L_first8": [
+            1.0000474678482267,
+            0.0,
+            -0.005999070007029759,
+            0.0,
+            -0.002814006609857541,
+            0.0,
+            -0.0013775644961239895,
+            0.0
+          ],
+          "quartic_ratios_first8": [
+            1.0,
+            0.0,
+            -0.005998785257601606,
+            0.0,
+            -0.0028138730413590847,
+            0.0,
+            -0.0013774991092053413,
+            0.0
+          ],
+          "weak_warp_constant_projection_c2": -0.0025046056497482904,
+          "rotation_admixture_sum_divided_by_eta2": 2.188087979207308e-08,
+          "static_tree_sextic_sum_lambda_squared_over_mn2": 7.707896945628905e-07
+        },
+        {
+          "basis_modes": 40,
+          "quadrature_points": 640,
+          "mPhiL": 3.0,
+          "masses_mL": [
+            3.0422826969952075,
+            4.423782501057035,
+            7.0784641862745215,
+            10.043183478079207,
+            13.111360995339965,
+            16.224701317864493,
+            19.361497768501664,
+            22.51196841028724
+          ],
+          "coefficients_of_normalized_constant_first8": [
+            0.9999969170378985,
+            0.0,
+            -0.0024764970111658645,
+            0.0,
+            -0.0001772307588400512,
+            0.0,
+            -3.609447851655955e-05,
+            0.0
+          ],
+          "homogeneous_KK_canonical_norm_fraction": 6.165914699012271e-06,
+          "homogeneous_KK_initial_energy_fraction_at_rest": 3.38499913967087e-05,
+          "constant_profile_spectral_variance_m4L4": 0.011347550640607896,
+          "analytic_lower_first_even_excited_m2L2": 46.924962154784474,
+          "continuum_variance_KK_norm_upper_bound": 7.99703193733185e-06,
+          "continuum_variance_KK_energy_upper_bound": 4.0543534175578914e-05,
+          "projection_parseval_abs_residual": 6.661338147750939e-16,
+          "projection_energy_abs_residual": 1.0658141036401503e-14,
+          "linear_equation_max_abs_residual_first8": 3.4088322442560326e-12,
+          "orthonormality_max_abs_residual": 3.500393027043684e-15,
+          "lambda_n000_L_first8": [
+            1.0000474676647448,
+            0.0,
+            -0.005999070673755098,
+            0.0,
+            -0.002814009836089752,
+            0.0,
+            -0.0013775724724328562,
+            0.0
+          ],
+          "quartic_ratios_first8": [
+            1.0,
+            0.0,
+            -0.005998785925395916,
+            0.0,
+            -0.002813876267954431,
+            0.0,
+            -0.0013775070853883434,
+            0.0
+          ],
+          "weak_warp_constant_projection_c2": -0.0025046056497482843,
+          "rotation_admixture_sum_divided_by_eta2": 2.188088638680007e-08,
+          "static_tree_sextic_sum_lambda_squared_over_mn2": 7.707944471014772e-07
+        },
+        {
+          "basis_modes": 64,
+          "quadrature_points": 1024,
+          "mPhiL": 3.0,
+          "masses_mL": [
+            3.0422826969902417,
+            4.423782500951825,
+            7.078464185466699,
+            10.043183475733056,
+            13.111360988952704,
+            16.224701306777664,
+            19.361497746093274,
+            22.511968378355114
+          ],
+          "coefficients_of_normalized_constant_first8": [
+            0.9999969170378589,
+            0.0,
+            -0.002476497025648678,
+            0.0,
+            -0.00017723077193110135,
+            0.0,
+            -3.609449165294537e-05,
+            0.0
+          ],
+          "homogeneous_KK_canonical_norm_fraction": 6.165914778285568e-06,
+          "homogeneous_KK_initial_energy_fraction_at_rest": 3.384999473936264e-05,
+          "constant_profile_spectral_variance_m4L4": 0.011347550640609235,
+          "analytic_lower_first_even_excited_m2L2": 46.924962154784474,
+          "continuum_variance_KK_norm_upper_bound": 7.99703193733279e-06,
+          "continuum_variance_KK_energy_upper_bound": 4.05435341755837e-05,
+          "projection_parseval_abs_residual": 6.661338147750939e-16,
+          "projection_energy_abs_residual": 5.329070518200751e-15,
+          "linear_equation_max_abs_residual_first8": 6.707523425575346e-12,
+          "orthonormality_max_abs_residual": 6.4671364756644105e-15,
+          "lambda_n000_L_first8": [
+            1.000047467651857,
+            0.0,
+            -0.005999070720112899,
+            0.0,
+            -0.002814010053659057,
+            0.0,
+            -0.001377572982514719,
+            0.0
+          ],
+          "quartic_ratios_first8": [
+            1.0,
+            0.0,
+            -0.0059987859718288235,
+            0.0,
+            -0.0028138764855496724,
+            0.0,
+            -0.0013775075954637471,
+            0.0
+          ],
+          "weak_warp_constant_projection_c2": -0.002504605649748223,
+          "rotation_admixture_sum_divided_by_eta2": 2.18808868132732e-08,
+          "static_tree_sextic_sum_lambda_squared_over_mn2": 7.707947821583462e-07
+        }
+      ],
+      "charged_stationary_profiles": [
+        {
+          "eta_g4_F2_L2": 0.001,
+          "omega2L2": 9.256484008403413,
+          "norm": 1.000000000000022,
+          "maximum_nonlinear_projected_residual": 2.1538326677728037e-14,
+          "newton_iterations": 1,
+          "free_mode_amplitudes_first8": [
+            0.9999999999999998,
+            7.423499240560164e-17,
+            1.4684492593338566e-07,
+            -2.6749402517771132e-17,
+            1.729975078170804e-08,
+            -2.0812601761390954e-17,
+            3.767658182694063e-09,
+            -8.70386110236696e-17
+          ],
+          "excited_free_mode_norm_fraction": 2.187877717931021e-14,
+          "first_order_predicted_excited_norm_fraction": 2.1880886813273192e-14,
+          "a2_first_order": 1.4685208519975002e-07,
+          "a2_relative_first_order_error": -4.875154720906938e-05,
+          "energy_per_F2": 9.25598400840549,
+          "undressed_energy_per_F2": 9.25598400840622,
+          "energy_difference_dressed_minus_undressed": -7.300826609935029e-13,
+          "minimum_nodeless_profile_sample": 0.9829462776323562,
+          "rotating_phase_Hminus_first4_eigenvalues": [
+            -1.3860309477877068e-15,
+            10.3143633338517,
+            40.849169106898934,
+            91.6100492188349
+          ],
+          "rotating_amplitude_Hplus_first4_eigenvalues": [
+            0.0019999999887649264,
+            10.316354786881192,
+            40.85116488763756,
+            91.61204701884223
+          ],
+          "eta_over_first_even_gap": 2.448030082909924e-05,
+          "eta_over_m0_squared": 0.00010804405248734243
+        },
+        {
+          "eta_g4_F2_L2": 0.01,
+          "omega2L2": 9.265484008125524,
+          "norm": 1.0000000000000002,
+          "maximum_nonlinear_projected_residual": 5.329070518200751e-15,
+          "newton_iterations": 2,
+          "free_mode_amplitudes_first8": [
+            0.9999999999989072,
+            7.423491086299429e-17,
+            1.4678052378982835e-06,
+            -2.674934222867122e-17,
+            1.7297970421038429e-07,
+            -2.081244943541801e-17,
+            3.7675072419988444e-08,
+            -8.703873969137252e-17
+          ],
+          "excited_free_mode_norm_fraction": 2.1859804274054988e-12,
+          "first_order_predicted_excited_norm_fraction": 2.18808868132732e-12,
+          "a2_first_order": 1.4685208519975004e-06,
+          "a2_relative_first_order_error": -0.00048730264758822806,
+          "energy_per_F2": 9.260484008312641,
+          "undressed_energy_per_F2": 9.26048400840622,
+          "energy_difference_dressed_minus_undressed": -9.35784782996052e-11,
+          "minimum_nodeless_profile_sample": 0.9829446342154844,
+          "rotating_phase_Hminus_first4_eigenvalues": [
+            5.243733970002598e-15,
+            10.314324891370507,
+            40.84915012297319,
+            91.61003931983667
+          ],
+          "rotating_amplitude_Hplus_first4_eigenvalues": [
+            0.019999998877414455,
+            10.334239458582461,
+            40.86910793567824,
+            91.63001732152046
+          ],
+          "eta_over_first_even_gap": 0.0002448030082909924,
+          "eta_over_m0_squared": 0.0010804405248734242
+        },
+        {
+          "eta_g4_F2_L2": 0.1,
+          "omega2L2": 9.355483980492803,
+          "norm": 0.9999999999999992,
+          "maximum_nonlinear_projected_residual": 2.220446049250313e-16,
+          "newton_iterations": 2,
+          "free_mode_amplitudes_first8": [
+            0.9999999998916428,
+            7.423409964237133e-17,
+            1.4613959577778474e-05,
+            -2.6748741369018624e-17,
+            1.728017953649856e-06,
+            -2.081093305413077e-17,
+            3.765996909715276e-07,
+            -8.7040019589829e-17
+          ],
+          "excited_free_mode_norm_fraction": 2.1671436377960107e-10,
+          "first_order_predicted_excited_norm_fraction": 2.1880886813273205e-10,
+          "a2_first_order": 1.4685208519975005e-05,
+          "a2_relative_first_order_error": -0.004851748757916385,
+          "energy_per_F2": 9.305483999087375,
+          "undressed_energy_per_F2": 9.30548400840622,
+          "energy_difference_dressed_minus_undressed": -9.318844362837808e-09,
+          "minimum_nodeless_profile_sample": 0.9829282852406788,
+          "rotating_phase_Hminus_first4_eigenvalues": [
+            6.890455382411272e-16,
+            10.31394231926353,
+            40.848960554508004,
+            91.60994042563723
+          ],
+          "rotating_amplitude_Hplus_first4_eigenvalues": [
+            0.19999988851788397,
+            10.513091655971879,
+            41.048539211933544,
+            91.8097206025088
+          ],
+          "eta_over_first_even_gap": 0.002448030082909924,
+          "eta_over_m0_squared": 0.010804405248734243
+        },
+        {
+          "eta_g4_F2_L2": 1.0,
+          "omega2L2": 10.25548136396767,
+          "norm": 1.0000000000000004,
+          "maximum_nonlinear_projected_residual": 1.7763568394002505e-15,
+          "newton_iterations": 2,
+          "free_mode_amplitudes_first8": [
+            0.9999999900422293,
+            7.42263883348847e-17,
+            0.00014002528084461384,
+            -2.674292743337471e-17,
+            1.7103589372303113e-05,
+            -2.079642555665409e-17,
+            3.750814865476056e-06,
+            -8.705217262019937e-17
+          ],
+          "excited_free_mode_norm_fraction": 1.9915541815811872e-08,
+          "first_order_predicted_excited_norm_fraction": 2.18808868132732e-08,
+          "a2_first_order": 0.00014685208519975003,
+          "a2_relative_first_order_error": -0.04648762287474695,
+          "energy_per_F2": 9.755483113719578,
+          "undressed_energy_per_F2": 9.755484008406219,
+          "energy_difference_dressed_minus_undressed": -8.946866412173904e-07,
+          "minimum_nodeless_profile_sample": 0.9827729110777395,
+          "rotating_phase_Hminus_first4_eigenvalues": [
+            2.7110142986665693e-15,
+            10.310293234381668,
+            40.847091402946035,
+            91.60896077308
+          ],
+          "rotating_amplitude_Hplus_first4_eigenvalues": [
+            1.9999895798994924,
+            12.302136249858966,
+            42.842929883011195,
+            93.60677818700584
+          ],
+          "eta_over_first_even_gap": 0.024480300829099237,
+          "eta_over_m0_squared": 0.10804405248734243
+        }
+      ],
+      "charged_profile_eta01_refinement": [
+        {
+          "basis_modes": 24,
+          "excited_free_mode_norm_fraction": 2.1671429394206766e-10,
+          "omega2L2": 9.355483980953533,
+          "a2": 1.4613957769513564e-05
+        },
+        {
+          "basis_modes": 40,
+          "excited_free_mode_norm_fraction": 2.167143595384192e-10,
+          "omega2L2": 9.35548398052303,
+          "a2": 1.4613959460210192e-05
+        }
+      ]
+    }
+  ],
+  "real_misalignment_third_harmonic_resonance": {
+    "mPhiL": 2.2285363015132873,
+    "m0L": 2.2599598370950593,
+    "m2L": 6.77987951128519,
+    "m2_squared_minus_9_m0_squared": 1.5631940186722204e-13,
+    "lambda2000_L": -0.00821004124123806,
+    "scope": "Linear frequency coincidence only; nonlinear detuning, finite time, expansion and depletion not solved."
+  },
+  "independent_previous_FEM_comparison": [
+    {
+      "mPhiL": 0.0,
+      "n": 0,
+      "relative_mass_difference": 0.0
+    },
+    {
+      "mPhiL": 0.0,
+      "n": 1,
+      "relative_mass_difference": 3.5484948313069253e-12
+    },
+    {
+      "mPhiL": 0.0,
+      "n": 2,
+      "relative_mass_difference": 1.4193313191412926e-11
+    },
+    {
+      "mPhiL": 0.0,
+      "n": 3,
+      "relative_mass_difference": 3.824629501991694e-11
+    },
+    {
+      "mPhiL": 1.0,
+      "n": 0,
+      "relative_mass_difference": -1.3552714506204211e-11
+    },
+    {
+      "mPhiL": 1.0,
+      "n": 1,
+      "relative_mass_difference": 2.2100099528188366e-12
+    },
+    {
+      "mPhiL": 1.0,
+      "n": 2,
+      "relative_mass_difference": 1.38338229760393e-11
+    },
+    {
+      "mPhiL": 1.0,
+      "n": 3,
+      "relative_mass_difference": 3.809175197488912e-11
+    },
+    {
+      "mPhiL": 3.0,
+      "n": 0,
+      "relative_mass_difference": 7.227551890309769e-13
+    },
+    {
+      "mPhiL": 3.0,
+      "n": 1,
+      "relative_mass_difference": 2.9387603461827894e-12
+    },
+    {
+      "mPhiL": 3.0,
+      "n": 2,
+      "relative_mass_difference": 1.3961942713081044e-11
+    },
+    {
+      "mPhiL": 3.0,
+      "n": 3,
+      "relative_mass_difference": 3.8373970667748836e-11
+    }
+  ],
+  "comparison_input": "input_data/phi_spectrum.json",
+  "checks_passed": true
+}

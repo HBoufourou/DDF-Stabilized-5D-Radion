@@ -1,0 +1,177 @@
+{
+  "monotone_stated_points": [
+    {
+      "epsilon": 0.3,
+      "a0": 0.02,
+      "delta": 0.2,
+      "finite_to_L": true,
+      "steps": 16000,
+      "initial": [
+        0.0,
+        -0.02,
+        -0.22078460969082653,
+        1.0392304845413263
+      ],
+      "endpoint": [
+        -0.3978625673590098,
+        -2.449832943087935,
+        1.8882086161649745,
+        9.336044190426694
+      ],
+      "Lambda5": 0.4401083122473387,
+      "q_left": 1.0392304845413263,
+      "q_right": 9.336044190426694,
+      "q_right_over_left": 8.98361271084849,
+      "W_left": -0.7698003589195012,
+      "W_right": 10.608329063988885,
+      "U_left": 0.06,
+      "U_right": -7.349498829263805,
+      "min_sigma_prime": 0.979295966368657,
+      "max_constraint_abs": 8.515410598874951e-14
+    },
+    {
+      "epsilon": 0.3,
+      "a0": 0.1,
+      "delta": 0.2,
+      "finite_to_L": true,
+      "steps": 16000,
+      "initial": [
+        0.0,
+        -0.1,
+        -0.30392304845413265,
+        1.0392304845413263
+      ],
+      "endpoint": [
+        -0.5024118703150685,
+        -3.007958583892638,
+        1.9183245576058914,
+        11.130326934312832
+      ],
+      "Lambda5": 0.29526156123669384,
+      "q_left": 1.0392304845413263,
+      "q_right": 11.130326934312832,
+      "q_right_over_left": 10.71016208615676,
+      "W_left": -0.7698003589195012,
+      "W_right": 12.721238903442512,
+      "U_left": 0.30000000000000004,
+      "U_right": -9.023875751677915,
+      "min_sigma_prime": 0.9772135800885752,
+      "max_constraint_abs": 1.0152989560197057e-13
+    },
+    {
+      "epsilon": 0.3,
+      "a0": 0.2,
+      "delta": 0.2,
+      "finite_to_L": true,
+      "steps": 16000,
+      "initial": [
+        0.0,
+        -0.2,
+        -0.4078460969082653,
+        1.0392304845413263
+      ],
+      "endpoint": [
+        -0.6412451632317393,
+        -3.990183970676199,
+        1.9870846464885628,
+        14.380107275409491
+      ],
+      "Lambda5": -0.03267687752661236,
+      "q_left": 1.0392304845413263,
+      "q_right": 14.380107275409491,
+      "q_right_over_left": 13.837264677388944,
+      "W_left": -0.7698003589195013,
+      "W_right": 16.51346740505903,
+      "U_left": 0.6000000000000001,
+      "U_right": -11.970551912028597,
+      "min_sigma_prime": 0.9743596719258292,
+      "max_constraint_abs": 3.5943470422239443e-13
+    }
+  ],
+  "refinement_check": {
+    "epsilon": 0.3,
+    "a0": 0.02,
+    "delta": 0.2,
+    "finite_to_L": true,
+    "steps": 8000,
+    "initial": [
+      0.0,
+      -0.02,
+      -0.22078460969082653,
+      1.0392304845413263
+    ],
+    "endpoint": [
+      -0.39786256735899217,
+      -2.449832943087815,
+      1.8882086161649243,
+      9.33604419042634
+    ],
+    "Lambda5": 0.4401083122473387,
+    "q_left": 1.0392304845413263,
+    "q_right": 9.33604419042634,
+    "q_right_over_left": 8.983612710848151,
+    "W_left": -0.7698003589195012,
+    "W_right": 10.608329063988414,
+    "U_left": 0.06,
+    "U_right": -7.349498829263446,
+    "min_sigma_prime": 0.9792959718811807,
+    "max_constraint_abs": 6.233902283270254e-13
+  },
+  "symmetric_epsilon_0p3": {
+    "epsilon": 0.3,
+    "x": 2.0,
+    "q": 1.0392304845413263,
+    "sigma_center_prime": 0.6271577221764157,
+    "A_center_in_brane_units": 0.02007230274042473,
+    "e2A_center": 1.0409612920174525,
+    "sigma_boundary_over_M5_3half": 0.37816375655802514,
+    "A_prime_right": -0.09774195807421682,
+    "U_right": -0.29322587422265045,
+    "W_right": 1.8465208099404378,
+    "Lambda5": 0.19666340424275514,
+    "endpoint_derivative_error": 1.7763568394002505e-15,
+    "steps_half_interval": 4000
+  },
+  "quadratic_weak_coefficients": [
+    {
+      "x": 2.0,
+      "lambda_hat": 0.0,
+      "kappa": 2.558800033796898,
+      "c_alpha": 0.9834202398385298,
+      "boundary_order_epsilon2_residual": 4.440892098500626e-16,
+      "mrL_leading_at_epsilon_0p3": 0.4798874899825174,
+      "alpha_leading_at_epsilon_0p3": 0.3628359405284893,
+      "status": "Asymptotic at fixed x,lambda_hat; not a finite-epsilon spectral calculation."
+    },
+    {
+      "x": 2.0,
+      "lambda_hat": 1.0,
+      "kappa": 3.359794732912209,
+      "c_alpha": 0.8399486832280524,
+      "boundary_order_epsilon2_residual": -1.7763568394002505e-15,
+      "mrL_leading_at_epsilon_0p3": 0.5498922857815872,
+      "alpha_leading_at_epsilon_0p3": 0.3585317938301749,
+      "status": "Asymptotic at fixed x,lambda_hat; not a finite-epsilon spectral calculation."
+    },
+    {
+      "x": 2.0,
+      "lambda_hat": 20.0,
+      "kappa": 4.297387689410801,
+      "c_alpha": 0.6226781189295816,
+      "boundary_order_epsilon2_residual": -5.329070518200751e-15,
+      "mrL_leading_at_epsilon_0p3": 0.6219042466867163,
+      "alpha_leading_at_epsilon_0p3": 0.35201367690122076,
+      "status": "Asymptotic at fixed x,lambda_hat; not a finite-epsilon spectral calculation."
+    },
+    {
+      "x": 2.0,
+      "lambda_hat": "infinity",
+      "kappa": 4.411529036348532,
+      "c_alpha": 0.5925948730367703,
+      "boundary_order_epsilon2_residual": 0.0,
+      "mrL_leading_at_epsilon_0p3": 0.6301092074167524,
+      "alpha_leading_at_epsilon_0p3": 0.35111117952443643,
+      "status": "Asymptotic at fixed x,lambda_hat; not a finite-epsilon spectral calculation."
+    }
+  ]
+}

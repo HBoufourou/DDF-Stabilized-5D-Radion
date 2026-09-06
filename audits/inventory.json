@@ -1,0 +1,1806 @@
+{
+  "outer": [
+    {
+      "path": "DDF-Stabilized-5D-Radion_COMPLET_2026-09-06.zip",
+      "bytes": 3934383
+    },
+    {
+      "path": "CE_QUI_MANQUE_2026-09-06.md",
+      "bytes": 4091
+    },
+    {
+      "path": "DIRECTIONS_ET_SIGNES.md",
+      "bytes": 3155
+    }
+  ],
+  "inner": [
+    {
+      "path": "ddfr/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/registre_revendications.json",
+      "bytes": 4924
+    },
+    {
+      "path": "ddfr/verification/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/verification/verify_package.py",
+      "bytes": 3584
+    },
+    {
+      "path": "ddfr/verification/verify_article.py",
+      "bytes": 2637
+    },
+    {
+      "path": "ddfr/verification/FEM_REPORT.md",
+      "bytes": 6511
+    },
+    {
+      "path": "ddfr/verification/COUPLAGE_REPRODUIT.txt",
+      "bytes": 206
+    },
+    {
+      "path": "ddfr/verification/RESULTAT_VERIFICATION.json",
+      "bytes": 245
+    },
+    {
+      "path": "ddfr/DEVELOPPEMENT.md",
+      "bytes": 5134
+    },
+    {
+      "path": "ddfr/EFT_v3/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/EFT_v3/CE_QUI_MANQUE_2026-09-06.md",
+      "bytes": 4091
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/ETAPE4prime_BK_EN_5D.md",
+      "bytes": 5529
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/PORTE3prime_COUPLAGE_VERDICT.md",
+      "bytes": 5572
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/DECISION_8.2_ABANDONNE.md",
+      "bytes": 1190
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/scripts/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/scripts/etape4prime_BK_derivation.py",
+      "bytes": 1336
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/scripts/etape3bcd_scales_relic_condensate.py",
+      "bytes": 2587
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/scripts/etape1_quadratic_and_monotone.py",
+      "bytes": 2387
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/scripts/common_background.py",
+      "bytes": 2920
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/scripts/etape3a_phi_sector.py",
+      "bytes": 2338
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/scripts/axe1_R_selection.py",
+      "bytes": 956
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/scripts/__pycache__/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/scripts/__pycache__/common_background.cpython-312.pyc",
+      "bytes": 7389
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/scripts/run_all.py",
+      "bytes": 782
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/scripts/etape4_kelvon_kill.py",
+      "bytes": 1408
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/ETAPE3bcd_ECHELLES_RELIQUE_CONDENSAT.md",
+      "bytes": 5423
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/ETAPE1_FOND_ET_STABILITE.md",
+      "bytes": 6199
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/ETAPE3a_SECTEUR_PHI.md",
+      "bytes": 3487
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/ETAT_DE_LA_THEORIE_v2.md",
+      "bytes": 6659
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/ETAPE4_KELVONS_VERDICT.md",
+      "bytes": 7341
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/PROGRAMME_DDF_v2_NOUVELLE_THEORIE.md",
+      "bytes": 7636
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/AXES_DE_DEVELOPPEMENT.md",
+      "bytes": 7195
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/resultats_programme_v2/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/resultats_programme_v2/etape4prime_BK_derivation.txt",
+      "bytes": 593
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/resultats_programme_v2/etape3a_phi_sector.txt",
+      "bytes": 734
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/resultats_programme_v2/etape4_kelvon_kill.txt",
+      "bytes": 1993
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/resultats_programme_v2/etape3bcd_scales_relic_condensate.txt",
+      "bytes": 1168
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/resultats_programme_v2/axe1_R_selection.txt",
+      "bytes": 830
+    },
+    {
+      "path": "ddfr/EFT_v3/programme_v2/DIRECTIONS_ET_SIGNES.md",
+      "bytes": 3155
+    },
+    {
+      "path": "ddfr/EFT_v3/paperB/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/EFT_v3/paperB/alpha95_SCREENING_SLOT.csv",
+      "bytes": 666
+    },
+    {
+      "path": "ddfr/EFT_v3/paperB/parameters.json",
+      "bytes": 2480
+    },
+    {
+      "path": "ddfr/EFT_v3/paperB/exclusion_map.py",
+      "bytes": 3479
+    },
+    {
+      "path": "ddfr/EFT_v3/paperB/paperB.tex",
+      "bytes": 8407
+    },
+    {
+      "path": "ddfr/EFT_v3/INTEGRATION_AVEC_DEPOT_EXISTANT.md",
+      "bytes": 2769
+    },
+    {
+      "path": "ddfr/EFT_v3/CONSTITUTION_v3.md",
+      "bytes": 5107
+    },
+    {
+      "path": "ddfr/EFT_v3/CLAIMS_v3.csv",
+      "bytes": 6126
+    },
+    {
+      "path": "ddfr/EFT_v3/README.md",
+      "bytes": 10961
+    },
+    {
+      "path": "ddfr/EFT_v3/voieI/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/EFT_v3/voieI/mr_spectral.py",
+      "bytes": 5490
+    },
+    {
+      "path": "ddfr/EFT_v3/voieI/TEST_3_VOIES_MICRON.md",
+      "bytes": 3076
+    },
+    {
+      "path": "ddfr/EFT_v3/voieI/VOIE_I_SPECTRAL.md",
+      "bytes": 4862
+    },
+    {
+      "path": "ddfr/EFT_v3/registres/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/EFT_v3/registres/R11_REGISTRE.csv",
+      "bytes": 3620
+    },
+    {
+      "path": "ddfr/EFT_v3/registres/R11_SECTEUR_NUL_VERDICT.md",
+      "bytes": 5585
+    },
+    {
+      "path": "ddfr/EFT_v3/registres/R11_ALPHA_ET_NUL.md",
+      "bytes": 7322
+    },
+    {
+      "path": "ddfr/EFT_v3/registres/R1_Z_STATIC_CLOSURE.md",
+      "bytes": 4699
+    },
+    {
+      "path": "ddfr/EFT_v3/registres/STATUS.json",
+      "bytes": 6241
+    },
+    {
+      "path": "ddfr/EFT_v3/registres/MECHANISM_EXCLUSION_MAP.md",
+      "bytes": 8341
+    },
+    {
+      "path": "ddfr/EFT_v3/registres/R1_Z_NULL_KERNEL_CLOSURE.md",
+      "bytes": 5702
+    },
+    {
+      "path": "ddfr/EFT_v3/registres/ASSEMBLY.md",
+      "bytes": 7201
+    },
+    {
+      "path": "ddfr/EFT_v3/registres/R11_T2_ANTERIORITE.md",
+      "bytes": 6211
+    },
+    {
+      "path": "ddfr/EFT_v3/registres/R1_T2_CLOSURE.md",
+      "bytes": 4100
+    },
+    {
+      "path": "ddfr/EFT_v3/registres/R1_T1_RETRACTION.md",
+      "bytes": 6545
+    },
+    {
+      "path": "ddfr/EFT_v3/paperA/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/EFT_v3/paperA/verify_identity.py",
+      "bytes": 5833
+    },
+    {
+      "path": "ddfr/EFT_v3/paperA/paperA.tex",
+      "bytes": 13903
+    },
+    {
+      "path": "ddfr/EFT_v3/paperA/results.json",
+      "bytes": 2072
+    },
+    {
+      "path": "ddfr/historique/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/files-ddf_original.zip",
+      "bytes": 167342
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/CLAIMS_CURRENT.csv",
+      "bytes": 3130
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/AUDIT_OUTPUT.txt",
+      "bytes": 414
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R64_GITHUB_SYNC_NOTE.md",
+      "bytes": 2510
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R64_DATA_MANIFEST.json",
+      "bytes": 5781
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R65_CONFIG.json",
+      "bytes": 2940
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/r63_independent_lattice_fan.py",
+      "bytes": 11903
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R65_README.md",
+      "bytes": 1606
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R64_MANIFEST.sha256",
+      "bytes": 4587
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/r65_spectral_pilot.py",
+      "bytes": 30472
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R63_ERRATA_R61_R62.md",
+      "bytes": 3044
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R65_R66_DECISION.md",
+      "bytes": 1079
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R65_CLAIM_LEDGER.csv",
+      "bytes": 3451
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R64_ARTICLE1_DECISION.md",
+      "bytes": 3458
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R63_MANIFEST.sha256",
+      "bytes": 2606
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/r63_strict_tyurin_gate.py",
+      "bytes": 5913
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R65_REPORT.md",
+      "bytes": 9500
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R64_CLAIM_LEDGER.csv",
+      "bytes": 6717
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/r65_release_gate.py",
+      "bytes": 7875
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R64_ERRATA_R62_R63.md",
+      "bytes": 3749
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R65_AUDIT_OUTPUT.txt",
+      "bytes": 839
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/r62_stable_fan_parity_stop_audit.py",
+      "bytes": 28240
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/r61_resolved_tyurin_lmhs_audit.py",
+      "bytes": 23141
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R65_RESULTS.json",
+      "bytes": 30507
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R65_RUN_OUTPUT.txt",
+      "bytes": 904
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R62_AUDIT_OUTPUT.txt",
+      "bytes": 2905
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R65_PREREGISTRATION.md",
+      "bytes": 4909
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R62_REPORT.md",
+      "bytes": 32385
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R63_CLAIM_LEDGER.csv",
+      "bytes": 4298
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R65_MANIFEST.sha256",
+      "bytes": 5952
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R64_AUDIT_OUTPUT.txt",
+      "bytes": 780
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R65_SPECTRA.csv",
+      "bytes": 69097
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/r64_substance_gate.py",
+      "bytes": 9132
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R63_DATA_MANIFEST.json",
+      "bytes": 3354
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R63_REPORT.md",
+      "bytes": 22916
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R65_PROFILES.csv",
+      "bytes": 45440
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R61_AUDIT_OUTPUT.txt",
+      "bytes": 2448
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R61_REPORT.md",
+      "bytes": 19517
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R64_REPORT.md",
+      "bytes": 20948
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/r63_independent_jacobian_snc.py",
+      "bytes": 12804
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R63_README.md",
+      "bytes": 1612
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r64/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r64/r64_equivariant_nogo_audit.py",
+      "bytes": 6456
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r64/literature_novelty.md",
+      "bytes": 36591
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r64/adversarial_pre_referee.md",
+      "bytes": 23909
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r64/general_construction.md",
+      "bytes": 24457
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r64/r64_boundary_certificate.py",
+      "bytes": 4065
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r64/no_go_novelty_comparison.md",
+      "bytes": 15949
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r64/r64_lattice_classification.py",
+      "bytes": 28615
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r64/integrated_final_referee.md",
+      "bytes": 13667
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r64/equivariant_nogo.md",
+      "bytes": 13488
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r64/counterexamples_and_boundaries.md",
+      "bytes": 19255
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r64/lattice_classification.md",
+      "bytes": 18726
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R65_METRICS.csv",
+      "bytes": 8835
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R64_README.md",
+      "bytes": 2775
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/R63_AUDIT_OUTPUT.txt",
+      "bytes": 926
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r63/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r63/quasifano_normal_bundles.md",
+      "bytes": 11415
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r63/literature_novelty.md",
+      "bytes": 22514
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r63/log_lmhs_audit.md",
+      "bytes": 17280
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r63/adversarial_referee.md",
+      "bytes": 13339
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r63/release_audit.md",
+      "bytes": 18320
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r63/r63_ems_cohomology_audit.py",
+      "bytes": 14024
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r63/r63_quasifano_certificate.py",
+      "bytes": 7812
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r63/toric_recheck.md",
+      "bytes": 11696
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r63/r63_toric_independent_audit.py",
+      "bytes": 14959
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r63/corpus_and_gaps.md",
+      "bytes": 28722
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/reproducibility/R65/meta_audit_r63/independent_cas.md",
+      "bytes": 12191
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/CITATION.cff",
+      "bytes": 541
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/LICENSE_STATUS.md",
+      "bytes": 420
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/.github/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/.github/ISSUE_TEMPLATE/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/.github/ISSUE_TEMPLATE/scientific-gate.md",
+      "bytes": 307
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/articles/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/articles/article-KK-spectral/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/articles/article-KK-spectral/README.md",
+      "bytes": 702
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/articles/article-physics/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/articles/article-physics/README.md",
+      "bytes": 796
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/articles/article-G-geometry/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/articles/article-G-geometry/README.md",
+      "bytes": 1024
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/verify_repository.py",
+      "bytes": 4857
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/releases/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/releases/DDF_R64_SUBSTANCE_2026-09-04.zip.sha256",
+      "bytes": 100
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/releases/DDF_R65_SPECTRAL_PILOT_2026-09-05.zip.sha256",
+      "bytes": 105
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/README.md",
+      "bytes": 4089
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/STATUS.md",
+      "bytes": 831
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/.gitignore",
+      "bytes": 98
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/MANIFEST.sha256",
+      "bytes": 10205
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/RELEASES.md",
+      "bytes": 642
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/CHANGELOG.md",
+      "bytes": 460
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/docs/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/docs/CLAIM_POLICY.md",
+      "bytes": 1233
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/docs/ROADMAP_R66_R70.md",
+      "bytes": 1223
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/docs/SCIENTIFIC_STATUS.md",
+      "bytes": 2771
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/docs/LEGACY_DEPRECATION_MAP.md",
+      "bytes": 1335
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/docs/PUBLICATION_PLAN.md",
+      "bytes": 2703
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/legacy/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/legacy/DDF_R1_R62_AUDIT_MAITRE.md",
+      "bytes": 38030
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/legacy/README.md",
+      "bytes": 459
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/legacy/DDF_R1_R62_REGISTRE.csv",
+      "bytes": 16467
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/legacy/DDF_ERRATA_R1_R62_BROUILLON.md",
+      "bytes": 5580
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/software/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/software/R65_CONFIG.json",
+      "bytes": 2940
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/software/r65_spectral_pilot.py",
+      "bytes": 30472
+    },
+    {
+      "path": "ddfr/historique/geometrie_snapshot/software/R65_PREREGISTRATION.md",
+      "bytes": 4909
+    },
+    {
+      "path": "ddfr/historique/README.md",
+      "bytes": 1019
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-3/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-3/tex/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-3/tex/DDF_III_the_medium.tex",
+      "bytes": 25859
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-1/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-1/scripts/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-1/scripts/G6_yukawa.py",
+      "bytes": 4025
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-1/scripts/casimir.py",
+      "bytes": 876
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-1/scripts/core_scale.py",
+      "bytes": 1665
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-1/tex/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-1/tex/DDF_I_the_stage.tex",
+      "bytes": 34394
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-7/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-7/tex/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-7/tex/DDF_VII_seven_charge_classes.tex",
+      "bytes": 11661
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-5/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-5/scripts/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-5/scripts/repro.py",
+      "bytes": 10041
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-5/tex/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-5/tex/DDF_V_type_I_prime_strings.tex",
+      "bytes": 39336
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-4/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-4/tex/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-4/tex/DDF_IV_one_scale_and_its_shadow.tex",
+      "bytes": 28148
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-2/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-2/scripts/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-2/scripts/u_derive.py",
+      "bytes": 1989
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-2/scripts/cb_definitif.py",
+      "bytes": 2926
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-2/scripts/spectrum.py",
+      "bytes": 335
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-2/tex/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-2/tex/DDF_II_the_well_and_the_tower.tex",
+      "bytes": 26857
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-8/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-8/scripts/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-8/scripts/v2_v3_gaps.py",
+      "bytes": 2350
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-8/scripts/v1_convention.py",
+      "bytes": 2417
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-8/tex/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-8/tex/DDF_VIII_vacuum_winding_baryogenesis.tex",
+      "bytes": 17622
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-8/tex/section_dictionary_finale.tex",
+      "bytes": 10364
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-6/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-6/scripts/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-6/scripts/verify.py",
+      "bytes": 3177
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-6/tex/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/I_VIII_sources_examinees/article-6/tex/DDF_VI_candidate_geometry.tex",
+      "bytes": 18594
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/paperB/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/paperB/alpha95_SCREENING_SLOT.csv",
+      "bytes": 666
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/paperB/parameters.json",
+      "bytes": 1913
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/paperB/exclusion_map.py",
+      "bytes": 3479
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/paperB/paperB.tex",
+      "bytes": 7724
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/INTEGRATION_AVEC_DEPOT_EXISTANT.md",
+      "bytes": 2769
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/CONSTITUTION_v3.md",
+      "bytes": 4647
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/CLAIMS_v3.csv",
+      "bytes": 3097
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/README.md",
+      "bytes": 9301
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/voieI/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/voieI/mr_spectral.py",
+      "bytes": 5490
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/voieI/TEST_3_VOIES_MICRON.md",
+      "bytes": 2806
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/voieI/VOIE_I_SPECTRAL.md",
+      "bytes": 4488
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/LICENSE",
+      "bytes": 801
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/.gitignore",
+      "bytes": 84
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/registres/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/registres/R11_REGISTRE.csv",
+      "bytes": 3610
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/registres/R11_SECTEUR_NUL_VERDICT.md",
+      "bytes": 5585
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/registres/R11_ALPHA_ET_NUL.md",
+      "bytes": 6891
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/registres/R1_Z_STATIC_CLOSURE.md",
+      "bytes": 4699
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/registres/STATUS.json",
+      "bytes": 5547
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/registres/MECHANISM_EXCLUSION_MAP.md",
+      "bytes": 7929
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/registres/R1_Z_NULL_KERNEL_CLOSURE.md",
+      "bytes": 5702
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/registres/ASSEMBLY.md",
+      "bytes": 6947
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/registres/R11_T2_ANTERIORITE.md",
+      "bytes": 6211
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/registres/R1_T2_CLOSURE.md",
+      "bytes": 4100
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/registres/R1_T1_RETRACTION.md",
+      "bytes": 6545
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/MANIFEST_sha256.txt",
+      "bytes": 1210
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/paperA/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/paperA/verify_identity.py",
+      "bytes": 5833
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/paperA/paperA.tex",
+      "bytes": 13233
+    },
+    {
+      "path": "ddfr/historique/EFT_v3_snapshot/paperA/results.json",
+      "bytes": 1877
+    },
+    {
+      "path": "ddfr/README.md",
+      "bytes": 5054
+    },
+    {
+      "path": "ddfr/.git/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/description",
+      "bytes": 73
+    },
+    {
+      "path": "ddfr/.git/config",
+      "bytes": 351
+    },
+    {
+      "path": "ddfr/.git/hooks/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/hooks/pre-applypatch.sample",
+      "bytes": 424
+    },
+    {
+      "path": "ddfr/.git/hooks/pre-push.sample",
+      "bytes": 1374
+    },
+    {
+      "path": "ddfr/.git/hooks/sendemail-validate.sample",
+      "bytes": 2308
+    },
+    {
+      "path": "ddfr/.git/hooks/fsmonitor-watchman.sample",
+      "bytes": 4726
+    },
+    {
+      "path": "ddfr/.git/hooks/commit-msg.sample",
+      "bytes": 896
+    },
+    {
+      "path": "ddfr/.git/hooks/post-update.sample",
+      "bytes": 189
+    },
+    {
+      "path": "ddfr/.git/hooks/update.sample",
+      "bytes": 3650
+    },
+    {
+      "path": "ddfr/.git/hooks/pre-commit.sample",
+      "bytes": 1643
+    },
+    {
+      "path": "ddfr/.git/hooks/pre-rebase.sample",
+      "bytes": 4898
+    },
+    {
+      "path": "ddfr/.git/hooks/prepare-commit-msg.sample",
+      "bytes": 1492
+    },
+    {
+      "path": "ddfr/.git/hooks/push-to-checkout.sample",
+      "bytes": 2783
+    },
+    {
+      "path": "ddfr/.git/hooks/pre-merge-commit.sample",
+      "bytes": 416
+    },
+    {
+      "path": "ddfr/.git/hooks/pre-receive.sample",
+      "bytes": 544
+    },
+    {
+      "path": "ddfr/.git/hooks/applypatch-msg.sample",
+      "bytes": 478
+    },
+    {
+      "path": "ddfr/.git/packed-refs",
+      "bytes": 112
+    },
+    {
+      "path": "ddfr/.git/objects/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/b1/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/b1/ca1551d4a8356b90b293e051af6601f2ff7350",
+      "bytes": 4076
+    },
+    {
+      "path": "ddfr/.git/objects/1c/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/1c/6e0cb40d06328df254357fc5d319dfd91ed40a",
+      "bytes": 4328
+    },
+    {
+      "path": "ddfr/.git/objects/83/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/83/39b615b9e7c6dc88515000a04f16d11e7291a5",
+      "bytes": 3924
+    },
+    {
+      "path": "ddfr/.git/objects/8c/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/8c/c008d7cb7989511e2849d6fa5f04e8941389f0",
+      "bytes": 1114
+    },
+    {
+      "path": "ddfr/.git/objects/fb/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/fb/cbdee2486c1898783a77f7874c19b799b938b4",
+      "bytes": 386
+    },
+    {
+      "path": "ddfr/.git/objects/fb/a52141298dd06140147d9107b788500e9cf2dc",
+      "bytes": 6270
+    },
+    {
+      "path": "ddfr/.git/objects/7c/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/7c/826cc3fa9e8ca56eef68d59a9deb1c82803db2",
+      "bytes": 1760
+    },
+    {
+      "path": "ddfr/.git/objects/7c/32b75987033f17835c0ca3d78ec2e1520d2ae5",
+      "bytes": 183
+    },
+    {
+      "path": "ddfr/.git/objects/e6/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/e6/3264336826e25861994bd3c6f168f7e58a8b96",
+      "bytes": 595
+    },
+    {
+      "path": "ddfr/.git/objects/3b/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/3b/3a791bc6698b4fc2643d35388f7ecabc396ad0",
+      "bytes": 3221
+    },
+    {
+      "path": "ddfr/.git/objects/eb/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/eb/5fcc50d7c5ba87c535ac9484b19e2604c5e1be",
+      "bytes": 469
+    },
+    {
+      "path": "ddfr/.git/objects/d9/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/d9/bf2c367bf4314595592cfead23077d4a0624c2",
+      "bytes": 3792
+    },
+    {
+      "path": "ddfr/.git/objects/39/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/39/a2f0fcb9d1b2392b864a322106be32804d757e",
+      "bytes": 750
+    },
+    {
+      "path": "ddfr/.git/objects/d2/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/d2/a3a6200bd4cbf4e43c69aa62b24ff8990d7fb7",
+      "bytes": 3061
+    },
+    {
+      "path": "ddfr/.git/objects/42/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/42/df8f3496b42e0be8c6efbc16709e5b9e64ea40",
+      "bytes": 335
+    },
+    {
+      "path": "ddfr/.git/objects/5b/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/5b/7e89ed2b7bde6f2d4e4e198c34bea02484c8d5",
+      "bytes": 587
+    },
+    {
+      "path": "ddfr/.git/objects/cb/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/cb/b732911856b0f514d5429a7871663048ebd00d",
+      "bytes": 367
+    },
+    {
+      "path": "ddfr/.git/objects/98/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/98/9a21303d78a6923c5c13df1e1ac2423ec93d73",
+      "bytes": 3223
+    },
+    {
+      "path": "ddfr/.git/objects/8d/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/8d/69ddb9d74cfe412936900d6263400790bcbfa2",
+      "bytes": 3171
+    },
+    {
+      "path": "ddfr/.git/objects/77/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/77/8c26f01b5efd7ecaaab30a58285f969c43c771",
+      "bytes": 816
+    },
+    {
+      "path": "ddfr/.git/objects/00/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/00/eaf19eb7e7913f957be88fd41361fe84de846f",
+      "bytes": 591
+    },
+    {
+      "path": "ddfr/.git/objects/d3/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/d3/234d092be5710f16e0dffc7b7f81b1971d8268",
+      "bytes": 1155
+    },
+    {
+      "path": "ddfr/.git/objects/70/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/70/4868f83f8d3bf8b9431c7faebc871fe871b1c9",
+      "bytes": 1441
+    },
+    {
+      "path": "ddfr/.git/objects/aa/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/aa/1207c43d47022c7b47466ba8df7f504f0aa47f",
+      "bytes": 3762
+    },
+    {
+      "path": "ddfr/.git/objects/13/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/13/2e49aca0d7bdaeb159a08029e18c4bc5b81ccf",
+      "bytes": 1193
+    },
+    {
+      "path": "ddfr/.git/objects/d0/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/d0/2e6a1464d26fa0d3c750de31d6d911b6cbb208",
+      "bytes": 144
+    },
+    {
+      "path": "ddfr/.git/objects/b8/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/b8/a8f770765e959246f75d20127b7fcf9f16303d",
+      "bytes": 1911
+    },
+    {
+      "path": "ddfr/.git/objects/85/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/85/e393f69afc04961b5ca0aa13c79a0b74779550",
+      "bytes": 1686
+    },
+    {
+      "path": "ddfr/.git/objects/80/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/80/e9d11125c35e87983f4c08141a169c89fceb65",
+      "bytes": 325
+    },
+    {
+      "path": "ddfr/.git/objects/2c/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/2c/d71880346d8d49426152158638912ad4f387f6",
+      "bytes": 1953
+    },
+    {
+      "path": "ddfr/.git/objects/65/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/65/b5e06da0f024f572b6bdcc993c929e635cdd09",
+      "bytes": 2906
+    },
+    {
+      "path": "ddfr/.git/objects/9a/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/9a/d0dfc7dad51e18fe5396da121eb6d1192ff7fb",
+      "bytes": 357
+    },
+    {
+      "path": "ddfr/.git/objects/30/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/30/76e730db84173c24703f6e3c93c216d0eb572e",
+      "bytes": 337
+    },
+    {
+      "path": "ddfr/.git/objects/f0/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/f0/fe88e47eb42d1bfda62a5ad98a84c7200f9c30",
+      "bytes": 2888
+    },
+    {
+      "path": "ddfr/.git/objects/05/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/05/8650c9fbd5f224f743b00b5b09a6063404cd6c",
+      "bytes": 623
+    },
+    {
+      "path": "ddfr/.git/objects/c9/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/c9/27c96f8b30d238f5e4c5d01c69797760fc8ee7",
+      "bytes": 482
+    },
+    {
+      "path": "ddfr/.git/objects/dd/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/dd/a97a549b9c50183cbd43b631df0932fc9d7a46",
+      "bytes": 284
+    },
+    {
+      "path": "ddfr/.git/objects/31/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/31/c536c50eb5056253ba9dc44b2f35cdf6550193",
+      "bytes": 2373
+    },
+    {
+      "path": "ddfr/.git/objects/7d/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/7d/1b67f4aadb0901f2b200502ff23c92dc69cb4b",
+      "bytes": 4041
+    },
+    {
+      "path": "ddfr/.git/objects/5e/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/5e/1b7f932c0c7798531eec3cb007852c49cc3d02",
+      "bytes": 3237
+    },
+    {
+      "path": "ddfr/.git/objects/b9/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/b9/9344606445248de5466b87375233709e17991b",
+      "bytes": 1405
+    },
+    {
+      "path": "ddfr/.git/objects/b9/bc05b9065e6f20bdfbd32ed6fb736a23d1c69c",
+      "bytes": 1257
+    },
+    {
+      "path": "ddfr/.git/objects/43/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/43/de5498a2d636c61dcffb42584bac6b68094f80",
+      "bytes": 239
+    },
+    {
+      "path": "ddfr/.git/objects/06/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/06/150ea89eeae3964b70e646dc81c39013a800d1",
+      "bytes": 846
+    },
+    {
+      "path": "ddfr/.git/objects/32/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/32/d0442998aa9ed9f0cdfce72df56281918ba453",
+      "bytes": 133
+    },
+    {
+      "path": "ddfr/.git/objects/bc/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/bc/c9cc6d1474ccd94e1e7c39f2dc91f725fa7367",
+      "bytes": 303
+    },
+    {
+      "path": "ddfr/.git/objects/45/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/45/a95a98f864c9b3b13a73846917a9700f908379",
+      "bytes": 2682
+    },
+    {
+      "path": "ddfr/.git/objects/37/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/37/5593200e6602b96cf77540820e972df16598d7",
+      "bytes": 760
+    },
+    {
+      "path": "ddfr/.git/objects/50/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/50/6aa8ccd150ced0cbaceba796396b4f9d31057e",
+      "bytes": 622
+    },
+    {
+      "path": "ddfr/.git/objects/73/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/73/941d73e82138592b265dc43be2b0959debc778",
+      "bytes": 436
+    },
+    {
+      "path": "ddfr/.git/objects/ab/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/ab/e5097e0fb2e86f93e76fc6f8ad8f698e58d732",
+      "bytes": 3087
+    },
+    {
+      "path": "ddfr/.git/objects/8b/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/8b/00dedee5ed0e45fe49100efc8ffe8f5cbead5c",
+      "bytes": 3747
+    },
+    {
+      "path": "ddfr/.git/objects/61/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/61/12cc33c36ee527498f7da86528ab2c5e01207c",
+      "bytes": 5736
+    },
+    {
+      "path": "ddfr/.git/objects/info/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/pack/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/objects/pack/pack-e2c7e2d1cbb96c24cfa1a28758a0c8707e85e229.idx",
+      "bytes": 7652
+    },
+    {
+      "path": "ddfr/.git/objects/pack/pack-e2c7e2d1cbb96c24cfa1a28758a0c8707e85e229.pack",
+      "bytes": 1792553
+    },
+    {
+      "path": "ddfr/.git/objects/pack/pack-e2c7e2d1cbb96c24cfa1a28758a0c8707e85e229.rev",
+      "bytes": 992
+    },
+    {
+      "path": "ddfr/.git/COMMIT_EDITMSG",
+      "bytes": 189
+    },
+    {
+      "path": "ddfr/.git/refs/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/refs/heads/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/refs/heads/main",
+      "bytes": 41
+    },
+    {
+      "path": "ddfr/.git/refs/remotes/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/refs/remotes/origin/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/refs/remotes/origin/HEAD",
+      "bytes": 30
+    },
+    {
+      "path": "ddfr/.git/refs/tags/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/logs/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/logs/refs/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/logs/refs/heads/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/logs/refs/heads/main",
+      "bytes": 901
+    },
+    {
+      "path": "ddfr/.git/logs/refs/remotes/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/logs/refs/remotes/origin/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/logs/refs/remotes/origin/HEAD",
+      "bytes": 188
+    },
+    {
+      "path": "ddfr/.git/logs/HEAD",
+      "bytes": 901
+    },
+    {
+      "path": "ddfr/.git/HEAD",
+      "bytes": 21
+    },
+    {
+      "path": "ddfr/.git/branches/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/shallow",
+      "bytes": 41
+    },
+    {
+      "path": "ddfr/.git/index",
+      "bytes": 30153
+    },
+    {
+      "path": "ddfr/.git/info/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/.git/info/exclude",
+      "bytes": 240
+    },
+    {
+      "path": "ddfr/article/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/article/BUILD.md",
+      "bytes": 1560
+    },
+    {
+      "path": "ddfr/article/manuscript.md",
+      "bytes": 36153
+    },
+    {
+      "path": "ddfr/article/figures/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/article/figures/weak_coupling.svg",
+      "bytes": 57653
+    },
+    {
+      "path": "ddfr/article/figures/weak_coupling.png",
+      "bytes": 143445
+    },
+    {
+      "path": "ddfr/article/manuscript.pdf",
+      "bytes": 1015359
+    },
+    {
+      "path": "ddfr/article/manuscript.tex",
+      "bytes": 39730
+    },
+    {
+      "path": "ddfr/article/references.bib",
+      "bytes": 4828
+    },
+    {
+      "path": "ddfr/article/manuscript.json",
+      "bytes": 47562
+    },
+    {
+      "path": "ddfr/ETAT_SCIENTIFIQUE.md",
+      "bytes": 5066
+    },
+    {
+      "path": "ddfr/PROVENANCE.json",
+      "bytes": 1960
+    },
+    {
+      "path": "ddfr/.gitignore",
+      "bytes": 79
+    },
+    {
+      "path": "ddfr/noyau/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/noyau/DERIVATION_COUPLAGE.md",
+      "bytes": 10537
+    },
+    {
+      "path": "ddfr/noyau/ANALYTIQUE_ET_STABILITE.md",
+      "bytes": 10130
+    },
+    {
+      "path": "ddfr/noyau/GEOMETRIE.md",
+      "bytes": 2213
+    },
+    {
+      "path": "ddfr/noyau/EFT_MODELE_ET_RESULTATS.md",
+      "bytes": 8664
+    },
+    {
+      "path": "ddfr/audits/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/audits/ANTERIORITE_ARTICLE1.md",
+      "bytes": 12033
+    },
+    {
+      "path": "ddfr/audits/AUDIT_I_VIII.md",
+      "bytes": 22754
+    },
+    {
+      "path": "ddfr/audits/AUDIT_GEOMETRIE.md",
+      "bytes": 13387
+    },
+    {
+      "path": "ddfr/audits/AUDIT_GENERAL.md",
+      "bytes": 24501
+    },
+    {
+      "path": "ddfr/audits/AVIS_ARTICLE1.md",
+      "bytes": 14867
+    },
+    {
+      "path": "ddfr/resultats/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/resultats/spectre_5d.json",
+      "bytes": 11332
+    },
+    {
+      "path": "ddfr/resultats/RESUME.md",
+      "bytes": 1212
+    },
+    {
+      "path": "ddfr/resultats/fem_verification.json",
+      "bytes": 45782
+    },
+    {
+      "path": "ddfr/resultats/extension_x.json",
+      "bytes": 6875
+    },
+    {
+      "path": "ddfr/resultats/weak_coefficients.json",
+      "bytes": 2988
+    },
+    {
+      "path": "ddfr/calculs/",
+      "bytes": 0
+    },
+    {
+      "path": "ddfr/calculs/model.py",
+      "bytes": 4571
+    },
+    {
+      "path": "ddfr/calculs/requirements-manuscript.txt",
+      "bytes": 75
+    },
+    {
+      "path": "ddfr/calculs/requirements.txt",
+      "bytes": 29
+    },
+    {
+      "path": "ddfr/calculs/weak_backreaction_general.py",
+      "bytes": 2383
+    },
+    {
+      "path": "ddfr/calculs/spectre_5d.py",
+      "bytes": 4750
+    },
+    {
+      "path": "ddfr/calculs/couplage_faible_retroaction.py",
+      "bytes": 1171
+    },
+    {
+      "path": "ddfr/calculs/extension_x.py",
+      "bytes": 481
+    },
+    {
+      "path": "ddfr/calculs/render_manuscript.py",
+      "bytes": 8812
+    },
+    {
+      "path": "ddfr/calculs/fem_verify.py",
+      "bytes": 7492
+    },
+    {
+      "path": "ddfr/GUIDE_LECTURE_FR.md",
+      "bytes": 5266
+    },
+    {
+      "path": "ddfr/MANIFEST.json",
+      "bytes": 36266
+    },
+    {
+      "path": "ddfr/CORRECTIONS_APPLIQUEES.md",
+      "bytes": 3154
+    }
+  ]
+}

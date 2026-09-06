@@ -1,0 +1,195 @@
+{
+  "edition": "2026-09-06 canonique",
+  "scope": "Seul registre actif de ce dépôt. Tous les registres des archives sont historiques.",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Action et principes du noyau",
+      "status": "DEFINI",
+      "evidence": "MODELE.json",
+      "limits": "Paramètres libres ; fermeture de formulation classique, pas théorème de vérité expérimentale ou UV."
+    },
+    {
+      "id": "F01",
+      "claim": "Longueur à couplages fixés",
+      "status": "DERIVE_ET_CALCULE",
+      "evidence": "noyau/stabilisation/R_DERIVATION_ET_TESTS.md",
+      "limits": "Branche plate symétrique ; tension compatible."
+    },
+    {
+      "id": "F02",
+      "claim": "Stabilité scalaire/tensorielle plate",
+      "status": "DERIVE_DANS_DOMAINE_STRICT",
+      "evidence": "noyau/stabilisation/DETAILS_QUADRATIQUES.md",
+      "limits": "sigma prime non nul ; poids de bord positifs ; pas stabilité non linéaire globale."
+    },
+    {
+      "id": "F03",
+      "claim": "Spectre et couplages quadratiques",
+      "status": "CALCULE_ET_CONTROLE",
+      "evidence": "noyau/stabilisation/quadratic_fem.json",
+      "limits": "Trois modes scalaires aux points déclarés ; fond conservé par reconstruction lors du changement de raideur."
+    },
+    {
+      "id": "F04",
+      "claim": "Longueur et courbure à tension fixée",
+      "status": "BRANCHE_LOCALE_DERIVEE_ET_CALCULEE",
+      "evidence": "noyau/courbure/LONGUEUR_ET_COURBURE.md",
+      "limits": "Douze exemples ; pas unicité globale ni stabilité des tranches courbes."
+    },
+    {
+      "id": "F05",
+      "claim": "Réponse de la courbure à la tension",
+      "status": "DERIVE_ET_CONTROLE",
+      "evidence": "noyau/courbure/courbure_action_fixe.json",
+      "limits": "Variation égale des deux constantes, premier ordre autour de Minkowski."
+    },
+    {
+      "id": "M01",
+      "claim": "Tour Phi positive",
+      "status": "DERIVE_ET_CALCULE",
+      "evidence": "matiere/Phi/FERMETURE_PHI.md",
+      "limits": "Neumann, masse positive, pas portails ; perturbations autour de Phi=0."
+    },
+    {
+      "id": "M02",
+      "claim": "Projection homogène et bornes KK",
+      "status": "DERIVE_ET_CONTROLE",
+      "evidence": "matiere/Phi/phi_projection.json",
+      "limits": "Énergie initiale libre à vitesse nulle ; pas relique cosmologique."
+    },
+    {
+      "id": "M03",
+      "claim": "Fondamental libre seul avec quartique",
+      "status": "TRONCATURE_EXACTE_REFUTEE_DANS_LA_CLASSE",
+      "evidence": "matiere/Phi/FERMETURE_PHI.md",
+      "limits": "Bords Neumann, warp non trivial ; réduction approchée avec corrections disponible."
+    },
+    {
+      "id": "M04",
+      "claim": "Profils chargés",
+      "status": "CALCULE_ET_STABILITE_LINEAIRE_SONDE",
+      "evidence": "matiere/Phi/FERMETURE_PHI.md",
+      "limits": "Métrique fixe, profil positif, g5F²>0 ; direction de phase neutre ; pas halo gravitant ou formation."
+    },
+    {
+      "id": "M05",
+      "claim": "Troisième harmonique du misalignment réel",
+      "status": "COINCIDENCE_LINEAIRE_CALCULEE",
+      "evidence": "matiere/Phi/phi_projection.json",
+      "limits": "Fond x=2 epsilon=.3 ; interactions et expansion peuvent déplacer la résonance ; transfert non calculé."
+    },
+    {
+      "id": "M06",
+      "claim": "Abondance de matière noire et charge initiale",
+      "status": "NON_DERIVE",
+      "evidence": "matiere/Phi/FERMETURE_PHI.md",
+      "limits": "Les conditions initiales et la cosmologie demeurent des entrées ou questions ouvertes."
+    },
+    {
+      "id": "M07",
+      "claim": "Formation thermique et fraction superfluide",
+      "status": "NON_ETABLI",
+      "evidence": "matiere/Phi/FERMETURE_PHI.md",
+      "limits": "Ni 3 pour cent ni 100 pour cent ne sont dérivés."
+    },
+    {
+      "id": "G01",
+      "claim": "Branches RAR à source prescrite",
+      "status": "CALCUL_CONDITIONNEL",
+      "evidence": "extensions/RAR/RAR_SOLUTIONS_RADIALES.md",
+      "limits": "Stabilité radiale réduite et comparaison énergétique sous mêmes conditions ; pas stabilité complète."
+    },
+    {
+      "id": "G02",
+      "claim": "Densité de halo avec sa gravitation",
+      "status": "CALCUL_HYDROSTATIQUE_CONDITIONNEL",
+      "evidence": "extensions/RAR/RAR_HALOS_AUTOCOHERENTS.md",
+      "limits": "27 états ; source de masse LO, charge NLO à distinguer ; adiabatique chi central divergent."
+    },
+    {
+      "id": "G03",
+      "claim": "Intérieurs chi réguliers",
+      "status": "CALCULE_AVEC_FRONTIERE_IMPOSEE",
+      "evidence": "extensions/RAR/halo_chi_boundary.json",
+      "limits": "Trois intérieurs ; chi prime au bord non nul ; aucun raccord global résolu."
+    },
+    {
+      "id": "G04",
+      "claim": "Fenêtre du quartique à faible masse",
+      "status": "CONTROLE_PARAMETRIQUE",
+      "evidence": "extensions/RAR/halo_hydrostatic.json",
+      "limits": "K et m4D sont des entrées ; diffusion Born/diluée ; pas validation amas, relique ou thermalisation."
+    },
+    {
+      "id": "G05",
+      "claim": "RAR prédite depuis DDF",
+      "status": "NON_OBTENUE",
+      "evidence": "extensions/RAR/RAR_RACCORD_5D.md",
+      "limits": "Opérateurs et coefficients nouveaux requis ; baryons seuls ne déterminent pas état sombre."
+    },
+    {
+      "id": "G06",
+      "claim": "a0=cH0/(2pi)",
+      "status": "NON_DERIVE",
+      "evidence": "extensions/RAR/RAR_RACCORD_5D.md",
+      "limits": "Une coïncidence ou une valeur de référence ne fixe pas un coefficient de cette action."
+    },
+    {
+      "id": "U01",
+      "claim": "Somme des tensions et borne d’excursion",
+      "status": "DERIVE",
+      "evidence": "extensions/UV/UV_RACCORD_ET_PRINCIPES.md",
+      "limits": "Action canonique et branes déclarées ; extension requise pour sources internes ou autres opérateurs."
+    },
+    {
+      "id": "U02",
+      "claim": "Deux O8 comme raccord complet",
+      "status": "RACCORD_NAIF_REFUTE",
+      "evidence": "extensions/UV/UV_RACCORD_ET_PRINCIPES.md",
+      "limits": "Bilan des D8 et raideurs ; pas impossibilité générale Type I prime."
+    },
+    {
+      "id": "U03",
+      "claim": "Complétion UV et protection des masses",
+      "status": "NON_OBTENUE",
+      "evidence": "extensions/UV/UV_RACCORD_ET_PRINCIPES.md",
+      "limits": "T-folds, Tyurin et Type I prime ne déterminent pas encore cette action complète."
+    },
+    {
+      "id": "R01",
+      "claim": "Valeur micrométrique indépendante de R",
+      "status": "NON_PREDITE",
+      "evidence": "noyau/stabilisation/R_DERIVATION_ET_TESTS.md",
+      "limits": "mu et rapports dimensionnels à déterminer indépendamment ; R=L/pi conventionnel."
+    },
+    {
+      "id": "R02",
+      "claim": "Énergie noire et Casimir sélectionnent seuls R",
+      "status": "NON_IDENTIFIABLE_DANS_EFT_DECLAREE",
+      "evidence": "noyau/stabilisation/r_fixed_action_checks.json",
+      "limits": "Contre-exemples avec paramètres locaux renormalisés libres ; aucune impossibilité universelle UV."
+    },
+    {
+      "id": "S01",
+      "claim": "Relations spectrales sans R",
+      "status": "DERIVE_A_FAIBLE_RETROACTION_AFFINE",
+      "evidence": "noyau/relations_spectrales/PRINCIPES_DDF_RECUPERABLES.md",
+      "limits": "Ne pas transférer inchangées aux branes quadratiques ; références numériques conservées."
+    },
+    {
+      "id": "E01",
+      "claim": "Exclusion expérimentale multimode",
+      "status": "NON_CALCULEE",
+      "evidence": "ETAT_SCIENTIFIQUE.md",
+      "limits": "Réponse expérimentale et statistiques nécessaires ; aucune plage de R validée."
+    },
+    {
+      "id": "A01",
+      "claim": "Article et priorité scientifique",
+      "status": "DOCUMENT_DE_RECHERCHE",
+      "evidence": "THEORIE_DDF.pdf",
+      "limits": "Relectures internes assistées par IA ; pas validation par revue ni garantie de nouveauté."
+    }
+  ]
+}

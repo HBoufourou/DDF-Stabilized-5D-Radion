@@ -1,0 +1,51 @@
+{
+  "energy_comparisons": [
+    {
+      "A": 10,
+      "ell": 0.1,
+      "energy_positive_minus_central_zero": -0.0016124716635061986,
+      "central_zero_eigenvalue": -119.38533226218037,
+      "central_positive_eigenvalue": 0.16041737725732688
+    },
+    {
+      "A": 10,
+      "ell": 0.03,
+      "energy_positive_minus_central_zero": -0.00359913710072135,
+      "central_zero_eigenvalue": -2138.083040458093,
+      "central_positive_eigenvalue": 0.740383510596709
+    }
+  ],
+  "source_and_domain_variations": [
+    {
+      "outer": 20.0,
+      "f": 0.0,
+      "max_h_fractional_change_vs_base": 1.3960113065536461e-08,
+      "h_ratio_at_r_equals_10rb": 0.9999999999999976
+    },
+    {
+      "outer": 40.0,
+      "f": 0.0,
+      "max_h_fractional_change_vs_base": 0.0019403654976148932,
+      "h_ratio_at_r_equals_10rb": 0.9980596345023851
+    },
+    {
+      "outer": 20.0,
+      "f": 0.3,
+      "max_h_fractional_change_vs_base": 0.4546357035597872,
+      "h_ratio_at_r_equals_10rb": 1.1500851254817597
+    },
+    {
+      "outer": 20.0,
+      "f": 1.0,
+      "max_h_fractional_change_vs_base": 1.2453542237714776,
+      "h_ratio_at_r_equals_10rb": 1.4468394776622886
+    }
+  ],
+  "domains": "Comparisons on 0.05<=r/rb<=10; interpolation of saved profiles for variation diagnostics.",
+  "software": {
+    "numpy": "2.5.2",
+    "matplotlib": "3.11.1"
+  },
+  "branch_count_converged": 20,
+  "branch_attempts": 24
+}

@@ -1,0 +1,361 @@
+{
+  "max_derivative_check_error": 4.803094033611899e-11,
+  "derivative_checks": [
+    {
+      "b": 0.01,
+      "chi": 0.0,
+      "analytic": -9.999888888888886e-05,
+      "five_point": -9.999888888888887e-05,
+      "error_scaled_by_max_1_derivative": 1.3552527156068805e-20
+    },
+    {
+      "b": 0.01,
+      "chi": 0.01,
+      "analytic": -9.999888622125177e-05,
+      "five_point": -9.999888622126385e-05,
+      "error_scaled_by_max_1_derivative": 1.2088854223213374e-17
+    },
+    {
+      "b": 0.01,
+      "chi": 0.2,
+      "analytic": -9.99976541519953e-05,
+      "five_point": -9.999765415198684e-05,
+      "error_scaled_by_max_1_derivative": 8.470329472543003e-18
+    },
+    {
+      "b": 0.01,
+      "chi": 1.0,
+      "analytic": -9.969814713463163e-05,
+      "five_point": -9.969814713581942e-05,
+      "error_scaled_by_max_1_derivative": 1.1877841375393383e-15
+    },
+    {
+      "b": 0.01,
+      "chi": 4.0,
+      "analytic": 0.00011011367624896615,
+      "five_point": 0.00011011367624900629,
+      "error_scaled_by_max_1_derivative": 4.01425854362758e-17
+    },
+    {
+      "b": 0.01,
+      "chi": 8.0,
+      "analytic": 1.4398355221166196e-07,
+      "five_point": 1.4398355219425599e-07,
+      "error_scaled_by_max_1_derivative": 1.7405971200704236e-17
+    },
+    {
+      "b": 0.1,
+      "chi": 0.0,
+      "analytic": -0.009988888888888891,
+      "five_point": -0.009988888888888886,
+      "error_scaled_by_max_1_derivative": 5.204170427930421e-18
+    },
+    {
+      "b": 0.1,
+      "chi": 0.01,
+      "analytic": -0.009988862241902442,
+      "five_point": -0.009988862241900837,
+      "error_scaled_by_max_1_derivative": 1.6046192152785466e-15
+    },
+    {
+      "b": 0.1,
+      "chi": 0.2,
+      "analytic": -0.009976563499690581,
+      "five_point": -0.009976563499693964,
+      "error_scaled_by_max_1_derivative": 3.382710778154774e-15
+    },
+    {
+      "b": 0.1,
+      "chi": 1.0,
+      "analytic": -0.007309690014584022,
+      "five_point": -0.007309690014548873,
+      "error_scaled_by_max_1_derivative": 3.5148967070242065e-14
+    },
+    {
+      "b": 0.1,
+      "chi": 4.0,
+      "analytic": 0.00030849580283103407,
+      "five_point": 0.00030849580281589237,
+      "error_scaled_by_max_1_derivative": 1.5141696490389434e-14
+    },
+    {
+      "b": 0.1,
+      "chi": 8.0,
+      "analytic": -0.00018880359835542093,
+      "five_point": -0.000188803598354428,
+      "error_scaled_by_max_1_derivative": 9.92939454616537e-16
+    },
+    {
+      "b": 1.0,
+      "chi": 0.0,
+      "analytic": -0.8888888888888888,
+      "five_point": -0.8888888888888887,
+      "error_scaled_by_max_1_derivative": 1.1102230246251565e-16
+    },
+    {
+      "b": 1.0,
+      "chi": 0.01,
+      "analytic": -0.8886517987735594,
+      "five_point": -0.8886517987734713,
+      "error_scaled_by_max_1_derivative": 8.804068585277491e-14
+    },
+    {
+      "b": 1.0,
+      "chi": 0.2,
+      "analytic": -0.7861496371298502,
+      "five_point": -0.7861496371276467,
+      "error_scaled_by_max_1_derivative": 2.203459636973548e-12
+    },
+    {
+      "b": 1.0,
+      "chi": 1.0,
+      "analytic": 0.5826173326067741,
+      "five_point": 0.5826173326073842,
+      "error_scaled_by_max_1_derivative": 6.10178574333986e-13
+    },
+    {
+      "b": 1.0,
+      "chi": 4.0,
+      "analytic": -0.023989215353775475,
+      "five_point": -0.023989215353489968,
+      "error_scaled_by_max_1_derivative": 2.855077285701668e-13
+    },
+    {
+      "b": 1.0,
+      "chi": 8.0,
+      "analytic": -0.005086304535149921,
+      "five_point": -0.0050863045351629945,
+      "error_scaled_by_max_1_derivative": 1.3073743476699207e-14
+    },
+    {
+      "b": 3.0,
+      "chi": 0.0,
+      "analytic": 0.0,
+      "five_point": 1.3322676252869309e-15,
+      "error_scaled_by_max_1_derivative": 1.3322676252869309e-15
+    },
+    {
+      "b": 3.0,
+      "chi": 0.01,
+      "analytic": 2.6959724068308794e-06,
+      "five_point": 2.695972506910783e-06,
+      "error_scaled_by_max_1_derivative": 1.0007990352176271e-13
+    },
+    {
+      "b": 3.0,
+      "chi": 0.2,
+      "analytic": 0.2542989472315281,
+      "five_point": 0.25429894722412466,
+      "error_scaled_by_max_1_derivative": 7.403466728561625e-12
+    },
+    {
+      "b": 3.0,
+      "chi": 1.0,
+      "analytic": 0.5970243645631714,
+      "five_point": 0.5970243645699498,
+      "error_scaled_by_max_1_derivative": 6.778355654546431e-12
+    },
+    {
+      "b": 3.0,
+      "chi": 4.0,
+      "analytic": -0.12614856943131988,
+      "five_point": -0.12614856942892713,
+      "error_scaled_by_max_1_derivative": 2.3927526626721374e-12
+    },
+    {
+      "b": 3.0,
+      "chi": 8.0,
+      "analytic": -0.022652115821317056,
+      "five_point": -0.02265211582154856,
+      "error_scaled_by_max_1_derivative": 2.3150231731605686e-13
+    },
+    {
+      "b": 4.0,
+      "chi": 0.0,
+      "analytic": 12.444444444444443,
+      "five_point": 12.444444444444438,
+      "error_scaled_by_max_1_derivative": 4.2822888092684615e-16
+    },
+    {
+      "b": 4.0,
+      "chi": 0.01,
+      "analytic": 12.391484698928082,
+      "five_point": 12.391484698925982,
+      "error_scaled_by_max_1_derivative": 1.6944327779807737e-13
+    },
+    {
+      "b": 4.0,
+      "chi": 0.2,
+      "analytic": 2.695592415581867,
+      "five_point": 2.695592415560832,
+      "error_scaled_by_max_1_derivative": 7.803543844898113e-12
+    },
+    {
+      "b": 4.0,
+      "chi": 1.0,
+      "analytic": -0.2146426811158868,
+      "five_point": -0.21464268106785586,
+      "error_scaled_by_max_1_derivative": 4.803094033611899e-11
+    },
+    {
+      "b": 4.0,
+      "chi": 4.0,
+      "analytic": -0.1905499023644474,
+      "five_point": -0.19054990236129032,
+      "error_scaled_by_max_1_derivative": 3.1570857039753264e-12
+    },
+    {
+      "b": 4.0,
+      "chi": 8.0,
+      "analytic": -0.03339600812171357,
+      "five_point": -0.03339600812158477,
+      "error_scaled_by_max_1_derivative": 1.2879974864432597e-13
+    }
+  ],
+  "compact_support_trials": [
+    {
+      "A": 10.0,
+      "ell_over_rb": 1.0,
+      "support_radius": 0.25,
+      "kinetic": 157.91367041742973,
+      "potential_average": -0.05069974378047829,
+      "rayleigh_quotient": 157.86297067364924,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    },
+    {
+      "A": 10.0,
+      "ell_over_rb": 1.0,
+      "support_radius": 0.35,
+      "kinetic": 80.5681991925662,
+      "potential_average": -0.10550315346006808,
+      "rayleigh_quotient": 80.46269603910613,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    },
+    {
+      "A": 10.0,
+      "ell_over_rb": 1.0,
+      "support_radius": 0.45,
+      "kinetic": 48.73878716587337,
+      "potential_average": -0.16309007717206833,
+      "rayleigh_quotient": 48.5756970887013,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    },
+    {
+      "A": 10.0,
+      "ell_over_rb": 1.0,
+      "support_radius": 0.6,
+      "kinetic": 27.415567780803773,
+      "potential_average": -0.24408160495930245,
+      "rayleigh_quotient": 27.17148617584447,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    },
+    {
+      "A": 10.0,
+      "ell_over_rb": 0.3,
+      "support_radius": 0.25,
+      "kinetic": 157.91367041742973,
+      "potential_average": -13.631626003792894,
+      "rayleigh_quotient": 144.28204441363684,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    },
+    {
+      "A": 10.0,
+      "ell_over_rb": 0.3,
+      "support_radius": 0.35,
+      "kinetic": 80.5681991925662,
+      "potential_average": -18.37344705478295,
+      "rayleigh_quotient": 62.19475213778325,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    },
+    {
+      "A": 10.0,
+      "ell_over_rb": 0.3,
+      "support_radius": 0.45,
+      "kinetic": 48.73878716587337,
+      "potential_average": -17.18965364891216,
+      "rayleigh_quotient": 31.54913351696121,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    },
+    {
+      "A": 10.0,
+      "ell_over_rb": 0.3,
+      "support_radius": 0.6,
+      "kinetic": 27.415567780803773,
+      "potential_average": -3.6608113303576095,
+      "rayleigh_quotient": 23.754756450446163,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    },
+    {
+      "A": 10.0,
+      "ell_over_rb": 0.1,
+      "support_radius": 0.25,
+      "kinetic": 157.91367041742973,
+      "potential_average": -122.69371599161757,
+      "rayleigh_quotient": 35.21995442581216,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    },
+    {
+      "A": 10.0,
+      "ell_over_rb": 0.1,
+      "support_radius": 0.35,
+      "kinetic": 80.5681991925662,
+      "potential_average": -165.37873502545884,
+      "rayleigh_quotient": -84.81053583289264,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    },
+    {
+      "A": 10.0,
+      "ell_over_rb": 0.1,
+      "support_radius": 0.45,
+      "kinetic": 48.73878716587337,
+      "potential_average": -154.72570738715035,
+      "rayleigh_quotient": -105.98692022127699,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    },
+    {
+      "A": 10.0,
+      "ell_over_rb": 0.1,
+      "support_radius": 0.6,
+      "kinetic": 27.415567780803773,
+      "potential_average": -32.94885828572887,
+      "rayleigh_quotient": -5.533290504925095,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    },
+    {
+      "A": 10.0,
+      "ell_over_rb": 0.03,
+      "support_radius": 0.25,
+      "kinetic": 157.91367041742973,
+      "potential_average": -1363.2635110179676,
+      "rayleigh_quotient": -1205.3498406005378,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    },
+    {
+      "A": 10.0,
+      "ell_over_rb": 0.03,
+      "support_radius": 0.35,
+      "kinetic": 80.5681991925662,
+      "potential_average": -1837.5415002828827,
+      "rayleigh_quotient": -1756.9733010903165,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    },
+    {
+      "A": 10.0,
+      "ell_over_rb": 0.03,
+      "support_radius": 0.45,
+      "kinetic": 48.73878716587337,
+      "potential_average": -1719.174526523885,
+      "rayleigh_quotient": -1670.4357393580117,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    },
+    {
+      "A": 10.0,
+      "ell_over_rb": 0.03,
+      "support_radius": 0.6,
+      "kinetic": 27.415567780803773,
+      "potential_average": -366.0984253969825,
+      "rayleigh_quotient": -338.68285761617875,
+      "note": "Trial u=sin(pi*s/a) on [0,a], zero beyond. Stored chi linearly interpolated; not a certified continuum error bound."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "DDF-Stabilized-5D-Radion",
+  "edition": "2026-09-06 — correction et base de publications",
+  "domain": "Modèle classique tronqué ; régime effectif déclaré, sans complétion UV ou validation expérimentale.",
+  "conventions": {
+    "signature": "-++++",
+    "units": "hbar=c=1",
+    "physical_interval": "[0,L], one copy",
+    "EH": "M5^3 R5/2",
+    "GHY": "M5^3 K",
+    "outward_normals": [
+      -1,
+      1
+    ]
+  },
+  "fields": {
+    "gravity": "g_AB",
+    "stabilizer": "real sigma",
+    "dark": "complex Phi",
+    "visible": "minimal matter at y=0"
+  },
+  "potentials": {
+    "bulk_sigma": "Lambda5+mu^2 sigma^2/2",
+    "brane0": "tau+lambda(sigma+v)^2",
+    "braneL": "tau+lambda(sigma-v)^2",
+    "bulk_Phi": "mPhi^2|Phi|^2+g5|Phi|^4/2"
+  },
+  "parameter_domains": {
+    "M5_cubed": ">0",
+    "mu": ">0",
+    "lambda_brane": ">0",
+    "v": ">0",
+    "Lambda5": "0<Lambda5<2lambda^2v^2 on principal flat branch",
+    "tau": "independent input; compatibility required for flat slices",
+    "mPhi_squared": ">0; massless limit treated separately",
+    "g5_quartic": ">=0"
+  },
+  "symmetries": [
+    "Phi -> exp(i alpha) Phi, exact classical U(1)",
+    "Reflection y->L-y combined with sigma->-sigma"
+  ],
+  "background": "Phi=0; A even and sigma odd about interval center",
+  "Phi_boundary": "Neumann; no Phi brane potential or kinetic term",
+  "absent_operators": "No direct Phi-visible portal, sigma^2|Phi|^2, chi or MOND term. Absence defines this classical truncation; it is not radiative protection.",
+  "output_radius": "R0=L/pi; physical tensor range obtained from spectrum",
+  "output_curvature": "signed h_brane from matching all fixed tensions locally around Minkowski",
+  "fixed_action_abstract_benchmark": {
+    "mu": 1.0,
+    "lambda_brane": 0.5,
+    "v": 0.3,
+    "M5_cubed": 1.0,
+    "Lambda5": 0.01125,
+    "tau": -0.03596816493373043,
+    "L_output": 1.375369917836534,
+    "curvature_output": 0.0,
+    "units": "abstract common energy units, no physical radius chosen"
+  },
+  "matter_state_inputs": [
+    "initial amplitude",
+    "initial charge",
+    "profile and velocity, or selected charged stationary state"
+  ],
+  "excluded_from_claimed_closure": [
+    "absolute R prediction",
+    "dark relic abundance",
+    "thermal condensate formation",
+    "full RAR from 5D",
+    "curved fluctuation stability",
+    "UV completion"
+  ],
+  "extensions": {
+    "RAR": "Declared separate static functional and operators, extensions/RAR",
+    "UV": "Candidate matching constraints only, extensions/UV",
+    "affine": "Distinct comparison family, historical article and relations_spectrales"
+  },
+  "article_1_scope": "Einstein–sigma core with quadratic boundary potentials; Phi=0; affine reference identified separately."
+}

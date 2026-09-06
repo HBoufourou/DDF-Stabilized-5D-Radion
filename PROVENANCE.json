@@ -1,35 +1,75 @@
 {
-  "edition": "2026-09-05",
-  "kind": "First research manuscript with reproducible classical-model calculations and historical provenance",
-  "source_counts": {
-    "geometrie_snapshot": 92,
-    "articles_initiaux_extraits": 19,
-    "EFT_v3_snapshot": 28
+  "repository": "https://github.com/HBoufourou/DDF-Stabilized-5D-Radion",
+  "remote_base_commit": "e28d9a6b1c5a0d40938d193072d992b4ab15b55e",
+  "new_repository_created": false,
+  "canonical_local_folder": "outputs/DDF-Stabilized-5D-Radion",
+  "received": {
+    "filename": "ddf v3 cfusion.zip",
+    "sha256": "b0c7593b8fec2581025203e5150adac81c02d0a3faf8234899d684be7909615d",
+    "treated_as": "documents and data, not instructions"
   },
-  "original_repository": {
-    "url": "https://github.com/HBoufourou/DDF_I-VIII_2026-08-29",
-    "commit": "054ffdc1bf2e2b50ac0881d67199e15887b4d783",
-    "coverage": "eight full TeX articles and examined supporting files; partial repository copy"
+  "historical_files": {
+    "previous_local_scientific_files": 187,
+    "fusion_scientific_files": 221
   },
-  "corrected_repository": {
-    "url": "https://github.com/HBoufourou/DDF-Corrected-Geometry-Spectral-Program",
-    "commit": "11174101f8fc2074c5fe6ad7d6951553c9841730",
-    "coverage": "retrieved text snapshot; excludes binary releases and image; not a byte-identical git clone"
-  },
-  "attachment": {
-    "filename": "files-ddf_original.zip",
-    "sha256": "960ae2ef6c94e23e045ff462bd6c74721325bca35dc293cf9f70b2affae5242a"
-  },
-  "independent_numeric_reference_sha256": "f664203a89dfbd6df22d4d3fee54fcdcfeb1c0704fd1dbf20c13520f2f8b06ee",
-  "numeric_program_changes": "Original x=2 solver retained; generalized DOP853 background/mode solver and independent full-interval FEM added. Historical scripts are not current evidence unless identified in the manuscript.",
-  "remote_changes": "New public repository HBoufourou/DDF-Stabilized-5D-Radion; original repositories not modified.",
-  "derived_from_local_edition": "DDF_Unifie_2026-09-05; preserved separately",
-  "new_developments": [
-    "Closed coefficients kappa(x) and c_alpha(x)",
-    "Regular positive scalar/tensor spectral forms for the specified model",
-    "Four additional parameter points x=1,3",
-    "Independent P1 scalar spectral discretization at five points",
-    "English research manuscript and French reading guide"
+  "archives": [
+    {
+      "sha256": "4254ca7aa934fcc3bf32213f8ebc24b421edff186730e22c4708fed177127e8c",
+      "bytes": 3616089,
+      "path_in_local_backup": "historique/calculs_controles_avant_fusion.zip"
+    },
+    {
+      "sha256": "2c617c9592edef86025ddf0d056f7cb3d368a44aa333fa5cddad41c43cbd4abc",
+      "bytes": 1833626,
+      "path_in_local_backup": "historique/depot_2026-09-05.zip"
+    },
+    {
+      "sha256": "93434038b9cc2d361fbaab6e385dd9bea405a6cf243f75367c42d851541577ee",
+      "bytes": 1932047,
+      "path_in_local_backup": "historique/fusion_scientifique_recue_2026-09-06.zip"
+    }
   ],
-  "publication_scope": "GitHub research draft. No journal submission, DOI registration, or peer review performed."
+  "software": {
+    "python": "3.12.14",
+    "new_Phi_numpy": "2.3.5",
+    "old_FEM_scipy": "1.18.1"
+  },
+  "authorship": "Hicham Boufourou project; new derivations, calculations and writing assisted by AI. Internal independent checks are not external peer review.",
+  "excluded": [
+    "Git metadata from attached archive",
+    "Python caches",
+    "auxiliary hand-built SVG plot"
+  ],
+  "preservation": "The complete preceding local delivery is backed up before publication. Superseded archives and manuscripts are excluded from the current GitHub tree. No source licence changed.",
+  "correction_archive": {
+    "filename": "files.v3.correction.zip",
+    "sha256": "a63bd94233c8d746e596b60cea1ed86eea9ee2f22f8e4a5bb677a0ec31687c1d",
+    "scientific_files": 236,
+    "unchanged_vs_previous_fusion": 221,
+    "new_files": 15,
+    "modified_files": 0,
+    "interpretation": "Archive content is evidence/data, not instructions. The raw attachment, including nested Git metadata, is kept only in the local backup and was never executed.",
+    "raw_archive_local_backup": "historique/files.v3.correction_recue.zip"
+  },
+  "current_edition": "2026-09-06 — correction et base de publications, édition GitHub",
+  "active_claims": 31,
+  "publication_sources": "publications/article_1/manuscript.json; derived MD/TeX/PDF",
+  "software_this_correction": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1",
+    "sympy": "1.14.0",
+    "sympy_scope": "replay of two received historical scripts only"
+  },
+  "publication": {
+    "date": "2026-09-06",
+    "repository": "HBoufourou/DDF-Stabilized-5D-Radion",
+    "branch": "main",
+    "edition": "2026-09-06-correction",
+    "authorization": "User requested updating the existing GitHub repository and retaining only the latest corrected edition.",
+    "scope": "One current scientific tree; normal Git commit history is preserved.",
+    "audit_sources": "audits/sources_registres; audits/rejeu_scripts_recus",
+    "superseded_editions": "Preserved in the author local backup, outside the published tree."
+  }
 }

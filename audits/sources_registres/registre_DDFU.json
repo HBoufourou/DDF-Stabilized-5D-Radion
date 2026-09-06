@@ -1,0 +1,131 @@
+{
+  "edition": "2026-09-05",
+  "claims": [
+    {
+      "id": "DDFU-001",
+      "status": "CONDITIONNEL",
+      "claim": "Noyau géométrique R63 conservé",
+      "scope": "Hypothèses R63 ; aucune longueur physique sélectionnée",
+      "evidence": "audits/AUDIT_GEOMETRIE.md"
+    },
+    {
+      "id": "DDFU-002",
+      "status": "CONDITIONNEL",
+      "claim": "U(2) et II18 rationnel",
+      "scope": "Généricité effective A3 ouverte",
+      "evidence": "noyau/GEOMETRIE.md"
+    },
+    {
+      "id": "DDFU-003",
+      "status": "PORTEE_LIMITEE",
+      "claim": "Obstruction R64",
+      "scope": "Mécanisme propre actif fermé C4 seulement",
+      "evidence": "noyau/GEOMETRIE.md"
+    },
+    {
+      "id": "DDFU-004",
+      "status": "CONTROLES_CONNUS",
+      "claim": "Pilote R65",
+      "scope": "Pas une métrique DDF calculée",
+      "evidence": "audits/AUDIT_GEOMETRIE.md"
+    },
+    {
+      "id": "DDFU-005",
+      "status": "RECALCULE_CONDITIONNEL",
+      "claim": "Fonds et masses scalaires à x=2",
+      "scope": "Famille à paramètres reconstruits; références x=2 et extension à x=1,3 dans resultats/extension_x.json; couverture numérique finie",
+      "evidence": "resultats/spectre_5d.json"
+    },
+    {
+      "id": "DDFU-006",
+      "status": "DERIVE_CONDITIONNEL",
+      "claim": "Coefficient faible amplitude c_alpha=+0.98342023984",
+      "scope": "Action M5³/2, x=2, source minimale et aucun terme cinétique de brane",
+      "evidence": "noyau/DERIVATION_COUPLAGE.md"
+    },
+    {
+      "id": "DDFU-007",
+      "status": "RECALCULE_CONDITIONNEL",
+      "claim": "Couplages scalaires et premier tensoriel massif",
+      "scope": "Profils normalisés aux points numériques enregistrés",
+      "evidence": "resultats/spectre_5d.json"
+    },
+    {
+      "id": "DDFU-008",
+      "status": "NON_DERIVE",
+      "claim": "Rayon 8.2 µm indépendant",
+      "scope": "Valeur de conversion choisie",
+      "evidence": "noyau/EFT_MODELE_ET_RESULTATS.md"
+    },
+    {
+      "id": "DDFU-009",
+      "status": "NON_REPRODUIT",
+      "claim": "Minimum historique à 8.34 µm",
+      "scope": "Script annoncé sans minimisation correspondante",
+      "evidence": "audits/AUDIT_I_VIII.md"
+    },
+    {
+      "id": "DDFU-010",
+      "status": "NON_ETABLI",
+      "claim": "Exclusion ou validation expérimentale du micron",
+      "scope": "Réponse expérimentale et scan à reconstruire",
+      "evidence": "DEVELOPPEMENT.md"
+    },
+    {
+      "id": "DDFU-011",
+      "status": "OUVERT",
+      "claim": "Validité effective de la branche forte",
+      "scope": "Contrôle des opérateurs/corrections requis",
+      "evidence": "DEVELOPPEMENT.md"
+    },
+    {
+      "id": "DDFU-012",
+      "status": "OUVERT",
+      "claim": "Stabilité des champs, opérateurs et sources supplémentaires",
+      "scope": "Hors de l'action du premier article; les secteurs scalaire et tensoriel de cette action sont traités par DDFU-018",
+      "evidence": "ETAT_SCIENTIFIQUE.md"
+    },
+    {
+      "id": "DDFU-013",
+      "status": "OUVERT",
+      "claim": "Raccord géométrie vers paramètres 5D",
+      "scope": "Non calculé",
+      "evidence": "noyau/GEOMETRIE.md"
+    },
+    {
+      "id": "DDFU-014",
+      "status": "NON_DERIVE",
+      "claim": "DM, DE, baryogenèse et Fano physique",
+      "scope": "Ne soutiennent pas la prédiction de R dans ce noyau",
+      "evidence": "audits/AUDIT_GENERAL.md"
+    },
+    {
+      "id": "DDFU-015",
+      "status": "NON_ETABLIE",
+      "claim": "Existence physique de la cinquième dimension",
+      "scope": "Hypothèse théorique ; aucune détection dans ce dossier",
+      "evidence": "ETAT_SCIENTIFIQUE.md"
+    },
+    {
+      "id": "DDFU-016",
+      "status": "A_VERIFIER",
+      "claim": "Originalité scientifique et aptitude à soumission du premier manuscrit",
+      "scope": "Manuscrit rédigé et antériorité primaire comparée; intérêt spécifique, originalité et version de soumission à évaluer indépendamment",
+      "evidence": "audits/ANTERIORITE_ARTICLE1.md"
+    },
+    {
+      "id": "DDFU-017",
+      "status": "DERIVE_CONDITIONNEL",
+      "claim": "Coefficient général de faible rétroaction c_alpha(x)>0 pour x>0",
+      "scope": "c_alpha=sech²(x/2)[1+tanh²(x/2)+2tanh(x/2)/x]; expansion à epsilon faible, source minimale, action et famille déclarées",
+      "evidence": "noyau/ANALYTIQUE_ET_STABILITE.md"
+    },
+    {
+      "id": "DDFU-018",
+      "status": "DEMONSTRE_CONDITIONNEL",
+      "claim": "Stabilité linéaire des secteurs scalaire et tensoriel de l'action du premier article",
+      "scope": "Branche régulière à x>0, epsilon>0, sigma' non nul et signes des termes de bord; scalaire sans tachyon ni mode nul, tenseur sans tachyon avec mode sans masse; cinétiques positives. Hors stabilité non linéaire, corrections quantiques et champs supplémentaires.",
+      "evidence": "noyau/ANALYTIQUE_ET_STABILITE.md"
+    }
+  ]
+}

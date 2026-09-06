@@ -1,0 +1,827 @@
+{
+  "scope": "Fixed-action quadratic scalar energy exact on flat interval; gravitational reduction and masses at leading weak backreaction.",
+  "stationary_test_vectors": [
+    {
+      "dimensionless_test_vector": {
+        "a": 0.2,
+        "B": 1.1
+      },
+      "fixed_action_parameters": {
+        "mu": 1.0,
+        "lam": 0.1,
+        "v": 0.02,
+        "Lambda5": 6.611570247933884e-06,
+        "tau_sum": -7.956163621974807e-05,
+        "M5cubed": 1.0
+      },
+      "derived_length_in_test_units": 0.5753641449035624,
+      "x": 0.5753641449035624,
+      "lambda_hat": 0.057536414490356236,
+      "epsilon": 0.0006291413711025201,
+      "scalar": {
+        "u": 0.2876820724517812,
+        "a": 0.2,
+        "H": 1.1,
+        "K": 0.5000000000000002,
+        "q": 0.003787878787878788,
+        "sigma_boundary": 0.0010606060606060616,
+        "energy": 7.575757575757576e-05,
+        "dE_dL": -6.611570247933884e-06,
+        "d2E_dL2": 3.005259203606312e-06
+      },
+      "mass_squared_leading_backreaction": 1.1527455945976711e-06,
+      "kappa": 0.9641010835329515,
+      "Einstein_decompactification_barrier": {
+        "length": 3.2381477751330925,
+        "height": 2.9563250814884423e-07
+      },
+      "logarithmic_sensitivities": {
+        "mu": -0.5944597253754094,
+        "lambda": 7.241790618296256,
+        "v": 7.647330892920846,
+        "Lambda5": -3.823665446460423
+      },
+      "numerical_sensitivities": {
+        "mu": -0.5944597253559891,
+        "lambda": 7.241790649703538,
+        "v": 7.64733092559755,
+        "Lambda5": -3.823665450558566
+      },
+      "checks": {
+        "closed_vs_root_relative": -1.3322676295501878e-15,
+        "integrated_vs_closed_energy_relative": 2.220446049250313e-16,
+        "stationarity_residual_over_Lambda5": 0.0,
+        "Minkowski_energy_residual": 0.0,
+        "scalar_right_BC_residual": 0.0,
+        "Einstein_hessian_relative_difference": -2.625857065119419e-08,
+        "radion_mass_vs_spectral_kappa_relative": -3.3306690738754696e-16,
+        "sensitivity_max_abs": 3.267670400930456e-08
+      }
+    },
+    {
+      "dimensionless_test_vector": {
+        "a": 0.2,
+        "B": 2.0
+      },
+      "fixed_action_parameters": {
+        "mu": 1.0,
+        "lam": 0.1,
+        "v": 0.02,
+        "Lambda5": 2.0000000000000003e-06,
+        "tau_sum": -7.33545316308571e-05,
+        "M5cubed": 1.0
+      },
+      "derived_length_in_test_units": 2.2754307213296676,
+      "x": 2.2754307213296676,
+      "lambda_hat": 0.22754307213296676,
+      "epsilon": 0.002259719867949567,
+      "scalar": {
+        "u": 1.1377153606648338,
+        "a": 0.2,
+        "H": 1.9999999999999998,
+        "K": 1.7435595774162693,
+        "q": 0.003440183509409888,
+        "sigma_boundary": 0.0027990824529505612,
+        "energy": 6.880367018819776e-05,
+        "dE_dL": -2.0000000000000008e-06,
+        "d2E_dL2": 1.7435595774162702e-06
+      },
+      "mass_squared_leading_backreaction": 2.6448993512810364e-06,
+      "kappa": 2.6818048798688396,
+      "Einstein_decompactification_barrier": {
+        "length": 6.552535166296426,
+        "height": 7.776648717145505e-07
+      },
+      "logarithmic_sensitivities": {
+        "mu": -0.8588940658380895,
+        "lambda": 0.8671239878481988,
+        "v": 1.0082299220101094,
+        "Lambda5": -0.5041149610050547
+      },
+      "numerical_sensitivities": {
+        "mu": -0.8588940658194043,
+        "lambda": 0.8671239878910163,
+        "v": 1.008229922072612,
+        "Lambda5": -0.5041149610196527
+      },
+      "checks": {
+        "closed_vs_root_relative": 2.220446049250313e-16,
+        "integrated_vs_closed_energy_relative": 2.220446049250313e-16,
+        "stationarity_residual_over_Lambda5": -2.1175823681357506e-16,
+        "Minkowski_energy_residual": 0.0,
+        "scalar_right_BC_residual": -4.336808689942018e-19,
+        "Einstein_hessian_relative_difference": -1.5795534880069795e-09,
+        "radion_mass_vs_spectral_kappa_relative": 0.0,
+        "sensitivity_max_abs": 6.250266970653229e-11
+      }
+    },
+    {
+      "dimensionless_test_vector": {
+        "a": 0.2,
+        "B": 5.0
+      },
+      "fixed_action_parameters": {
+        "mu": 1.0,
+        "lam": 0.1,
+        "v": 0.02,
+        "Lambda5": 3.2000000000000006e-07,
+        "tau_sum": -6.834053335703802e-05,
+        "M5cubed": 1.0
+      },
+      "derived_length_in_test_units": 4.221044541290707,
+      "x": 4.221044541290707,
+      "lambda_hat": 0.42210445412907077,
+      "epsilon": 0.004081389018637621,
+      "scalar": {
+        "u": 2.1105222706453537,
+        "a": 0.2,
+        "H": 5.000000000000001,
+        "K": 4.9030602688525065,
+        "q": 0.003349489955191249,
+        "sigma_boundary": 0.0032525502240437544,
+        "energy": 6.698979910382499e-05,
+        "dE_dL": -3.199999999999999e-07,
+        "d2E_dL2": 3.1379585720656023e-07
+      },
+      "mass_squared_leading_backreaction": 8.830308600942596e-07,
+      "kappa": 0.944495228262399,
+      "Einstein_decompactification_barrier": {
+        "length": 10.43632273727577,
+        "height": 2.726003438279723e-07
+      },
+      "logarithmic_sensitivities": {
+        "mu": -0.9214209364035968,
+        "lambda": 0.4046052575281403,
+        "v": 0.48318432112454335,
+        "Lambda5": -0.24159216056227167
+      },
+      "numerical_sensitivities": {
+        "mu": -0.9214209363839209,
+        "lambda": 0.4046052575201741,
+        "v": 0.4831843211205999,
+        "Lambda5": -0.24159216056585106
+      },
+      "checks": {
+        "closed_vs_root_relative": 0.0,
+        "integrated_vs_closed_energy_relative": 2.220446049250313e-16,
+        "stationarity_residual_over_Lambda5": 4.963083675318165e-16,
+        "Minkowski_energy_residual": 0.0,
+        "scalar_right_BC_residual": 0.0,
+        "Einstein_hessian_relative_difference": -2.3659257886166074e-09,
+        "radion_mass_vs_spectral_kappa_relative": -1.1102230246251565e-16,
+        "sensitivity_max_abs": 1.9675927553919337e-11
+      }
+    },
+    {
+      "dimensionless_test_vector": {
+        "a": 1.0,
+        "B": 1.1
+      },
+      "fixed_action_parameters": {
+        "mu": 1.0,
+        "lam": 0.5,
+        "v": 0.02,
+        "Lambda5": 0.0001652892561983471,
+        "tau_sum": -0.00039679675365432226,
+        "M5cubed": 1.0
+      },
+      "derived_length_in_test_units": 0.19062035960864987,
+      "x": 0.19062035960864987,
+      "lambda_hat": 0.09531017980432493,
+      "epsilon": 0.0010050451331078544,
+      "scalar": {
+        "u": 0.09531017980432493,
+        "a": 1.0,
+        "H": 1.1,
+        "K": 1.1,
+        "q": 0.018264462809917354,
+        "sigma_boundary": 0.001735537190082646,
+        "energy": 0.0003652892561983471,
+        "dE_dL": -0.0001652892561983471,
+        "d2E_dL2": 0.0001652892561983471
+      },
+      "mass_squared_leading_backreaction": 2.1004998303983453e-05,
+      "kappa": 0.755596765427297,
+      "Einstein_decompactification_barrier": {
+        "length": 1.2703246092573495,
+        "height": 1.5609264188418606e-06
+      },
+      "logarithmic_sensitivities": {
+        "mu": -0.08953209738678325,
+        "lambda": 9.581590784643845,
+        "v": 10.492058687257062,
+        "Lambda5": -5.246029343628531
+      },
+      "numerical_sensitivities": {
+        "mu": -0.08953209746920264,
+        "lambda": 9.581590823071195,
+        "v": 10.492058725675157,
+        "Lambda5": -5.246029348415782
+      },
+      "checks": {
+        "closed_vs_root_relative": -1.9984014443252818e-15,
+        "integrated_vs_closed_energy_relative": 0.0,
+        "stationarity_residual_over_Lambda5": 0.0,
+        "Minkowski_energy_residual": 0.0,
+        "scalar_right_BC_residual": 0.0,
+        "Einstein_hessian_relative_difference": 2.2790335618694257e-08,
+        "radion_mass_vs_spectral_kappa_relative": -1.1102230246251565e-16,
+        "sensitivity_max_abs": 3.842735019077281e-08
+      }
+    },
+    {
+      "dimensionless_test_vector": {
+        "a": 1.0,
+        "B": 2.0
+      },
+      "fixed_action_parameters": {
+        "mu": 1.0,
+        "lam": 0.5,
+        "v": 0.02,
+        "Lambda5": 5e-05,
+        "tau_sum": -0.00031931471805599456,
+        "M5cubed": 1.0
+      },
+      "derived_length_in_test_units": 1.386294361119891,
+      "x": 1.386294361119891,
+      "lambda_hat": 0.6931471805599455,
+      "epsilon": 0.005002358891053933,
+      "scalar": {
+        "u": 0.6931471805599455,
+        "a": 1.0,
+        "H": 2.0000000000000004,
+        "K": 2.0000000000000004,
+        "q": 0.012499999999999999,
+        "sigma_boundary": 0.007500000000000001,
+        "energy": 0.00025,
+        "dE_dL": -4.999999999999998e-05,
+        "d2E_dL2": 4.999999999999998e-05
+      },
+      "mass_squared_leading_backreaction": 4.620981203732968e-05,
+      "kappa": 3.54891356446692,
+      "Einstein_decompactification_barrier": {
+        "length": 4.478438479497429,
+        "height": 1.024103129747144e-05
+      },
+      "logarithmic_sensitivities": {
+        "mu": -0.4589893596666388,
+        "lambda": 0.9016844005556018,
+        "v": 1.4426950408889627,
+        "Lambda5": -0.7213475204444814
+      },
+      "numerical_sensitivities": {
+        "mu": -0.4589893596695926,
+        "lambda": 0.9016844006531909,
+        "v": 1.4426950409818227,
+        "Lambda5": -0.7213475204548291
+      },
+      "checks": {
+        "closed_vs_root_relative": -4.440892098500626e-16,
+        "integrated_vs_closed_energy_relative": 0.0,
+        "stationarity_residual_over_Lambda5": 4.0657581468206416e-16,
+        "Minkowski_energy_residual": 0.0,
+        "scalar_right_BC_residual": -3.469446951953614e-18,
+        "Einstein_hessian_relative_difference": -2.3201496279767753e-10,
+        "radion_mass_vs_spectral_kappa_relative": 2.220446049250313e-16,
+        "sensitivity_max_abs": 9.758904795376111e-11
+      }
+    },
+    {
+      "dimensionless_test_vector": {
+        "a": 1.0,
+        "B": 5.0
+      },
+      "fixed_action_parameters": {
+        "mu": 1.0,
+        "lam": 0.5,
+        "v": 0.02,
+        "Lambda5": 8e-06,
+        "tau_sum": -0.00023375100659894562,
+        "M5cubed": 1.0
+      },
+      "derived_length_in_test_units": 3.218875824868201,
+      "x": 3.218875824868201,
+      "lambda_hat": 1.6094379124341005,
+      "epsilon": 0.009663777884673298,
+      "scalar": {
+        "u": 1.6094379124341005,
+        "a": 1.0,
+        "H": 5.000000000000001,
+        "K": 5.000000000000001,
+        "q": 0.0104,
+        "sigma_boundary": 0.009600000000000001,
+        "energy": 0.00020800000000000001,
+        "dE_dL": -7.999999999999996e-06,
+        "d2E_dL2": 7.999999999999996e-06
+      },
+      "mass_squared_leading_backreaction": 1.7167337732630396e-05,
+      "kappa": 1.904660251401302,
+      "Einstein_decompactification_barrier": {
+        "length": 8.378118463440444,
+        "height": 4.91834813255484e-06
+      },
+      "logarithmic_sensitivities": {
+        "mu": -0.7017592314113863,
+        "lambda": 0.32309416597099816,
+        "v": 0.6213349345596116,
+        "Lambda5": -0.3106674672798058
+      },
+      "numerical_sensitivities": {
+        "mu": -0.701759231414023,
+        "lambda": 0.3230941659881914,
+        "v": 0.6213349345696173,
+        "Lambda5": -0.3106674672737064
+      },
+      "checks": {
+        "closed_vs_root_relative": 0.0,
+        "integrated_vs_closed_energy_relative": 2.220446049250313e-16,
+        "stationarity_residual_over_Lambda5": 4.2351647362715017e-16,
+        "Minkowski_energy_residual": 0.0,
+        "scalar_right_BC_residual": -1.734723475976807e-18,
+        "Einstein_hessian_relative_difference": 7.732192663922888e-11,
+        "radion_mass_vs_spectral_kappa_relative": 0.0,
+        "sensitivity_max_abs": 1.7193246826252562e-11
+      }
+    },
+    {
+      "dimensionless_test_vector": {
+        "a": 3.0,
+        "B": 1.1
+      },
+      "fixed_action_parameters": {
+        "mu": 1.0,
+        "lam": 1.5,
+        "v": 0.02,
+        "Lambda5": 0.0014876033057851237,
+        "tau_sum": -0.0011901190668870908,
+        "M5cubed": 1.0
+      },
+      "derived_length_in_test_units": 0.0662883173830678,
+      "x": 0.0662883173830678,
+      "lambda_hat": 0.0994324760746017,
+      "epsilon": 0.0010443436676862254,
+      "scalar": {
+        "u": 0.0331441586915339,
+        "a": 3.0,
+        "H": 1.1000000000000003,
+        "K": 3.034798181098704,
+        "q": 0.05457541734065529,
+        "sigma_boundary": 0.0018081942197815707,
+        "energy": 0.0010915083468131057,
+        "dE_dL": -0.0014876033057851232,
+        "d2E_dL2": 0.004104159824175554
+      },
+      "mass_squared_leading_backreaction": 0.00018137189934385654,
+      "kappa": 0.7307303003698752,
+      "Einstein_decompactification_barrier": {
+        "length": 0.4177734243502522,
+        "height": 4.35940853101026e-06
+      },
+      "logarithmic_sensitivities": {
+        "mu": -0.011285390743294044,
+        "lambda": 9.9472191354728,
+        "v": 10.935933744729503,
+        "Lambda5": -5.467966872364752
+      },
+      "numerical_sensitivities": {
+        "mu": -0.01128539117711824,
+        "lambda": 9.94721917439989,
+        "v": 10.935933783007277,
+        "Lambda5": -5.467966877192864
+      },
+      "checks": {
+        "closed_vs_root_relative": -3.9968028886505635e-15,
+        "integrated_vs_closed_energy_relative": 0.0,
+        "stationarity_residual_over_Lambda5": 2.915299174905468e-16,
+        "Minkowski_energy_residual": 0.0,
+        "scalar_right_BC_residual": 0.0,
+        "Einstein_hessian_relative_difference": -2.90456436680131e-10,
+        "radion_mass_vs_spectral_kappa_relative": -3.3306690738754696e-16,
+        "sensitivity_max_abs": 3.8927090884044446e-08
+      }
+    },
+    {
+      "dimensionless_test_vector": {
+        "a": 3.0,
+        "B": 2.0
+      },
+      "fixed_action_parameters": {
+        "mu": 1.0,
+        "lam": 1.5,
+        "v": 0.02,
+        "Lambda5": 0.00045,
+        "tau_sum": -0.0009101376857701868,
+        "M5cubed": 1.0
+      },
+      "derived_length_in_test_units": 0.6238107163648716,
+      "x": 0.6238107163648716,
+      "lambda_hat": 0.9357160745473074,
+      "epsilon": 0.005667280740292434,
+      "scalar": {
+        "u": 0.3119053581824358,
+        "a": 3.0,
+        "H": 2.0000000000000004,
+        "K": 3.464101615137755,
+        "q": 0.03147114317029973,
+        "sigma_boundary": 0.009509618943233421,
+        "energy": 0.0006294228634059946,
+        "dE_dL": -0.00044999999999999977,
+        "d2E_dL2": 0.0007794228634059943
+      },
+      "mass_squared_leading_backreaction": 0.0003241415565149685,
+      "kappa": 3.927271463759978,
+      "Einstein_decompactification_barrier": {
+        "length": 2.2068540336901323,
+        "height": 3.478547255562006e-05
+      },
+      "logarithmic_sensitivities": {
+        "mu": -0.11986426126812211,
+        "lambda": 0.970907387150972,
+        "v": 1.8510431258828495,
+        "Lambda5": -0.9255215629414247
+      },
+      "numerical_sensitivities": {
+        "mu": -0.11986426127486015,
+        "lambda": 0.9709073872626871,
+        "v": 1.8510431259721736,
+        "Lambda5": -0.9255215629500045
+      },
+      "checks": {
+        "closed_vs_root_relative": -3.3306690738754696e-16,
+        "integrated_vs_closed_energy_relative": 0.0,
+        "stationarity_residual_over_Lambda5": 4.818676322157797e-16,
+        "Minkowski_energy_residual": 0.0,
+        "scalar_right_BC_residual": 0.0,
+        "Einstein_hessian_relative_difference": 2.6266544495001654e-11,
+        "radion_mass_vs_spectral_kappa_relative": 0.0,
+        "sensitivity_max_abs": 1.1171508162988175e-10
+      }
+    },
+    {
+      "dimensionless_test_vector": {
+        "a": 3.0,
+        "B": 5.0
+      },
+      "fixed_action_parameters": {
+        "mu": 1.0,
+        "lam": 1.5,
+        "v": 0.02,
+        "Lambda5": 7.2e-05,
+        "tau_sum": -0.0005092978251731335,
+        "M5cubed": 1.0
+      },
+      "derived_length_in_test_units": 1.9762109303432096,
+      "x": 1.9762109303432096,
+      "lambda_hat": 2.9643163955148144,
+      "epsilon": 0.010468665693447845,
+      "scalar": {
+        "u": 0.9881054651716048,
+        "a": 3.0,
+        "H": 5.000000000000002,
+        "K": 5.74456264653803,
+        "q": 0.018350531909421125,
+        "sigma_boundary": 0.013883156030192956,
+        "energy": 0.0003670106381884225,
+        "dE_dL": -7.199999999999995e-05,
+        "d2E_dL2": 8.272170211014755e-05
+      },
+      "mass_squared_leading_backreaction": 0.00010898368792444569,
+      "kappa": 3.8836978224951966,
+      "Einstein_decompactification_barrier": {
+        "length": 5.644289263355249,
+        "height": 2.435649734118342e-05
+      },
+      "logarithmic_sensitivities": {
+        "mu": -0.3885401548245956,
+        "lambda": 0.2694059231637359,
+        "v": 0.88086576833914,
+        "Lambda5": -0.44043288416957
+      },
+      "numerical_sensitivities": {
+        "mu": -0.3885401548164857,
+        "lambda": 0.26940592317004075,
+        "v": 0.880865768354555,
+        "Lambda5": -0.4404328841689508
+      },
+      "checks": {
+        "closed_vs_root_relative": -4.440892098500626e-16,
+        "integrated_vs_closed_energy_relative": 6.661338147750939e-16,
+        "stationarity_residual_over_Lambda5": 7.529181753371558e-16,
+        "Minkowski_energy_residual": 5.421010862427522e-20,
+        "scalar_right_BC_residual": -1.3877787807814457e-17,
+        "Einstein_hessian_relative_difference": 1.6490564469506808e-10,
+        "radion_mass_vs_spectral_kappa_relative": 2.220446049250313e-16,
+        "sensitivity_max_abs": 1.541500260771045e-11
+      }
+    }
+  ],
+  "non_identifiability_at_fixed_vacuum_density": [
+    {
+      "chosen_length_test_units": 0.5,
+      "same_inputs": {
+        "mu": 1.0,
+        "lambda": 0.5,
+        "v": 0.02,
+        "rho": 1e-10,
+        "casimir_C_test": 0.0
+      },
+      "different_local_parameters": {
+        "Lambda5": 0.00012130653194252671,
+        "tau_sum": -0.00038195929791379
+      },
+      "positive_Einstein_hessian": 0.00012130533194252671,
+      "checks": {
+        "value_vs_rho_abs": 2.01095232482913e-20,
+        "Einstein_stationarity_abs": 8.131516293641283e-20
+      },
+      "interpretation": "Same vacuum density, different stationary lengths; this is an identifiability counterexample, not a prediction."
+    },
+    {
+      "chosen_length_test_units": 1.0,
+      "same_inputs": {
+        "mu": 1.0,
+        "lambda": 0.5,
+        "v": 0.02,
+        "rho": 1e-10,
+        "casimir_C_test": 0.0
+      },
+      "different_local_parameters": {
+        "Lambda5": 7.357608823428846e-05,
+        "tau_sum": -0.00034715187646857694
+      },
+      "positive_Einstein_hessian": 7.357568823428846e-05,
+      "checks": {
+        "value_vs_rho_abs": 3.410058537598392e-20,
+        "Einstein_stationarity_abs": 6.776263578034403e-20
+      },
+      "interpretation": "Same vacuum density, different stationary lengths; this is an identifiability counterexample, not a prediction."
+    },
+    {
+      "chosen_length_test_units": 2.0,
+      "same_inputs": {
+        "mu": 1.0,
+        "lambda": 0.5,
+        "v": 0.02,
+        "rho": 1e-10,
+        "casimir_C_test": 0.0
+      },
+      "different_local_parameters": {
+        "Lambda5": 2.706715664732254e-05,
+        "tau_sum": -0.00028120126994196767
+      },
+      "positive_Einstein_hessian": 2.7067006647322545e-05,
+      "checks": {
+        "value_vs_rho_abs": 2.01095232482913e-20,
+        "Einstein_stationarity_abs": 2.0328790734103208e-20
+      },
+      "interpretation": "Same vacuum density, different stationary lengths; this is an identifiability counterexample, not a prediction."
+    },
+    {
+      "chosen_length_test_units": 3.0,
+      "same_inputs": {
+        "mu": 1.0,
+        "lambda": 0.5,
+        "v": 0.02,
+        "rho": 1e-10,
+        "casimir_C_test": 0.0
+      },
+      "different_local_parameters": {
+        "Lambda5": 9.957480340239458e-06,
+        "tau_sum": -0.00023982975469429116
+      },
+      "positive_Einstein_hessian": 9.957391451350568e-06,
+      "checks": {
+        "value_vs_rho_abs": 6.99553106384631e-21,
+        "Einstein_stationarity_abs": 4.517504743790578e-21
+      },
+      "interpretation": "Same vacuum density, different stationary lengths; this is an identifiability counterexample, not a prediction."
+    },
+    {
+      "chosen_length_test_units": 0.5,
+      "same_inputs": {
+        "mu": 1.0,
+        "lambda": 0.5,
+        "v": 0.02,
+        "rho": 1e-10,
+        "casimir_C_test": 1e-08
+      },
+      "different_local_parameters": {
+        "Lambda5": 0.0001225865319425267,
+        "tau_sum": -0.00038275929791379003
+      },
+      "positive_Einstein_hessian": 0.00013410533194252672,
+      "checks": {
+        "value_vs_rho_abs": 2.01095232482913e-20,
+        "Einstein_stationarity_abs": 8.131516293641283e-20
+      },
+      "interpretation": "Same vacuum density, different stationary lengths; this is an identifiability counterexample, not a prediction."
+    },
+    {
+      "chosen_length_test_units": 1.0,
+      "same_inputs": {
+        "mu": 1.0,
+        "lambda": 0.5,
+        "v": 0.02,
+        "rho": 1e-10,
+        "casimir_C_test": 1e-08
+      },
+      "different_local_parameters": {
+        "Lambda5": 7.361608823428847e-05,
+        "tau_sum": -0.00034720187646857697
+      },
+      "positive_Einstein_hessian": 7.377568823428847e-05,
+      "checks": {
+        "value_vs_rho_abs": 2.01095232482913e-20,
+        "Einstein_stationarity_abs": 4.0657581468206416e-20
+      },
+      "interpretation": "Same vacuum density, different stationary lengths; this is an identifiability counterexample, not a prediction."
+    },
+    {
+      "chosen_length_test_units": 2.0,
+      "same_inputs": {
+        "mu": 1.0,
+        "lambda": 0.5,
+        "v": 0.02,
+        "rho": 1e-10,
+        "casimir_C_test": 1e-08
+      },
+      "different_local_parameters": {
+        "Lambda5": 2.706840664732254e-05,
+        "tau_sum": -0.00028120439494196765
+      },
+      "positive_Einstein_hessian": 2.7070131647322543e-05,
+      "checks": {
+        "value_vs_rho_abs": 2.01095232482913e-20,
+        "Einstein_stationarity_abs": 2.0328790734103208e-20
+      },
+      "interpretation": "Same vacuum density, different stationary lengths; this is an identifiability counterexample, not a prediction."
+    },
+    {
+      "chosen_length_test_units": 3.0,
+      "same_inputs": {
+        "mu": 1.0,
+        "lambda": 0.5,
+        "v": 0.02,
+        "rho": 1e-10,
+        "casimir_C_test": 1e-08
+      },
+      "different_local_parameters": {
+        "Lambda5": 9.957644949292956e-06,
+        "tau_sum": -0.00023983037197824176
+      },
+      "positive_Einstein_hessian": 9.957665799773065e-06,
+      "checks": {
+        "value_vs_rho_abs": 6.99553106384631e-21,
+        "Einstein_stationarity_abs": 4.517504743790578e-21
+      },
+      "interpretation": "Same vacuum density, different stationary lengths; this is an identifiability counterexample, not a prediction."
+    }
+  ],
+  "casimir_scale_checks": {
+    "massless_real_interval_scalar_C": -0.0024624081445949637,
+    "bosonic_sign": "negative for identical NN/DD boundary conditions",
+    "coefficient_definition": "V_C^J=C/L^4; interval, not a circle; no arbitrary sign flip.",
+    "zeta5_sum_tail_upper_bound": 1.5625e-18,
+    "M4_reference_eV": 2.435e+27,
+    "fixed_tree_test_shape": {
+      "epsilon": 0.3,
+      "x": 2.0,
+      "lambda_hat": 1.0,
+      "kappa": 3.359794732912209
+    },
+    "scale_tests_not_radius_predictions": [
+      {
+        "inverse_interval_eV_test": 0.001,
+        "absolute_Casimir_only_mass_scale_eV": 7.441327560853949e-35,
+        "tree_radion_mass_eV_leading": 0.0005498922857815873,
+        "Casimir_to_tree_mass_scale_ratio": 1.3532336701681942e-31,
+        "fixed_tree_local_parameters_linearized_abs_deltaL_over_L": 5.493724098230644e-63
+      },
+      {
+        "inverse_interval_eV_test": 0.01,
+        "absolute_Casimir_only_mass_scale_eV": 7.44132756085395e-33,
+        "tree_radion_mass_eV_leading": 0.005498922857815872,
+        "Casimir_to_tree_mass_scale_ratio": 1.3532336701681947e-30,
+        "fixed_tree_local_parameters_linearized_abs_deltaL_over_L": 5.493724098230644e-61
+      },
+      {
+        "inverse_interval_eV_test": 0.1,
+        "absolute_Casimir_only_mass_scale_eV": 7.44132756085395e-31,
+        "tree_radion_mass_eV_leading": 0.05498922857815872,
+        "Casimir_to_tree_mass_scale_ratio": 1.3532336701681945e-29,
+        "fixed_tree_local_parameters_linearized_abs_deltaL_over_L": 5.493724098230645e-59
+      }
+    ],
+    "assumptions": "Leading weak backreaction, massless-loop scaling, a small number of weakly coupled fields, no huge spectral enhancements. The complete DDF determinant is not computed here."
+  },
+  "exact_gravity_fixed_action_length_solutions": [
+    {
+      "fixed_inputs": {
+        "mu": 1.0,
+        "lambda": 0.5,
+        "v": 0.02,
+        "Lambda5": 5e-05,
+        "M5cubed": 1.0
+      },
+      "steps_per_flat_half_length": 8000,
+      "derived_length": 1.3862452286621672,
+      "flat_approximation_length": 1.386294361119891,
+      "relative_length_shift_vs_flat": -3.5441576552441845e-05,
+      "epsilon_at_solution": 0.005002270267852364,
+      "x_at_solution": 1.3862452286621672,
+      "lambda_hat_at_solution": 0.6931226143310836,
+      "sigma_boundary": 0.007499778425967136,
+      "sigma_prime_boundary": 0.012500221574032862,
+      "A_center_in_brane_units": 8.690711209159116e-06,
+      "M4_squared": 1.3862615516689232,
+      "required_tau_each_for_flat_slices": -0.0001596582608380521,
+      "total_U_each": -8.153049113809376e-05,
+      "scalar_boundary_residual": -3.469446951953614e-18,
+      "constraint_max_abs": 5.624298769768554e-19,
+      "interpretation": "The length is an output of fixed mu,lambda,v,Lambda5; flat slices exist only if the independent tension matches the recorded compatibility value.",
+      "refinement_relative_length_difference": -7.627232179174825e-14,
+      "refinement_relative_tension_difference": -1.2212453270876722e-15
+    },
+    {
+      "fixed_inputs": {
+        "mu": 1.0,
+        "lambda": 0.5,
+        "v": 0.3,
+        "Lambda5": 0.01125,
+        "M5cubed": 1.0
+      },
+      "steps_per_flat_half_length": 8000,
+      "derived_length": 1.375369917836643,
+      "flat_approximation_length": 1.3862943611198906,
+      "relative_length_shift_vs_flat": -0.007880320074607039,
+      "epsilon_at_solution": 0.07473797304581926,
+      "x_at_solution": 1.375369917836643,
+      "lambda_hat_at_solution": 0.6876849589183215,
+      "sigma_boundary": 0.11175978201749874,
+      "sigma_prime_boundary": 0.18824021798250123,
+      "A_center_in_brane_units": 0.00192740402974633,
+      "M4_squared": 1.3789681154738187,
+      "required_tau_each_for_flat_slices": -0.03596816493373042,
+      "total_U_each": -0.018250975100680633,
+      "scalar_boundary_residual": 0.0,
+      "constraint_max_abs": 1.249000902703301e-16,
+      "interpretation": "The length is an output of fixed mu,lambda,v,Lambda5; flat slices exist only if the independent tension matches the recorded compatibility value.",
+      "refinement_relative_length_difference": -7.926992395823618e-14,
+      "refinement_relative_tension_difference": 2.220446049250313e-16
+    },
+    {
+      "fixed_inputs": {
+        "mu": 1.0,
+        "lambda": 0.5,
+        "v": 0.7,
+        "Lambda5": 0.06124999999999999,
+        "M5cubed": 1.0
+      },
+      "steps_per_flat_half_length": 8000,
+      "derived_length": 1.3297811960727488,
+      "flat_approximation_length": 1.386294361119891,
+      "relative_length_shift_vs_flat": -0.04076563147922574,
+      "epsilon_at_solution": 0.1713987687664538,
+      "x_at_solution": 1.3297811960727488,
+      "lambda_hat_at_solution": 0.6648905980363744,
+      "sigma_boundary": 0.2535034233676943,
+      "sigma_prime_boundary": 0.4464965766323056,
+      "A_center_in_brane_units": 0.009863822528178912,
+      "M4_squared": 1.3477197661763862,
+      "required_tau_each_for_flat_slices": -0.19687221689123446,
+      "total_U_each": -0.09719262041905027,
+      "scalar_boundary_residual": 0.0,
+      "constraint_max_abs": 7.424616477180734e-16,
+      "interpretation": "The length is an output of fixed mu,lambda,v,Lambda5; flat slices exist only if the independent tension matches the recorded compatibility value.",
+      "refinement_relative_length_difference": -6.694644838489694e-14,
+      "refinement_relative_tension_difference": 6.661338147750939e-16
+    },
+    {
+      "fixed_inputs": {
+        "mu": 1.0,
+        "lambda": 0.5,
+        "v": 1.2,
+        "Lambda5": 0.18,
+        "M5cubed": 1.0
+      },
+      "steps_per_flat_half_length": 8000,
+      "derived_length": 1.2376285091832084,
+      "flat_approximation_length": 1.3862943611198906,
+      "relative_length_shift_vs_flat": -0.10723974366929212,
+      "epsilon_at_solution": 0.28264911913730467,
+      "x_at_solution": 1.2376285091832084,
+      "lambda_hat_at_solution": 0.6188142545916042,
+      "sigma_boundary": 0.40886981605894873,
+      "sigma_prime_boundary": 0.7911301839410512,
+      "A_center_in_brane_units": 0.025386245968372842,
+      "M4_squared": 1.2812395387302253,
+      "required_tau_each_for_flat_slices": -0.5850359886344951,
+      "total_U_each": -0.27209250466319446,
+      "scalar_boundary_residual": 0.0,
+      "constraint_max_abs": 1.582067810090848e-15,
+      "interpretation": "The length is an output of fixed mu,lambda,v,Lambda5; flat slices exist only if the independent tension matches the recorded compatibility value.",
+      "refinement_relative_length_difference": -1.5987211554602254e-14,
+      "refinement_relative_tension_difference": 2.220446049250313e-16
+    }
+  ]
+}

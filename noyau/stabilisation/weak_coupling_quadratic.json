@@ -1,0 +1,605 @@
+{
+  "scope": "Leading epsilon^2 at fixed x and equal lambda_hat; rebuilt boundary parameters keep the background fixed. No all-orders coupling monotonicity claim.",
+  "formula": "c=(1+sinh(x)/x)/cosh(x/2)^2-cosh(x/2)^2*kappa^2*(sinh(x)/x-1)/(16*x^2)",
+  "rigorous_bounds": "0<c_rigid<=c(x,lambda_hat)<=c_affine for x>0 and lambda_hat>=0; proof in companion note.",
+  "rows": [
+    {
+      "x": 0.25,
+      "lambda_hat": 0.0,
+      "kappa": 0.1224300481068751,
+      "c_alpha": 1.9792012597945252,
+      "profile_quadrature": {
+        "c_alpha": 1.979201259794525,
+        "metric_term": 2.6213613559048996,
+        "scalar_kinetic_term": 0.6421600961103746,
+        "boundary_residual": 0.0
+      },
+      "quadrature_refinement": 6.217248937900877e-15,
+      "quadrature_minus_closed": -2.220446049250313e-16,
+      "affine_upper": 1.9792012597945252,
+      "rigid_lower": 1.3140794735930008,
+      "bounds_hold": true
+    },
+    {
+      "x": 0.25,
+      "lambda_hat": 0.1,
+      "kappa": 0.8277159431511474,
+      "c_alpha": 1.9720889669844006,
+      "profile_quadrature": {
+        "c_alpha": 1.9720889669844002,
+        "metric_term": 2.503077392129482,
+        "scalar_kinetic_term": 0.5309884251450818,
+        "boundary_residual": 1.1102230246251565e-16
+      },
+      "quadrature_refinement": 4.884981308350689e-15,
+      "quadrature_minus_closed": -4.440892098500626e-16,
+      "affine_upper": 1.9792012597945252,
+      "rigid_lower": 1.3140794735930008,
+      "bounds_hold": true
+    },
+    {
+      "x": 0.25,
+      "lambda_hat": 1.0,
+      "kappa": 4.009737520142597,
+      "c_alpha": 1.8087183273176726,
+      "profile_quadrature": {
+        "c_alpha": 1.8087183273176723,
+        "metric_term": 1.9694184495784945,
+        "scalar_kinetic_term": 0.16070012226082228,
+        "boundary_residual": 0.0
+      },
+      "quadrature_refinement": 3.3306690738754696e-15,
+      "quadrature_minus_closed": -2.220446049250313e-16,
+      "affine_upper": 1.9792012597945252,
+      "rigid_lower": 1.3140794735930008,
+      "bounds_hold": true
+    },
+    {
+      "x": 0.25,
+      "lambda_hat": 20.0,
+      "kappa": 7.544248641958447,
+      "c_alpha": 1.3752920030297378,
+      "profile_quadrature": {
+        "c_alpha": 1.375292003029738,
+        "metric_term": 1.3766432524076615,
+        "scalar_kinetic_term": 0.0013512493779236278,
+        "boundary_residual": 2.6645352591003757e-15
+      },
+      "quadrature_refinement": 1.5543122344752192e-15,
+      "quadrature_minus_closed": 2.220446049250313e-16,
+      "affine_upper": 1.9792012597945252,
+      "rigid_lower": 1.3140794735930008,
+      "bounds_hold": true
+    },
+    {
+      "x": 0.25,
+      "lambda_hat": "infinity",
+      "kappa": 7.917270326604001,
+      "c_alpha": 1.314079473593,
+      "profile_quadrature": {
+        "c_alpha": 1.3140794735930004,
+        "metric_term": 1.314083539043069,
+        "scalar_kinetic_term": 4.065450068589737e-06,
+        "boundary_residual": 0.0
+      },
+      "quadrature_refinement": 1.3322676295501878e-15,
+      "quadrature_minus_closed": 4.440892098500626e-16,
+      "affine_upper": 1.9792012597945252,
+      "rigid_lower": 1.3140794735930008,
+      "bounds_hold": true
+    },
+    {
+      "x": 0.5,
+      "lambda_hat": 0.0,
+      "kappa": 0.46045435881856595,
+      "c_alpha": 1.9173104992734105,
+      "profile_quadrature": {
+        "c_alpha": 1.917310499273409,
+        "metric_term": 2.4915402558466373,
+        "scalar_kinetic_term": 0.5742297565732285,
+        "boundary_residual": 0.0
+      },
+      "quadrature_refinement": 2.3092638912203256e-14,
+      "quadrature_minus_closed": -1.5543122344752192e-15,
+      "affine_upper": 1.9173104992734102,
+      "rigid_lower": 1.2585291942578811,
+      "bounds_hold": true
+    },
+    {
+      "x": 0.5,
+      "lambda_hat": 0.1,
+      "kappa": 1.1042824824560729,
+      "c_alpha": 1.9060064937499341,
+      "profile_quadrature": {
+        "c_alpha": 1.9060064937499333,
+        "metric_term": 2.3815288882485355,
+        "scalar_kinetic_term": 0.4755223944986022,
+        "boundary_residual": 0.0
+      },
+      "quadrature_refinement": 2.0872192862952943e-14,
+      "quadrature_minus_closed": -8.881784197001252e-16,
+      "affine_upper": 1.9173104992734102,
+      "rigid_lower": 1.2585291942578811,
+      "bounds_hold": true
+    },
+    {
+      "x": 0.5,
+      "lambda_hat": 1.0,
+      "kappa": 4.031254908892368,
+      "c_alpha": 1.7373412352515856,
+      "profile_quadrature": {
+        "c_alpha": 1.7373412352515856,
+        "metric_term": 1.8813950361655412,
+        "scalar_kinetic_term": 0.1440538009139556,
+        "boundary_residual": 8.881784197001252e-16
+      },
+      "quadrature_refinement": 1.3100631690576847e-14,
+      "quadrature_minus_closed": 0.0,
+      "affine_upper": 1.9173104992734102,
+      "rigid_lower": 1.2585291942578811,
+      "bounds_hold": true
+    },
+    {
+      "x": 0.5,
+      "lambda_hat": 20.0,
+      "kappa": 7.325752373542035,
+      "c_alpha": 1.317510536878665,
+      "profile_quadrature": {
+        "c_alpha": 1.3175105368786666,
+        "metric_term": 1.3184619204344092,
+        "scalar_kinetic_term": 0.0009513835557425516,
+        "boundary_residual": -7.105427357601002e-15
+      },
+      "quadrature_refinement": 5.551115123125783e-15,
+      "quadrature_minus_closed": 1.5543122344752192e-15,
+      "affine_upper": 1.9173104992734102,
+      "rigid_lower": 1.2585291942578811,
+      "bounds_hold": true
+    },
+    {
+      "x": 0.5,
+      "lambda_hat": "infinity",
+      "kappa": 7.676139005339775,
+      "c_alpha": 1.258529194257883,
+      "profile_quadrature": {
+        "c_alpha": 1.2585291942578847,
+        "metric_term": 1.2585911084320047,
+        "scalar_kinetic_term": 6.19141741200648e-05,
+        "boundary_residual": 0.0
+      },
+      "quadrature_refinement": 4.884981308350689e-15,
+      "quadrature_minus_closed": 1.7763568394002505e-15,
+      "affine_upper": 1.9173104992734102,
+      "rigid_lower": 1.2585291942578811,
+      "bounds_hold": true
+    },
+    {
+      "x": 1.0,
+      "lambda_hat": 0.0,
+      "kappa": 1.4537239627671745,
+      "c_alpha": 1.6812574106281957,
+      "profile_quadrature": {
+        "c_alpha": 1.6812574106281906,
+        "metric_term": 2.051032121779673,
+        "scalar_kinetic_term": 0.3697747111514826,
+        "boundary_residual": 0.0
+      },
+      "quadrature_refinement": 8.237854842718662e-14,
+      "quadrature_minus_closed": -5.10702591327572e-15,
+      "affine_upper": 1.681257410628196,
+      "rigid_lower": 1.0654695968398107,
+      "bounds_hold": true
+    },
+    {
+      "x": 1.0,
+      "lambda_hat": 0.1,
+      "kappa": 1.906661912562091,
+      "c_alpha": 1.6600652579732105,
+      "profile_quadrature": {
+        "c_alpha": 1.6600652579732054,
+        "metric_term": 1.9677188418517266,
+        "scalar_kinetic_term": 0.3076535838785213,
+        "boundary_residual": 4.440892098500626e-16
+      },
+      "quadrature_refinement": 7.638334409421077e-14,
+      "quadrature_minus_closed": -5.10702591327572e-15,
+      "affine_upper": 1.681257410628196,
+      "rigid_lower": 1.0654695968398107,
+      "bounds_hold": true
+    },
+    {
+      "x": 1.0,
+      "lambda_hat": 1.0,
+      "kappa": 4.025136527318701,
+      "c_alpha": 1.4850979689104609,
+      "profile_quadrature": {
+        "c_alpha": 1.4850979689104578,
+        "metric_term": 1.578047213145453,
+        "scalar_kinetic_term": 0.09294924423499527,
+        "boundary_residual": 1.7763568394002505e-15
+      },
+      "quadrature_refinement": 5.062616992290714e-14,
+      "quadrature_minus_closed": -3.1086244689504383e-15,
+      "affine_upper": 1.681257410628196,
+      "rigid_lower": 1.0654695968398107,
+      "bounds_hold": true
+    },
+    {
+      "x": 1.0,
+      "lambda_hat": 20.0,
+      "kappa": 6.532584581565772,
+      "c_alpha": 1.1165030506352325,
+      "profile_quadrature": {
+        "c_alpha": 1.116503050635231,
+        "metric_term": 1.116827918664037,
+        "scalar_kinetic_term": 0.00032486802880625417,
+        "boundary_residual": -1.2434497875801753e-14
+      },
+      "quadrature_refinement": 2.531308496145357e-14,
+      "quadrature_minus_closed": -1.5543122344752192e-15,
+      "affine_upper": 1.681257410628196,
+      "rigid_lower": 1.0654695968398107,
+      "bounds_hold": true
+    },
+    {
+      "x": 1.0,
+      "lambda_hat": "infinity",
+      "kappa": 6.8073450259145725,
+      "c_alpha": 1.0654695968398111,
+      "profile_quadrature": {
+        "c_alpha": 1.0654695968398096,
+        "metric_term": 1.0662885593025102,
+        "scalar_kinetic_term": 0.000818962462700636,
+        "boundary_residual": 0.0
+      },
+      "quadrature_refinement": 2.3092638912203256e-14,
+      "quadrature_minus_closed": -1.5543122344752192e-15,
+      "affine_upper": 1.681257410628196,
+      "rigid_lower": 1.0654695968398107,
+      "bounds_hold": true
+    },
+    {
+      "x": 2.0,
+      "lambda_hat": 0.0,
+      "kappa": 2.558800033796898,
+      "c_alpha": 0.9834202398385299,
+      "profile_quadrature": {
+        "c_alpha": 0.9834202398385142,
+        "metric_term": 1.0506257002141766,
+        "scalar_kinetic_term": 0.06720546037566233,
+        "boundary_residual": 4.440892098500626e-16
+      },
+      "quadrature_refinement": 2.369215934550084e-13,
+      "quadrature_minus_closed": -1.5654144647214707e-14,
+      "affine_upper": 0.9834202398385297,
+      "rigid_lower": 0.5925948730367702,
+      "bounds_hold": true
+    },
+    {
+      "x": 2.0,
+      "lambda_hat": 0.1,
+      "kappa": 2.6899170003415036,
+      "c_alpha": 0.9625931008390729,
+      "profile_quadrature": {
+        "c_alpha": 0.9625931008390577,
+        "metric_term": 1.0186861728162695,
+        "scalar_kinetic_term": 0.056093071977211834,
+        "boundary_residual": 8.881784197001252e-16
+      },
+      "quadrature_refinement": 2.2659651932599445e-13,
+      "quadrature_minus_closed": -1.5210055437364645e-14,
+      "affine_upper": 0.9834202398385297,
+      "rigid_lower": 0.5925948730367702,
+      "bounds_hold": true
+    },
+    {
+      "x": 2.0,
+      "lambda_hat": 1.0,
+      "kappa": 3.359794732912209,
+      "c_alpha": 0.8399486832280522,
+      "profile_quadrature": {
+        "c_alpha": 0.8399486832280405,
+        "metric_term": 0.8555068470849119,
+        "scalar_kinetic_term": 0.015558163856871393,
+        "boundary_residual": -1.7763568394002505e-15
+      },
+      "quadrature_refinement": 1.7741363933510002e-13,
+      "quadrature_minus_closed": -1.1657341758564144e-14,
+      "affine_upper": 0.9834202398385297,
+      "rigid_lower": 0.5925948730367702,
+      "bounds_hold": true
+    },
+    {
+      "x": 2.0,
+      "lambda_hat": 20.0,
+      "kappa": 4.297387689410801,
+      "c_alpha": 0.6226781189295816,
+      "profile_quadrature": {
+        "c_alpha": 0.6226781189295739,
+        "metric_term": 0.6271132477563033,
+        "scalar_kinetic_term": 0.004435128826729385,
+        "boundary_residual": -5.329070518200751e-15
+      },
+      "quadrature_refinement": 1.163513729807164e-13,
+      "quadrature_minus_closed": -7.66053886991358e-15,
+      "affine_upper": 0.9834202398385297,
+      "rigid_lower": 0.5925948730367702,
+      "bounds_hold": true
+    },
+    {
+      "x": 2.0,
+      "lambda_hat": "infinity",
+      "kappa": 4.411529036348532,
+      "c_alpha": 0.5925948730367702,
+      "profile_quadrature": {
+        "c_alpha": 0.5925948730367631,
+        "metric_term": 0.599308908060026,
+        "scalar_kinetic_term": 0.0067140350232629716,
+        "boundary_residual": 0.0
+      },
+      "quadrature_refinement": 1.0957901253050295e-13,
+      "quadrature_minus_closed": -7.105427357601002e-15,
+      "affine_upper": 0.9834202398385297,
+      "rigid_lower": 0.5925948730367702,
+      "bounds_hold": true
+    },
+    {
+      "x": 3.0,
+      "lambda_hat": 0.0,
+      "kappa": 1.9627955837252868,
+      "c_alpha": 0.4378025875920647,
+      "profile_quadrature": {
+        "c_alpha": 0.43780258759204027,
+        "metric_term": 0.4439253910324652,
+        "scalar_kinetic_term": 0.006122803440424931,
+        "boundary_residual": -6.661338147750939e-16
+      },
+      "quadrature_refinement": 3.7031488986372096e-13,
+      "quadrature_minus_closed": -2.4424906541753444e-14,
+      "affine_upper": 0.43780258759206453,
+      "rigid_lower": 0.2681752347067905,
+      "bounds_hold": true
+    },
+    {
+      "x": 3.0,
+      "lambda_hat": 0.1,
+      "kappa": 1.9874328059607467,
+      "c_alpha": 0.4290535211278381,
+      "profile_quadrature": {
+        "c_alpha": 0.42905352112781425,
+        "metric_term": 0.4347160379393029,
+        "scalar_kinetic_term": 0.005662516811488688,
+        "boundary_residual": 2.220446049250313e-16
+      },
+      "quadrature_refinement": 3.6282088444750116e-13,
+      "quadrature_minus_closed": -2.3869795029440866e-14,
+      "affine_upper": 0.43780258759206453,
+      "rigid_lower": 0.2681752347067905,
+      "bounds_hold": true
+    },
+    {
+      "x": 3.0,
+      "lambda_hat": 1.0,
+      "kappa": 2.1257205392323506,
+      "c_alpha": 0.3779199260597087,
+      "profile_quadrature": {
+        "c_alpha": 0.37791992605968755,
+        "metric_term": 0.3830243110075927,
+        "scalar_kinetic_term": 0.00510438494790517,
+        "boundary_residual": 8.881784197001252e-16
+      },
+      "quadrature_refinement": 3.217981436876016e-13,
+      "quadrature_minus_closed": -2.1149748619109232e-14,
+      "affine_upper": 0.43780258759206453,
+      "rigid_lower": 0.2681752347067905,
+      "bounds_hold": true
+    },
+    {
+      "x": 3.0,
+      "lambda_hat": 20.0,
+      "kappa": 2.3625908909716977,
+      "c_alpha": 0.28234555308056286,
+      "profile_quadrature": {
+        "c_alpha": 0.28234555308054615,
+        "metric_term": 0.29448256366200415,
+        "scalar_kinetic_term": 0.012137010581458019,
+        "boundary_residual": 2.398081733190338e-14
+      },
+      "quadrature_refinement": 2.559064071760986e-13,
+      "quadrature_minus_closed": -1.6708856520608606e-14,
+      "affine_upper": 0.43780258759206453,
+      "rigid_lower": 0.2681752347067905,
+      "bounds_hold": true
+    },
+    {
+      "x": 3.0,
+      "lambda_hat": "infinity",
+      "kappa": 2.3957176720517452,
+      "c_alpha": 0.26817523470679094,
+      "profile_quadrature": {
+        "c_alpha": 0.26817523470677485,
+        "metric_term": 0.282099827455365,
+        "scalar_kinetic_term": 0.013924592748590122,
+        "boundary_residual": 4.440892098500626e-16
+      },
+      "quadrature_refinement": 2.4702462297909733e-13,
+      "quadrature_minus_closed": -1.609823385706477e-14,
+      "affine_upper": 0.43780258759206453,
+      "rigid_lower": 0.2681752347067905,
+      "bounds_hold": true
+    },
+    {
+      "x": 4.0,
+      "lambda_hat": 0.0,
+      "kappa": 1.0897494994169044,
+      "c_alpha": 0.1703647825106746,
+      "profile_quadrature": {
+        "c_alpha": 0.17036478251064247,
+        "metric_term": 0.1796761423090751,
+        "scalar_kinetic_term": 0.00931135979843263,
+        "boundary_residual": -6.661338147750939e-16
+      },
+      "quadrature_refinement": 4.811984144481585e-13,
+      "quadrature_minus_closed": -3.214095656289828e-14,
+      "affine_upper": 0.1703647825106747,
+      "rigid_lower": 0.11002908436536997,
+      "bounds_hold": true
+    },
+    {
+      "x": 4.0,
+      "lambda_hat": 0.1,
+      "kappa": 1.0935591025350964,
+      "c_alpha": 0.1676871830579283,
+      "profile_quadrature": {
+        "c_alpha": 0.16768718305789643,
+        "metric_term": 0.17723731135432344,
+        "scalar_kinetic_term": 0.009550128296427008,
+        "boundary_residual": -1.3322676295501878e-15
+      },
+      "quadrature_refinement": 4.771461004082767e-13,
+      "quadrature_minus_closed": -3.186340080674199e-14,
+      "affine_upper": 0.1703647825106747,
+      "rigid_lower": 0.11002908436536997,
+      "bounds_hold": true
+    },
+    {
+      "x": 4.0,
+      "lambda_hat": 1.0,
+      "kappa": 1.1166941288716943,
+      "c_alpha": 0.15122593408305285,
+      "profile_quadrature": {
+        "c_alpha": 0.15122593408302268,
+        "metric_term": 0.16242673486690487,
+        "scalar_kinetic_term": 0.011200800783882185,
+        "boundary_residual": -3.3306690738754696e-15
+      },
+      "quadrature_refinement": 4.5266568271529195e-13,
+      "quadrature_minus_closed": -3.017031069418863e-14,
+      "affine_upper": 0.1703647825106747,
+      "rigid_lower": 0.11002908436536997,
+      "bounds_hold": true
+    },
+    {
+      "x": 4.0,
+      "lambda_hat": 20.0,
+      "kappa": 1.1648082914392217,
+      "c_alpha": 0.11588771846450241,
+      "profile_quadrature": {
+        "c_alpha": 0.11588771846447549,
+        "metric_term": 0.13162501999238232,
+        "scalar_kinetic_term": 0.01573730152790683,
+        "boundary_residual": -2.042810365310288e-14
+      },
+      "quadrature_refinement": 4.0333014705851156e-13,
+      "quadrature_minus_closed": -2.6922908347160046e-14,
+      "affine_upper": 0.1703647825106747,
+      "rigid_lower": 0.11002908436536997,
+      "bounds_hold": true
+    },
+    {
+      "x": 4.0,
+      "lambda_hat": "infinity",
+      "kappa": 1.1725942504276994,
+      "c_alpha": 0.1100290843653699,
+      "profile_quadrature": {
+        "c_alpha": 0.11002908436534352,
+        "metric_term": 0.12664060633972382,
+        "scalar_kinetic_term": 0.016611521974380306,
+        "boundary_residual": 0.0
+      },
+      "quadrature_refinement": 3.9554470809832765e-13,
+      "quadrature_minus_closed": -2.6381674622655282e-14,
+      "affine_upper": 0.1703647825106747,
+      "rigid_lower": 0.11002908436536997,
+      "bounds_hold": true
+    },
+    {
+      "x": 6.0,
+      "lambda_hat": 0.0,
+      "kappa": 0.23561393235650924,
+      "c_alpha": 0.022907151368704304,
+      "profile_quadrature": {
+        "c_alpha": 0.022907151368658056,
+        "metric_term": 0.03430595865496754,
+        "scalar_kinetic_term": 0.011398807286309489,
+        "boundary_residual": 4.718447854656915e-16
+      },
+      "quadrature_refinement": 6.922032391720734e-13,
+      "quadrature_minus_closed": -4.624772786954168e-14,
+      "affine_upper": 0.02290715136870428,
+      "rigid_lower": 0.016525359727601583,
+      "bounds_hold": true
+    },
+    {
+      "x": 6.0,
+      "lambda_hat": 0.1,
+      "kappa": 0.23568930336530275,
+      "c_alpha": 0.02270325556310754,
+      "profile_quadrature": {
+        "c_alpha": 0.022703255563061422,
+        "metric_term": 0.03412999166018538,
+        "scalar_kinetic_term": 0.011426736097123953,
+        "boundary_residual": 2.831068712794149e-15
+      },
+      "quadrature_refinement": 6.913219996462772e-13,
+      "quadrature_minus_closed": -4.611588888536744e-14,
+      "affine_upper": 0.02290715136870428,
+      "rigid_lower": 0.016525359727601583,
+      "bounds_hold": true
+    },
+    {
+      "x": 6.0,
+      "lambda_hat": 1.0,
+      "kappa": 0.23619868743207875,
+      "c_alpha": 0.021323545525811893,
+      "profile_quadrature": {
+        "c_alpha": 0.021323545525766152,
+        "metric_term": 0.032940744164957056,
+        "scalar_kinetic_term": 0.011617198639190902,
+        "boundary_residual": -6.63358257213531e-15
+      },
+      "quadrature_refinement": 6.854586342974756e-13,
+      "quadrature_minus_closed": -4.574118861455645e-14,
+      "affine_upper": 0.02290715136870428,
+      "rigid_lower": 0.016525359727601583,
+      "bounds_hold": true
+    },
+    {
+      "x": 6.0,
+      "lambda_hat": 20.0,
+      "kappa": 0.23765412173337067,
+      "c_alpha": 0.017364963867693428,
+      "profile_quadrature": {
+        "c_alpha": 0.017364963867648874,
+        "metric_term": 0.02954277451852532,
+        "scalar_kinetic_term": 0.012177810650876447,
+        "boundary_residual": 5.35682609381638e-15
+      },
+      "quadrature_refinement": 6.687914111402904e-13,
+      "quadrature_minus_closed": -4.4554637756988313e-14,
+      "affine_upper": 0.02290715136870428,
+      "rigid_lower": 0.016525359727601583,
+      "bounds_hold": true
+    },
+    {
+      "x": 6.0,
+      "lambda_hat": "infinity",
+      "kappa": 0.23796167104700927,
+      "c_alpha": 0.016525359727601663,
+      "profile_quadrature": {
+        "c_alpha": 0.016525359727557268,
+        "metric_term": 0.028824746070523696,
+        "scalar_kinetic_term": 0.012299386342966427,
+        "boundary_residual": 0.0
+      },
+      "quadrature_refinement": 6.652872697188172e-13,
+      "quadrature_minus_closed": -4.439504319719845e-14,
+      "affine_upper": 0.02290715136870428,
+      "rigid_lower": 0.016525359727601583,
+      "bounds_hold": true
+    }
+  ],
+  "checks_passed": true,
+  "max_abs_quadrature_difference": 4.624772786954168e-14,
+  "max_abs_refinement": 6.922032391720734e-13
+}

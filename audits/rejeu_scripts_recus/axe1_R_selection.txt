@@ -1,0 +1,12 @@
+sigma0(L) = q*tanh(L*m_sigma/2)/m_sigma
+selection : x = m_sigma L = 2*log(-sqrt((2*lambda*m_sigma*v + 2*lambda*q - m_sigma*q)/(-2*lambda*m_sigma*v + 2*lambda*q + m_sigma*q)))
+limite raide : L = (2/m_sigma) artanh(m_sigma v/q) ; existe ssi m_sigma v < q
+R=1 um x=1 : m_sigma=62.8 meV ; m_sigma v/q = tanh(x/2) = 0.462
+R=1 um x=2 : m_sigma=125.6 meV ; m_sigma v/q = tanh(x/2) = 0.762
+R=1 um x=3 : m_sigma=188.4 meV ; m_sigma v/q = tanh(x/2) = 0.905
+R=3 um x=1 : m_sigma=20.9 meV ; m_sigma v/q = tanh(x/2) = 0.462
+R=3 um x=2 : m_sigma=41.9 meV ; m_sigma v/q = tanh(x/2) = 0.762
+R=3 um x=3 : m_sigma=62.8 meV ; m_sigma v/q = tanh(x/2) = 0.905
+R=5 um x=1 : m_sigma=12.6 meV ; m_sigma v/q = tanh(x/2) = 0.462
+R=5 um x=2 : m_sigma=25.1 meV ; m_sigma v/q = tanh(x/2) = 0.762
+R=5 um x=3 : m_sigma=37.7 meV ; m_sigma v/q = tanh(x/2) = 0.905

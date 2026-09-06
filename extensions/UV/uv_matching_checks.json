@@ -1,0 +1,626 @@
+{
+  "convention": "Quotient: O8^- charge -8; 16 physical D8. Cover doubles charges and brane count.",
+  "endpoints_only": [
+    {
+      "N0": 0,
+      "NL": 16,
+      "Ninterior": 0,
+      "net0": -8,
+      "netL": 8,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 1,
+      "NL": 15,
+      "Ninterior": 0,
+      "net0": -7,
+      "netL": 7,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 2,
+      "NL": 14,
+      "Ninterior": 0,
+      "net0": -6,
+      "netL": 6,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 3,
+      "NL": 13,
+      "Ninterior": 0,
+      "net0": -5,
+      "netL": 5,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 4,
+      "NL": 12,
+      "Ninterior": 0,
+      "net0": -4,
+      "netL": 4,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 5,
+      "NL": 11,
+      "Ninterior": 0,
+      "net0": -3,
+      "netL": 3,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 6,
+      "NL": 10,
+      "Ninterior": 0,
+      "net0": -2,
+      "netL": 2,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 7,
+      "NL": 9,
+      "Ninterior": 0,
+      "net0": -1,
+      "netL": 1,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 8,
+      "NL": 8,
+      "Ninterior": 0,
+      "net0": 0,
+      "netL": 0,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 9,
+      "NL": 7,
+      "Ninterior": 0,
+      "net0": 1,
+      "netL": -1,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 10,
+      "NL": 6,
+      "Ninterior": 0,
+      "net0": 2,
+      "netL": -2,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 11,
+      "NL": 5,
+      "Ninterior": 0,
+      "net0": 3,
+      "netL": -3,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 12,
+      "NL": 4,
+      "Ninterior": 0,
+      "net0": 4,
+      "netL": -4,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 13,
+      "NL": 3,
+      "Ninterior": 0,
+      "net0": 5,
+      "netL": -5,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 14,
+      "NL": 2,
+      "Ninterior": 0,
+      "net0": 6,
+      "netL": -6,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 15,
+      "NL": 1,
+      "Ninterior": 0,
+      "net0": 7,
+      "netL": -7,
+      "both_strictly_negative": false
+    },
+    {
+      "N0": 16,
+      "NL": 0,
+      "Ninterior": 0,
+      "net0": 8,
+      "netL": -8,
+      "both_strictly_negative": false
+    }
+  ],
+  "number_of_integer_occupancy_triplets_with_both_negative": 64,
+  "minimum_interior_physical_D8_for_two_negative_endpoints": 2,
+  "triplets_with_both_negative": [
+    {
+      "N0": 0,
+      "NL": 0,
+      "Ninterior": 16,
+      "net0": -8,
+      "netL": -8
+    },
+    {
+      "N0": 0,
+      "NL": 1,
+      "Ninterior": 15,
+      "net0": -8,
+      "netL": -7
+    },
+    {
+      "N0": 0,
+      "NL": 2,
+      "Ninterior": 14,
+      "net0": -8,
+      "netL": -6
+    },
+    {
+      "N0": 0,
+      "NL": 3,
+      "Ninterior": 13,
+      "net0": -8,
+      "netL": -5
+    },
+    {
+      "N0": 0,
+      "NL": 4,
+      "Ninterior": 12,
+      "net0": -8,
+      "netL": -4
+    },
+    {
+      "N0": 0,
+      "NL": 5,
+      "Ninterior": 11,
+      "net0": -8,
+      "netL": -3
+    },
+    {
+      "N0": 0,
+      "NL": 6,
+      "Ninterior": 10,
+      "net0": -8,
+      "netL": -2
+    },
+    {
+      "N0": 0,
+      "NL": 7,
+      "Ninterior": 9,
+      "net0": -8,
+      "netL": -1
+    },
+    {
+      "N0": 1,
+      "NL": 0,
+      "Ninterior": 15,
+      "net0": -7,
+      "netL": -8
+    },
+    {
+      "N0": 1,
+      "NL": 1,
+      "Ninterior": 14,
+      "net0": -7,
+      "netL": -7
+    },
+    {
+      "N0": 1,
+      "NL": 2,
+      "Ninterior": 13,
+      "net0": -7,
+      "netL": -6
+    },
+    {
+      "N0": 1,
+      "NL": 3,
+      "Ninterior": 12,
+      "net0": -7,
+      "netL": -5
+    },
+    {
+      "N0": 1,
+      "NL": 4,
+      "Ninterior": 11,
+      "net0": -7,
+      "netL": -4
+    },
+    {
+      "N0": 1,
+      "NL": 5,
+      "Ninterior": 10,
+      "net0": -7,
+      "netL": -3
+    },
+    {
+      "N0": 1,
+      "NL": 6,
+      "Ninterior": 9,
+      "net0": -7,
+      "netL": -2
+    },
+    {
+      "N0": 1,
+      "NL": 7,
+      "Ninterior": 8,
+      "net0": -7,
+      "netL": -1
+    },
+    {
+      "N0": 2,
+      "NL": 0,
+      "Ninterior": 14,
+      "net0": -6,
+      "netL": -8
+    },
+    {
+      "N0": 2,
+      "NL": 1,
+      "Ninterior": 13,
+      "net0": -6,
+      "netL": -7
+    },
+    {
+      "N0": 2,
+      "NL": 2,
+      "Ninterior": 12,
+      "net0": -6,
+      "netL": -6
+    },
+    {
+      "N0": 2,
+      "NL": 3,
+      "Ninterior": 11,
+      "net0": -6,
+      "netL": -5
+    },
+    {
+      "N0": 2,
+      "NL": 4,
+      "Ninterior": 10,
+      "net0": -6,
+      "netL": -4
+    },
+    {
+      "N0": 2,
+      "NL": 5,
+      "Ninterior": 9,
+      "net0": -6,
+      "netL": -3
+    },
+    {
+      "N0": 2,
+      "NL": 6,
+      "Ninterior": 8,
+      "net0": -6,
+      "netL": -2
+    },
+    {
+      "N0": 2,
+      "NL": 7,
+      "Ninterior": 7,
+      "net0": -6,
+      "netL": -1
+    },
+    {
+      "N0": 3,
+      "NL": 0,
+      "Ninterior": 13,
+      "net0": -5,
+      "netL": -8
+    },
+    {
+      "N0": 3,
+      "NL": 1,
+      "Ninterior": 12,
+      "net0": -5,
+      "netL": -7
+    },
+    {
+      "N0": 3,
+      "NL": 2,
+      "Ninterior": 11,
+      "net0": -5,
+      "netL": -6
+    },
+    {
+      "N0": 3,
+      "NL": 3,
+      "Ninterior": 10,
+      "net0": -5,
+      "netL": -5
+    },
+    {
+      "N0": 3,
+      "NL": 4,
+      "Ninterior": 9,
+      "net0": -5,
+      "netL": -4
+    },
+    {
+      "N0": 3,
+      "NL": 5,
+      "Ninterior": 8,
+      "net0": -5,
+      "netL": -3
+    },
+    {
+      "N0": 3,
+      "NL": 6,
+      "Ninterior": 7,
+      "net0": -5,
+      "netL": -2
+    },
+    {
+      "N0": 3,
+      "NL": 7,
+      "Ninterior": 6,
+      "net0": -5,
+      "netL": -1
+    },
+    {
+      "N0": 4,
+      "NL": 0,
+      "Ninterior": 12,
+      "net0": -4,
+      "netL": -8
+    },
+    {
+      "N0": 4,
+      "NL": 1,
+      "Ninterior": 11,
+      "net0": -4,
+      "netL": -7
+    },
+    {
+      "N0": 4,
+      "NL": 2,
+      "Ninterior": 10,
+      "net0": -4,
+      "netL": -6
+    },
+    {
+      "N0": 4,
+      "NL": 3,
+      "Ninterior": 9,
+      "net0": -4,
+      "netL": -5
+    },
+    {
+      "N0": 4,
+      "NL": 4,
+      "Ninterior": 8,
+      "net0": -4,
+      "netL": -4
+    },
+    {
+      "N0": 4,
+      "NL": 5,
+      "Ninterior": 7,
+      "net0": -4,
+      "netL": -3
+    },
+    {
+      "N0": 4,
+      "NL": 6,
+      "Ninterior": 6,
+      "net0": -4,
+      "netL": -2
+    },
+    {
+      "N0": 4,
+      "NL": 7,
+      "Ninterior": 5,
+      "net0": -4,
+      "netL": -1
+    },
+    {
+      "N0": 5,
+      "NL": 0,
+      "Ninterior": 11,
+      "net0": -3,
+      "netL": -8
+    },
+    {
+      "N0": 5,
+      "NL": 1,
+      "Ninterior": 10,
+      "net0": -3,
+      "netL": -7
+    },
+    {
+      "N0": 5,
+      "NL": 2,
+      "Ninterior": 9,
+      "net0": -3,
+      "netL": -6
+    },
+    {
+      "N0": 5,
+      "NL": 3,
+      "Ninterior": 8,
+      "net0": -3,
+      "netL": -5
+    },
+    {
+      "N0": 5,
+      "NL": 4,
+      "Ninterior": 7,
+      "net0": -3,
+      "netL": -4
+    },
+    {
+      "N0": 5,
+      "NL": 5,
+      "Ninterior": 6,
+      "net0": -3,
+      "netL": -3
+    },
+    {
+      "N0": 5,
+      "NL": 6,
+      "Ninterior": 5,
+      "net0": -3,
+      "netL": -2
+    },
+    {
+      "N0": 5,
+      "NL": 7,
+      "Ninterior": 4,
+      "net0": -3,
+      "netL": -1
+    },
+    {
+      "N0": 6,
+      "NL": 0,
+      "Ninterior": 10,
+      "net0": -2,
+      "netL": -8
+    },
+    {
+      "N0": 6,
+      "NL": 1,
+      "Ninterior": 9,
+      "net0": -2,
+      "netL": -7
+    },
+    {
+      "N0": 6,
+      "NL": 2,
+      "Ninterior": 8,
+      "net0": -2,
+      "netL": -6
+    },
+    {
+      "N0": 6,
+      "NL": 3,
+      "Ninterior": 7,
+      "net0": -2,
+      "netL": -5
+    },
+    {
+      "N0": 6,
+      "NL": 4,
+      "Ninterior": 6,
+      "net0": -2,
+      "netL": -4
+    },
+    {
+      "N0": 6,
+      "NL": 5,
+      "Ninterior": 5,
+      "net0": -2,
+      "netL": -3
+    },
+    {
+      "N0": 6,
+      "NL": 6,
+      "Ninterior": 4,
+      "net0": -2,
+      "netL": -2
+    },
+    {
+      "N0": 6,
+      "NL": 7,
+      "Ninterior": 3,
+      "net0": -2,
+      "netL": -1
+    },
+    {
+      "N0": 7,
+      "NL": 0,
+      "Ninterior": 9,
+      "net0": -1,
+      "netL": -8
+    },
+    {
+      "N0": 7,
+      "NL": 1,
+      "Ninterior": 8,
+      "net0": -1,
+      "netL": -7
+    },
+    {
+      "N0": 7,
+      "NL": 2,
+      "Ninterior": 7,
+      "net0": -1,
+      "netL": -6
+    },
+    {
+      "N0": 7,
+      "NL": 3,
+      "Ninterior": 6,
+      "net0": -1,
+      "netL": -5
+    },
+    {
+      "N0": 7,
+      "NL": 4,
+      "Ninterior": 5,
+      "net0": -1,
+      "netL": -4
+    },
+    {
+      "N0": 7,
+      "NL": 5,
+      "Ninterior": 4,
+      "net0": -1,
+      "netL": -3
+    },
+    {
+      "N0": 7,
+      "NL": 6,
+      "Ninterior": 3,
+      "net0": -1,
+      "netL": -2
+    },
+    {
+      "N0": 7,
+      "NL": 7,
+      "Ninterior": 2,
+      "net0": -1,
+      "netL": -1
+    }
+  ],
+  "flat_scalar_excursion_examples": [
+    {
+      "x": 0.1,
+      "integral_sigma_prime_squared": 0.9983358299645835,
+      "excursion_squared_over_L": 0.9983356913728516,
+      "ratio_to_Cauchy_bound": 1.0000001388227757
+    },
+    {
+      "x": 1,
+      "integral_sigma_prime_squared": 0.8553410237429736,
+      "excursion_squared_over_L": 0.8542090681362903,
+      "ratio_to_Cauchy_bound": 1.0013251505385596
+    },
+    {
+      "x": 2,
+      "integral_sigma_prime_squared": 0.5907842487848955,
+      "excursion_squared_over_L": 0.5800256583859739,
+      "ratio_to_Cauchy_bound": 1.0185484732328212
+    },
+    {
+      "x": 3,
+      "integral_sigma_prime_squared": 0.3920694040101132,
+      "excursion_squared_over_L": 0.3641303827006006,
+      "ratio_to_Cauchy_bound": 1.0767280694961534
+    },
+    {
+      "x": 6,
+      "integral_sigma_prime_squared": 0.1707754775305085,
+      "excursion_squared_over_L": 0.11001488475939553,
+      "ratio_to_Cauchy_bound": 1.5522942909406983
+    }
+  ],
+  "scope": "No new string solution, quantum stability claim or radius prediction."
+}
