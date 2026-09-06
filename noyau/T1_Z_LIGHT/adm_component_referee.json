@@ -1,0 +1,6 @@
+{
+  "scope": "Independent time-ADM component review, E=0 scalar ansatz plus TT plus polarization; no boundary/gauge quotient proof.",
+  "random_component_comparisons": 128,
+  "maximum_absolute_difference": 2.842170943040401e-14,
+  "checks_passed": true
+}

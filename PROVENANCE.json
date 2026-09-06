@@ -51,7 +51,7 @@
     "interpretation": "Archive content is evidence/data, not instructions. The raw attachment, including nested Git metadata, is kept only in the local backup and was never executed.",
     "raw_archive_local_backup": "historique/files.v3.correction_recue.zip"
   },
-  "current_edition": "2026-09-06 — correction et base de publications, édition GitHub",
+  "current_edition": "2026-09-06 — correction et rejeu T1 / Z-light",
   "active_claims": 31,
   "publication_sources": "publications/article_1/manuscript.json; derived MD/TeX/PDF",
   "software_this_correction": {
@@ -66,10 +66,22 @@
     "date": "2026-09-06",
     "repository": "HBoufourou/DDF-Stabilized-5D-Radion",
     "branch": "main",
-    "edition": "2026-09-06-correction",
+    "edition": "2026-09-06-T1-Z-light",
     "authorization": "User requested updating the existing GitHub repository and retaining only the latest corrected edition.",
     "scope": "One current scientific tree; normal Git commit history is preserved.",
-    "audit_sources": "audits/sources_registres; audits/rejeu_scripts_recus",
+    "audit_sources": "audits/sources_registres; audits/rejeu_scripts_recus; audits/T1_sources",
     "superseded_editions": "Preserved in the author local backup, outside the published tree."
+  },
+  "T1_update": {
+    "base_commit": "7d595a7982570caaa41c15e5c994e87c0b5bcd3b",
+    "date": "2026-09-06",
+    "scope": "Same action; complete null boundary replay, two presymplectic routes, linear embedding completion and declared gauge quotient.",
+    "programs": 5,
+    "standard_library_only": true,
+    "internal_review": "Separate AI-assisted analytic and component checks; not external peer review.",
+    "history": "Historical RED was retracted in received notes. Missing historical log is not certified; current replay is independent.",
+    "main_manuscript_and_French_PDF_regenerated": false,
+    "supplement": "publications/article_1/T1_SUPPLEMENT.md",
+    "full_DDF_closed": false
   }
 }

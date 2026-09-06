@@ -66,6 +66,44 @@ def validate_article():
         assert math.isclose(float(val),row['h_brane'],rel_tol=5e-10)
     return dict(equations=len(ids),tables=len(tables),references=len(paper['references']))
 
+def validate_t1():
+    """Validate recorded evidence and its hashes, without replacing the replay."""
+    folder=ROOT/'noyau/T1_Z_LIGHT'
+    report=read(ROOT/'verification/T1_REPLAY_EXECUTED.json')
+    names=['null_boundary_checks','covariant_adm_current','adm_component_referee',
+           't1_background_replay','t1_integrated_norms']
+    assert report['verdict']=='GREEN' and report['checks_passed']
+    assert report['full_DDF_closed'] is False and report['experimental_validation'] is False
+    assert [j['id'] for j in report['jobs']]==names
+    for job in report['jobs']:
+        assert job['status']=='PASS' and job['return_code']==0 and not job['differences']
+        for extension,key in [('py','script_sha256'),('json','reference_sha256')]:
+            assert hashlib.sha256((folder/(job['id']+'.'+extension)).read_bytes()).hexdigest()==job[key]
+    exact=read(folder/'null_boundary_checks.json')
+    assert len(exact['checks'])==29 and all(v=='PASS' for v in exact['checks'].values())
+    covariance=read(folder/'covariant_adm_current.json')
+    assert covariance['random_component_checks']==100
+    assert covariance['maximum_current_divergence_residual']<1e-10
+    adm=read(folder/'adm_component_referee.json')
+    assert adm['checks_passed'] and adm['random_component_comparisons']==128
+    assert adm['maximum_absolute_difference']<1e-10
+    backgrounds=read(folder/'t1_background_replay.json')
+    assert backgrounds['checks_passed'] and len(backgrounds['cases'])==9
+    assert backgrounds['X1_verdict']=='EXCLUDED_BY_FULL_ISRAEL_BOUNDARY_CONDITION'
+    integrated=read(folder/'t1_integrated_norms.json')
+    assert integrated['checks_passed'] and integrated['background_cases']==3
+    for name,digest in integrated['source_sha256'].items():
+        assert '/' not in name and '\\' not in name
+        assert hashlib.sha256((folder/name).read_bytes()).hexdigest()==digest
+    for name,data in [('t1_background_replay',backgrounds),('t1_integrated_norms',integrated)]:
+        assert hashlib.sha256((folder/(name+'.py')).read_bytes()).hexdigest()==data['script_sha256']
+    history=read(ROOT/'audits/T1_sources/SOURCES.json')
+    for source in history['sources']:
+        data=(ROOT/'audits/T1_sources'/source['filename']).read_bytes()
+        assert len(data)==source['bytes'] and hashlib.sha256(data).hexdigest()==source['sha256']
+    return dict(verdict='GREEN_IN_DECLARED_DOMAIN',executed_programs=5,
+                exact_checks=29,backgrounds=9,integrated_backgrounds=3,full_DDF_closed=False)
+
 def main():
     manifest=read(ROOT/'MANIFEST.json')
     seen=set()
@@ -79,6 +117,7 @@ def main():
     claims=read(ROOT/'registre_revendications.json')['claims']
     assert len(set(c['id'] for c in claims))==len(claims)
     assert all(contained(c['evidence']).is_file() for c in claims)
+    assert all(contained(e).is_file() for c in claims for e in c.get('additional_evidence',[]))
     model=read(ROOT/'MODELE.json')
     assert model['name']=='DDF-Stabilized-5D-Radion'
     scripts=[p for p in active_files() if p.suffix=='.py' and 'historique' not in p.relative_to(ROOT).parts]
@@ -138,10 +177,11 @@ def main():
         assert hashlib.sha256((ROOT/job['result']).read_bytes()).hexdigest()==job['reference_sha256']
         assert hashlib.sha256((ROOT/job['script']).read_bytes()).hexdigest()==job['script_sha256']
     article=validate_article()
+    t1=validate_t1()
     print(json.dumps(dict(integrity='PASS',recorded_results_consistency='PASS',
        manifest_files=len(seen),active_claims=len(claims),parsed_active_scripts=len(scripts),
        checked_navigation_links=links,superseded_editions_in_current_tree=False,
-       old_claims_mapped=len(oldmap),executed_reproductions=len(report['jobs']),article=article,
+       old_claims_mapped=len(oldmap),executed_reproductions=len(report['jobs']),T1=t1,article=article,
        scientific_or_experimental_validation=False,repository='DDF-Stabilized-5D-Radion'),indent=2))
 
 if __name__=='__main__':main()

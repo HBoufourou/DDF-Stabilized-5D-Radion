@@ -1,6 +1,6 @@
 {
   "name": "DDF-Stabilized-5D-Radion",
-  "edition": "2026-09-06 — correction et base de publications",
+  "edition": "2026-09-06 — correction et rejeu T1 / Z-light",
   "domain": "Modèle classique tronqué ; régime effectif déclaré, sans complétion UV ou validation expérimentale.",
   "conventions": {
     "signature": "-++++",
@@ -73,5 +73,21 @@
     "UV": "Candidate matching constraints only, extensions/UV",
     "affine": "Distinct comparison family, historical article and relations_spectrales"
   },
-  "article_1_scope": "Einstein–sigma core with quadratic boundary potentials; Phi=0; affine reference identified separately."
+  "article_1_scope": "Einstein–sigma core with quadratic boundary potentials; Phi=0; affine reference identified separately.",
+  "linear_T1": {
+    "verdict": "GREEN_IN_DECLARED_DOMAIN",
+    "action_modified_for_test": false,
+    "evidence": "noyau/T1_Z_LIGHT/VERDICT_T1.md",
+    "null_conditions": [
+      "flat smooth finite interval",
+      "B>0",
+      "sigma_prime nonzero everywhere",
+      "p_squared=0; p_mu nonzero",
+      "D_i=W_i+eta_i*U_i_second nonzero",
+      "vacuum matter; declared embedding gauge quotient"
+    ],
+    "massive_additional_condition": "eta_i*W_i+U_i_second>0",
+    "physical_null_spectrum": "Two positive massless graviton polarizations; scalar/longitudinal quotient trivial.",
+    "full_DDF_closed": false
+  }
 }

@@ -1,0 +1,2614 @@
+{
+  "scope": "Fixed-action symmetric quadratic flat backgrounds; nonzero null four-momentum. Numerical boundary replay supports, but does not replace, the analytic completeness and symplectic proof.",
+  "checks_passed": true,
+  "X1_verdict": "EXCLUDED_BY_FULL_ISRAEL_BOUNDARY_CONDITION",
+  "scalar_null_domain_verdict": "TRIVIAL_AFTER_GAUGE_QUOTIENT_IN_DECLARED_DOMAIN",
+  "degenerate_endpoints": "Not covered; rank-loss controls only, not a ghost verdict.",
+  "cases": [
+    {
+      "background": {
+        "mu": 1.0,
+        "lambda_brane": 0.1,
+        "v": 0.1,
+        "M5_cubed": 1.0,
+        "Lambda5": 5.0000000000000016e-05,
+        "tau_compatible": -0.0009169373481860328,
+        "L": 2.2752348008282777,
+        "A_endpoint": -2.71045279446406e-05,
+        "H_right": -5.907925864341801e-05,
+        "sigma_right": 0.013994211110194518,
+        "q_endpoint": 0.017201157777961096,
+        "qprime_right": 0.01399827603679184,
+        "I": 2.275197287983916,
+        "D0": -1.0137984790027952,
+        "DL": 1.0137984790027952,
+        "scalar_event_residual": -3.469446951953614e-18,
+        "Einstein_constraint": 1.2468324983583301e-18
+      },
+      "resolution_steps_per_unit": [
+        1024,
+        2048,
+        4096
+      ],
+      "max_refinement_absolute": {
+        "L": 2.353672812205332e-14,
+        "I": 2.042810365310288e-14,
+        "D0": 8.215650382226158e-15,
+        "DL": 8.215650382226158e-15
+      },
+      "boundary_matrix": [
+        [
+          0.0,
+          0.0,
+          -0.01743850759238406,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.01743850759238406
+        ],
+        [
+          0.0,
+          -1.0,
+          0.999945792413395,
+          0.0
+        ],
+        [
+          -4.550394575967832,
+          -1.0,
+          0.0,
+          0.999945792413395
+        ]
+      ],
+      "boundary_rank": 4,
+      "physical_scalar_null_dimension": 0,
+      "X1_full_Israel_checks": [
+        {
+          "side": 0,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 1,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -4.550641255247784,
+          "tensor": [
+            [
+              -2.2298142150714133,
+              2.2298142150714138,
+              0.0,
+              0.0
+            ],
+            [
+              2.2298142150714138,
+              -2.229814215071414,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -6.016995872787998e-16,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              -6.016995872787998e-16
+            ]
+          ],
+          "tensor_max_abs": 2.229814215071414,
+          "scalar_trace": -2.091577594257725e-15,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 6.016995872787998e-16
+        },
+        {
+          "side": 1,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -4.550641255247784,
+          "tensor": [
+            [
+              -4.550641255247784,
+              0.0,
+              0.0,
+              4.550641255247784
+            ],
+            [
+              0.0,
+              -1.5763445043304053e-16,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.5763445043304053e-16,
+              0.0
+            ],
+            [
+              4.550641255247784,
+              0.0,
+              0.0,
+              -4.550641255247784
+            ]
+          ],
+          "tensor_max_abs": 4.550641255247784,
+          "scalar_trace": -3.1526890086608106e-16,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 1.5763445043304053e-16
+        },
+        {
+          "side": 1,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -4.550641255247784,
+          "tensor": [
+            [
+              -18.20256502099114,
+              0.0,
+              18.202565020991138,
+              0.0
+            ],
+            [
+              0.0,
+              3.394886644333034e-15,
+              0.0,
+              0.0
+            ],
+            [
+              18.202565020991138,
+              0.0,
+              -18.202565020991134,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              3.394886644333034e-15
+            ]
+          ],
+          "tensor_max_abs": 18.20256502099114,
+          "scalar_trace": 1.389520064626707e-14,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 3.552713678800501e-15
+        }
+      ],
+      "affine_reconstructed_boundary_rank": 4,
+      "degenerate_control_ranks": [
+        3,
+        3,
+        2
+      ],
+      "chart_gauge_right_endpoint_violation": 4.550641255247784,
+      "edge_rescue_scalar_residual": 0.07935639207985462,
+      "raw_off_domain_norm_N": -6.8255918639517486,
+      "raw_norm_scope": "Formula to compare with independent covariant/ADM calculation; not itself a norm derivation.",
+      "tensor_zero_mode_kinetic_Z_unit_polarization": 0.568799321995979
+    },
+    {
+      "background": {
+        "mu": 1.0,
+        "lambda_brane": 0.1,
+        "v": 0.3,
+        "M5_cubed": 1.0,
+        "Lambda5": 0.00045000000000000004,
+        "tau_compatible": -0.00825284632555705,
+        "L": 2.2736693375010883,
+        "A_endpoint": -0.00024360018673528003,
+        "H_right": -0.0005313547656927428,
+        "sigma_right": 0.041953840786598445,
+        "q_endpoint": 0.05160923184268032,
+        "qprime_right": 0.04206353203177184,
+        "I": 2.2733324678669624,
+        "D0": -1.0150389093174939,
+        "DL": 1.0150389093174939,
+        "scalar_event_residual": 0.0,
+        "Einstein_constraint": 7.806255641895632e-18
+      },
+      "resolution_steps_per_unit": [
+        1024,
+        2048,
+        4096
+      ],
+      "max_refinement_absolute": {
+        "L": 7.993605777301127e-15,
+        "I": 8.43769498715119e-15,
+        "D0": 3.552713678800501e-15,
+        "DL": 3.552713678800501e-15
+      },
+      "boundary_matrix": [
+        [
+          0.0,
+          0.0,
+          -0.05238537840030791,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.05238537840030791
+        ],
+        [
+          0.0,
+          -1.0,
+          0.9995129182893597,
+          0.0
+        ],
+        [
+          -4.546664935733925,
+          -1.0,
+          0.0,
+          0.9995129182893597
+        ]
+      ],
+      "boundary_rank": 4,
+      "physical_scalar_null_dimension": 0,
+      "X1_full_Israel_checks": [
+        {
+          "side": 0,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 1,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -4.548880612284054,
+          "tensor": [
+            [
+              -2.228951500019187,
+              2.2289515000191864,
+              0.0,
+              0.0
+            ],
+            [
+              2.2289515000191864,
+              -2.228951500019186,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              3.3203773732658967e-16,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              3.3203773732658967e-16
+            ]
+          ],
+          "tensor_max_abs": 2.228951500019187,
+          "scalar_trace": 1.5522538943533045e-15,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 4.440892098500626e-16
+        },
+        {
+          "side": 1,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -4.548880612284054,
+          "tensor": [
+            [
+              -4.548880612284052,
+              0.0,
+              0.0,
+              4.548880612284054
+            ],
+            [
+              0.0,
+              -1.4434538711456182e-15,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.4434538711456182e-15,
+              0.0
+            ],
+            [
+              4.548880612284054,
+              0.0,
+              0.0,
+              -4.548880612284056
+            ]
+          ],
+          "tensor_max_abs": 4.548880612284056,
+          "scalar_trace": -6.439621421091737e-15,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 1.7763568394002505e-15
+        },
+        {
+          "side": 1,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -4.548880612284054,
+          "tensor": [
+            [
+              -18.195522449136213,
+              0.0,
+              18.195522449136217,
+              0.0
+            ],
+            [
+              0.0,
+              -4.10669128385393e-15,
+              0.0,
+              0.0
+            ],
+            [
+              18.195522449136217,
+              0.0,
+              -18.19552244913622,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              -4.10669128385393e-15
+            ]
+          ],
+          "tensor_max_abs": 18.19552244913622,
+          "scalar_trace": -1.531880992530886e-14,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 4.10669128385393e-15
+        }
+      ],
+      "affine_reconstructed_boundary_rank": 4,
+      "degenerate_control_ranks": [
+        3,
+        3,
+        2
+      ],
+      "chart_gauge_right_endpoint_violation": 4.548880612284054,
+      "edge_rescue_scalar_residual": 0.2382948321723245,
+      "raw_off_domain_norm_N": -6.819997403600887,
+      "raw_norm_scope": "Formula to compare with independent covariant/ADM calculation; not itself a norm derivation.",
+      "tensor_zero_mode_kinetic_Z_unit_polarization": 0.5683331169667406
+    },
+    {
+      "background": {
+        "mu": 1.0,
+        "lambda_brane": 0.1,
+        "v": 0.5,
+        "M5_cubed": 1.0,
+        "Lambda5": 0.0012500000000000002,
+        "tau_compatible": -0.022926845919479827,
+        "L": 2.270548508979344,
+        "A_endpoint": -0.0006747833449789352,
+        "H_right": -0.0014739999007957448,
+        "sigma_right": 0.06982740420742059,
+        "q_endpoint": 0.08603451915851588,
+        "qprime_right": 0.07033466369823924,
+        "I": 2.269616880868151,
+        "D0": -1.0175167872868545,
+        "DL": 1.0175167872868545,
+        "scalar_event_residual": 0.0,
+        "Einstein_constraint": 6.071532165918825e-18
+      },
+      "resolution_steps_per_unit": [
+        1024,
+        2048,
+        4096
+      ],
+      "max_refinement_absolute": {
+        "L": 1.6431300764452317e-14,
+        "I": 1.687538997430238e-14,
+        "D0": 1.3322676295501878e-15,
+        "DL": 1.3322676295501878e-15
+      },
+      "boundary_matrix": [
+        [
+          0.0,
+          0.0,
+          -0.08754156752994241,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.08754156752994241
+        ],
+        [
+          0.0,
+          -1.0,
+          0.9986513435656379,
+          0.0
+        ],
+        [
+          -4.539233761736302,
+          -1.0,
+          0.0,
+          0.9986513435656379
+        ]
+      ],
+      "boundary_rank": 4,
+      "physical_scalar_null_dimension": 0,
+      "X1_full_Israel_checks": [
+        {
+          "side": 0,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 1,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -4.545363896001161,
+          "tensor": [
+            [
+              -2.2272283090405685,
+              2.227228309040569,
+              0.0,
+              0.0
+            ],
+            [
+              2.227228309040569,
+              -2.2272283090405693,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -5.630247772497049e-16,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              -5.630247772497049e-16
+            ]
+          ],
+          "tensor_max_abs": 2.2272283090405693,
+          "scalar_trace": -2.014227974199535e-15,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 5.630247772497049e-16
+        },
+        {
+          "side": 1,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -4.545363896001161,
+          "tensor": [
+            [
+              -4.54536389600116,
+              0.0,
+              0.0,
+              4.545363896001161
+            ],
+            [
+              0.0,
+              -1.0065150633294724e-15,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0065150633294724e-15,
+              0.0
+            ],
+            [
+              4.545363896001161,
+              0.0,
+              0.0,
+              -4.545363896001162
+            ]
+          ],
+          "tensor_max_abs": 4.545363896001162,
+          "scalar_trace": -3.789386966059195e-15,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 1.0065150633294724e-15
+        },
+        {
+          "side": 1,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -4.545363896001161,
+          "tensor": [
+            [
+              -18.181455584004645,
+              0.0,
+              18.181455584004645,
+              0.0
+            ],
+            [
+              0.0,
+              -1.1953449116993734e-16,
+              0.0,
+              0.0
+            ],
+            [
+              18.181455584004645,
+              0.0,
+              -18.181455584004645,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              -1.1953449116993734e-16
+            ]
+          ],
+          "tensor_max_abs": 18.181455584004645,
+          "scalar_trace": -2.390689823398747e-16,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 1.1953449116993734e-16
+        }
+      ],
+      "affine_reconstructed_boundary_rank": 4,
+      "degenerate_control_ranks": [
+        3,
+        3,
+        2
+      ],
+      "chart_gauge_right_endpoint_violation": 4.545363896001161,
+      "edge_rescue_scalar_residual": 0.3979082804499478,
+      "raw_off_domain_norm_N": -6.808850642604453,
+      "raw_norm_scope": "Formula to compare with independent covariant/ADM calculation; not itself a norm derivation.",
+      "tensor_zero_mode_kinetic_Z_unit_polarization": 0.5674042202170377
+    },
+    {
+      "background": {
+        "mu": 1.0,
+        "lambda_brane": 0.5,
+        "v": 0.1,
+        "M5_cubed": 1.0,
+        "Lambda5": 0.0012500000000000002,
+        "tau_compatible": -0.003991997079969943,
+        "L": 1.385067618979152,
+        "A_endpoint": -0.0002169299919277436,
+        "H_right": -0.0006790475171724385,
+        "sigma_right": 0.037472333668165304,
+        "q_endpoint": 0.0625276663318347,
+        "qprime_right": 0.03764217069447418,
+        "I": 1.3848738220236223,
+        "D0": -1.6020082453534563,
+        "DL": 1.6020082453534563,
+        "scalar_event_residual": -1.3877787807814457e-17,
+        "Einstein_constraint": -8.673617379884035e-19
+      },
+      "resolution_steps_per_unit": [
+        1024,
+        2048,
+        4096
+      ],
+      "max_refinement_absolute": {
+        "L": 1.199040866595169e-14,
+        "I": 1.0880185641326534e-14,
+        "D0": 4.440892098500626e-16,
+        "DL": 4.440892098500626e-16
+      },
+      "boundary_matrix": [
+        [
+          0.0,
+          0.0,
+          -0.10016983702630888,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.10016983702630888
+        ],
+        [
+          0.0,
+          -1.0,
+          0.9995662341197775,
+          0.0
+        ],
+        [
+          -2.7697476440472446,
+          -1.0,
+          0.0,
+          0.9995662341197775
+        ]
+      ],
+      "boundary_rank": 4,
+      "physical_scalar_null_dimension": 0,
+      "X1_full_Israel_checks": [
+        {
+          "side": 0,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 1,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -2.77094958743409,
+          "tensor": [
+            [
+              -1.357765297842704,
+              1.357765297842704,
+              0.0,
+              0.0
+            ],
+            [
+              1.357765297842704,
+              -1.357765297842704,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -8.496457959394406e-17,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              -8.496457959394406e-17
+            ]
+          ],
+          "tensor_max_abs": 1.357765297842704,
+          "scalar_trace": -1.6992915918788812e-16,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 8.496457959394406e-17
+        },
+        {
+          "side": 1,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -2.77094958743409,
+          "tensor": [
+            [
+              -2.7709495874340897,
+              0.0,
+              0.0,
+              2.77094958743409
+            ],
+            [
+              0.0,
+              -3.069128691454714e-16,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -3.069128691454714e-16,
+              0.0
+            ],
+            [
+              2.77094958743409,
+              0.0,
+              0.0,
+              -2.7709495874340906
+            ]
+          ],
+          "tensor_max_abs": 2.7709495874340906,
+          "scalar_trace": -1.502004157991068e-15,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 4.440892098500626e-16
+        },
+        {
+          "side": 1,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -2.77094958743409,
+          "tensor": [
+            [
+              -11.08379834973636,
+              0.0,
+              11.08379834973636,
+              0.0
+            ],
+            [
+              0.0,
+              5.80880289060638e-16,
+              0.0,
+              0.0
+            ],
+            [
+              11.08379834973636,
+              0.0,
+              -11.08379834973636,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              5.80880289060638e-16
+            ]
+          ],
+          "tensor_max_abs": 11.08379834973636,
+          "scalar_trace": 1.161760578121276e-15,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 5.80880289060638e-16
+        }
+      ],
+      "affine_reconstructed_boundary_rank": 4,
+      "degenerate_control_ranks": [
+        3,
+        3,
+        2
+      ],
+      "chart_gauge_right_endpoint_violation": 2.7709495874340897,
+      "edge_rescue_scalar_residual": 0.2775655685813906,
+      "raw_off_domain_norm_N": -4.154621466070867,
+      "raw_norm_scope": "Formula to compare with independent covariant/ADM calculation; not itself a norm derivation.",
+      "tensor_zero_mode_kinetic_Z_unit_polarization": 0.3462184555059056
+    },
+    {
+      "background": {
+        "mu": 1.0,
+        "lambda_brane": 0.5,
+        "v": 0.3,
+        "M5_cubed": 1.0,
+        "Lambda5": 0.01125,
+        "tau_compatible": -0.03596816493373049,
+        "L": 1.3753699178365695,
+        "A_endpoint": -0.0019274040297463171,
+        "H_right": -0.006083658366893547,
+        "sigma_right": 0.11175978201749841,
+        "q_endpoint": 0.18824021798250157,
+        "qprime_right": 0.11634053872595886,
+        "I": 1.3736626903359728,
+        "D0": -1.6180429451944942,
+        "DL": 1.6180429451944942,
+        "scalar_event_residual": 0.0,
+        "Einstein_constraint": -2.7755575615628914e-17
+      },
+      "resolution_steps_per_unit": [
+        1024,
+        2048,
+        4096
+      ],
+      "max_refinement_absolute": {
+        "L": 8.43769498715119e-15,
+        "I": 1.3100631690576847e-14,
+        "D0": 2.220446049250313e-15,
+        "DL": 2.220446049250313e-15
+      },
+      "boundary_matrix": [
+        [
+          0.0,
+          0.0,
+          -0.3045807567084604,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.3045807567084604
+        ],
+        [
+          0.0,
+          -1.0,
+          0.9961526121755059,
+          0.0
+        ],
+        [
+          -2.7473253806719455,
+          -1.0,
+          0.0,
+          0.9961526121755059
+        ]
+      ],
+      "boundary_rank": 4,
+      "physical_scalar_null_dimension": 0,
+      "X1_full_Israel_checks": [
+        {
+          "side": 0,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 1,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -2.7579362309476245,
+          "tensor": [
+            [
+              -1.3513887531643358,
+              1.3513887531643358,
+              0.0,
+              0.0
+            ],
+            [
+              1.3513887531643358,
+              -1.3513887531643358,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -6.220977559187292e-17,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              -6.220977559187292e-17
+            ]
+          ],
+          "tensor_max_abs": 1.3513887531643358,
+          "scalar_trace": -1.2441955118374583e-16,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 6.220977559187292e-17
+        },
+        {
+          "side": 1,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -2.7579362309476245,
+          "tensor": [
+            [
+              -2.7579362309476245,
+              0.0,
+              0.0,
+              2.7579362309476245
+            ],
+            [
+              0.0,
+              1.5898053762367522e-16,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.5898053762367522e-16,
+              0.0
+            ],
+            [
+              2.7579362309476245,
+              0.0,
+              0.0,
+              -2.7579362309476245
+            ]
+          ],
+          "tensor_max_abs": 2.7579362309476245,
+          "scalar_trace": 3.1796107524735044e-16,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 1.5898053762367522e-16
+        },
+        {
+          "side": 1,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -2.7579362309476245,
+          "tensor": [
+            [
+              -11.031744923790498,
+              0.0,
+              11.031744923790498,
+              0.0
+            ],
+            [
+              0.0,
+              -7.257807152385173e-16,
+              0.0,
+              0.0
+            ],
+            [
+              11.031744923790498,
+              0.0,
+              -11.031744923790498,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              -7.257807152385173e-16
+            ]
+          ],
+          "tensor_max_abs": 11.031744923790498,
+          "scalar_trace": -1.4515614304770346e-15,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 7.257807152385173e-16
+        }
+      ],
+      "affine_reconstructed_boundary_rank": 4,
+      "degenerate_control_ranks": [
+        3,
+        3,
+        2
+      ],
+      "chart_gauge_right_endpoint_violation": 2.7579362309476245,
+      "edge_rescue_scalar_residual": 0.8400143041757067,
+      "raw_off_domain_norm_N": -4.120988071007918,
+      "raw_norm_scope": "Formula to compare with independent covariant/ADM calculation; not itself a norm derivation.",
+      "tensor_zero_mode_kinetic_Z_unit_polarization": 0.3434156725839932
+    },
+    {
+      "background": {
+        "mu": 1.0,
+        "lambda_brane": 0.5,
+        "v": 0.5,
+        "M5_cubed": 1.0,
+        "Lambda5": 0.03125,
+        "tau_compatible": -0.10012977313537308,
+        "L": 1.356573401563858,
+        "A_endpoint": -0.005220470579326807,
+        "H_right": -0.01674804003851975,
+        "sigma_right": 0.18413403785841748,
+        "q_endpoint": 0.3158659621415826,
+        "qprime_right": 0.20529458098142864,
+        "I": 1.3520257652914263,
+        "D0": -1.649942081728351,
+        "DL": 1.649942081728351,
+        "scalar_event_residual": 5.551115123125783e-17,
+        "Einstein_constraint": -1.1449174941446927e-16
+      },
+      "resolution_steps_per_unit": [
+        1024,
+        2048,
+        4096
+      ],
+      "max_refinement_absolute": {
+        "L": 1.3100631690576847e-14,
+        "I": 1.6653345369377348e-14,
+        "D0": 8.881784197001252e-16,
+        "DL": 8.881784197001252e-16
+      },
+      "boundary_matrix": [
+        [
+          0.0,
+          0.0,
+          -0.5211605431230113,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.5211605431230113
+        ],
+        [
+          0.0,
+          -1.0,
+          0.9896133762614567,
+          0.0
+        ],
+        [
+          -2.7040515305828525,
+          -1.0,
+          0.0,
+          0.9896133762614567
+        ]
+      ],
+      "boundary_rank": 4,
+      "physical_scalar_null_dimension": 0,
+      "X1_full_Israel_checks": [
+        {
+          "side": 0,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 1,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -2.7324322765302234,
+          "tensor": [
+            [
+              -1.3388918154998095,
+              1.3388918154998093,
+              0.0,
+              0.0
+            ],
+            [
+              1.3388918154998093,
+              -1.338891815499809,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.6480373337037613e-16,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.6480373337037613e-16
+            ]
+          ],
+          "tensor_max_abs": 1.3388918154998095,
+          "scalar_trace": 7.736966765908149e-16,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 2.220446049250313e-16
+        },
+        {
+          "side": 1,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -2.7324322765302234,
+          "tensor": [
+            [
+              -2.7324322765302234,
+              0.0,
+              0.0,
+              2.7324322765302234
+            ],
+            [
+              0.0,
+              1.6480373337037613e-16,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.6480373337037613e-16,
+              0.0
+            ],
+            [
+              2.7324322765302234,
+              0.0,
+              0.0,
+              -2.7324322765302234
+            ]
+          ],
+          "tensor_max_abs": 2.7324322765302234,
+          "scalar_trace": 3.2960746674075225e-16,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 1.6480373337037613e-16
+        },
+        {
+          "side": 1,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -2.7324322765302234,
+          "tensor": [
+            [
+              -10.929729106120893,
+              0.0,
+              10.929729106120893,
+              0.0
+            ],
+            [
+              0.0,
+              -2.746728889506269e-16,
+              0.0,
+              0.0
+            ],
+            [
+              10.929729106120893,
+              0.0,
+              -10.929729106120893,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              -2.746728889506269e-16
+            ]
+          ],
+          "tensor_max_abs": 10.929729106120893,
+          "scalar_trace": -5.493457779012538e-16,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 2.746728889506269e-16
+        }
+      ],
+      "affine_reconstructed_boundary_rank": 4,
+      "degenerate_control_ranks": [
+        3,
+        3,
+        2
+      ],
+      "chart_gauge_right_endpoint_violation": 2.732432276530223,
+      "edge_rescue_scalar_residual": 1.4240358892833371,
+      "raw_off_domain_norm_N": -4.056077295874279,
+      "raw_norm_scope": "Formula to compare with independent covariant/ADM calculation; not itself a norm derivation.",
+      "tensor_zero_mode_kinetic_Z_unit_polarization": 0.33800644132285657
+    },
+    {
+      "background": {
+        "mu": 1.0,
+        "lambda_brane": 2.0,
+        "v": 0.1,
+        "M5_cubed": 1.0,
+        "Lambda5": 0.020000000000000004,
+        "tau_compatible": -0.015103790014062493,
+        "L": 0.47987921178578025,
+        "A_endpoint": -0.00038771899531700184,
+        "H_right": -0.00326469268441582,
+        "sigma_right": 0.04847470543114269,
+        "q_endpoint": 0.20610117827542926,
+        "qprime_right": 0.05116613346700379,
+        "I": 0.47975570407397133,
+        "D0": -4.2482573554170875,
+        "DL": 4.2482573554170875,
+        "scalar_event_residual": 0.0,
+        "Einstein_constraint": -3.664603343001005e-17
+      },
+      "resolution_steps_per_unit": [
+        1024,
+        2048,
+        4096
+      ],
+      "max_refinement_absolute": {
+        "L": 5.995204332975845e-15,
+        "I": 5.9396931817445875e-15,
+        "D0": 8.881784197001252e-16,
+        "DL": 8.881784197001252e-16
+      },
+      "boundary_matrix": [
+        [
+          0.0,
+          0.0,
+          -0.8755708465687208,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.8755708465687208
+        ],
+        [
+          0.0,
+          -1.0,
+          0.9992248625837074,
+          0.0
+        ],
+        [
+          -0.9595114081479427,
+          -1.0,
+          0.0,
+          0.9992248625837074
+        ]
+      ],
+      "boundary_rank": 4,
+      "physical_scalar_null_dimension": 0,
+      "X1_full_Israel_checks": [
+        {
+          "side": 0,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 1,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -0.9602557382999086,
+          "tensor": [
+            [
+              -0.47052531176695517,
+              0.47052531176695517,
+              0.0,
+              0.0
+            ],
+            [
+              0.47052531176695517,
+              -0.47052531176695517,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.733378826903656e-17,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.733378826903656e-17
+            ]
+          ],
+          "tensor_max_abs": 0.47052531176695517,
+          "scalar_trace": 3.466757653807312e-17,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 1.733378826903656e-17
+        },
+        {
+          "side": 1,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -0.9602557382999086,
+          "tensor": [
+            [
+              -0.9602557382999087,
+              0.0,
+              0.0,
+              0.9602557382999086
+            ],
+            [
+              0.0,
+              1.2827003319087056e-16,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.2827003319087056e-16,
+              0.0
+            ],
+            [
+              0.9602557382999086,
+              0.0,
+              0.0,
+              -0.9602557382999085
+            ]
+          ],
+          "tensor_max_abs": 0.9602557382999087,
+          "scalar_trace": 4.785846713067725e-16,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 1.2827003319087056e-16
+        },
+        {
+          "side": 1,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -0.9602557382999086,
+          "tensor": [
+            [
+              -3.8410229531996345,
+              0.0,
+              3.8410229531996345,
+              0.0
+            ],
+            [
+              0.0,
+              -2.0453870157463143e-16,
+              0.0,
+              0.0
+            ],
+            [
+              3.8410229531996345,
+              0.0,
+              -3.8410229531996345,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              -2.0453870157463143e-16
+            ]
+          ],
+          "tensor_max_abs": 3.8410229531996345,
+          "scalar_trace": -4.0907740314926285e-16,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 2.0453870157463143e-16
+        }
+      ],
+      "affine_reconstructed_boundary_rank": 4,
+      "degenerate_control_ranks": [
+        3,
+        3,
+        2
+      ],
+      "chart_gauge_right_endpoint_violation": 0.9602557382999087,
+      "edge_rescue_scalar_residual": 0.840771929705723,
+      "raw_off_domain_norm_N": -1.439267112221914,
+      "raw_norm_scope": "Formula to compare with independent covariant/ADM calculation; not itself a norm derivation.",
+      "tensor_zero_mode_kinetic_Z_unit_polarization": 0.11993892601849283
+    },
+    {
+      "background": {
+        "mu": 1.0,
+        "lambda_brane": 2.0,
+        "v": 0.3,
+        "M5_cubed": 1.0,
+        "Lambda5": 0.18,
+        "tau_compatible": -0.13629073532284472,
+        "L": 0.47245449883542734,
+        "A_endpoint": -0.0033949676846635295,
+        "H_right": -0.029145051566486082,
+        "sigma_right": 0.1437060771760679,
+        "q_endpoint": 0.6251756912957284,
+        "qprime_right": 0.21658918821977824,
+        "I": 0.471393273844931,
+        "D0": -4.346445313270065,
+        "DL": 4.346445313270065,
+        "scalar_event_residual": 0.0,
+        "Einstein_constraint": -1.682681771697503e-16
+      },
+      "resolution_steps_per_unit": [
+        1024,
+        2048,
+        4096
+      ],
+      "max_refinement_absolute": {
+        "L": 1.304512053934559e-14,
+        "I": 1.5987211554602254e-14,
+        "D0": 8.881784197001252e-16,
+        "DL": 8.881784197001252e-16
+      },
+      "boundary_matrix": [
+        [
+          0.0,
+          0.0,
+          -2.717291953402692,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          2.717291953402692
+        ],
+        [
+          0.0,
+          -1.0,
+          0.9932330641572921,
+          0.0
+        ],
+        [
+          -0.942786547689862,
+          -1.0,
+          0.0,
+          0.9932330641572921
+        ]
+      ],
+      "boundary_rank": 4,
+      "physical_scalar_null_dimension": 0,
+      "X1_full_Israel_checks": [
+        {
+          "side": 0,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 1,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -0.9492097894362475,
+          "tensor": [
+            [
+              -0.46511279682376117,
+              0.46511279682376117,
+              0.0,
+              0.0
+            ],
+            [
+              0.46511279682376117,
+              -0.46511279682376117,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -2.7567755416160524e-17,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              -2.7567755416160524e-17
+            ]
+          ],
+          "tensor_max_abs": 0.46511279682376117,
+          "scalar_trace": -5.513551083232105e-17,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 2.7567755416160524e-17
+        },
+        {
+          "side": 1,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -0.9492097894362475,
+          "tensor": [
+            [
+              -0.9492097894362473,
+              0.0,
+              0.0,
+              0.9492097894362475
+            ],
+            [
+              0.0,
+              -2.7567755416160524e-17,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -2.7567755416160524e-17,
+              0.0
+            ],
+            [
+              0.9492097894362475,
+              0.0,
+              0.0,
+              -0.9492097894362475
+            ]
+          ],
+          "tensor_max_abs": 0.9492097894362475,
+          "scalar_trace": -1.661578132948367e-16,
+          "scalar_double_projection": 1.1102230246251565e-16,
+          "direct_vs_chi_formula_max_abs": 1.1102230246251565e-16
+        },
+        {
+          "side": 1,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -0.9492097894362475,
+          "tensor": [
+            [
+              -3.79683915774499,
+              0.0,
+              3.79683915774499,
+              0.0
+            ],
+            [
+              0.0,
+              8.270326624848157e-17,
+              0.0,
+              0.0
+            ],
+            [
+              3.79683915774499,
+              0.0,
+              -3.79683915774499,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              8.270326624848157e-17
+            ]
+          ],
+          "tensor_max_abs": 3.79683915774499,
+          "scalar_trace": 1.6540653249696315e-16,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 8.270326624848157e-17
+        }
+      ],
+      "affine_reconstructed_boundary_rank": 4,
+      "degenerate_control_ranks": [
+        3,
+        3,
+        2
+      ],
+      "chart_gauge_right_endpoint_violation": 0.9492097894362475,
+      "edge_rescue_scalar_residual": 2.579280122926179,
+      "raw_off_domain_norm_N": -1.414179821534793,
+      "raw_norm_scope": "Formula to compare with independent covariant/ADM calculation; not itself a norm derivation.",
+      "tensor_zero_mode_kinetic_Z_unit_polarization": 0.11784831846123275
+    },
+    {
+      "background": {
+        "mu": 1.0,
+        "lambda_brane": 2.0,
+        "v": 0.5,
+        "M5_cubed": 1.0,
+        "Lambda5": 0.5,
+        "tau_compatible": -0.3804733179370875,
+        "L": 0.45867340531930223,
+        "A_endpoint": -0.008949922952839954,
+        "H_right": -0.07969795959587991,
+        "sigma_right": 0.23412461645589697,
+        "q_endpoint": 1.063501534176412,
+        "qprime_right": 0.5731602256596889,
+        "I": 0.4559739000392227,
+        "D0": -4.538936905345935,
+        "DL": 4.538936905345935,
+        "scalar_event_residual": 0.0,
+        "Einstein_constraint": -1.5265566588595902e-15
+      },
+      "resolution_steps_per_unit": [
+        1024,
+        2048,
+        4096
+      ],
+      "max_refinement_absolute": {
+        "L": 3.7136960173711486e-14,
+        "I": 5.051514762044462e-14,
+        "D0": 6.217248937900877e-15,
+        "DL": 6.217248937900877e-15
+      },
+      "boundary_matrix": [
+        [
+          0.0,
+          0.0,
+          -4.827166362365338,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          4.827166362365338
+        ],
+        [
+          0.0,
+          -1.0,
+          0.9822594047330889,
+          0.0
+        ],
+        [
+          -0.9119478000784454,
+          -1.0,
+          0.0,
+          0.9822594047330889
+        ]
+      ],
+      "boundary_rank": 4,
+      "physical_scalar_null_dimension": 0,
+      "X1_full_Israel_checks": [
+        {
+          "side": 0,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 0,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -0.0,
+          "tensor": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.0,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 1,
+          "omega": 0.7,
+          "axis": 1,
+          "chi": -0.9284184968697252,
+          "tensor": [
+            [
+              -0.4549250634661653,
+              0.4549250634661653,
+              0.0,
+              0.0
+            ],
+            [
+              0.4549250634661653,
+              -0.4549250634661653,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "tensor_max_abs": 0.4549250634661653,
+          "scalar_trace": 0.0,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 0.0
+        },
+        {
+          "side": 1,
+          "omega": 1.0,
+          "axis": 3,
+          "chi": -0.9284184968697252,
+          "tensor": [
+            [
+              -0.9284184968697252,
+              0.0,
+              0.0,
+              0.9284184968697252
+            ],
+            [
+              0.0,
+              -1.0905270072892758e-16,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0905270072892758e-16,
+              0.0
+            ],
+            [
+              0.9284184968697252,
+              0.0,
+              0.0,
+              -0.9284184968697252
+            ]
+          ],
+          "tensor_max_abs": 0.9284184968697252,
+          "scalar_trace": -2.1810540145785516e-16,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 1.0905270072892758e-16
+        },
+        {
+          "side": 1,
+          "omega": 2.0,
+          "axis": 2,
+          "chi": -0.9284184968697252,
+          "tensor": [
+            [
+              -3.713673987478901,
+              0.0,
+              3.713673987478901,
+              0.0
+            ],
+            [
+              0.0,
+              1.0905270072892758e-16,
+              0.0,
+              0.0
+            ],
+            [
+              3.713673987478901,
+              0.0,
+              -3.713673987478901,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0905270072892758e-16
+            ]
+          ],
+          "tensor_max_abs": 3.713673987478901,
+          "scalar_trace": 2.1810540145785516e-16,
+          "scalar_double_projection": 0.0,
+          "direct_vs_chi_formula_max_abs": 1.0905270072892758e-16
+        }
+      ],
+      "affine_reconstructed_boundary_rank": 4,
+      "degenerate_control_ranks": [
+        3,
+        3,
+        2
+      ],
+      "chart_gauge_right_endpoint_violation": 0.9284184968697252,
+      "edge_rescue_scalar_residual": 4.481630538287326,
+      "raw_off_domain_norm_N": -1.3679217001176682,
+      "raw_norm_scope": "Formula to compare with independent covariant/ADM calculation; not itself a norm derivation.",
+      "tensor_zero_mode_kinetic_Z_unit_polarization": 0.11399347500980568
+    }
+  ],
+  "software": {
+    "python": "3.12.14"
+  },
+  "script_sha256": "8fac03fbc7ef707a8259cb684d1f2533ea4af164ceea30536bc19c5a10b8e7cf"
+}

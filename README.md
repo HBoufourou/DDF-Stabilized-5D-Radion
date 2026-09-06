@@ -1,13 +1,14 @@
 # DDF-Stabilized-5D-Radion
 
-**Version corrigée du modèle effectif et base de publications — 6 septembre 2026.**
+**Version corrigée avec rejeu T1 / Z-light — 6 septembre 2026.**
 
 Ce dossier poursuit le [même dépôt GitHub](https://github.com/HBoufourou/DDF-Stabilized-5D-Radion). Une action active définit la gravité 5D sur intervalle, le stabilisateur et ses bords quadratiques, puis un champ complexe minimal. Les paramètres libres, les théorèmes conditionnels et les questions ouvertes sont identifiés. La motivation « dark dimension » de Montero–Vafa–Valenzuela est un contexte ; elle ne détermine pas les constantes de cette action.
 
-Lire d'abord [la théorie en français](THEORIE_DDF.pdf), ou [sa version texte](THEORIE_DDF.md). Pour la publication, ouvrir le [premier manuscrit anglais](publications/article_1/manuscript.pdf) et [la base des articles suivants](publications/BASE_PUBLICATIONS_FR.md).
+Lire d'abord [la théorie en français](THEORIE_DDF.pdf), ou [sa version texte](THEORIE_DDF.md). Pour la publication, ouvrir le [premier manuscrit anglais](publications/article_1/manuscript.pdf) avec [son supplément T1](publications/article_1/T1_SUPPLEMENT.md), puis [la base des articles suivants](publications/BASE_PUBLICATIONS_FR.md). Le supplément est livré séparément ; il n’est pas incorporé au PDF principal ni à la synthèse PDF française.
 
 | Entrée | Contenu |
 |---|---|
+| [T1 / Z-light : verdict et preuves](noyau/T1_Z_LIGHT/VERDICT_T1.md) | GREEN dans le domaine linéaire plat déclaré ; X₁ hors domaine, deux polarisations gravitationnelles positives ; cinq programmes de rejeu |
 | [Premier manuscrit](publications/article_1/manuscript.md) | Bords quadratiques, longueur, spectre, couplages et courbure ; sources TeX/JSON/PDF |
 | [Audit de correction et de complétude](AUDIT_CORRECTIONS_ET_COMPLETUDE.md) | Les 15 nouveaux fichiers reçus, les erreurs corrigées et les points restant ouverts |
 | [Réponse à l'avis scientifique](audits/REPONSE_AVIS_ARTICLE1.md) | Objection → section et preuve effectivement intégrées |

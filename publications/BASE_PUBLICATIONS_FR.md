@@ -31,3 +31,5 @@ Un futur article restreint sur cette extension demanderait une action et des con
 ## Ce que signifie « base de publications »
 
 Il s'agit d'un premier texte complet et de résultats organisés permettant d'écrire les suivants, selon des périmètres scientifiques explicites. Aucun calendrier de publication ni nombre garanti d'articles n'est annoncé. Résoudre la constante cosmologique ou démontrer une complétion UV n'est pas une condition universelle pour publier une étude classique limitée ; ces problèmes deviennent nécessaires uniquement si l'article revendique leur résolution. L'originalité exacte et l'intérêt éditorial restent à apprécier sur le texte et ses résultats.
+
+Le premier manuscrit est désormais accompagné du [supplément T1 / Z-light](article_1/T1_SUPPLEMENT.md). Celui-ci complète le domaine de stabilité linéaire du même modèle. Il ne constitue pas un nouvel article indépendant ni une garantie de publication.

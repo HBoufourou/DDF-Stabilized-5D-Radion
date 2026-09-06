@@ -1,0 +1,202 @@
+{
+  "scope": "Covariant bulk current, explicit GHY C variation, and canonical ADM plus tilt; E=0 scalar sector and one TT polarization.",
+  "random_component_checks": 100,
+  "maximum_current_divergence_residual": 2.3092638912203256e-14,
+  "X1_analytic_expected_coefficients_in_units_BI": {
+    "covariant_bulk_Z": -2,
+    "covariant_GHY_corner_Z": -4,
+    "canonical_ADM_bulk_Z": 0,
+    "canonical_ADM_tilt_Z": -6,
+    "complete_Z": -6,
+    "complete_N_equal_Z_over_2": -3,
+    "physical_state": false
+  },
+  "examples": [
+    {
+      "kind": "raw_X1",
+      "inputs": {
+        "a": 1.2,
+        "Ap": 0.0,
+        "sigp": 0.4,
+        "F": -1,
+        "Fp": 0,
+        "G": 0,
+        "Gp": 0,
+        "b": -1.4,
+        "bp": -2.0,
+        "s": 0,
+        "sp": 0
+      },
+      "covariant_bulk_Z": -2.879999999999997,
+      "covariant_imaginary_residual": -0.0,
+      "canonical_adm_bulk_Z": 0.0,
+      "derivative_ansatz_action_coefficient": 4.545792,
+      "difference_cov_minus_adm": -2.879999999999997,
+      "expected_cov_minus_adm_divergence": -2.88,
+      "divergence_identity_residual": 3.1086244689504383e-15
+    },
+    {
+      "kind": "pure_gauge",
+      "inputs": {
+        "a": 1.2,
+        "Ap": 0.0,
+        "sigp": 0.4,
+        "F": 0.0,
+        "Fp": -0.037333333333333336,
+        "G": -0.3,
+        "Gp": 0.1,
+        "b": 0.7,
+        "bp": -0.3,
+        "s": 0.27999999999999997,
+        "sp": -0.12
+      },
+      "covariant_bulk_Z": -0.07756800000000001,
+      "covariant_imaginary_residual": -0.0,
+      "canonical_adm_bulk_Z": 0.0,
+      "derivative_ansatz_action_coefficient": 0.0,
+      "difference_cov_minus_adm": -0.07756800000000001,
+      "expected_cov_minus_adm_divergence": -0.07756799999999998,
+      "divergence_identity_residual": -2.7755575615628914e-17
+    },
+    {
+      "kind": "raw_X1",
+      "inputs": {
+        "a": 1.2,
+        "Ap": -0.2,
+        "sigp": 0.4,
+        "F": -1,
+        "Fp": 0,
+        "G": 0,
+        "Gp": 0,
+        "b": -1.4,
+        "bp": -2.56,
+        "s": 0,
+        "sp": 0
+      },
+      "covariant_bulk_Z": -2.8800000000000026,
+      "covariant_imaginary_residual": -0.0,
+      "canonical_adm_bulk_Z": 0.0,
+      "derivative_ansatz_action_coefficient": 7.303679999999998,
+      "difference_cov_minus_adm": -2.8800000000000026,
+      "expected_cov_minus_adm_divergence": -2.88,
+      "divergence_identity_residual": -2.6645352591003757e-15
+    },
+    {
+      "kind": "pure_gauge",
+      "inputs": {
+        "a": 1.2,
+        "Ap": -0.2,
+        "sigp": 0.4,
+        "F": -0.13999999999999999,
+        "Fp": 0.02266666666666666,
+        "G": -0.3,
+        "Gp": 0.1,
+        "b": 0.7,
+        "bp": -0.3,
+        "s": 0.27999999999999997,
+        "sp": -0.12
+      },
+      "covariant_bulk_Z": -0.31545599999999996,
+      "covariant_imaginary_residual": -0.0,
+      "canonical_adm_bulk_Z": 0.0,
+      "derivative_ansatz_action_coefficient": 0.0,
+      "difference_cov_minus_adm": -0.31545599999999996,
+      "expected_cov_minus_adm_divergence": -0.31545599999999996,
+      "divergence_identity_residual": 0.0
+    },
+    {
+      "kind": "raw_X1",
+      "inputs": {
+        "a": 1.2,
+        "Ap": 0.3,
+        "sigp": 0.4,
+        "F": -1,
+        "Fp": 0,
+        "G": 0,
+        "Gp": 0,
+        "b": -1.4,
+        "bp": -1.1600000000000001,
+        "s": 0,
+        "sp": 0
+      },
+      "covariant_bulk_Z": -2.879999999999995,
+      "covariant_imaginary_residual": -0.0,
+      "canonical_adm_bulk_Z": 0.0,
+      "derivative_ansatz_action_coefficient": 1.6790400000000005,
+      "difference_cov_minus_adm": -2.879999999999995,
+      "expected_cov_minus_adm_divergence": -2.88,
+      "divergence_identity_residual": 4.884981308350689e-15
+    },
+    {
+      "kind": "pure_gauge",
+      "inputs": {
+        "a": 1.2,
+        "Ap": 0.3,
+        "sigp": 0.4,
+        "F": 0.21,
+        "Fp": -0.12733333333333333,
+        "G": -0.3,
+        "Gp": 0.1,
+        "b": 0.7,
+        "bp": -0.3,
+        "s": 0.27999999999999997,
+        "sp": -0.12
+      },
+      "covariant_bulk_Z": 0.06758399999999991,
+      "covariant_imaginary_residual": 0.0,
+      "canonical_adm_bulk_Z": 0.0,
+      "derivative_ansatz_action_coefficient": 0.0,
+      "difference_cov_minus_adm": 0.06758399999999991,
+      "expected_cov_minus_adm_divergence": 0.06758399999999999,
+      "divergence_identity_residual": -8.326672684688674e-17
+    },
+    {
+      "kind": "massive_gauge",
+      "inputs": {
+        "a": 1.2,
+        "Ap": -0.2,
+        "sigp": 0.4,
+        "F": 0.7,
+        "Fp": 0.23,
+        "G": -1.4,
+        "Gp": -0.46,
+        "b": 0,
+        "bp": 0,
+        "s": -0.8,
+        "sp": 0.5
+      },
+      "covariant_bulk_Z": 5.1552,
+      "covariant_imaginary_residual": 0.0,
+      "canonical_adm_bulk_Z": 5.155199999999999,
+      "derivative_ansatz_action_coefficient": 2.5775999999999994,
+      "difference_cov_minus_adm": 8.881784197001252e-16,
+      "expected_cov_minus_adm_divergence": -0.0,
+      "divergence_identity_residual": 8.881784197001252e-16
+    },
+    {
+      "kind": "TT_plus_polarization",
+      "inputs": {
+        "a": 1.2,
+        "Ap": -0.2,
+        "sigp": 0.4,
+        "F": 0,
+        "Fp": 0,
+        "G": 0,
+        "Gp": 0,
+        "b": 0,
+        "bp": 0,
+        "s": 0,
+        "sp": 0,
+        "t": 1,
+        "tp": 0
+      },
+      "covariant_bulk_Z": 0.7200000000000002,
+      "covariant_imaginary_residual": 0.0,
+      "canonical_adm_bulk_Z": 0.72,
+      "derivative_ansatz_action_coefficient": 0.0,
+      "difference_cov_minus_adm": 2.220446049250313e-16,
+      "expected_cov_minus_adm_divergence": -0.0,
+      "divergence_identity_residual": 2.220446049250313e-16
+    }
+  ]
+}

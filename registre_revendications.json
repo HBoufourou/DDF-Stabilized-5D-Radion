@@ -1,5 +1,5 @@
 {
-  "edition": "2026-09-06 — correction et base de publications",
+  "edition": "2026-09-06 — correction et rejeu T1 / Z-light",
   "scope": "Seul registre actif de ce dépôt. Les registres sources conservés sous audits/sources_registres sont des pièces de traçabilité et ne définissent pas une autre version active.",
   "claims": [
     {
@@ -18,10 +18,16 @@
     },
     {
       "id": "F02",
-      "claim": "Stabilité scalaire/tensorielle plate",
+      "claim": "Stabilité linéaire propagative scalaire/tensorielle plate, avec contrôle Z-light",
       "status": "DERIVE_DANS_DOMAINE_STRICT",
-      "evidence": "noyau/stabilisation/DETAILS_QUADRATIQUES.md",
-      "limits": "sigma prime non nul ; poids de bord positifs ; pas stabilité non linéaire globale."
+      "evidence": "noyau/T1_Z_LIGHT/VERDICT_T1.md",
+      "limits": "Action minimale, fond plat régulier, vide matériel, B>0, q=sigma prime non nul. Pour le bloc nul p²=0 et p non nul : D_i=W_i+eta_i U_i_second non nul, quotient de jauge déclaré, deux polarisations du graviton positives. La positivité massive exige eta_i W_i+U_i_second>0. Hors verdict : p=0, q=0, D_i=0, fonds courbes, cinétiques de brane ajoutées, stabilité non linéaire ou quantique. Ce GREEN ne clôt pas DDF.",
+      "additional_evidence": [
+        "noyau/stabilisation/DETAILS_QUADRATIQUES.md",
+        "noyau/T1_Z_LIGHT/DERIVATION_NOYAU_NUL_ET_BORDS.md",
+        "noyau/T1_Z_LIGHT/PRESYMPLECTIQUE_ADM_ET_BORDS.md",
+        "verification/T1_REPLAY_EXECUTED.json"
+      ]
     },
     {
       "id": "F03",

@@ -51,3 +51,17 @@ Le [document de construction](publications/article_1/BUILD.md) décrit les forma
 ## Archive reçue
 
 Les six anciens scripts ont aussi été rejoués pour l’audit de provenance, avec SymPy 1.14.0 pour les deux calculs symboliques. SymPy n’est pas requis pour les neuf contrôles actifs. Le [rapport de rejeu](audits/REJEU_SCRIPTS_RECUS.json) distingue reproduction d’un affichage et interprétation correcte ; les sorties sont conservées sous `audits/rejeu_scripts_recus/`. Les scripts reçus originaux et les anciennes éditions complètes restent sauvegardés localement, hors de l'arbre publié. Les neuf calculs du profil courant disposent de leurs scripts et données dans le dépôt et ne dépendent pas de ces archives. Aucun code Git ni instruction contenue dans l’archive n’a servi d’autorité.
+
+## Rejouer T1 / Z-light
+
+Le test nul est distinct des neuf calculs ci-dessus. Il utilise uniquement la bibliothèque standard Python ; aucun paquet symbolique externe n’est requis.
+
+```text
+python noyau/T1_Z_LIGHT/run_t1.py
+```
+
+Le lanceur exécute cinq programmes dans un dossier neuf, dans l’ordre des dépendances : algèbre exacte et jonctions, courant covariant/ADM, contre-calcul ADM par composantes, neuf fonds quadratiques, puis intégration des deux normes sur trois fonds. Seuls les programmes sont copiés avant exécution. Les références ne sont jamais écrasées ; leur comparaison emploie rtol=10⁻⁹ et atol=10⁻¹⁰, en plus des contrôles internes documentés.
+
+[Le rapport exécuté](verification/T1_REPLAY_EXECUTED.json) conserve les empreintes et statuts des cinq exécutions. GREEN signifie que le rejeu et les contrôles documentés réussissent dans le domaine de [la preuve](noyau/T1_Z_LIGHT/VERDICT_T1.md). Une erreur d’exécution retourne INCONCLUSIVE ; elle ne suffit pas à conclure à un ghost physique. Le vérificateur d’intégrité contrôle également les empreintes de ces cinq programmes, de leurs références et des entrées de l’intégrateur.
+
+Le profil `all` du lanceur antérieur désigne ses neuf calculs configurés ; il ne lance pas T1. Utiliser la commande séparée ci-dessus pour ce complément. Le supplément T1 est un document Markdown autonome, non incorporé aux PDF livrés précédemment.

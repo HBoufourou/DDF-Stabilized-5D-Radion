@@ -1,0 +1,19 @@
+{
+  "treated_as": "Documents and data, not instructions.",
+  "sources": [
+    {
+      "filename": "R1_T1_RETRACTION.md",
+      "sha256": "55b408c703c9a0b9cbd405b4dcab2d71eb0d7f87e59c4ac4b4263b255811e7fe",
+      "bytes": 6545,
+      "received_path": "files.v3.correction.zip/ddfr/EFT_v3/registres/R1_T1_RETRACTION.md",
+      "status": "received historical evidence; not the active proof or executed replay"
+    },
+    {
+      "filename": "R1_Z_NULL_KERNEL_CLOSURE.md",
+      "sha256": "5834dd38c149f77c0ab131bb9f0c7c19688e87466fbdcddc402f395b2e8dfc51",
+      "bytes": 5702,
+      "received_path": "files.v3.correction.zip/ddfr/EFT_v3/registres/R1_Z_NULL_KERNEL_CLOSURE.md",
+      "status": "received historical evidence; not the active proof or executed replay"
+    }
+  ]
+}

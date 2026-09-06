@@ -1,0 +1,470 @@
+{
+  "scope": "Independent component-current contractions integrated on three fixed-action backgrounds at three resolutions. Raw X1 is outside the full boundary domain; its negative evaluated form is not a physical ghost norm.",
+  "checks_passed": true,
+  "background_cases": 3,
+  "currents": [
+    "covariant Theta with GHY C",
+    "canonical ADM with tilt"
+  ],
+  "cases": [
+    {
+      "lambda_brane": 0.1,
+      "v": 0.3,
+      "L": 2.2736693375010883,
+      "runs": [
+        {
+          "cells": 64,
+          "I_integrated": 2.2733324678639124,
+          "I_relative_background_difference": -1.3415935029570392e-12,
+          "observed_in_units_BI": {
+            "covariant_bulk_Z": -1.9999999999096882,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -5.999999999909688,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -2.999999999954844,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.49999999997742206,
+            "TT_plus_ADM_Z": 0.49999999997742206,
+            "endpoint_zero_gauge_covariant_Z": -2.1891492785306436e-11,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "analytic_expected_in_units_BI": {
+            "covariant_bulk_Z": -2.0,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -6.0,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -3.0,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.5,
+            "TT_plus_ADM_Z": 0.5,
+            "endpoint_zero_gauge_covariant_Z": 0.0,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "differences": {
+            "covariant_bulk_Z": 9.031175807194813e-11,
+            "covariant_corner_Z": 0.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": 0.0,
+            "covariant_complete_Z": 9.031175807194813e-11,
+            "ADM_complete_Z": 0.0,
+            "covariant_N": 4.515587903597407e-11,
+            "ADM_N": 0.0,
+            "TT_plus_covariant_Z": -2.2577939517987033e-11,
+            "TT_plus_ADM_Z": -2.2577939517987033e-11,
+            "endpoint_zero_gauge_covariant_Z": -2.1891492785306436e-11,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "max_absolute_difference": 9.031175807194813e-11
+        },
+        {
+          "cells": 128,
+          "I_integrated": 2.2733324678668567,
+          "I_relative_background_difference": -4.651834473179406e-14,
+          "observed_in_units_BI": {
+            "covariant_bulk_Z": -1.999999999994355,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -5.999999999994355,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -2.9999999999971774,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.499999999998589,
+            "TT_plus_ADM_Z": 0.4999999999985888,
+            "endpoint_zero_gauge_covariant_Z": -1.3783223196670227e-12,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "analytic_expected_in_units_BI": {
+            "covariant_bulk_Z": -2.0,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -6.0,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -3.0,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.5,
+            "TT_plus_ADM_Z": 0.5,
+            "endpoint_zero_gauge_covariant_Z": 0.0,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "differences": {
+            "covariant_bulk_Z": 5.645039991009071e-12,
+            "covariant_corner_Z": 0.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": 0.0,
+            "covariant_complete_Z": 5.645262035613996e-12,
+            "ADM_complete_Z": 0.0,
+            "covariant_N": 2.822631017806998e-12,
+            "ADM_N": 0.0,
+            "TT_plus_covariant_Z": -1.4109824419961114e-12,
+            "TT_plus_ADM_Z": -1.4112044866010365e-12,
+            "endpoint_zero_gauge_covariant_Z": -1.3783223196670227e-12,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "max_absolute_difference": 5.645262035613996e-12
+        },
+        {
+          "cells": 256,
+          "I_integrated": 2.273332467866961,
+          "I_relative_background_difference": -5.551115123125783e-16,
+          "observed_in_units_BI": {
+            "covariant_bulk_Z": -1.9999999999996467,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -5.9999999999996465,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -2.9999999999998233,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.499999999999912,
+            "TT_plus_ADM_Z": 0.499999999999912,
+            "endpoint_zero_gauge_covariant_Z": -8.627711193596242e-14,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "analytic_expected_in_units_BI": {
+            "covariant_bulk_Z": -2.0,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -6.0,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -3.0,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.5,
+            "TT_plus_ADM_Z": 0.5,
+            "endpoint_zero_gauge_covariant_Z": 0.0,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "differences": {
+            "covariant_bulk_Z": 3.532729664357248e-13,
+            "covariant_corner_Z": 0.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": 0.0,
+            "covariant_complete_Z": 3.5349501104064984e-13,
+            "ADM_complete_Z": 0.0,
+            "covariant_N": 1.7674750552032492e-13,
+            "ADM_N": 0.0,
+            "TT_plus_covariant_Z": -8.798517470154366e-14,
+            "TT_plus_ADM_Z": -8.798517470154366e-14,
+            "endpoint_zero_gauge_covariant_Z": -8.627711193596242e-14,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "max_absolute_difference": 3.5349501104064984e-13
+        }
+      ]
+    },
+    {
+      "lambda_brane": 0.5,
+      "v": 0.3,
+      "L": 1.3753699178365695,
+      "runs": [
+        {
+          "cells": 64,
+          "I_integrated": 1.3736626904011815,
+          "I_relative_background_difference": 4.747069404231752e-11,
+          "observed_in_units_BI": {
+            "covariant_bulk_Z": -1.999999999775354,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.000000000000001,
+            "covariant_complete_Z": -5.999999999775354,
+            "ADM_complete_Z": -6.000000000000001,
+            "covariant_N": -2.999999999887677,
+            "ADM_N": -3.0000000000000004,
+            "TT_plus_covariant_Z": 0.49999999994383865,
+            "TT_plus_ADM_Z": 0.49999999994383865,
+            "endpoint_zero_gauge_covariant_Z": -4.8110476215499495e-09,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "analytic_expected_in_units_BI": {
+            "covariant_bulk_Z": -2.0,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -6.0,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -3.0,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.5,
+            "TT_plus_ADM_Z": 0.5,
+            "endpoint_zero_gauge_covariant_Z": 0.0,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "differences": {
+            "covariant_bulk_Z": 2.2464607951633297e-10,
+            "covariant_corner_Z": 0.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -8.881784197001252e-16,
+            "covariant_complete_Z": 2.2464607951633297e-10,
+            "ADM_complete_Z": -8.881784197001252e-16,
+            "covariant_N": 1.1232303975816649e-10,
+            "ADM_N": -4.440892098500626e-16,
+            "TT_plus_covariant_Z": -5.616135334562955e-11,
+            "TT_plus_ADM_Z": -5.616135334562955e-11,
+            "endpoint_zero_gauge_covariant_Z": -4.8110476215499495e-09,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "max_absolute_difference": 4.8110476215499495e-09
+        },
+        {
+          "cells": 128,
+          "I_integrated": 1.3736626903400937,
+          "I_relative_background_difference": 3.000044657142098e-12,
+          "observed_in_units_BI": {
+            "covariant_bulk_Z": -1.9999999999859606,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.000000000000001,
+            "covariant_complete_Z": -5.99999999998596,
+            "ADM_complete_Z": -6.000000000000001,
+            "covariant_N": -2.99999999999298,
+            "ADM_N": -3.0000000000000004,
+            "TT_plus_covariant_Z": 0.49999999999649014,
+            "TT_plus_ADM_Z": 0.49999999999649014,
+            "endpoint_zero_gauge_covariant_Z": -3.0049341522959683e-10,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "analytic_expected_in_units_BI": {
+            "covariant_bulk_Z": -2.0,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -6.0,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -3.0,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.5,
+            "TT_plus_ADM_Z": 0.5,
+            "endpoint_zero_gauge_covariant_Z": 0.0,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "differences": {
+            "covariant_bulk_Z": 1.403943628019988e-11,
+            "covariant_corner_Z": 0.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -8.881784197001252e-16,
+            "covariant_complete_Z": 1.404032445861958e-11,
+            "ADM_complete_Z": -8.881784197001252e-16,
+            "covariant_N": 7.02016222930979e-12,
+            "ADM_N": -4.440892098500626e-16,
+            "TT_plus_covariant_Z": -3.50985907004997e-12,
+            "TT_plus_ADM_Z": -3.50985907004997e-12,
+            "endpoint_zero_gauge_covariant_Z": -3.0049341522959683e-10,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "max_absolute_difference": 3.0049341522959683e-10
+        },
+        {
+          "cells": 256,
+          "I_integrated": 1.3736626903362348,
+          "I_relative_background_difference": 1.907363156306019e-13,
+          "observed_in_units_BI": {
+            "covariant_bulk_Z": -1.9999999999991231,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -5.999999999999123,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -2.9999999999995617,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.49999999999978095,
+            "TT_plus_ADM_Z": 0.49999999999978095,
+            "endpoint_zero_gauge_covariant_Z": -1.877765373870899e-11,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "analytic_expected_in_units_BI": {
+            "covariant_bulk_Z": -2.0,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -6.0,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -3.0,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.5,
+            "TT_plus_ADM_Z": 0.5,
+            "endpoint_zero_gauge_covariant_Z": 0.0,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "differences": {
+            "covariant_bulk_Z": 8.768541448489486e-13,
+            "covariant_corner_Z": 0.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": 0.0,
+            "covariant_complete_Z": 8.766321002440236e-13,
+            "ADM_complete_Z": 0.0,
+            "covariant_N": 4.383160501220118e-13,
+            "ADM_N": 0.0,
+            "TT_plus_covariant_Z": -2.1904700275854339e-13,
+            "TT_plus_ADM_Z": -2.1904700275854339e-13,
+            "endpoint_zero_gauge_covariant_Z": -1.877765373870899e-11,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "max_absolute_difference": 1.877765373870899e-11
+        }
+      ]
+    },
+    {
+      "lambda_brane": 2.0,
+      "v": 0.3,
+      "L": 0.47245449883542734,
+      "runs": [
+        {
+          "cells": 64,
+          "I_integrated": 0.47139327385395907,
+          "I_relative_background_difference": 1.91517912639938e-11,
+          "observed_in_units_BI": {
+            "covariant_bulk_Z": -1.999999999942211,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -5.999999999942211,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -2.9999999999711053,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.4999999999855528,
+            "TT_plus_ADM_Z": 0.4999999999855526,
+            "endpoint_zero_gauge_covariant_Z": -9.188976056889112e-08,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "analytic_expected_in_units_BI": {
+            "covariant_bulk_Z": -2.0,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -6.0,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -3.0,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.5,
+            "TT_plus_ADM_Z": 0.5,
+            "endpoint_zero_gauge_covariant_Z": 0.0,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "differences": {
+            "covariant_bulk_Z": 5.778910683318372e-11,
+            "covariant_corner_Z": 0.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": 0.0,
+            "covariant_complete_Z": 5.778932887778865e-11,
+            "ADM_complete_Z": 0.0,
+            "covariant_N": 2.8894664438894324e-11,
+            "ADM_N": 0.0,
+            "TT_plus_covariant_Z": -1.44472211971447e-11,
+            "TT_plus_ADM_Z": -1.4447387730598393e-11,
+            "endpoint_zero_gauge_covariant_Z": -9.188976056889112e-08,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "max_absolute_difference": 9.188976056889112e-08
+        },
+        {
+          "cells": 128,
+          "I_integrated": 0.47139327384549606,
+          "I_relative_background_difference": 1.198596777385319e-12,
+          "observed_in_units_BI": {
+            "covariant_bulk_Z": -1.9999999999963882,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -5.999999999996389,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -2.9999999999981943,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.4999999999990971,
+            "TT_plus_ADM_Z": 0.4999999999990971,
+            "endpoint_zero_gauge_covariant_Z": -5.7368255185419145e-09,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "analytic_expected_in_units_BI": {
+            "covariant_bulk_Z": -2.0,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -6.0,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -3.0,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.5,
+            "TT_plus_ADM_Z": 0.5,
+            "endpoint_zero_gauge_covariant_Z": 0.0,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "differences": {
+            "covariant_bulk_Z": 3.6117775437105593e-12,
+            "covariant_corner_Z": 0.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": 0.0,
+            "covariant_complete_Z": 3.611333454500709e-12,
+            "ADM_complete_Z": 0.0,
+            "covariant_N": 1.8056667272503546e-12,
+            "ADM_N": 0.0,
+            "TT_plus_covariant_Z": -9.028888747764086e-13,
+            "TT_plus_ADM_Z": -9.028888747764086e-13,
+            "endpoint_zero_gauge_covariant_Z": -5.7368255185419145e-09,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "max_absolute_difference": 5.7368255185419145e-09
+        },
+        {
+          "cells": 256,
+          "I_integrated": 0.4713932738449666,
+          "I_relative_background_difference": 7.549516567451064e-14,
+          "observed_in_units_BI": {
+            "covariant_bulk_Z": -1.9999999999997733,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -5.999999999999773,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -2.9999999999998863,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.49999999999994343,
+            "TT_plus_ADM_Z": 0.49999999999994343,
+            "endpoint_zero_gauge_covariant_Z": -3.584524270011783e-10,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "analytic_expected_in_units_BI": {
+            "covariant_bulk_Z": -2.0,
+            "covariant_corner_Z": -4.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": -6.0,
+            "covariant_complete_Z": -6.0,
+            "ADM_complete_Z": -6.0,
+            "covariant_N": -3.0,
+            "ADM_N": -3.0,
+            "TT_plus_covariant_Z": 0.5,
+            "TT_plus_ADM_Z": 0.5,
+            "endpoint_zero_gauge_covariant_Z": 0.0,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "differences": {
+            "covariant_bulk_Z": 2.2670754162845697e-13,
+            "covariant_corner_Z": 0.0,
+            "ADM_bulk_Z": 0.0,
+            "ADM_corner_Z": 0.0,
+            "covariant_complete_Z": 2.2737367544323206e-13,
+            "ADM_complete_Z": 0.0,
+            "covariant_N": 1.1368683772161603e-13,
+            "ADM_N": 0.0,
+            "TT_plus_covariant_Z": -5.6565863104651726e-14,
+            "TT_plus_ADM_Z": -5.6565863104651726e-14,
+            "endpoint_zero_gauge_covariant_Z": -3.584524270011783e-10,
+            "endpoint_zero_gauge_ADM_Z": 0.0
+          },
+          "max_absolute_difference": 3.584524270011783e-10
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "t1_background_replay.json": "2f29f085cf2b7468cdfafdd96f111ae223ced24379fc49208ab44d5f5cdbada2",
+    "covariant_adm_current.py": "86868dd21a8e6677e6972ad043d5b244a1e48385bac66d248bc208b5ba309312",
+    "t1_background_replay.py": "8fac03fbc7ef707a8259cb684d1f2533ea4af164ceea30536bc19c5a10b8e7cf"
+  },
+  "script_sha256": "3446487a4c12ac4716dd778b295c2e5ea97b7fce11d02100958eff7ed7694ba5"
+}

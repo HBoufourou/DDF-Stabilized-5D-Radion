@@ -199,3 +199,7 @@ Il utilise cette valeur pour la normalisation canonique Z=2N et le couplage ; g^
 **Statut amélioré après ce prolongement :** les signatures de la branche S quadratique à x=2, epsilon=.3 sont maintenant reproduites, y compris une vraie limite rigide et un contrôle indépendant de faible epsilon. Le choix de raideur physique, le statut EFT, les sources monotones asymétriques, la cosmologie/Phi et l'exclusion expérimentale restent ceux exposés ci-dessus. L'article principal validé peut être conservé ; ces résultats forment une annexe nouvelle concrète et vérifiable.
 
 Reproduction complète : `quadratic_fem.py`, sortie `quadratic_fem.json` ; convention, cas calculés, paramètres de brane reconstruits, trois modes par maillage, normes, résidus et critères d'extrapolation sont consignés dans ce JSON.
+
+## Complément nécessaire sur le cône de lumière
+
+La positivité de N_f pour le problème scalaire massif ne suffit pas à traiter p²=0, p^μ≠0. Ce secteur dispose maintenant d’un [rejeu séparé T1](../T1_Z_LIGHT/VERDICT_T1.md), comprenant la base nulle complète, les jonctions quadratiques, les deux routes présymplectiques avec coins et le quotient de jauge. Le résultat est GREEN dans son domaine déclaré, avec deux polarisations gravitationnelles positives. Cette pièce complète F02 sans étendre la preuve aux tranches courbes ou à la stabilité non linéaire.

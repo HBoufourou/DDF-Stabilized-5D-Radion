@@ -22,3 +22,9 @@ Commencer par [l'action](MODELE.json), [le registre actif](registre_revendicatio
 5. Mettre à jour ensemble le registre, les preuves, les tableaux et les sources du manuscrit. Les comparaisons historiques servent à repérer les régressions ; elles ne deviennent pas des prémisses supplémentaires.
 
 Une correction documentée renforce le modèle. Il n'est pas nécessaire de promettre une théorie définitive pour écrire un article limité et exact dans ses hypothèses. Aucune procédure automatique de publication ou de gel de prédiction n'est créée par ce document.
+
+## Contrôle T1 désormais disponible
+
+Le [rejeu T1](noyau/T1_Z_LIGHT/VERDICT_T1.md) ferme la question du secteur nul propagatif dans le domaine régulier annoncé ; ce n’est plus une pièce absente de F02. La suite doit conserver ce test comme contrôle de régression : une modification de l’action, des conditions aux limites ou de la matière impose de réexaminer son domaine.
+
+Les prolongements de stabilité à p^μ=0, aux fonds courbes, aux lieux dégénérés et au régime non linéaire demandent des analyses propres. L’échelle absolue R, la RAR complète, l’histoire cosmologique et les observables gardent les tâches et critères ci-dessus. Pour relire le premier article, joindre désormais son [supplément T1](publications/article_1/T1_SUPPLEMENT.md).

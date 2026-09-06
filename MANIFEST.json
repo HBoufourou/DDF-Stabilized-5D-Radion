@@ -1,5 +1,5 @@
 {
-  "edition": "DDF 2026-09-06 — version corrigée publiée dans le dépôt existant",
+  "edition": "DDF 2026-09-06 — correction et rejeu T1 / Z-light",
   "excludes": [
     "This manifest itself",
     "work/",
@@ -124,19 +124,49 @@
       "sha256": "fc48347260dfc3779e056388cbae1cf2b5f120c3d8af43a45ecc27bcf13b1c51"
     },
     {
+      "path": "audits/T1_CHRONOLOGIE.md",
+      "bytes": 2536,
+      "sha256": "68068a7e2ebb92d5f48f2fdf5ac182b99522c77fde51fab3a278af3d871773fb"
+    },
+    {
+      "path": "audits/T1_CONTRELECTURE.md",
+      "bytes": 9219,
+      "sha256": "09d5dab38dbb5e5b3ac7bf68dcb5e1d0f8a4f3702773bcf9c320f02e4b740b2d"
+    },
+    {
+      "path": "audits/T1_sources/R1_T1_RETRACTION.md",
+      "bytes": 6545,
+      "sha256": "55b408c703c9a0b9cbd405b4dcab2d71eb0d7f87e59c4ac4b4263b255811e7fe"
+    },
+    {
+      "path": "audits/T1_sources/R1_Z_NULL_KERNEL_CLOSURE.md",
+      "bytes": 5702,
+      "sha256": "5834dd38c149f77c0ab131bb9f0c7c19688e87466fbdcddc402f395b2e8dfc51"
+    },
+    {
+      "path": "audits/T1_sources/README.md",
+      "bytes": 621,
+      "sha256": "60b3a6ba1f514935dddcf916ab54992fc6b760f9ebd54df8c0be77e982736d11"
+    },
+    {
+      "path": "audits/T1_sources/SOURCES.json",
+      "bytes": 773,
+      "sha256": "97ae110fe3568fe2a3697787696596538c41ea2b09e827cc3fa28f9defc0830c"
+    },
+    {
       "path": "CITATION.cff",
       "bytes": 560,
       "sha256": "05238479b99813b7de5cc41b15239e15da334eba76cc66321795104a38a134f8"
     },
     {
       "path": "DEVELOPPEMENT.md",
-      "bytes": 3538,
-      "sha256": "281f39e096ff2ff1c2f8b5f3c10eac10946af1a3f753b9eda42adad8b1bcbbfe"
+      "bytes": 4293,
+      "sha256": "aa1e9acf27813dec05bc4bf065fa2574d4807d97508de84d32cdd871992ad1f2"
     },
     {
       "path": "ETAT_SCIENTIFIQUE.md",
-      "bytes": 3502,
-      "sha256": "6f28ea92a2375d66f84d242084fb95c05687c444698e61ae704b5537c968eec2"
+      "bytes": 4380,
+      "sha256": "9a36cd850b3e6584e8f93b8fb3862995d694f2c130550d4e9fbcfaf2ddd0322f"
     },
     {
       "path": "extensions/RAR/AUDIT_MATIERE_RAR.md",
@@ -285,8 +315,8 @@
     },
     {
       "path": "GUIDE_LECTURE_FR.md",
-      "bytes": 849,
-      "sha256": "eb90de23ffd13500f0372349f9b07bcd0d3b162a17f5e338fc8f8b24f19e9682"
+      "bytes": 1213,
+      "sha256": "558843ae0ae3d7997c64e3c59aff6d9b7a51d728fd9228d0e76654bc2fa60721"
     },
     {
       "path": "INTEGRATION_FUSION.md",
@@ -315,8 +345,8 @@
     },
     {
       "path": "MODELE.json",
-      "bytes": 2837,
-      "sha256": "2e6fc570d44643144d0f93bd87e34a087ff574b5639211808f1ed9762ac9c884"
+      "bytes": 3376,
+      "sha256": "aed0a166b83a0bc3b8d273e9a891f5738aa7b4460b393cda6dcd33989be53468"
     },
     {
       "path": "noyau/courbure/courbure_action_fixe.json",
@@ -370,8 +400,8 @@
     },
     {
       "path": "noyau/stabilisation/DETAILS_QUADRATIQUES.md",
-      "bytes": 12789,
-      "sha256": "e4fcce0cf0d648a2bb866efdfabb8dfd8e5e77e847ffbcd7a2cb093c8e5fd2ed"
+      "bytes": 13172,
+      "sha256": "fc169c6fb7779a33506b32ad6cbb9dcaac89f86c6a682a247344cb6379af2cd3"
     },
     {
       "path": "noyau/stabilisation/input_data/quadratic_fem.json",
@@ -444,14 +474,84 @@
       "sha256": "c8e9c8323b80e3dc95684619aca1987dfa53ec0d36d75d669c868f5456c2887a"
     },
     {
+      "path": "noyau/T1_Z_LIGHT/adm_component_referee.json",
+      "bytes": 261,
+      "sha256": "83a688afcdd055c5b97198d5cfffa9f84b2f3828f4f6789e60d82083bc1e8b3d"
+    },
+    {
+      "path": "noyau/T1_Z_LIGHT/adm_component_referee.py",
+      "bytes": 3292,
+      "sha256": "ba9294429ba9b2f17c9fe961b7aa3fe575258e61290b572d6375b4f92b98f7f8"
+    },
+    {
+      "path": "noyau/T1_Z_LIGHT/covariant_adm_current.json",
+      "bytes": 5870,
+      "sha256": "8485106b95cd43d9572d2337b404ecf08b954528952644f1c7ead97133f33c17"
+    },
+    {
+      "path": "noyau/T1_Z_LIGHT/covariant_adm_current.py",
+      "bytes": 7048,
+      "sha256": "86868dd21a8e6677e6972ad043d5b244a1e48385bac66d248bc208b5ba309312"
+    },
+    {
+      "path": "noyau/T1_Z_LIGHT/DERIVATION_NOYAU_NUL_ET_BORDS.md",
+      "bytes": 17701,
+      "sha256": "9c22503198748e9764199f4288e19618b05fd08543e0db7e6f3f0c9c28c63ca1"
+    },
+    {
+      "path": "noyau/T1_Z_LIGHT/null_boundary_checks.json",
+      "bytes": 1952,
+      "sha256": "be7ae88fa3b964bb36de78f97375b9ef0a4188c9a0619c5cb956aa24bd0ecb0a"
+    },
+    {
+      "path": "noyau/T1_Z_LIGHT/null_boundary_checks.py",
+      "bytes": 8558,
+      "sha256": "695bc7f39cc938560c269d2dcbbf759bcb1724e21ce736f0e6fe42bb3799b40f"
+    },
+    {
+      "path": "noyau/T1_Z_LIGHT/PRESYMPLECTIQUE_ADM_ET_BORDS.md",
+      "bytes": 11876,
+      "sha256": "273c5debc3c6cfbdd2ab136430ac544636170d309397f87a35c8659dfe3ea54e"
+    },
+    {
+      "path": "noyau/T1_Z_LIGHT/run_t1.py",
+      "bytes": 4483,
+      "sha256": "01576c1b4e0eb3c7ed11914ea7cbfc5ed24e041588a8aa9a28e8332bf34e3eff"
+    },
+    {
+      "path": "noyau/T1_Z_LIGHT/t1_background_replay.json",
+      "bytes": 64026,
+      "sha256": "2f29f085cf2b7468cdfafdd96f111ae223ced24379fc49208ab44d5f5cdbada2"
+    },
+    {
+      "path": "noyau/T1_Z_LIGHT/t1_background_replay.py",
+      "bytes": 8712,
+      "sha256": "8fac03fbc7ef707a8259cb684d1f2533ea4af164ceea30536bc19c5a10b8e7cf"
+    },
+    {
+      "path": "noyau/T1_Z_LIGHT/t1_integrated_norms.json",
+      "bytes": 19096,
+      "sha256": "2dfd22ac02a01b8d68f36e3c7e503afd8eeaf6b88ea5ab75279277006735c122"
+    },
+    {
+      "path": "noyau/T1_Z_LIGHT/t1_integrated_norms.py",
+      "bytes": 5330,
+      "sha256": "3446487a4c12ac4716dd778b295c2e5ea97b7fce11d02100958eff7ed7694ba5"
+    },
+    {
+      "path": "noyau/T1_Z_LIGHT/VERDICT_T1.md",
+      "bytes": 8033,
+      "sha256": "e84eff53af1347dcb75c589802da677e6840a6d4d2f987eeeb6881f5acaa1075"
+    },
+    {
       "path": "PROVENANCE.json",
-      "bytes": 3332,
-      "sha256": "0c1e97eed3f5d22976f0ef685c05dd2e7acca6436a3563c03b3f043d58833553"
+      "bytes": 3954,
+      "sha256": "cc1fc11896ef2ab0787a478e163024a8a10dd2581c58754a1d8dad07aad11b3b"
     },
     {
       "path": "publications/article_1/BUILD.md",
-      "bytes": 1565,
-      "sha256": "17b946db849db873190b36ee07f301c428b8f11be72278f4a202768a5f88cb27"
+      "bytes": 2040,
+      "sha256": "4ed66bcf44c1985f375394789efd5921ec4fd6639d1e3476025d08bd01777bfc"
     },
     {
       "path": "publications/article_1/build_manuscript.py",
@@ -494,6 +594,11 @@
       "sha256": "8eeda8bc5f1bdcbd3ae2c2158f47a73c569ba5ce8d6f14a1b6fec3e3bc43ffa7"
     },
     {
+      "path": "publications/article_1/T1_SUPPLEMENT.md",
+      "bytes": 7690,
+      "sha256": "ad24039604f432c11c98aac1d2319ef6b2ea767bb6f60e46740be1b3979065a4"
+    },
+    {
       "path": "publications/article_2/PERIMETRE_ET_BASE.md",
       "bytes": 7200,
       "sha256": "997dfd4ad87c682d046d05565fd76ee7c81eb0af18aef7796cd4457380bf9536"
@@ -505,8 +610,8 @@
     },
     {
       "path": "publications/BASE_PUBLICATIONS_FR.md",
-      "bytes": 5074,
-      "sha256": "5f03031f339072c2a6c4f2a4fdf355ea971e81952ac1b6547d4b25c6e5407372"
+      "bytes": 5337,
+      "sha256": "30fe3dfd7bc66e612fe57cf03941a3813ae085aabb99a34c285e8544f4f6c14e"
     },
     {
       "path": "publications/build_theorie.py",
@@ -515,18 +620,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 3176,
-      "sha256": "0bad6d7e21895554770130457096674e853bf6ba725a25a495f8bcd0cd8f3115"
+      "bytes": 3537,
+      "sha256": "1d4522dfc52c0a8cff77ced9df83b27372ab976f89c147a9090d9bd3a07490f5"
     },
     {
       "path": "registre_revendications.json",
-      "bytes": 9924,
-      "sha256": "9976532063ed65b91c2dd0a25f2f57af2a044f1d20adfb5137ac13456444d9b0"
+      "bytes": 10333,
+      "sha256": "a9d82dc04dbe4d034c105a49c39d4e8ddc1a479c3501ad7d04a65e25b67f3401"
     },
     {
       "path": "REPRODUCTION.md",
-      "bytes": 4662,
-      "sha256": "017bf17386dd7858353b4818eb0913270c40466a6f3719ba1525964c6b4b2389"
+      "bytes": 6069,
+      "sha256": "d110dfccb938a8d7a94e8b179ebdb3373b3fac7220a790b4b7a0ec50b035f146"
     },
     {
       "path": "requirements-article.txt",
@@ -574,9 +679,14 @@
       "sha256": "a9b9db4e7531ae665efd8208ac348377762831a41c7191b3f1f241875a1ece8d"
     },
     {
+      "path": "verification/T1_REPLAY_EXECUTED.json",
+      "bytes": 2414,
+      "sha256": "c1437dbd9224a020925322e94ac86a9b5dd3b8d1a1d1cf30e126f6f3ef9965a2"
+    },
+    {
       "path": "verification/verify_package.py",
-      "bytes": 8780,
-      "sha256": "f65a62c53d86ac38f549cfbe93faac2cc95f8d2883f1d601df238043e7fd9262"
+      "bytes": 11420,
+      "sha256": "300154e099e0087647aaa1f70e0cf7066ab3bd170341c781cbc016f0b825868e"
     }
   ]
 }
