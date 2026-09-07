@@ -1,0 +1,70 @@
+{
+  "profile": "article1",
+  "status": "PASS",
+  "utc": "20260907T033120Z",
+  "python": "3.12.14",
+  "jobs": [
+    {
+      "id": "weak_stiffness",
+      "script": "noyau/stabilisation/weak_coupling_quadratic.py",
+      "result": "noyau/stabilisation/weak_coupling_quadratic.json",
+      "return_code": 0,
+      "error": null,
+      "numeric_values_compared": 415,
+      "rtol": 1e-10,
+      "atol": 1e-11,
+      "differences": [],
+      "status": "PASS",
+      "seconds": 0.719,
+      "reference_sha256": "82500c37a2418c8c0e043e6b9f9b2f21c013e74ef24a7aa997ea0776d86e552b",
+      "script_sha256": "c8e9c8323b80e3dc95684619aca1987dfa53ec0d36d75d669c868f5456c2887a"
+    },
+    {
+      "id": "fixed_action_length",
+      "script": "noyau/stabilisation/r_fixed_action_checks.py",
+      "result": "noyau/stabilisation/r_fixed_action_checks.json",
+      "return_code": 0,
+      "error": null,
+      "numeric_values_compared": 567,
+      "rtol": 1e-07,
+      "atol": 1e-09,
+      "differences": [],
+      "status": "PASS",
+      "seconds": 0.656,
+      "reference_sha256": "9cb346e8b85317a233ff9efe6a8cd5c03642430ed23d92ed597ca29707256562",
+      "script_sha256": "ba0bc1e8196152f3628b7e6160fc7e29f6e07856a62aaade0503128ff4941879"
+    },
+    {
+      "id": "spectral_galerkin",
+      "script": "noyau/stabilisation/radion_comparison.py",
+      "result": "noyau/stabilisation/radion_comparison.json",
+      "return_code": 0,
+      "error": null,
+      "numeric_values_compared": 2815,
+      "rtol": 1e-06,
+      "atol": 1e-08,
+      "differences": [],
+      "status": "PASS",
+      "seconds": 28.031,
+      "reference_sha256": "ba847b0a7f1f95c6e142b4b2110f1513b804351188d9f2d9ac5a31c28bd46786",
+      "script_sha256": "a8388dbe0ff9bf5063c40fed1e8e609093f158c0f2808eb92bcc30bf2e073da5"
+    },
+    {
+      "id": "curved_fixed_tension",
+      "script": "noyau/courbure/courbure_action_fixe.py",
+      "result": "noyau/courbure/courbure_action_fixe.json",
+      "return_code": 0,
+      "error": null,
+      "numeric_values_compared": 7805,
+      "rtol": 1e-07,
+      "atol": 1e-09,
+      "differences": [],
+      "status": "PASS",
+      "seconds": 3.156,
+      "reference_sha256": "f933b716b2fc7dc0e02d3276ebee7c08050dd3b9ef15dd22ce37b018749249d4",
+      "script_sha256": "3b705d775a7367d54cedd9c918c0fa5e28a740f78595b8623136628974f56756"
+    }
+  ],
+  "reference_files_overwritten": false,
+  "meaning": "Re-executed numerical reproduction of specified models. No experimental or publication validation."
+}

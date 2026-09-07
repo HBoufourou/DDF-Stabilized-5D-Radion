@@ -46,7 +46,7 @@ Les anciens éléments finis et les anciens calculs RAR à source prescrite rest
 python publications/article_1/build_manuscript.py --output-dir work/article_1_rebuild
 ```
 
-Le [document de construction](publications/article_1/BUILD.md) décrit les formats. Le contenu du JSON unique produit Markdown, TeX et PDF. Le TeX est éditable ; le PDF livré est composé avec ReportLab et Matplotlib, sans compilation TeX séparée revendiquée. Pour régénérer la synthèse française à partir de sa source : `python publications/build_theorie.py` ; cette commande remplace son PDF, donc l’utiliser sur une copie si l’on veut préserver les empreintes de livraison.
+Le [document de construction](publications/article_1/BUILD.md) décrit les formats. Le contenu du JSON unique produit Markdown, TeX et PDF. Le TeX est éditable ; le PDF du premier article est maintenant compilé avec pdfLaTeX. Matplotlib produit la figure. Pour régénérer la synthèse française à partir de sa source : `python publications/build_theorie.py` ; cette commande remplace son PDF, donc l’utiliser sur une copie si l’on veut préserver les empreintes de livraison.
 
 ## Archive reçue
 
@@ -64,4 +64,8 @@ Le lanceur exécute cinq programmes dans un dossier neuf, dans l’ordre des dé
 
 [Le rapport exécuté](verification/T1_REPLAY_EXECUTED.json) conserve les empreintes et statuts des cinq exécutions. GREEN signifie que le rejeu et les contrôles documentés réussissent dans le domaine de [la preuve](noyau/T1_Z_LIGHT/VERDICT_T1.md). Une erreur d’exécution retourne INCONCLUSIVE ; elle ne suffit pas à conclure à un ghost physique. Le vérificateur d’intégrité contrôle également les empreintes de ces cinq programmes, de leurs références et des entrées de l’intégrateur.
 
-Le profil `all` du lanceur antérieur désigne ses neuf calculs configurés ; il ne lance pas T1. Utiliser la commande séparée ci-dessus pour ce complément. Le supplément T1 est un document Markdown autonome, non incorporé aux PDF livrés précédemment.
+Le profil `all` du lanceur antérieur désigne ses neuf calculs configurés ; il ne lance pas T1. Utiliser la commande séparée ci-dessus pour ce complément. Le traitement T1 figure désormais dans le manuscrit principal, section 4 et annexe B.
+
+## Relecture scientifique du 7 septembre
+
+Les quatre programmes du profil article1 et les cinq programmes T1 ont été relancés. Les résultats sont conservés dans [le nouveau rapport article1](verification/ARTICLE1_REPRODUCTION_2026_09_07.json) et [le rapport T1](verification/T1_REPLAY_EXECUTED.json). Deux contrôleurs autonomes supplémentaires sont sous `verification/article1_review/` ; ils écrivent leurs JSON à côté de leur script, donc les exécuter sur une copie pour conserver le gel documentaire.

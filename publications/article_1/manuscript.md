@@ -2,21 +2,21 @@
 
 Hicham Boufourou
 
-Research manuscript for review - 6 September 2026
+Revised research manuscript - 7 September 2026
 
 ## Abstract
 
-We study a reflection-symmetric five-dimensional physical interval with a canonical scalar, a convex quadratic bulk potential and finite-stiffness quadratic boundary potentials. For fixed dimensional bulk and scalar-boundary parameters, a monotone boundary event selects a unique positive length when 0<Λ₅<2λ²v²; a flat solution also requires the metric-junction tension compatibility. The regular scalar spectral problem has positive bulk and endpoint forms, and its canonical norm determines the same-brane residues. At fixed x=μL and λ̂=λL we obtain closed weak-backreaction mass and coupling coefficients. The mass coefficient increases with boundary stiffness, whereas the coupling coefficient decreases between strictly positive affine and rigid limits. Profile quadrature and an independent Galerkin spectrum verify these expressions. Locally curved solutions with input tension give the expected unsuppressed first-order vacuum response. The results are a specified classical model study using established perturbation methods; an absolute radius, ultraviolet completion, cosmological abundance and experimental viability are not inferred.
+We calculate the radion mass and its canonically normalized same-boundary residue in a reflection-symmetric five-dimensional interval with a canonical scalar, a convex quadratic bulk potential and finite-stiffness quadratic boundary potentials. In a reconstructed family at fixed dimensionless bulk mass and stiffness, both leading weak-backreaction coefficients have closed forms: increasing stiffness raises the mass coefficient and lowers the positive residue correction. Their affine and rigid limits bound a mass-residue consistency coefficient without requiring an absolute compactification scale. Independently, fixed dimensional action parameters select a unique scalar endpoint, while a flat gravitational solution also requires the compatible boundary tension. Positive massive-mode forms are supplemented by an explicit null-shell analysis of the complete junctions and presymplectic form. Profile quadrature, an independent spectral discretization and background-event calculations test the results. A local tension detuning reproduces the expected unsuppressed vacuum-energy response. These are conditional results of a specified classical model; no ultraviolet completion, absolute radius or observational viability is inferred.
 
 ## 1. Introduction
 
 A compact extra dimension requires both a mechanism that fixes its proper length and a calculation of the interactions of its light gravitational scalar. Bulk-scalar stabilization and backreacted scalar-gravity backgrounds are established tools [1,2]. The dark-dimension scenario provides a separate motivation for studying a light compact direction [12], but it does not specify the stabilizer or boundary coefficients of the model studied here. In one particular Casimir realization, Cui and Ning find a radion that is too light for the constraints they consider [15]. This motivates studying masses and couplings together; it is not an exclusion theorem for all Casimir models or evidence for the present alternative.
 
-We examine a physical interval with a canonical scalar, a positive constant plus a convex quadratic bulk potential, and quadratic boundary potentials of finite stiffness. The reflection-symmetric branch has an odd scalar and a warp factor with an interior maximum. The interval formulation [13], scalar perturbation equations [3], canonical normalization [4], and positive spectral criteria [5,6,14] all have close precedents. Reflection-symmetric warped models also exist in the literature [7,8]. Our contribution is a specified model calculation: conditional selection of length at fixed action parameters, explicit weak-backreaction mass and residue coefficients at finite boundary stiffness, and reproducible finite-backreaction and tension-response benchmarks.
+We examine a physical interval with a canonical scalar, a positive constant plus a convex quadratic bulk potential, and quadratic boundary potentials of finite stiffness. Its reflection-symmetric branch has an odd scalar and a warp factor with an interior maximum. The interval formulation [13], scalar perturbation equations [3], canonical normalization [4] and spectral criteria [5,6,14] are established methods. Earlier stabilized geometries include equal endpoint warp factors [7] and genuinely reflection-symmetric constructions [8]; these properties are not equivalent. Finite brane potentials and their modified scalar products have also been studied analytically and numerically [23].
 
-The distinction between two parameter experiments is essential. Solving for length while keeping the dimensional action fixed is a boundary-value problem. Conversely, comparing stiffnesses on one prescribed background requires reconstructing the boundary minima and constants, and compares different actions. We treat both problems explicitly. The resulting relation between radion mass and coupling is conditional on the stated family; neither a scan nor the decimal precision of its output proves a universal relation or bibliographic priority.
+The main calculation here is the explicit leading same-boundary radion residue for this convex, symmetric model, together with its stiffness bounds and its relation to the radion mass. Conditional fixed-action length selection and local tension-response benchmarks specify the backgrounds on which that calculation is used. Monotonicity of scalar masses with boundary stiffness, endpoint corrections to spectral products and the unsuppressed vacuum response have precedents [2,6,9,23]; they are not asserted as new general principles. Section 9 compares the potentials, approximations and observables of the closest works.
 
-The model belongs to the DDF research project but assumes no derivation from its historical geometric proposals. This paper concerns the Einstein-stabilizer sector. A minimally coupled additional complex scalar can consistently be set to zero in the background; its charged states, cosmological abundance, and proposed galactic extensions are separate problems. We make no prediction of an absolute micrometric radius, no extra-dimension detection claim, and no experimental exclusion verdict.
+Two parameter experiments will be kept distinct. Determining length at fixed dimensional action is a boundary-value problem. Comparing stiffnesses on one prescribed background instead requires reconstructing boundary minima and constants, and compares different actions [6]. Section 3 treats the first problem; Sections 4-6 calculate spectra and residues in the second. Section 7 detunes a compatible flat solution, and Section 8 defines the corresponding exchange observable. The null momentum shell and its boundary domain are proved in Appendix B. Matter is in its vacuum throughout the stability analysis.
 
 ## 2. Action, dimensions and boundary data
 
@@ -97,7 +97,7 @@ $$
 L_{\rm flat}=\frac{2}{\mu}\log\left[\frac{\zeta+\sqrt{\zeta^2+a^2-1}}{1+a}\right],\qquad 2\tau=-\Lambda_5L_{\rm flat}-E_\sigma(L_{\rm flat}).\tag{8}
 $$
 
-The positive logarithm branch is physical. At fixed μ,λ,v,Λ₅,B the exact solution reaches its scalar boundary sooner than the flat one: the nonnegative term -4A′σ′ increases both σ and σ′ relative to the flat scalar solution with the same central slope. Therefore 0<L<Lflat for finite B on this branch. This comparison is not a scan at fixed x=μL and ε=qL/√(12B), which are outputs in this experiment.
+The positive logarithm branch is physical. At its flat-metric extremum H=ζ, the central derivative of (7a) is 2λv/H=√(2Λ₅), exactly the slope fixed by the Einstein constraint for the backreacted problem. Thus the comparison uses identical central scalar data. The term -4A′σ′ is positive away from the center and increases both σ and σ′ relative to the flat-metric solution. The exact scalar event is reached earlier, giving 0<L<Lflat for finite B. Compatible boundary tensions need not coincide in the two approximations. This comparison fixes μ,λ,v,Λ₅,B; it is not the fixed-background scan of Section 5.
 
 The Einstein-frame potential is VE=(Lref/L)²VJ at leading backreaction, with canonical length field √(3/2)M₄ln(L/Lref). At a Minkowski extremum, VJ=VJ′=0 removes additional Weyl terms from its Hessian. For Lref=L*, M₄²=BL*,
 
@@ -113,9 +113,11 @@ $$
 
 If z*(a,ζ,β) is the scalar boundary event, R₀=2z*/(πμ). The explicit factor 1/μ shows why dimensional input remains necessary.
 
+Having selected a background and its compatible tension, the next question is whether its fluctuations define a regular positive-norm spectrum. The spectral calculation also fixes the normalization required for the radion residue; a minimum of a reduced length potential alone would not determine that residue.
+
 ## 4. Scalar spectrum, physical norm and boundary stiffness
 
-In a straight-boundary gauge, write ds²=e^(2A+2F)ημνdxμdxν+e^(-4F)dy², F=f(y)χ(x), δσ=s(y)χ(x), with (Box₄-m²)χ=0. Deriving the tensorial constraints before dividing by momentum invariants avoids introducing a spurious exception for null four-momentum. The scalar constraint and regular bulk equation are [3,4]
+First consider nonzero four-dimensional momentum invariant in a straight-boundary scalar gauge: ds²=e^(2A+2F)ημνdxμdxν+e^(-4F)dy², F=f(y)χ(x), δσ=s(y)χ(x), with (Box₄-m²)χ=0. The null shell p²=0, pμ≠0 requires a separate reconstruction because the usual scalar and tensor projections become dependent there. Appendix B supplies that reconstruction and establishes when the zero-shift straight-boundary representative is admissible. The massive scalar constraint and regular bulk equation are [3,4]
 
 $$
 3B(f^\prime+2A^\prime f)+\sigma^\prime s=0,\qquad W=\frac{\sigma^{\prime\prime}}{\sigma^\prime},\tag{10}
@@ -145,11 +147,11 @@ $$
 {\cal D}[g]=\int_0^Lw|g|^2dy+\sum_i\frac{w_i|g_i|^2}{\eta_iW_i+2\lambda}.\tag{14b}
 $$
 
-On the symmetric branch W₀<0<WL, so both endpoint denominators are positive. The two forms are strictly positive for a nonzero mode; the complex-conjugated identity establishes real, strictly positive scalar eigenvalues. This is a specialization of established spectral criteria [5,6], not a new general stability framework. Degenerate endpoint denominators, vanishing σ′, new kinetic boundary operators, or curved slices require separate treatment. The result proves linear spectral stability of the included sectors, not nonlinear or quantum stability.
+On the regular symmetric branch, σ′>0 and σ″=μ²σ-4A′σ′>0 to the right of the center follow analytically from the positive central slope, σ>0 and A′<0. Reflection gives W₀<0<WL. Hence ηᵢWᵢ+2λ>0 at both endpoints for positive stiffness. The forms are strictly positive for any nonzero mode; the conjugated identity establishes real, strictly positive scalar eigenvalues. These are specialized instances of established criteria [5,6,23]. Zeros of σ′ or endpoint denominators, added boundary kinetic operators and curved slices require separate treatment.
 
-At a fixed background, increasing the two stiffnesses decreases the boundary contributions to D while K is unchanged. The min-max principle makes every ordered scalar squared mass nondecreasing. The rigid limit removes the boundary spectral weights and has gᵢ′=0; it is not the finite value λL=20. Holding the background fixed requires vᵢ=σᵢ+ηᵢqᵢ/(2λ) and τᵢ=3ηᵢBAᵢ′-qᵢ²/(4λ). This comparison changes the action. An affine action Uᵢ=Tᵢ+Jᵢσ is a separate comparison family; obtaining it as λ→0 at finite q requires divergent vᵢ and subtracted constants.
+At a fixed background, increasing stiffness decreases the boundary contribution to D while K is unchanged. The min-max principle therefore makes every ordered scalar squared mass nondecreasing, as in the general analysis of [6]. The rigid limit has no boundary spectral weights and imposes gᵢ′=0; finite λL=20 is not that limit. Holding the background fixed requires vᵢ=σᵢ+ηᵢqᵢ/(2λ) and τᵢ=3ηᵢBAᵢ′-qᵢ²/(4λ), so this experiment reconstructs the action. The affine action Uᵢ=Tᵢ+Jᵢσ is a separate comparison family; its fixed-background λ→0 limit requires divergent minima and subtracted constants.
 
-The generalized spectral norm is not the canonical kinetic normalization. The ADM gravitational term contributes -3B∫e²ᴬ(∂F)² and the scalar contributes -∫e²ᴬ(∂δσ)²/2. The stated boundary terms contribute no four-dimensional derivatives. With A(0)=A(L)=0 and I=∫e²ᴬdy,
+The generalized spectral product D is not the canonical kinetic normalization. The ADM gravitational and scalar terms yield the two contributions to (15). In this fixed-boundary, zero-shift representative the potentials carry no spacetime derivatives and the GHY corner contribution vanishes. This gauge-specific simplification is not used for the null-shell analysis in Appendix B, which retains the mixed metric perturbation and all corners. With A(0)=A(L)=0 and I=∫e²ᴬdy,
 
 $$
 N_f=\int_0^Le^{2A}\left(3B f^2+\frac{s^2}{2}\right)dy=\frac{9B^2}{2}{\cal K}[g],\qquad Z_f=2N_f.\tag{15}
@@ -161,9 +163,13 @@ $$
 
 The Yukawa residue is measured relative to the massless tensor exchange GT=1/(8πM₄²). It is independent of profile normalization and tends to 1/3 for the unstabilized flat radion. Tensor modes obey -(e⁴ᴬh′)′=mT²e²ᴬh with Neumann endpoints; integration gives mT²∫e²ᴬ|h|²=∫e⁴ᴬ|h′|²≥0. The only tensor zero mode is constant on the connected interval [14].
 
+For p²≠0 there is no additional propagating vector tower. In Gaussian normal bulk coordinates, retaining boundary embeddings, a transverse vector perturbation has hμν=∂μVν+∂νVμ and ∂μVμ=0. The mixed Einstein constraint gives Box₄Vμ′=0; thus Vμ′=0, and a residual tangential diffeomorphism removes it. The massive four-dimensional transverse-traceless tensor already contains five spin-two polarizations. Its helicity-one components must not be counted again as a separate vector field. For positive mass, the rest-frame spatial trace-free polarization tensor has positive kinetic norm.
+
+The complete null-shell calculation in Appendix B imposes both scalar and anisotropic metric junctions on a regular null basis. For q=σ₀′ nonzero and Dᵢ=Wᵢ+ηᵢUᵢ″ nonzero, the scalar/longitudinal null solutions reduce to diffeomorphisms with their boundary embedding transformations. Two positive-norm massless graviton polarizations remain. In particular, a formal null profile with negative extended form N=-3BI is outside the full Israel boundary domain; it is not a physical ghost. These results give linear propagative stability of the declared regular flat branch. They do not extend to static pμ=0 perturbations, occupied matter with backreaction, nonlinear dynamics or quantum corrections.
+
 ## 5. Closed mass and coupling coefficients at finite stiffness
 
-For the symmetric reconstructed family, take x=μL>0 and equal λ̂=λL≥0 fixed as ε=qL/√(12B) tends to zero, where q=σ′(0)=σ′(L) is the exact endpoint derivative. In units L=B=1 write t=y-1/2, C=cosh²(x/2), T=tanh(x/2), S=sinh x, and d=xT+2λ̂. The leading expansions are σ′=εv₁+O(ε³), A=ε²a₂+O(ε⁴), f=1+ε²f₂+O(ε⁴). Choose f₂(0)=0 at the midpoint.
+For the symmetric reconstructed family, fix x=μL>0 and equal λ̂=λL≥0 as ε=qL/√(12B) tends to zero; here q=σ′(0)=σ′(L) is the exact endpoint derivative. Use dimensionless coordinates xμ/L and y/L, and stabilizer σ/√B, and suppress hats on the reduced fields. The overall factor BL³ in the rescaled action does not affect the classical profile equations and is not set to one physically. Put t=y/L-1/2, C=cosh²(x/2), T=tanh(x/2), S=sinh x and d=xT+2λ̂. Derivatives in (17)-(20) refer to t. The expansions are σ′=εv₁+O(ε³), A=ε²a₂+O(ε⁴), f=1+ε²f₂+O(ε⁴), with f₂(0)=0 at the midpoint.
 
 $$
 v_1=\sqrt{12/C}\cosh(xt),\quad a_2^\prime=-\frac{2t+\sinh(2xt)/x}{C}.\tag{17}
@@ -183,7 +189,7 @@ $$
 f_2(t)=\frac{4t^2+2t\sinh(2xt)/x}{C}-\frac{\kappa[\cosh(2xt)-1]}{4x^2},\qquad s_1=-\frac{3b}{v_1}.\tag{20}
 $$
 
-Expanding the physical residue (16), the explicit Planck-volume correction cancels between numerator and denominator. With brackets denoting full-interval averaging,
+Expanding the physical residue (16), the explicit Planck-volume correction cancels between numerator and denominator, as shown before (A1). With brackets denoting full-interval averaging,
 
 $$
 3\alpha_r-1=c_\alpha\epsilon^2+O(\epsilon^4),\quad c_\alpha=2[f_2(1/2)-\langle f_2\rangle]-\frac{\langle s_1^2\rangle}{6}.\tag{21}
@@ -201,7 +207,7 @@ $$
 c_0=\frac{1+T^2+2T/x}{C},\qquad c_\infty=\frac{4[\cosh x-\sinh(x)/x]}{\sinh^2x},\qquad 0<c_\infty\le c_\alpha\le c_0.\tag{23}
 $$
 
-The strict lower bound follows because x cosh x-sinh x vanishes at x=0 and has derivative x sinh x>0. Therefore the leading correction to αr is positive for every nonnegative boundary stiffness in this family. Increasing stiffness increases the mass coefficient but decreases the coupling coefficient. This concerns the leading weak-backreaction coefficients; it does not give an all-orders theorem for the residue. The bounds are pointwise in x, with no uniform error claim in degenerate limits.
+The strict lower bound follows because x cosh x-sinh x has derivative x sinh x>0 and vanishes at x=0. It is pointwise in x: c∞ tends to zero for large x, so there is no uniform positive lower bound such as 1/3 on cα. The quantity approaching 1/3 in the flat unstabilized limit is αr, not cα. Increasing stiffness raises the leading mass coefficient and lowers the leading residue correction. These statements concern the fixed-x weak-backreaction expansion and give no all-orders monotonicity or uniform error estimate in degenerate limits.
 
 | λ̂ | κ | cα |
 | --- | --- | --- |
@@ -218,38 +224,46 @@ $$
 3\alpha_r-1=\frac{\pi^2c_\alpha}{\kappa}\left(\frac{m_r}{m_{T,1}}\right)^2+O(\epsilon^4).\tag{24}
 $$
 
+A useful corollary removes the unknown stiffness from the leading consistency coefficient while retaining x. Define Cαm=π²cα/κ. Since cα>0 decreases and κ>0 increases with stiffness, Cαm decreases strictly. Substitution of the endpoints in (23) gives
+
+$$
+\frac{\pi^2}{2x}\left(\coth x-\frac1x\right)\leq {\cal C}_{\alpha m}\leq\frac{\pi^2}{2x}\left(\coth x+\frac1x\right).\tag{24b}
+$$
+
+The width of this coefficient interval is π²/x². Equation (24) retains its O(ε⁴) remainder; dividing it by the squared mass ratio leaves an O(ε²) error for the inferred coefficient at fixed x. Thus (24b) bounds the leading coefficient, not an exact finite-amplitude observable. It is an algebraic corollary of (19) and (22), not an independent stabilization principle.
+
 This relation removes the absolute length but retains x and λ̂ as shape parameters. It is therefore a conditional consistency relation rather than a parameter-free prediction of R. Its coefficients and their interpretation extend the separate affine control without silently reusing an affine boundary condition in the quadratic model.
 
 ![Finite-stiffness coefficients](figures/finite_stiffness.png)
 
-Figure 1. Analytic leading coefficients at fixed dimensionless boundary stiffness. Increasing stiffness raises the mass coefficient and lowers the positive residue coefficient. The dashed rigid curves are limiting boundary problems; no dimensional radius enters.
+Leading coefficients at fixed dimensionless boundary stiffness. Increasing stiffness raises the mass coefficient and lowers the positive residue coefficient. Dashed curves refer to the limiting rigid boundary problem.
 
 ## 6. Finite-backreaction results and numerical controls
 
 The dimensionless background is integrated from the midpoint and reconstructed at x=2 for ε=0.1,0.3,0.53. A Legendre-Galerkin method solves the positive generalized eigenproblem on the full interval, with 20,32,48 basis functions and 256,384,512 Gauss nodes. Independent step refinements of the background and spectral resolutions are recorded. All three retained scalar modes use positive integrals for their canonical norms. The light eigenvalue is additionally stabilized by a Schur-complement calculation in the small-ε runs, where subtractive cancellation can otherwise obscure the coefficient.
 
-| ε | λ̂ | mr L | αr | Range [μm] |
+| ε | λ̂ | mr L | αr | 1/(mr L) |
 | --- | --- | --- | --- | --- |
-| 0.10 | 0 | 0.160208 | 0.336569 | 58.8284 |
-| 0.10 | 1 | 0.182819 | 0.336099 | 51.5525 |
-| 0.10 | 20 | 0.206387 | 0.335382 | 45.6655 |
-| 0.10 | rigid | 0.209090 | 0.335283 | 45.0751 |
-| 0.30 | 0 | 0.483691 | 0.359838 | 19.4851 |
-| 0.30 | 1 | 0.537838 | 0.356075 | 17.5235 |
-| 0.30 | 20 | 0.599671 | 0.350135 | 15.7166 |
-| 0.30 | rigid | 0.607110 | 0.349286 | 15.5240 |
-| 0.53 | 0 | 0.850124 | 0.402267 | 11.0864 |
-| 0.53 | 1 | 0.913273 | 0.393031 | 10.3198 |
-| 0.53 | 20 | 0.997569 | 0.377353 | 9.4477 |
-| 0.53 | rigid | 1.008673 | 0.374981 | 9.3437 |
+| 0.10 | 0 | 0.160208 | 0.336569 | 6.241887 |
+| 0.10 | 1 | 0.182819 | 0.336099 | 5.469890 |
+| 0.10 | 20 | 0.206387 | 0.335382 | 4.845259 |
+| 0.10 | rigid | 0.209090 | 0.335283 | 4.782621 |
+| 0.30 | 0 | 0.483691 | 0.359838 | 2.067436 |
+| 0.30 | 1 | 0.537838 | 0.356075 | 1.859298 |
+| 0.30 | 20 | 0.599671 | 0.350135 | 1.667580 |
+| 0.30 | rigid | 0.607110 | 0.349286 | 1.647147 |
+| 0.53 | 0 | 0.850124 | 0.402267 | 1.176299 |
+| 0.53 | 1 | 0.913273 | 0.393031 | 1.094963 |
+| 0.53 | 20 | 0.997569 | 0.377353 | 1.002437 |
+| 0.53 | rigid | 1.008673 | 0.374981 | 0.991401 |
 
-Table 3. Spectral results. The last column alone chooses R₀=L/π=3 μm as an illustrative input; range=L/(mr L). Each ε and stiffness row has reconstructed action constants. The rigid row is a limiting boundary problem.
+Table 3. Radion masses, residues and dimensionless Compton ranges. Every ε and stiffness row has reconstructed action constants; the rigid row is a limiting boundary problem. No dimensional radius is chosen.
 
 At ε=0.3 the four stiffnesses agree with the Richardson-extrapolated estimates from the earlier piecewise-linear finite-element spectral calculation to relative differences below 1.4×10⁻11 for the compared radion masses and residues. The older finite-element data have their own mesh-refinement record. Agreement between discretizations checks the spectrum of the declared model; neither method certifies an ultraviolet completion or an exhaustive tower. Positivity follows from Section 4, not from finding only positive numerical roots.
 
 The new weak-coefficient calculation also integrates the unsimplified profiles of (20)-(21) with two Simpson resolutions at 35 (x,λ̂) points. The largest difference from (22) is below 4.7×10⁻14. Separate spectral runs at ε=0.02,0.01,0.005 approach the finite-stiffness coefficients without using those coefficients in the eigensolver. For λ̂=1, the finite-ε estimate (3αr-1)/ε² changes from approximately 0.839529 to 0.839922, approaching 0.839949; for λ̂=20 it changes from 0.622354 to 0.622658, approaching 0.622678. These are numerical convergence diagnostics, not uncertainties in physical parameters.
 
-The benchmark family changes the total boundary energies with ε. In units L=B=1, the recorded values U₀=UL are negative; the independent boundary constants and scalar gradients are preserved in the data. Increasing stiffness on one of these backgrounds leaves Uᵢ fixed and changes τᵢ and vᵢ. This explicit reconstruction prevents interpreting Table 3 as a single-parameter evolution at fixed microscopic action.
+The benchmark family changes the total boundary energies with ε. In reduced variables UᵢL/B, both endpoint energies are negative. The dimensional inputs are reconstructed for every row. Increasing stiffness at a fixed background leaves Uᵢ fixed while changing τᵢ and vᵢ. Table 3 therefore compares specified models; it is not a one-parameter evolution at fixed microscopic action.
 
 ## 7. Curvature response when the tension is an input
 
@@ -263,11 +277,13 @@ $$
 6B(A^{\prime2}-he^{-2A})=\frac{\sigma^{\prime2}}{2}-\frac{\mu^2\sigma^2}{2}-\Lambda_5,\quad \sigma_c^{\prime2}=2\Lambda_5-12Bh.\tag{25b}
 $$
 
-For a trial h in the local regular domain h<Λ₅/(6B), the scalar event F=0 selects the endpoint; the metric junction defines a required tension T(h)=3BA′b-λ(σb-v)². We solve T(h)=τinput while keeping μ,λ,v,Λ₅,B fixed. The physical brane curvature is hb=h e^(-2Ab) and the brane Planck coefficient is M₄²=B∫e^(2A-2Ab)dy.
+We continue a compatible flat solution in a neighborhood of h=0 where the background remains regular and the positive scalar boundary event is transverse. The central slope requires h<Λ₅/(6B); on this branch the initial event value must also be negative, requiring h>(Λ₅-2λ²v²)/(6B). These central inequalities do not replace regularity and event checks. For each admissible local trial the scalar event selects the endpoint and the metric junction defines T(h)=3BA′b-λ(σb-v)². We solve T(h)=τinput at fixed μ,λ,v,Λ₅,B. The brane curvature is hb=h e^(-2Ab), and M₄²=B∫e^(2A-2Ab)dy.
 
 $$
 \left.\frac{d h_b}{d\tau}\right|_{\rm flat}=\frac{2}{3M_{4,0}^2},\qquad h_b=\frac{2\delta\tau}{3M_{4,0}^2}+O(\delta\tau^2).\tag{26}
 $$
+
+The derivative in (26) is an exact first-order identity at the compatible flat solution of this classical action. Using its linear term at nonzero detuning is an approximation with the displayed quadratic remainder; no finite-detuning linear law is assumed.
 
 Here δτ is the same additive variation on each boundary. At the flat background, both induced metrics have unit warp factor in brane units. The first variation of the on-shell four-dimensional vacuum energy is therefore 2δτ; the stationary field and length variations do not contribute at first order. The four-dimensional Einstein equation gives (26). Equivalently, differentiating the bulk equations and the moving event reproduces this coefficient. Its nonzero value yields a local invertible map by the implicit-function theorem at the regular branch point. The general fact that stabilization does not suppress the response to added vacuum energy has direct precedents [2,9]; the calculation here specializes and checks it for this non-AdS symmetric interval.
 
@@ -297,15 +313,17 @@ $$
 
 In the flat interval, the squared endpoint-profile ratio of a massive cosine mode to the constant graviton is 2, giving αT,n=8/3 relative to GT. This coefficient should not be directly attributed to the different α=2n normalization reported for toroidal examples by Kehagias and Sfetsos [16]. If the radion were exactly massless with αr=1/3, a long-distance Newton constant would instead be GN=4GT/3 and the same massive tensor residue would be 2 relative to GN. For a stabilized scalar, the appropriate conversion depends on the separation used to measure G.
 
-Table 3 illustrates the conversion of one chosen R₀ into a radion range. It is not an experimental fit. In a warped interval R₀=L/π need not equal the first tensor Compton range. The torsion-balance result of Lee et al. provides an experimental anchor [11], but a single-Yukawa confidence curve is not a pointwise bound on the multimode function ΔV. A verdict requires source and test-mass geometry, detector response, and the appropriate statistical analysis. We provide the signal definition and model residues without drawing a new exclusion region.
+Table 3 keeps the Compton range dimensionless. A chosen length converts it to physical units through 1/mr=L/(mr L), without predicting L. In a warped interval R₀=L/π also need not equal the first tensor Compton range. The torsion-balance result of Lee et al. is an experimental reference [11], but its single-Yukawa confidence curve cannot be applied pointwise to the multimode function ΔV. Testing this model requires source geometry, detector response and the corresponding statistical analysis.
 
 ## 9. Relation to earlier work and limits of the effective description
 
-The analytic positivity form, canonical normalization, and stabilization mechanism belong to established scalar-gravity methods [1-6,13,14]. Our finite-stiffness expressions and fixed-action event construction are specializations to a convex bulk potential and a reflection-symmetric nonmonotonic warp factor. The explicit residue coefficient, its endpoint bounds and the reproducible comparison are concrete results of this formulation, but a targeted literature comparison cannot certify that equivalent expressions have never appeared in another parametrization.
+The stabilization mechanism, positive spectral products and canonical normalization follow established scalar-gravity methods [1-6,13,14,23]. In particular, [6] establishes monotonicity of the scalar spectrum with boundary stiffness at fixed background and explains why the action must then be reconstructed. Reference [23] derives the boundary correction to the scalar product and calculates finite-stiffness radion masses and profiles analytically and numerically. Those methods and effects are precedents for this calculation.
 
-Lüst, Nee and Randall analyze linear and quadratic boundary choices in an effective RS description [9]. Their conclusions about two linear branes concern their AdS/RS domain and approximations. Our Λ₅>0 symmetric branch is different, so the affine control here does not refute that calculation. Their treatment of boundary constraints and vacuum-energy response is a close precedent; the present tension derivative is not a new general principle. The attached comparison table records assumptions rather than treating different conventions as contradictions.
+Lüst, Nee and Randall analyze boundary constraints and radion effective theory in an AdS/RS setting [9]. In the published version their equations (3.13) and (3.21) treat boundary choices, while (4.23) gives the leading change of vacuum energy under tension detuning. The latter is a direct precedent for the unsuppressed response in (26). Their RS-domain statements about linear branes are not assertions about the positive-Λ₅ symmetric branch here. This distinction of domains does not make their boundary methods irrelevant to our model.
 
-Bhattacharyya and SenGupta study conditions for stabilization in warped models [20]. Their general CMS analysis uses an AdS background and singular perturbations, while their separate BFG example includes exact backreaction. Neither case should be replaced by the assertion that the paper ignores backreaction. The compared potentials and boundary prescriptions differ from our strictly quadratic convex bulk and symmetric endpoints. We did not identify the finite-stiffness residue formula (22) in the passages examined; that bounded comparison is not a proof of priority.
+Girmohanta et al. [23] use a DFGK background generated by a superpotential, with an AdS constant and a bulk quartic term, and expand in weak backreaction and inverse boundary stiffness. Their equations (3.6)-(3.7) give a radion mass and profile, and their numerical treatment extends beyond that expansion. Here the bulk potential is strictly convex quadratic with Λ₅>0, and (22) computes the canonically normalized same-boundary residue for all nonnegative dimensionless stiffness at leading backreaction. We did not identify an equivalent expression for this residue in the sections and appendices examined. That comparison defines the result to assess for novelty; it does not prove bibliographic priority. Relation (24) and its bounds (24b) are consequences of the mass and residue formulas.
+
+Bhattacharyya and SenGupta [20] analyze modulus stabilization using a general CMS expansion on an AdS background and a separate BFG example with exact backreaction. Their paper therefore cannot be characterized as neglecting backreaction. Their potentials, background branch and boundary prescriptions differ from those in (2). The passages compared address stabilization and effective potentials rather than the normalized residue (22). Cui and Ning [15] instead study Casimir stabilization with a specified matter spectrum; their radion constraint applies to that construction and is neither a validation nor a universal exclusion of the classical model here.
 
 The endpoint energy requirement can be read directly from Einstein's equation: U₀+UL=-∫σ′²dy≤-(σL-σ₀)²/L. This is an interval specialization of the brane sum-rule structure [17]. Both total energies are negative on the symmetric branch. Negative movable branes can produce a ghost in other arrangements [19], but such a degree of freedom is not established by changing the name of a physical endpoint. The present positive norm and spectrum answer the linear question only for the action and boundary content declared here. They do not supply a string construction or prove that every microscopic completion is healthy.
 
@@ -315,11 +333,23 @@ The absolute scale remains open. The length formula contains μ and independent 
 
 ## 10. Conclusions
 
-A canonical scalar with symmetric finite-stiffness boundary potentials defines a controlled classical interval problem. At fixed μ,λ,v,Λ₅,B the scalar endpoint exists uniquely for 0<Λ₅<2λ²v², while Minkowski slicing also requires a compatible boundary constant. A positive scalar spectral form with its endpoint weights and a separate physical kinetic norm determine stable flat-slice modes and their residues. Their established general methods remain distinct from the particular model results.
+For the specified convex Einstein-scalar interval, dimensional bulk and scalar-boundary inputs select a unique positive endpoint when 0<Λ₅<2λ²v². Minkowski slicing additionally fixes the compatible boundary tension. The scalar and tensor spectral forms, supplemented by the complete null-shell domain analysis, give a positive propagating linear spectrum on the regular flat branch. These results implement established stability methods with the full boundary conditions of this action.
 
-The weak-backreaction radion has the closed coefficients κ(x,λ̂) and cα(x,λ̂) in (19) and (22). The mass coefficient increases with stiffness; the coupling coefficient decreases between two strictly positive endpoints. Independent profile quadrature and spectral calculations check these expressions. A local tension-matching calculation determines both curvature and length and displays the unsuppressed vacuum response. These results provide a focused theoretical model study. They leave the dimensional scale, radiative protection, microscopic boundaries and observational viability to further work.
+The explicit finite-stiffness calculation gives κ and cα in (19) and (22). Their opposite stiffness dependence and positive pointwise residue bounds yield the conditional coefficient interval (24b). Independent quadrature and spectral computations test these expressions, while local tension matching verifies the expected unsuppressed vacuum response. The immediate theoretical extensions are controlled higher-backreaction corrections to the residue, asymmetric boundary data and fluctuation analysis on the curved branch. An absolute radius, radiative protection, microscopic realization of the boundaries and observational viability require additional physical input.
 
 ## Appendix A. Integrals behind the finite-stiffness residue
+
+The cancellation of the Planck-volume term in (21) is explicit in reduced units. Let a₂ denote the warp correction and normalize the leading scalar metric profile to one. Then
+
+$$
+\frac{I}{L}=1+2\epsilon^2\langle a_2\rangle+O(\epsilon^4),\tag{A0a}
+$$
+
+$$
+\frac{N_f}{3BL}=1+\epsilon^2\left[2\langle a_2\rangle+2\langle f_2\rangle+\frac{\langle s_1^2\rangle}{6}\right]+O(\epsilon^4).\tag{A0b}
+$$
+
+Let fb=1+ε²f₂(1/2)+O(ε⁴) denote the boundary profile, distinct from the midpoint normalization f₂(0)=0. The residue obeys 3αr=[(I/L)fb²]/[Nf/(3BL)]. Substitution cancels the identical 2⟨a₂⟩ term and gives (21). The remaining elementary integrals are evaluated below.
 
 Write H=cosh x and use full-interval averages of the functions in (20). The metric-profile and stabilizer-kinetic contributions separately give
 
@@ -335,13 +365,139 @@ Subtracting (A2) from (A1) gives (22) without fitting the spectrum. At zero stif
 
 The physical norm identity follows directly from s=-3Be^(-2A)g′/σ′ and f=e^(-2A)g. Substitution into Nf gives (9B²/2)∫[p(g′)²+Qg²]dy. On shell Nf=(9B²/2)m²D[g]; replacing Nf by D alone therefore loses a mass-dependent factor. The source residue remains (16).
 
-## Appendix B. Reproduction and research statement
+## Appendix B. Null-shell admissibility and the complete presymplectic form
 
-The accompanying DDF-Stabilized-5D-Radion repository contains the canonical action, the claim-to-evidence registry, the analytical notes and machine-readable outputs. The article's structured source generates its Markdown, LaTeX and PDF; the figures and numerical tables are generated from recorded inputs. The reproduction command runs selected solvers in a separate working directory and compares numerical observables with tolerances, without changing the frozen references. Integrity checks and numerical re-solving are separate operations.
+The massive scalar chart in Section 4 does not by itself establish completeness on the null momentum shell. Here we retain the full tensorial equations and natural boundary conditions of the same action. We assume a smooth finite Minkowski-sliced interval, B>0, q=σ₀′≠0 throughout, and Dᵢ=qᵢ′/qᵢ+ηᵢUᵢ″≠0 at both endpoints. Boundary matter is in its vacuum and no boundary kinetic operator is added. Fourier modes have p²=0 but pμ≠0, with normalization per unit spatial volume, or are replaced by wave packets carrying no additional spatial asymptotic charges. No inverse of p² or A′ is used.
 
-The finite-stiffness comparison uses a NumPy Legendre-Galerkin implementation; prior finite-element data use SciPy. The curvature event calculation and coefficient quadratures use the Python standard library. Mesh differences, residuals, source hashes and the executed software versions are retained. Numerical roundoff bounds are not observational or effective-theory error bars. The sum of retained modes is not asserted to be the complete tower.
+First establish the complete null tensor content. Choose Gaussian normal coordinates in the bulk, h₅₅=h₅μ=0, while retaining the displacements of both boundaries. The gauge equations are regular ordinary differential equations; fixing this bulk coordinate system does not set the boundary displacements to zero. In coordinates (+,−,1,2), choose pμ=(k,0,0,0), k≠0, η₊₋=−1, and write gμν=e²ᴬ(ημν+hμνφ), φ a null plane wave. Put t=(h₁₁+h₂₂)/2. Direct linearization gives
 
-This is a research manuscript prepared for scientific review, not a peer-reviewed or accepted article. AI tools assisted drafting, algebra, numerical implementation and literature screening. Scientific responsibility remains with the named author, who must understand and approve the content before submission. No affiliation, funding, external referee endorsement or priority certification is claimed. The first affine draft and received correction archives are preserved as provenance and do not override the present quadratic action.
+$$
+R^{(4,1)}_{\mu\nu}=\frac12[p^2h_{\mu\nu}+p_\mu p_\nu h-p_\mu p^\rho h_{\rho\nu}-p_\nu p^\rho h_{\rho\mu}].\tag{B1}
+$$
+
+The components R₋₋, R₋ₐ and Rₐᵦ vanish; R₊₋=k²h₋₋/2, R₊ₐ=k²h₋ₐ/2 and R₊₊=k²t. The mixed Einstein equation is B(∂νhμν′−∂μh′)/2=q∂μs. Its μ=− and μ=a components therefore impose h₋₋′=h₋ₐ′=0. Independent radial equations give
+
+$$
+[e^{4A}(h_{+-}+t)']'=k^2e^{2A}h_{--},\tag{B2}
+$$
+
+$$
+(e^{4A}h'_{+a})'=k^2e^{2A}h_{-a}.\tag{B3}
+$$
+
+These radial equations follow by linearizing Rμν=(2V/3B)gμν in Gaussian normal coordinates. The equation for hμν contains hμν″+4A′hμν′, the isotropic trace term A′ημνh′, the four-dimensional Ricci term −2e⁻²ᴬRμν, and an isotropic source −4Vσsημν/(3B). Adding its (+−) component to the average of its (11) and (22) components cancels both isotropic terms. Its (+a) component has no such term. This supplies (B2)–(B3) directly, including their signs, without applying a transverse-traceless projector at p²=0.
+
+A boundary displacement contributes an anisotropic Hessian only in the (++) component of this null basis. The potentials Uᵢ are isotropic. Consequently the complete Israel conditions set (h₊₋+t)′ and h₊ₐ′ to zero at each endpoint. Integrating (B2)–(B3) gives k²Iᴸh₋₋=k²Iᴸh₋ₐ=0, with Iᴸ=∫e²ᴬdy>0; these components vanish. The remaining combinations h₊₋+t and h₊ₐ are constant in y and are removed by residual tangential diffeomorphisms independent of y. This step uses k≠0, never p²≠0. The transverse symmetric trace-free 2×2 block retains exactly two graviton polarizations. Their equation (e⁴ᴬhTT′)′=0 and Neumann endpoints make their radial profiles constant. The residual components form the scalar/longitudinal block below. Thus its completeness has been established rather than assumed.
+
+For this block return to a general representative and define the combination Ξ, invariant under tangential scalar diffeomorphisms:
+
+$$
+\delta g_{\mu\nu}=e^{2A}(2F\eta_{\mu\nu}\varphi+2\widehat E\partial_\mu\partial_\nu\varphi),\tag{B4}
+$$
+
+$$
+\delta g_{\mu5}=b\partial_\mu\varphi,\quad\delta g_{55}=2G\varphi,\quad\delta\sigma=s\varphi,\quad\Xi=b-e^{2A}\widehat E'.\tag{B5}
+$$
+
+The mixed Einstein constraint and its combination with the normal Einstein equation give
+
+$$
+3B(F'-A'G)+qs=0,\qquad q(s'-qG)-q's=0.\tag{B6}
+$$
+
+Since q≠0, define u=s/q. The second equation gives G=u′; the first and A″=−q²/(3B) then give F=A′u−c₁. The anisotropic bulk equation Ξ′+2A′Ξ=2F+G integrates once. The remaining bulk equations reduce to the background identities, yielding the general family
+
+$$
+F=A'u-c_1,\quad G=u',\quad s=qu,\quad \Xi=u-(2c_1I+C)e^{-2A},\tag{B7}
+$$
+
+$$
+I(y)=\int_0^y e^{2A(v)}\,dv,\qquad I_L>0.\tag{B8}
+$$
+
+Let Zᵢ denote normal boundary displacements, with δξZᵢ=−ξᵢ⁵. Linearizing the scalar junction on the displaced boundary produces sᵢ′−qᵢGᵢ+ηᵢUᵢ″sᵢ+(qᵢ′+ηᵢUᵢ″qᵢ)Zᵢ=0. The trace junction reduces to the mixed constraint by the background equations. The separate anisotropic Israel component must also vanish. On (B7) these conditions are
+
+$$
+q_iD_i(u_i+Z_i)=0,\qquad\Xi_i+Z_i=0,\qquad D_i=q_i'/q_i+\eta_iU_i''.\tag{B9}
+$$
+
+The quadratic boundary potential is included in this domain calculation. Expanding the induced metric as e²ᴬ(ημν+εhμνφ) and the scalar as σ₀+εsφ gives the following coefficient of ε² in the boundary action:
+
+$$
+{\cal L}_{U_i}^{(2)}=-e^{4A_i}\left[\frac12U_i''s_i^2+\frac12h_iU_i's_i+U_i\left(\frac{h_i^2}{8}-\frac{h_{\mu\nu,i}h_i^{\mu\nu}}4\right)\right]\varphi^2.\tag{B9a}
+$$
+
+For hμν=2Fημν this is -e⁴ᴬ[λs²+4FU′s+4UF²]φ². A general tensor variation of the quadratic EH, scalar, GHY and boundary action gives the linearized junctions (B9); restricting variations to null scalar projections would lose the anisotropic condition. In the moving-boundary description, embedding derivatives in the pullback are retained together with the bulk and GHY terms.
+
+For quadratic potentials Uᵢ″=2λᵢ. Nonzero qᵢDᵢ forces uᵢ+Zᵢ=0. The two metric conditions then give C=0 and 2c₁Iᴸ+C=0, hence c₁=0. The residual scalar family is a diffeomorphism accompanied by its embedding displacement. The exceptional endpoint locus is Dᵢ=0, not qᵢ′=0 alone. It cannot be included by continuity in this rank argument. In the separately declared rigid limit, the scalar condition becomes sᵢ+qᵢZᵢ=0 and reaches the same conclusion for qᵢ≠0.
+
+The endpoint signs used here follow from the total background values Uᵢ=3ηᵢBAᵢ′ and Uᵢ′=−ηᵢqᵢ. A negative total boundary energy is therefore retained in the junction calculation, not discarded by an assumed kinetic sign. On the principal symmetric solution, q is positive everywhere, q′ is positive to the right of the center, and reflection reverses W at the left endpoint. Positive quadratic stiffness consequently gives nonzero Dᵢ and positive ηᵢDᵢ. No adjustment of the action is made to impose these perturbation conditions.
+
+The diagnostic candidate X₁ has c₁=1, C=u=0, or F=−1, G=s=0 and Ξ=−2Ie⁻²ᴬ. It solves the bulk equations but has Ξ₀=0 and Ξᴸ=−2Iᴸe⁻²ᴬᴸ≠0. It therefore violates the right anisotropic Israel condition. Its scalar trace and double-divergence projections vanish on the null shell, which does not imply the tensor equation. Moving the endpoint to cancel this residual violates qᴸDᴸZᴸ=0. A longitudinal tensor proportional to pμpν is already in Ê and cannot be counted again as an independent physical TT mode.
+
+The zero-shift scalar chart is available only after this boundary-domain test. For an admissible fixed-boundary perturbation, Ξᵢ=0 and the normal transformation ξ⁵=−Ξ preserves both endpoints; a tangential transformation then removes Ê. The anisotropic bulk equation in this representative gives G=−2F, recovering the scalar chart of Section 4. Applying the same normal transformation to X₁ would move the right endpoint. Thus G=−2F is not used as an initial assumption that excludes the candidate.
+
+The negative quadratic form associated with X₁ can nevertheless be reproduced as an evaluation outside the boundary domain. Choose a positive-frequency plane wave with ω=k>0, use an Ê=0 representative, and define Ω(X*,X)=2iωZ and N=Z/2. The covariant Einstein-scalar potential is In (B10)-(B11), hab denotes the metric variation δgab, with indices raised using the background metric; this differs from the rescaled hμν in (B1) and (B9a).
+
+$$
+\theta^a=\frac B2(\nabla_bh^{ab}-\nabla^ah)-\nabla^a\sigma\,\delta\sigma,\qquad\Theta=\theta\mathbin{\lrcorner}\epsilon.\tag{B10}
+$$
+
+The boundary variation gives (Θ+δℓ)|Γ=junctions·δfields+dC. The natural junctions remove the first term on the admissible domain. With the GHY term retained, the corner and presymplectic form are [21]
+
+$$
+C=c\mathbin{\lrcorner}\epsilon_\Gamma,\quad c^a=-\frac B2\gamma^{ab}n^ch_{bc},\quad\Omega=\int_\Sigma\delta(\Theta-dC).\tag{B11}
+$$
+
+The independent temporal ADM route uses πab=(B/2)√h(Kab−habK) and πσ=√h nA∂Aσ. Writing H=F−A′b, its canonical bulk coefficient is
+
+$$
+z_{\rm ADM}=e^{2A}[-6BFH-3BFG+3BFb'-3BGH+s^2-qbs].\tag{B12}
+$$
+
+Direct variation of Θ, including the connection, both inverse metrics and volume density, gives
+
+$$
+z_{\rm cov}-z_{\rm ADM}=-\frac B2[e^{2A}b(2F+G)]'.\tag{B13}
+$$
+
+The orientation of the temporal slice is dx¹∧dx²∧dx³∧dy. Variation of C adds the first endpoint term below. The temporal ADM angle between that slice and the timelike boundary adds the second:
+
+$$
+Z_C=-\frac B2[e^{2A}b(4F-G)]_0^L,\qquad Z_{\rm tilt}=-3B[e^{2A}Fb]_0^L.\tag{B14}
+$$
+
+Equations (B13)–(B14) make the complete forms identical. Inserting X₁ gives
+
+$$
+(Z_{\rm cov,bulk},Z_C,Z_{\rm ADM,bulk},Z_{\rm tilt})=(-2,-4,0,-6)BI_L.\tag{B15}
+$$
+
+$$
+Z[X_1]=-6BI_L,\qquad N[X_1]=-3BI_L.\tag{B16}
+$$
+
+This normalization is fixed by a canonical real scalar with action −Z(∂u)²/2, which has positive Z in the convention Ω(q*,q)=2iωZ. The relation N=Z/2 must be retained when comparing (B16) with the massive norm in the main text. In the covariant calculation the four varied factors entering C are the induced volume density, γ⁰⁰, nʸ and n⁰. In the canonical calculation the same contribution arises from the changing angle at the temporal boundary intersection; it is not a new boundary operator.
+
+The corners are essential because δgty≠0. The potentials have no independent temporal current in this fixed-boundary representative; their Hessians enter admissibility. The negative value (B16) is the prolonged form on a configuration that fails the full junctions, not the norm of a physical ghost.
+
+Finally introduce the full embedding displacements XᵢA with δξXᵢA=−ξᵢA. Their temporal, spatial and normal components are defined without null-singular projectors. Linearizing the same pulled-back action, including GHY and Uᵢ, gives dressed fields h̄=h+ℒXg and s̄=s+Xyq. A combined variation (ℒξg,ξyq,−ξ) has zero dressed fields and hence pairs to zero with every variation in the pulled-back form. Extensions of X with the same boundary values differ by admissible interior gauge transformations. This is a linear embedding completion [22], not an additional kinetic theory of boundary matter. In fixed-boundary coordinates the explicit mixed pairing with an admissible variation Y is
+
+$$
+Z(Y,\mathcal L_\zeta g)=-3B[e^{2A}F_Y\zeta]_0^L=0,\qquad \zeta_0=\zeta_L=0.\tag{B17}
+$$
+
+Thus the surviving scalar family lies in the kernel of the form; a vanishing self-norm would not alone establish the quotient. The physical tensor polarizations remain. For constant profiles and polarization normalization eijeij=2, each has ZTT=BIᴸ/2>0. The massive scalar representative independently reproduces Zf=2Nf>0. Together with the massive-sector analysis and its positive endpoint weights, this gives the stated linear propagative stability result.
+
+The reproducibility package checks the null-frame component identities with exact rational arithmetic, evaluates full Israel tensors on nine quadratic backgrounds, and integrates both currents on three backgrounds with three resolutions, including a gauge representative and the graviton. Separate component contractions check the independence of the two routes. These computations support the analytic domain statement; they do not certify nonlinear stability, radiative protection or experimental viability. The static sector pμ=0, zeros of q or Dᵢ, curved backgrounds and additional boundary or occupied matter degrees of freedom are outside this conclusion.
+
+## Appendix C. Reproducibility and research tools
+
+The accompanying DDF-Stabilized-5D-Radion code and numerical references are publicly available [24]. The immutable numerical baseline is commit f3a441d, dated 6 September 2026. The revised article adds independent review checks and contains the null-shell proof directly. Background parameters, meshes, residuals and software versions are recorded with the outputs. The scientific source is manuscript.json; the delivered PDF is compiled from its generated LaTeX with Tectonic 0.17.0 (XeTeX). Numerical table entries are checked against the recorded calculations.
+
+The article reproduction profile recalculates the fixed-action length, weak-stiffness coefficients, Galerkin spectrum and curved tension response in a new directory. A separate T1 command recalculates the null identities, component currents, complete boundary residuals and integrated norms. Neither command overwrites its references. The independent review additionally checks the profile integrals, length comparison, tension derivative and bounds (24b). Numerical agreement does not determine effective-theory truncation errors or certify a physical ultraviolet completion.
+
+AI tools assisted drafting, algebra, numerical implementation and literature screening. The named author is responsible for the scientific content and its approval before submission. Independent calculations in this package refer to distinct derivations and programs; they are not an assertion of external peer review.
 
 ## References
 
@@ -361,7 +517,7 @@ This is a research manuscript prepared for scientific review, not a peer-reviewe
 
 [8] A. D. Medina and E. Pontón, Warped Universal Extra Dimensions, Journal of High Energy Physics 06 (2011), 009. DOI: 10.1007/JHEP06(2011)009. arXiv: 1012.5298.
 
-[9] S. Lüst, M. Nee and L. Randall, More effective RS field theory, Journal of High Energy Physics 06 (2026), 130. DOI: 10.1007/JHEP06(2026)130. arXiv: 2510.11771; comparison uses preprint v2.
+[9] S. Lüst, M. Nee and L. Randall, More effective RS field theory, Journal of High Energy Physics 06 (2026), 130. DOI: 10.1007/JHEP06(2026)130. arXiv: 2510.11771.
 
 [10] P. Callin and F. Ravndal, Higher order corrections to the Newtonian potential in the Randall-Sundrum model, Physical Review D 70, 104009 (2004). DOI: 10.1103/PhysRevD.70.104009. arXiv: hep-ph/0403302.
 
@@ -369,19 +525,27 @@ This is a research manuscript prepared for scientific review, not a peer-reviewe
 
 [12] M. Montero, C. Vafa and I. Valenzuela, The Dark Dimension and the Swampland, Journal of High Energy Physics 02 (2023), 022. DOI: 10.1007/JHEP02(2023)022. arXiv: 2205.12293.
 
-[13] Carena, Lykken and Park, The Interval Approach to Braneworld Gravity, Phys. Rev. D 72, 084017 (2005). DOI: 10.1103/PhysRevD.72.084017. arXiv: hep-ph/0506305.
+[13] M. Carena, J. Lykken and M. Park, The Interval Approach to Braneworld Gravity, Phys. Rev. D 72, 084017 (2005). DOI: 10.1103/PhysRevD.72.084017. arXiv: hep-ph/0506305.
 
-[14] Mukohyama and Kofman, Brane Gravity at Low Energy, Phys. Rev. D 65, 124025 (2002). DOI: 10.1103/PhysRevD.65.124025. arXiv: hep-th/0112115.
+[14] S. Mukohyama and L. Kofman, Brane Gravity at Low Energy, Phys. Rev. D 65, 124025 (2002). DOI: 10.1103/PhysRevD.65.124025. arXiv: hep-th/0112115.
 
-[15] Cui and Ning, Casimir energy stabilization of Standard Model landscape in dark dimension, JHEP 02 (2026) 156. DOI: 10.1007/JHEP02(2026)156. arXiv: 2310.19592.
+[15] C. Cui and S. Ning, Casimir energy stabilization of Standard Model landscape in dark dimension, JHEP 02 (2026) 156. DOI: 10.1007/JHEP02(2026)156. arXiv: 2310.19592.
 
-[16] Kehagias and Sfetsos, Deviations from the 1/r² Newton law due to extra dimensions, Phys. Lett. B 472, 39-44 (2000). DOI: 10.1016/S0370-2693(99)01421-5. arXiv: hep-ph/9905417.
+[16] A. Kehagias and K. Sfetsos, Deviations from the 1/r² Newton law due to extra dimensions, Phys. Lett. B 472, 39-44 (2000). DOI: 10.1016/S0370-2693(99)01421-5. arXiv: hep-ph/9905417.
 
-[17] Gibbons, Kallosh and Linde, Brane World Sum Rules, JHEP 01 (2001) 022. DOI: 10.1088/1126-6708/2001/01/022. arXiv: hep-th/0011225.
+[17] G. Gibbons, R. Kallosh and A. Linde, Brane World Sum Rules, JHEP 01 (2001) 022. DOI: 10.1088/1126-6708/2001/01/022. arXiv: hep-th/0011225.
 
-[18] Georgi, Grant and Hailu, Brane Couplings from Bulk Loops, Phys. Lett. B 506, 207-214 (2001). DOI: 10.1016/S0370-2693(01)00408-7. arXiv: hep-ph/0012379.
+[18] H. Georgi, A. K. Grant and G. Hailu, Brane Couplings from Bulk Loops, Phys. Lett. B 506, 207-214 (2001). DOI: 10.1016/S0370-2693(01)00408-7. arXiv: hep-ph/0012379.
 
-[19] Pilo, Rattazzi and Zaffaroni, The Fate of the Radion in Models with Metastable Graviton, JHEP 07 (2000) 056. DOI: 10.1088/1126-6708/2000/07/056. arXiv: hep-th/0004028.
+[19] L. Pilo, R. Rattazzi and A. Zaffaroni, The Fate of the Radion in Models with Metastable Graviton, JHEP 07 (2000) 056. DOI: 10.1088/1126-6708/2000/07/056. arXiv: hep-th/0004028.
 
 [20] S. Bhattacharyya and S. SenGupta, Analyzing the general conditions for modulus stabilization in a warped braneworld, Eur. Phys. J. C 85, 1430 (2025). DOI: 10.1140/epjc/s10052-025-15170-1.
+
+[21] D. Harlow and J.-q. Wu, Covariant phase space with boundaries, JHEP 10 (2020), 146. DOI: 10.1007/JHEP10(2020)146. arXiv: 1906.08616.
+
+[22] A. J. Speranza, Local phase space and edge modes for diffeomorphism-invariant theories, JHEP 02 (2018), 021. DOI: 10.1007/JHEP02(2018)021. arXiv: 1706.05061.
+
+[23] S. Girmohanta, Y. Nakai, M. Suzuki, Y. Wang and J. Xu, Note on warped compactification. Finite brane potentials and non-Hermiticity, JHEP 08 (2024), 229. DOI: 10.1007/JHEP08(2024)229. arXiv: 2404.05141.
+
+[24] H. Boufourou, DDF-Stabilized-5D-Radion: numerical reference implementation and T1 replay, commit f3a441d (6 September 2026).
 

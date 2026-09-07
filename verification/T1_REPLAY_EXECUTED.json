@@ -7,7 +7,7 @@
   "experimental_validation": false,
   "reference_files_overwritten": false,
   "python": "3.12.14",
-  "utc": "20260906T203617Z",
+  "utc": "20260907T033149Z",
   "jobs": [
     {
       "id": "null_boundary_checks",
@@ -15,7 +15,7 @@
       "return_code": 0,
       "error": null,
       "differences": [],
-      "seconds": 0.094,
+      "seconds": 0.203,
       "script_sha256": "695bc7f39cc938560c269d2dcbbf759bcb1724e21ce736f0e6fe42bb3799b40f",
       "reference_sha256": "be7ae88fa3b964bb36de78f97375b9ef0a4188c9a0619c5cb956aa24bd0ecb0a"
     },
@@ -25,7 +25,7 @@
       "return_code": 0,
       "error": null,
       "differences": [],
-      "seconds": 0.156,
+      "seconds": 0.157,
       "script_sha256": "86868dd21a8e6677e6972ad043d5b244a1e48385bac66d248bc208b5ba309312",
       "reference_sha256": "8485106b95cd43d9572d2337b404ecf08b954528952644f1c7ead97133f33c17"
     },
@@ -35,7 +35,7 @@
       "return_code": 0,
       "error": null,
       "differences": [],
-      "seconds": 0.187,
+      "seconds": 0.218,
       "script_sha256": "ba9294429ba9b2f17c9fe961b7aa3fe575258e61290b572d6375b4f92b98f7f8",
       "reference_sha256": "83a688afcdd055c5b97198d5cfffa9f84b2f3828f4f6789e60d82083bc1e8b3d"
     },
@@ -45,7 +45,7 @@
       "return_code": 0,
       "error": null,
       "differences": [],
-      "seconds": 0.453,
+      "seconds": 0.438,
       "script_sha256": "8fac03fbc7ef707a8259cb684d1f2533ea4af164ceea30536bc19c5a10b8e7cf",
       "reference_sha256": "2f29f085cf2b7468cdfafdd96f111ae223ced24379fc49208ab44d5f5cdbada2"
     },
@@ -55,7 +55,7 @@
       "return_code": 0,
       "error": null,
       "differences": [],
-      "seconds": 2.813,
+      "seconds": 2.875,
       "script_sha256": "3446487a4c12ac4716dd778b295c2e5ea97b7fce11d02100958eff7ed7694ba5",
       "reference_sha256": "2dfd22ac02a01b8d68f36e3c7e503afd8eeaf6b88ea5ab75279277006735c122"
     }

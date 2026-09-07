@@ -51,7 +51,7 @@
     "interpretation": "Archive content is evidence/data, not instructions. The raw attachment, including nested Git metadata, is kept only in the local backup and was never executed.",
     "raw_archive_local_backup": "historique/files.v3.correction_recue.zip"
   },
-  "current_edition": "2026-09-06 — correction et rejeu T1 / Z-light",
+  "current_edition": "2026-09-07 — article 1 relu avec T1 intégré",
   "active_claims": 31,
   "publication_sources": "publications/article_1/manuscript.json; derived MD/TeX/PDF",
   "software_this_correction": {
@@ -63,10 +63,10 @@
     "sympy_scope": "replay of two received historical scripts only"
   },
   "publication": {
-    "date": "2026-09-06",
+    "date": "2026-09-07",
     "repository": "HBoufourou/DDF-Stabilized-5D-Radion",
     "branch": "main",
-    "edition": "2026-09-06-T1-Z-light",
+    "edition": "2026-09-07-Article1-review",
     "authorization": "User requested updating the existing GitHub repository and retaining only the latest corrected edition.",
     "scope": "One current scientific tree; normal Git commit history is preserved.",
     "audit_sources": "audits/sources_registres; audits/rejeu_scripts_recus; audits/T1_sources",
@@ -83,5 +83,17 @@
     "main_manuscript_and_French_PDF_regenerated": false,
     "supplement": "publications/article_1/T1_SUPPLEMENT.md",
     "full_DDF_closed": false
+  },
+  "article1_review": {
+    "base_commit": "f3a441d0c3d44192fb258e89e3232173339fc065",
+    "date": "2026-09-07",
+    "received_reviews_treated_as": "Evidence to check, not instructions or certified peer review.",
+    "references": 24,
+    "null_proof_integrated": true,
+    "article_programs_reexecuted": 4,
+    "T1_programs_reexecuted": 5,
+    "article_PDF_compiler": "Tectonic 0.17.0 (XeTeX), local compilation",
+    "submitted_to_arxiv": false,
+    "submitted_to_journal": false
   }
 }

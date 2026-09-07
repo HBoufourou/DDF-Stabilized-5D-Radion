@@ -34,3 +34,7 @@ Le premier manuscrit actif se trouve dans `publications/article_1/`, avec une ac
 [T1 / Z-light](noyau/T1_Z_LIGHT/VERDICT_T1.md) donne **GREEN pour le domaine linéaire propagatif plat, q non nul, Dᵢ non nul et quotient de jauge déclaré**. Les conditions tensorielles complètes excluent X₁ ; ses deux calculs de forme retrouvent N=−3M̄² hors domaine. Le quotient scalaire/longitudinal nul est trivial, tandis que les deux polarisations du graviton restent positives. Les cinq programmes sont effectivement rejoués dans un répertoire neuf, avec [rapport](verification/T1_REPLAY_EXECUTED.json).
 
 La stabilité massive conserve sa condition de poids de bord positifs. Le secteur p^μ=0, les points q=0 ou Dᵢ=0, les tranches courbes, les corrections quantiques et la stabilité non linéaire restent hors de ce résultat. T1 est un contrôle interne distinct d’E01 ; ni la valeur absolue de R ni la RAR ne sont dérivées par ce verdict.
+
+## Révision du premier article du 7 septembre
+
+La preuve T1 est intégrée au manuscrit. Les corrections bibliographiques, le domaine local de courbure et les bornes asymptotiques sont détaillés dans [le rapport de relecture](audits/article1_2026_09_07/AUDIT_FR.md). Les calculs du noyau sont reproduits ; la nouveauté et la substantialité éditoriale restent à apprécier extérieurement.

@@ -33,7 +33,7 @@ def validate_article():
     blocks=[b for s in paper['sections'] for b in s['blocks']]
     eqs=[b for b in blocks if b['type']=='equation']
     ids=[b['number'] for b in eqs]
-    assert len(ids)==len(set(ids))==36
+    assert len(ids)==len(set(ids))==57
     tex=(folder/'manuscript.tex').read_text(encoding='utf-8')
     md=(folder/'manuscript.md').read_text(encoding='utf-8')
     assert re.findall(r'\\tag\{([^}]+)\}',tex)==ids
@@ -41,8 +41,9 @@ def validate_article():
     for b in blocks:
         if b['type']=='paragraph':assert b['text'] in md,'Generated article text has drifted.'
         if b['type']=='equation':assert b['latex'] in tex and b['latex'] in md
-    assert len(paper['references'])==20
-    assert len(re.findall(r'@article\{',(folder/'references.bib').read_text(encoding='utf-8')))==20
+    assert len(paper['references'])==24
+    bib=(folder/'references.bib').read_text(encoding='utf-8')
+    assert len(re.findall(r'@article\{',bib))==23 and len(re.findall(r'@misc\{',bib))==1
     tables=[b for b in blocks if b['type']=='table'];assert len(tables)==4
     coeff=read(ROOT/'noyau/stabilisation/weak_coupling_quadratic.json')
     expected=[]
@@ -54,7 +55,7 @@ def validate_article():
     expected=[]
     for r in data['cases']:
         m=r['runs'][-1]['modes'][0]
-        expected.append([f"{r['epsilon']:.2f}",'rigid' if r['lambda_hat'] is None else str(int(r['lambda_hat'])),f"{m['mL']:.6f}",f"{m['alpha']:.6f}",f"{math.pi*3/m['mL']:.4f}"])
+        expected.append([f"{r['epsilon']:.2f}",'rigid' if r['lambda_hat'] is None else str(int(r['lambda_hat'])),f"{m['mL']:.6f}",f"{m['alpha']:.6f}",f"{1/m['mL']:.6f}"])
     assert tables[2]['rows']==expected
     curve=read(ROOT/'noyau/courbure/courbure_action_fixe.json')
     flat=next(r for r in curve['flat_reference'] if r['inputs']['v']==.3)
@@ -64,7 +65,27 @@ def validate_article():
         assert abs(float(tables[3]['rows'][i][1])-row['L'])<5e-12
         val=tables[3]['rows'][i][2].replace('×10⁻6','e-6')
         assert math.isclose(float(val),row['h_brane'],rel_tol=5e-10)
-    return dict(equations=len(ids),tables=len(tables),references=len(paper['references']))
+    fresh=read(ROOT/'verification/ARTICLE1_REPRODUCTION_2026_09_07.json')
+    assert fresh['status']=='PASS' and len(fresh['jobs'])==4
+    for job in fresh['jobs']:
+        assert job['status']=='PASS' and job['return_code']==0
+        assert hashlib.sha256((ROOT/job['script']).read_bytes()).hexdigest()==job['script_sha256']
+        assert hashlib.sha256((ROOT/job['result']).read_bytes()).hexdigest()==job['reference_sha256']
+    assert sum(j['numeric_values_compared'] for j in fresh['jobs'])==11602
+    build=read(ROOT/'verification/ARTICLE1_BUILD_REVIEW.json')
+    assert build['visual_review']=='PASS'
+    assert hashlib.sha256((folder/'manuscript.pdf').read_bytes()).hexdigest()==build['pdf_sha256']
+    assert hashlib.sha256((folder/'manuscript.json').read_bytes()).hexdigest()==build['source_sha256']
+    for name,key in [('manuscript.tex','tex_sha256'),('inline_math.json','inline_notation_sha256'),('article_1_sources.zip','source_bundle_sha256')]:
+        assert hashlib.sha256((folder/name).read_bytes()).hexdigest()==build[key]
+    assert build['visually_checked_pages']==list(range(1,build['pages']+1))
+    with zipfile.ZipFile(folder/'article_1_sources.zip') as sources:
+        assert set(sources.namelist())=={'manuscript.tex','figures/finite_stiffness.png'}
+        assert sources.testzip() is None
+        for name in sources.namelist():assert sources.read(name)==(folder/name).read_bytes()
+    assert not build['warnings'], 'Resolve typesetting warnings before freezing the article.'
+    return dict(equations=len(ids),tables=len(tables),references=len(paper['references']),
+                integrated_null_appendix=True,freshly_replayed_programs=4,PDF_visual_review=build['visual_review'])
 
 def validate_t1():
     """Validate recorded evidence and its hashes, without replacing the replay."""
